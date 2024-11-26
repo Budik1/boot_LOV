@@ -1,0 +1,19 @@
+gold
+{
+    't1_3': 'img/tasks_gavr/17x6-3.png',
+    't2_2': 'img/tasks_gavr/33x11-2.png',
+    't3_1': 'img/tasks_gavr/50x17-1.png',
+    't4_2': 'img/tasks_gavr/66x22-2.png',
+    't5_2': 'img/tasks_gavr/83x28-2.png',
+    't6_2': 'img/tasks_gavr/99x33-2.png',
+}
+xp
+{
+    't1_3': 'img/tasks_gavr/6x17-3.png',
+    't2_1': 'img/tasks_gavr/11x33-1.png',
+    't3_2': 'img/tasks_gavr/17x50-2.png',
+    't4_1': 'img/tasks_gavr/22x66-1.png',
+    't5_3': 'img/tasks_gavr/28x83-3.png',
+    't6_3': 'img/tasks_gavr/33x99-3.png',
+
+}

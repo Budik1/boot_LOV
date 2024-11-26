@@ -1,0 +1,1310 @@
+2024-10-06 08:12:31 move_to_click
+2024-10-06 08:12:36 move_to_click
+2024-10-06 08:12:41 move_to_click
+2024-10-06 08:12:51 move_to_click
+2024-10-06 08:16:27 move_to_click
+2024-10-06 08:16:31 move_to_click
+2024-10-06 08:16:36 move_to_click
+2024-10-06 08:16:42 move_to_click
+2024-10-06 08:16:46 move_to_click
+2024-10-06 08:16:49 move_to_click
+2024-10-06 08:16:53 move_to_click
+2024-10-06 08:16:57 move_to_click
+2024-10-06 08:17:04 move_to_click
+2024-10-06 08:17:08 move_to_click
+2024-10-06 08:17:10 move_to_click
+2024-10-06 08:17:14 move_to_click
+2024-10-06 08:17:19 move_to_click
+2024-10-06 08:17:25 move_to_click
+2024-10-06 08:17:30 move_to_click
+2024-10-06 08:17:32 move_to_click
+2024-10-06 08:17:36 move_to_click
+2024-10-06 08:17:41 move_to_click
+2024-10-06 08:17:47 move_to_click
+2024-10-06 08:17:51 move_to_click
+2024-10-06 08:17:54 move_to_click
+2024-10-06 08:17:57 move_to_click
+2024-10-06 08:18:02 move_to_click
+2024-10-06 08:18:08 move_to_click
+2024-10-06 08:18:13 move_to_click
+2024-10-06 08:18:15 move_to_click
+2024-10-06 08:18:19 move_to_click
+2024-10-06 08:18:24 move_to_click
+2024-10-06 08:18:30 move_to_click
+2024-10-06 08:18:35 move_to_click
+2024-10-06 08:18:37 move_to_click
+2024-10-06 08:18:41 move_to_click
+2024-10-06 08:18:46 move_to_click
+2024-10-06 08:18:52 move_to_click
+2024-10-06 08:18:56 move_to_click
+2024-10-06 08:18:59 move_to_click
+2024-10-06 08:19:02 move_to_click
+2024-10-06 08:19:07 move_to_click
+2024-10-06 08:19:13 move_to_click
+2024-10-06 08:19:17 move_to_click
+2024-10-06 08:19:20 move_to_click
+2024-10-06 08:19:24 move_to_click
+2024-10-06 08:19:28 move_to_click
+2024-10-06 08:19:35 move_to_click
+2024-10-06 08:19:39 move_to_click
+2024-10-06 08:19:41 move_to_click
+2024-10-06 08:19:45 move_to_click
+2024-10-06 08:19:50 move_to_click
+2024-10-06 08:19:56 move_to_click
+2024-10-06 08:20:00 move_to_click
+2024-10-06 08:20:03 move_to_click
+2024-10-06 08:20:06 move_to_click
+2024-10-06 08:20:08 move_to_click
+2024-10-06 08:29:36 move_to_click
+2024-10-06 08:29:42 move_to_click
+2024-10-06 08:29:46 move_to_click
+2024-10-06 08:29:55 move_to_click
+2024-10-06 08:30:11 move_to_click
+2024-10-06 08:30:14 move_to_click
+2024-10-06 08:30:20 move_to_click
+2024-10-06 08:30:26 move_to_click
+2024-10-06 08:30:30 move_to_click
+2024-10-06 08:30:33 move_to_click
+2024-10-06 08:30:36 move_to_click
+2024-10-06 08:30:41 move_to_click
+2024-10-06 08:30:48 move_to_click
+2024-10-06 08:30:52 move_to_click
+2024-10-06 08:30:54 move_to_click
+2024-10-06 08:30:58 move_to_click
+2024-10-06 08:31:03 move_to_click
+2024-10-06 08:31:09 move_to_click
+2024-10-06 08:31:13 move_to_click
+2024-10-06 08:31:16 move_to_click
+2024-10-06 08:31:19 move_to_click
+2024-10-06 08:31:24 move_to_click
+2024-10-06 08:31:30 move_to_click
+2024-10-06 08:31:35 move_to_click
+2024-10-06 08:31:37 move_to_click
+2024-10-06 08:31:41 move_to_click
+2024-10-06 08:31:46 move_to_click
+2024-10-06 08:31:52 move_to_click
+2024-10-06 08:31:56 move_to_click
+2024-10-06 08:31:59 move_to_click
+2024-10-06 08:32:02 move_to_click
+2024-10-06 08:32:07 move_to_click
+2024-10-06 08:32:13 move_to_click
+2024-10-06 08:32:18 move_to_click
+2024-10-06 08:32:20 move_to_click
+2024-10-06 08:32:24 move_to_click
+2024-10-06 08:32:29 move_to_click
+2024-10-06 08:32:35 move_to_click
+2024-10-06 08:32:39 move_to_click
+2024-10-06 08:32:42 move_to_click
+2024-10-06 08:32:45 move_to_click
+2024-10-06 08:32:50 move_to_click
+2024-10-06 08:32:57 move_to_click
+2024-10-06 08:33:01 move_to_click
+2024-10-06 08:33:03 move_to_click
+2024-10-06 08:33:07 move_to_click
+2024-10-06 08:33:12 move_to_click
+2024-10-06 08:33:18 move_to_click
+2024-10-06 08:33:22 move_to_click
+2024-10-06 08:33:25 move_to_click
+2024-10-06 08:33:28 move_to_click
+2024-10-06 08:33:33 move_to_click
+2024-10-06 08:33:40 move_to_click
+2024-10-06 08:33:44 move_to_click
+2024-10-06 08:33:46 move_to_click
+2024-10-06 08:33:50 move_to_click
+2024-10-06 08:33:52 move_to_click
+2024-10-06 08:39:11 move_to_click
+2024-10-06 08:39:16 move_to_click
+2024-10-06 08:39:20 move_to_click
+2024-10-06 08:39:27 move_to_click
+2024-10-06 08:39:38 move_to_click
+2024-10-06 08:39:41 move_to_click
+2024-10-06 08:39:46 move_to_click
+2024-10-06 08:39:53 move_to_click
+2024-10-06 08:39:57 move_to_click
+2024-10-06 08:40:00 move_to_click
+2024-10-06 08:40:03 move_to_click
+2024-10-06 08:40:08 move_to_click
+2024-10-06 08:40:15 move_to_click
+2024-10-06 08:40:19 move_to_click
+2024-10-06 08:40:21 move_to_click
+2024-10-06 08:40:25 move_to_click
+2024-10-06 08:40:30 move_to_click
+2024-10-06 08:40:36 move_to_click
+2024-10-06 08:40:41 move_to_click
+2024-10-06 08:40:43 move_to_click
+2024-10-06 08:40:47 move_to_click
+2024-10-06 08:40:52 move_to_click
+2024-10-06 08:40:58 move_to_click
+2024-10-06 08:41:02 move_to_click
+2024-10-06 08:41:05 move_to_click
+2024-10-06 08:41:08 move_to_click
+2024-10-06 08:41:13 move_to_click
+2024-10-06 08:41:20 move_to_click
+2024-10-06 08:41:24 move_to_click
+2024-10-06 08:41:27 move_to_click
+2024-10-06 08:41:30 move_to_click
+2024-10-06 08:41:35 move_to_click
+2024-10-06 08:41:41 move_to_click
+2024-10-06 08:41:46 move_to_click
+2024-10-06 08:41:48 move_to_click
+2024-10-06 08:41:52 move_to_click
+2024-10-06 08:41:57 move_to_click
+2024-10-06 08:42:03 move_to_click
+2024-10-06 08:42:08 move_to_click
+2024-10-06 08:42:10 move_to_click
+2024-10-06 08:42:14 move_to_click
+2024-10-06 08:42:19 move_to_click
+2024-10-06 08:42:25 move_to_click
+2024-10-06 08:42:29 move_to_click
+2024-10-06 08:42:32 move_to_click
+2024-10-06 08:42:36 move_to_click
+2024-10-06 08:42:40 move_to_click
+2024-10-06 08:42:47 move_to_click
+2024-10-06 08:42:51 move_to_click
+2024-10-06 08:42:54 move_to_click
+2024-10-06 08:42:57 move_to_click
+2024-10-06 08:43:02 move_to_click
+2024-10-06 08:43:08 move_to_click
+2024-10-06 08:43:13 move_to_click
+2024-10-06 08:43:15 move_to_click
+2024-10-06 08:43:19 move_to_click
+2024-10-06 08:43:21 move_to_click
+2024-10-06 08:51:25 move_to_click
+2024-10-06 08:51:29 move_to_click
+2024-10-06 08:51:34 move_to_click
+2024-10-06 08:51:40 move_to_click
+2024-10-06 08:51:43 move_to_click
+2024-10-06 08:51:46 move_to_click
+2024-10-06 08:51:50 move_to_click
+2024-10-06 08:51:54 move_to_click
+2024-10-06 08:52:01 move_to_click
+2024-10-06 08:52:04 move_to_click
+2024-10-06 08:52:07 move_to_click
+2024-10-06 08:52:11 move_to_click
+2024-10-06 08:52:15 move_to_click
+2024-10-06 08:52:22 move_to_click
+2024-10-06 08:52:26 move_to_click
+2024-10-06 08:52:29 move_to_click
+2024-10-06 08:52:33 move_to_click
+2024-10-06 08:52:38 move_to_click
+2024-10-06 08:52:44 move_to_click
+2024-10-06 08:52:48 move_to_click
+2024-10-06 08:52:51 move_to_click
+2024-10-06 08:52:54 move_to_click
+2024-10-06 08:52:59 move_to_click
+2024-10-06 08:53:06 move_to_click
+2024-10-06 08:53:10 move_to_click
+2024-10-06 08:53:12 move_to_click
+2024-10-06 08:53:16 move_to_click
+2024-10-06 08:53:21 move_to_click
+2024-10-06 08:53:27 move_to_click
+2024-10-06 08:53:32 move_to_click
+2024-10-06 08:53:34 move_to_click
+2024-10-06 08:53:38 move_to_click
+2024-10-06 08:53:43 move_to_click
+2024-10-06 08:53:49 move_to_click
+2024-10-06 08:53:53 move_to_click
+2024-10-06 08:53:56 move_to_click
+2024-10-06 08:54:00 move_to_click
+2024-10-06 08:54:04 move_to_click
+2024-10-06 08:54:11 move_to_click
+2024-10-06 08:54:15 move_to_click
+2024-10-06 08:54:18 move_to_click
+2024-10-06 08:54:21 move_to_click
+2024-10-06 08:54:26 move_to_click
+2024-10-06 08:54:32 move_to_click
+2024-10-06 08:54:37 move_to_click
+2024-10-06 08:54:39 move_to_click
+2024-10-06 08:54:43 move_to_click
+2024-10-06 08:54:48 move_to_click
+2024-10-06 08:54:54 move_to_click
+2024-10-06 08:54:58 move_to_click
+2024-10-06 08:55:01 move_to_click
+2024-10-06 08:55:05 move_to_click
+2024-10-06 08:55:06 move_to_click
+2024-10-06 08:56:21 move_to_click
+2024-10-06 08:56:26 move_to_click
+2024-10-06 08:56:39 move_to_click
+2024-10-06 08:56:43 move_to_click
+2024-10-06 08:56:45 move_to_click
+2024-10-06 08:58:31 in_battle
+2024-10-06 08:58:31 skip_battle = Point(x=381, y=122)
+2024-10-06 08:58:32 пропускаем бой
+2024-10-06 08:58:32 move_to_click
+2024-10-06 08:58:38 move_to_click
+2024-10-06 08:58:47 move_to_click
+2024-10-06 08:58:52 move_to_click
+2024-10-06 08:59:04 move_to_click
+2024-10-06 08:59:07 move_to_click
+2024-10-06 08:59:09 move_to_click
+2024-10-06 09:00:57 in_battle
+2024-10-06 09:00:57 skip_battle = Point(x=381, y=122)
+2024-10-06 09:00:57 пропускаем бой
+2024-10-06 09:00:57 move_to_click
+2024-10-06 09:01:04 move_to_click
+2024-10-06 09:01:12 move_to_click
+2024-10-06 09:01:18 move_to_click
+2024-10-06 09:02:34 move_to_click
+2024-10-06 09:02:43 move_to_click
+2024-10-06 09:02:48 move_to_click
+2024-10-06 09:04:06 move_to_click
+2024-10-06 09:04:15 move_to_click
+2024-10-06 09:04:20 move_to_click
+2024-10-06 09:04:33 move_to_click
+2024-10-06 09:04:36 move_to_click
+2024-10-06 09:04:38 move_to_click
+2024-10-06 09:06:28 in_battle
+2024-10-06 09:06:29 skip_battle = Point(x=381, y=122)
+2024-10-06 09:06:29 пропускаем бой
+2024-10-06 09:06:29 move_to_click
+2024-10-06 09:06:36 move_to_click
+2024-10-06 09:06:44 move_to_click
+2024-10-06 09:06:50 move_to_click
+2024-10-06 09:07:00 move_to_click
+2024-10-06 09:07:04 move_to_click
+2024-10-06 09:07:09 move_to_click
+2024-10-06 09:07:54 in_battle
+2024-10-06 09:07:54 skip_battle = Point(x=381, y=122)
+2024-10-06 09:07:55 пропускаем бой
+2024-10-06 09:07:55 move_to_click
+2024-10-06 09:08:02 move_to_click
+2024-10-06 09:08:10 move_to_click
+2024-10-06 09:08:16 move_to_click
+2024-10-06 09:10:33 move_to_click
+2024-10-06 09:10:42 move_to_click
+2024-10-06 09:10:47 move_to_click
+2024-10-06 09:12:04 move_to_click
+2024-10-06 09:12:13 move_to_click
+2024-10-06 09:12:19 move_to_click
+2024-10-06 09:12:29 move_to_click
+2024-10-06 09:12:33 move_to_click
+2024-10-06 09:15:25 in_battle
+2024-10-06 09:15:25 skip_battle = Point(x=381, y=122)
+2024-10-06 09:15:25 пропускаем бой
+2024-10-06 09:15:25 move_to_click
+2024-10-06 09:15:33 move_to_click
+2024-10-06 09:15:42 move_to_click
+2024-10-06 09:15:47 move_to_click
+2024-10-06 09:15:59 move_to_click
+2024-10-06 09:16:02 move_to_click
+2024-10-06 09:16:07 move_to_click
+2024-10-06 09:17:52 in_battle
+2024-10-06 09:17:52 skip_battle = Point(x=381, y=122)
+2024-10-06 09:17:52 пропускаем бой
+2024-10-06 09:17:52 move_to_click
+2024-10-06 09:17:59 move_to_click
+2024-10-06 09:18:08 move_to_click
+2024-10-06 09:18:14 move_to_click
+2024-10-06 09:18:25 move_to_click
+2024-10-06 09:18:29 move_to_click
+2024-10-06 09:20:19 in_battle
+2024-10-06 09:20:19 skip_battle = Point(x=381, y=122)
+2024-10-06 09:20:20 пропускаем бой
+2024-10-06 09:20:20 move_to_click
+2024-10-06 09:20:26 move_to_click
+2024-10-06 09:20:35 move_to_click
+2024-10-06 09:20:40 move_to_click
+2024-10-06 09:20:53 move_to_click
+2024-10-06 09:20:56 move_to_click
+2024-10-06 09:21:01 move_to_click
+2024-10-06 09:22:45 in_battle
+2024-10-06 09:22:45 skip_battle = Point(x=381, y=122)
+2024-10-06 09:22:45 пропускаем бой
+2024-10-06 09:22:45 move_to_click
+2024-10-06 09:22:52 move_to_click
+2024-10-06 09:23:01 move_to_click
+2024-10-06 09:23:06 move_to_click
+2024-10-06 09:24:23 move_to_click
+2024-10-06 09:24:32 move_to_click
+2024-10-06 09:24:37 move_to_click
+2024-10-06 09:24:50 move_to_click
+2024-10-06 09:24:54 in_battle
+2024-10-06 09:24:54 skip_battle = Point(x=381, y=122)
+2024-10-06 09:24:55 пропускаем бой
+2024-10-06 09:24:55 move_to_click
+2024-10-06 09:25:03 move_to_click
+2024-10-06 09:25:11 move_to_click
+2024-10-06 09:25:17 move_to_click
+2024-10-06 09:25:27 move_to_click
+2024-10-06 09:25:32 in_battle
+2024-10-06 09:25:32 skip_battle = Point(x=381, y=122)
+2024-10-06 09:25:32 пропускаем бой
+2024-10-06 09:25:32 move_to_click
+2024-10-06 09:25:39 move_to_click
+2024-10-06 09:25:47 move_to_click
+2024-10-06 09:25:53 move_to_click
+2024-10-06 09:26:03 move_to_click
+2024-10-06 09:26:07 in_battle
+2024-10-06 09:26:07 skip_battle = Point(x=381, y=122)
+2024-10-06 09:26:07 пропускаем бой
+2024-10-06 09:26:07 move_to_click
+2024-10-06 09:26:15 move_to_click
+2024-10-06 09:26:21 move_to_click
+2024-10-06 09:26:23 move_to_click
+2024-10-06 09:26:28 move_to_click
+2024-10-06 09:26:30 move_to_click
+2024-10-06 09:26:33 move_to_click
+2024-10-06 09:26:39 move_to_click
+2024-10-06 09:26:50 move_to_click
+2024-10-06 09:26:53 move_to_click
+2024-10-06 09:26:58 move_to_click
+2024-10-06 09:29:44 in_battle
+2024-10-06 09:29:44 skip_battle = Point(x=381, y=122)
+2024-10-06 09:29:44 пропускаем бой
+2024-10-06 09:29:44 move_to_click
+2024-10-06 09:29:52 move_to_click
+2024-10-06 09:30:01 move_to_click
+2024-10-06 09:30:07 move_to_click
+2024-10-06 09:32:18 move_to_click
+2024-10-06 09:32:27 move_to_click
+2024-10-06 09:32:32 move_to_click
+2024-10-06 09:33:50 move_to_click
+2024-10-06 09:33:58 move_to_click
+2024-10-06 09:34:04 move_to_click
+2024-10-06 09:34:07 move_to_click
+2024-10-06 09:38:23 move_to_click
+2024-10-06 09:38:28 move_to_click
+2024-10-06 09:38:38 move_to_click
+2024-10-06 09:38:42 move_to_click
+2024-10-06 09:42:28 move_to_click
+2024-10-06 09:42:30 move_to_click
+2024-10-06 09:42:32 move_to_click
+2024-10-06 09:43:02 move_to_click
+2024-10-06 09:43:15 fun.push_close
+2024-10-06 09:43:16 close = Point(x=384, y=599)
+2024-10-06 09:43:16 move_to_click
+2024-10-06 09:43:21 move_to_click
+2024-10-06 09:48:05 move_to_click
+2024-10-06 09:48:25 fun.push_close
+2024-10-06 09:48:25 close = Point(x=384, y=599)
+2024-10-06 09:48:25 move_to_click
+2024-10-06 09:48:30 move_to_click
+2024-10-06 09:53:08 move_to_click
+2024-10-06 09:53:20 fun.push_close
+2024-10-06 09:53:21 close = Point(x=384, y=599)
+2024-10-06 09:53:21 move_to_click
+2024-10-06 09:53:26 move_to_click
+2024-10-06 09:58:11 move_to_click
+2024-10-06 09:58:23 fun.push_close
+2024-10-06 09:58:23 close = Point(x=384, y=599)
+2024-10-06 09:58:23 move_to_click
+2024-10-06 09:58:29 move_to_click
+2024-10-06 10:03:19 move_to_click
+2024-10-06 10:03:31 fun.push_close
+2024-10-06 10:03:31 close = Point(x=384, y=599)
+2024-10-06 10:03:31 move_to_click
+2024-10-06 10:03:36 move_to_click
+2024-10-06 10:08:22 move_to_click
+2024-10-06 10:08:38 fun.push_close
+2024-10-06 10:08:39 close = Point(x=384, y=599)
+2024-10-06 10:08:39 move_to_click
+2024-10-06 10:08:44 move_to_click
+2024-10-06 10:13:26 move_to_click
+2024-10-06 10:13:33 fun.push_close
+2024-10-06 10:13:33 close = Point(x=384, y=599)
+2024-10-06 10:13:33 move_to_click
+2024-10-06 10:13:38 move_to_click
+2024-10-06 10:18:28 move_to_click
+2024-10-06 10:18:42 fun.push_close
+2024-10-06 10:18:42 close = Point(x=384, y=599)
+2024-10-06 10:18:42 move_to_click
+2024-10-06 10:18:47 move_to_click
+2024-10-06 10:23:32 move_to_click
+2024-10-06 10:23:44 fun.push_close
+2024-10-06 10:23:45 close = Point(x=384, y=599)
+2024-10-06 10:23:45 move_to_click
+2024-10-06 10:23:50 move_to_click
+2024-10-06 10:28:35 move_to_click
+2024-10-06 10:28:43 fun.push_close
+2024-10-06 10:28:44 close = Point(x=384, y=599)
+2024-10-06 10:28:44 move_to_click
+2024-10-06 10:28:49 move_to_click
+2024-10-06 10:33:37 move_to_click
+2024-10-06 10:33:51 fun.push_close
+2024-10-06 10:33:51 close = Point(x=384, y=599)
+2024-10-06 10:33:51 move_to_click
+2024-10-06 10:33:56 move_to_click
+2024-10-06 10:38:40 move_to_click
+2024-10-06 10:38:50 fun.push_close
+2024-10-06 10:38:51 close = Point(x=384, y=599)
+2024-10-06 10:38:51 move_to_click
+2024-10-06 10:38:55 move_to_click
+2024-10-06 10:43:43 move_to_click
+2024-10-06 10:43:52 fun.push_close
+2024-10-06 10:43:52 close = Point(x=384, y=599)
+2024-10-06 10:43:52 move_to_click
+2024-10-06 10:43:57 move_to_click
+2024-10-06 10:48:46 move_to_click
+2024-10-06 10:48:54 fun.push_close
+2024-10-06 10:48:54 close = Point(x=384, y=599)
+2024-10-06 10:48:54 move_to_click
+2024-10-06 10:48:59 move_to_click
+2024-10-06 10:53:49 move_to_click
+2024-10-06 10:53:59 fun.push_close
+2024-10-06 10:53:59 close = Point(x=384, y=599)
+2024-10-06 10:53:59 move_to_click
+2024-10-06 10:54:04 move_to_click
+2024-10-06 10:58:52 move_to_click
+2024-10-06 10:59:07 fun.push_close
+2024-10-06 10:59:08 close = Point(x=384, y=599)
+2024-10-06 10:59:08 move_to_click
+2024-10-06 10:59:14 move_to_click
+2024-10-06 11:03:56 move_to_click
+2024-10-06 11:04:04 fun.push_close
+2024-10-06 11:04:04 close = Point(x=384, y=599)
+2024-10-06 11:04:04 move_to_click
+2024-10-06 11:04:09 move_to_click
+2024-10-06 11:08:59 move_to_click
+2024-10-06 11:09:07 fun.push_close
+2024-10-06 11:09:07 close = Point(x=384, y=599)
+2024-10-06 11:09:07 move_to_click
+2024-10-06 11:09:12 move_to_click
+2024-10-06 11:14:03 move_to_click
+2024-10-06 11:14:18 fun.push_close
+2024-10-06 11:14:19 close = Point(x=384, y=599)
+2024-10-06 11:14:19 move_to_click
+2024-10-06 11:14:24 move_to_click
+2024-10-06 11:19:07 move_to_click
+2024-10-06 11:19:19 fun.push_close
+2024-10-06 11:19:19 close = Point(x=384, y=599)
+2024-10-06 11:19:19 move_to_click
+2024-10-06 11:19:24 move_to_click
+2024-10-06 11:24:11 move_to_click
+2024-10-06 11:24:18 fun.push_close
+2024-10-06 11:24:19 close = Point(x=384, y=599)
+2024-10-06 11:24:19 move_to_click
+2024-10-06 11:24:24 move_to_click
+2024-10-06 11:29:14 move_to_click
+2024-10-06 11:29:22 fun.push_close
+2024-10-06 11:29:22 close = Point(x=384, y=599)
+2024-10-06 11:29:22 move_to_click
+2024-10-06 11:29:27 move_to_click
+2024-10-06 11:34:16 move_to_click
+2024-10-06 11:34:26 fun.push_close
+2024-10-06 11:34:26 close = Point(x=384, y=599)
+2024-10-06 11:34:26 move_to_click
+2024-10-06 11:34:31 move_to_click
+2024-10-06 11:39:19 move_to_click
+2024-10-06 11:39:32 fun.push_close
+2024-10-06 11:39:32 close = Point(x=384, y=599)
+2024-10-06 11:39:32 move_to_click
+2024-10-06 11:39:37 move_to_click
+2024-10-06 14:09:02 move_to_click
+2024-10-06 14:09:07 move_to_click
+2024-10-06 14:10:17 move_to_click
+2024-10-06 14:10:25 move_to_click
+2024-10-06 14:10:32 move_to_click
+2024-10-06 14:10:45 move_to_click
+2024-10-06 14:10:48 move_to_click
+2024-10-06 14:10:51 move_to_click
+2024-10-06 14:13:37 in_battle
+2024-10-06 14:13:37 skip_battle = Point(x=381, y=119)
+2024-10-06 14:13:37 пропускаем бой
+2024-10-06 14:13:37 move_to_click
+2024-10-06 14:13:44 move_to_click
+2024-10-06 14:13:53 move_to_click
+2024-10-06 14:13:59 move_to_click
+2024-10-06 14:15:38 move_to_click
+2024-10-06 14:15:47 move_to_click
+2024-10-06 14:15:52 move_to_click
+2024-10-06 14:17:02 move_to_click
+2024-10-06 14:17:10 move_to_click
+2024-10-06 14:17:16 move_to_click
+2024-10-06 14:18:55 move_to_click
+2024-10-06 14:19:04 move_to_click
+2024-10-06 14:19:09 move_to_click
+2024-10-06 14:19:19 move_to_click
+2024-10-06 14:19:23 move_to_click
+2024-10-06 14:20:14 in_battle
+2024-10-06 14:20:14 skip_battle = Point(x=381, y=119)
+2024-10-06 14:20:14 пропускаем бой
+2024-10-06 14:20:14 move_to_click
+2024-10-06 14:20:21 move_to_click
+2024-10-06 14:20:30 move_to_click
+2024-10-06 14:20:36 move_to_click
+2024-10-06 14:23:19 move_to_click
+2024-10-06 14:23:28 move_to_click
+2024-10-06 14:23:33 move_to_click
+2024-10-06 14:23:43 move_to_click
+2024-10-06 14:23:46 move_to_click
+2024-10-06 14:23:48 move_to_click
+2024-10-06 14:24:12 move_to_click
+2024-10-06 14:24:20 move_to_click
+2024-10-06 14:24:26 move_to_click
+2024-10-06 14:25:37 move_to_click
+2024-10-06 14:25:45 move_to_click
+2024-10-06 14:25:52 move_to_click
+2024-10-06 14:26:05 move_to_click
+2024-10-06 14:26:09 move_to_click
+2024-10-06 14:27:57 in_battle
+2024-10-06 14:27:57 skip_battle = Point(x=381, y=119)
+2024-10-06 14:27:57 пропускаем бой
+2024-10-06 14:27:57 move_to_click
+2024-10-06 14:28:05 move_to_click
+2024-10-06 14:28:13 move_to_click
+2024-10-06 14:28:19 move_to_click
+2024-10-06 14:28:29 move_to_click
+2024-10-06 14:28:33 move_to_click
+2024-10-06 14:28:37 move_to_click
+2024-10-06 14:29:28 move_to_click
+2024-10-06 14:29:37 move_to_click
+2024-10-06 14:29:43 move_to_click
+2024-10-06 14:29:53 move_to_click
+2024-10-06 14:29:56 move_to_click
+2024-10-06 14:30:01 move_to_click
+2024-10-06 14:32:18 in_battle
+2024-10-06 14:32:18 skip_battle = Point(x=381, y=119)
+2024-10-06 14:32:18 пропускаем бой
+2024-10-06 14:32:18 move_to_click
+2024-10-06 14:32:26 move_to_click
+2024-10-06 14:32:35 move_to_click
+2024-10-06 14:32:41 move_to_click
+2024-10-06 14:32:50 move_to_click
+2024-10-06 14:32:54 move_to_click
+2024-10-06 14:34:45 in_battle
+2024-10-06 14:34:46 skip_battle = Point(x=381, y=119)
+2024-10-06 14:34:46 пропускаем бой
+2024-10-06 14:34:46 move_to_click
+2024-10-06 14:34:53 move_to_click
+2024-10-06 14:35:02 move_to_click
+2024-10-06 14:35:08 move_to_click
+2024-10-06 14:37:20 move_to_click
+2024-10-06 14:37:29 move_to_click
+2024-10-06 14:37:35 move_to_click
+2024-10-06 14:37:48 move_to_click
+2024-10-06 14:37:52 move_to_click
+2024-10-06 14:37:54 move_to_click
+2024-10-06 14:40:10 in_battle
+2024-10-06 14:40:10 skip_battle = Point(x=381, y=119)
+2024-10-06 14:40:10 пропускаем бой
+2024-10-06 14:40:10 move_to_click
+2024-10-06 14:40:18 move_to_click
+2024-10-06 14:40:26 move_to_click
+2024-10-06 14:40:32 move_to_click
+2024-10-06 14:40:36 move_to_click
+2024-10-06 14:41:33 move_to_click
+2024-10-06 14:41:36 move_to_click
+2024-10-06 14:41:43 move_to_click
+2024-10-06 14:41:55 move_to_click
+2024-10-06 14:41:58 move_to_click
+2024-10-06 14:42:04 move_to_click
+2024-10-06 14:44:17 in_battle
+2024-10-06 14:44:17 skip_battle = Point(x=381, y=119)
+2024-10-06 14:44:17 пропускаем бой
+2024-10-06 14:44:17 move_to_click
+2024-10-06 14:44:25 move_to_click
+2024-10-06 14:44:33 move_to_click
+2024-10-06 14:44:39 move_to_click
+2024-10-06 14:46:21 move_to_click
+2024-10-06 14:46:29 move_to_click
+2024-10-06 14:46:35 move_to_click
+2024-10-06 14:46:45 move_to_click
+2024-10-06 14:46:49 move_to_click
+2024-10-06 14:49:10 in_battle
+2024-10-06 14:49:10 skip_battle = Point(x=381, y=119)
+2024-10-06 14:49:10 пропускаем бой
+2024-10-06 14:49:10 move_to_click
+2024-10-06 14:49:18 move_to_click
+2024-10-06 14:49:26 move_to_click
+2024-10-06 14:49:33 move_to_click
+2024-10-06 14:49:45 move_to_click
+2024-10-06 14:49:48 move_to_click
+2024-10-06 14:49:51 move_to_click
+2024-10-06 14:52:38 in_battle
+2024-10-06 14:52:38 skip_battle = Point(x=381, y=119)
+2024-10-06 14:52:38 пропускаем бой
+2024-10-06 14:52:38 move_to_click
+2024-10-06 14:52:45 move_to_click
+2024-10-06 14:52:54 move_to_click
+2024-10-06 14:53:00 move_to_click
+2024-10-06 14:55:41 move_to_click
+2024-10-06 14:55:50 move_to_click
+2024-10-06 14:55:56 move_to_click
+2024-10-06 14:56:09 move_to_click
+2024-10-06 14:56:12 move_to_click
+2024-10-06 14:56:14 move_to_click
+2024-10-06 14:57:31 in_battle
+2024-10-06 14:57:31 skip_battle = Point(x=381, y=119)
+2024-10-06 14:57:31 пропускаем бой
+2024-10-06 14:57:31 move_to_click
+2024-10-06 14:57:39 move_to_click
+2024-10-06 14:57:48 move_to_click
+2024-10-06 14:57:54 move_to_click
+2024-10-06 14:59:33 move_to_click
+2024-10-06 14:59:41 move_to_click
+2024-10-06 14:59:48 move_to_click
+2024-10-06 14:59:51 move_to_click
+2024-10-06 15:00:40 move_to_click
+2024-10-06 15:00:43 move_to_click
+2024-10-06 15:00:49 move_to_click
+2024-10-06 15:00:59 move_to_click
+2024-10-06 15:01:02 move_to_click
+2024-10-06 15:01:07 move_to_click
+2024-10-06 15:03:24 in_battle
+2024-10-06 15:03:24 skip_battle = Point(x=381, y=119)
+2024-10-06 15:03:25 пропускаем бой
+2024-10-06 15:03:25 move_to_click
+2024-10-06 15:03:29 move_to_click
+2024-10-06 15:03:37 move_to_click
+2024-10-06 15:03:43 move_to_click
+2024-10-06 15:05:54 move_to_click
+2024-10-06 15:06:03 move_to_click
+2024-10-06 15:06:10 move_to_click
+2024-10-06 15:06:23 move_to_click
+2024-10-06 15:06:26 move_to_click
+2024-10-06 15:06:28 move_to_click
+2024-10-06 15:09:19 move_to_click
+2024-10-06 15:09:28 move_to_click
+2024-10-06 15:09:34 move_to_click
+2024-10-06 15:09:45 move_to_click
+2024-10-06 15:09:48 move_to_click
+2024-10-06 15:09:50 move_to_click
+2024-10-06 15:12:10 in_battle
+2024-10-06 15:12:10 skip_battle = Point(x=381, y=119)
+2024-10-06 15:12:10 пропускаем бой
+2024-10-06 15:12:10 move_to_click
+2024-10-06 15:12:18 move_to_click
+2024-10-06 15:12:26 move_to_click
+2024-10-06 15:12:32 move_to_click
+2024-10-06 15:12:43 move_to_click
+2024-10-06 15:12:47 move_to_click
+2024-10-06 15:12:49 move_to_click
+2024-10-06 15:14:37 in_battle
+2024-10-06 15:14:37 skip_battle = Point(x=381, y=119)
+2024-10-06 15:14:37 пропускаем бой
+2024-10-06 15:14:37 move_to_click
+2024-10-06 15:14:45 move_to_click
+2024-10-06 15:14:54 move_to_click
+2024-10-06 15:15:01 move_to_click
+2024-10-06 15:15:12 move_to_click
+2024-10-06 15:15:16 move_to_click
+2024-10-06 15:18:05 in_battle
+2024-10-06 15:18:06 skip_battle = Point(x=381, y=119)
+2024-10-06 15:18:06 пропускаем бой
+2024-10-06 15:18:06 move_to_click
+2024-10-06 15:18:10 move_to_click
+2024-10-06 15:18:19 move_to_click
+2024-10-06 15:18:24 move_to_click
+2024-10-06 15:18:27 move_to_click
+2024-10-06 15:30:19 move_to_click
+2024-10-06 15:30:24 move_to_click
+2024-10-06 15:31:36 move_to_click
+2024-10-06 15:31:44 move_to_click
+2024-10-06 15:31:50 move_to_click
+2024-10-06 15:32:01 move_to_click
+2024-10-06 15:32:05 move_to_click
+2024-10-06 15:32:10 move_to_click
+2024-10-06 15:33:57 in_battle
+2024-10-06 15:33:57 skip_battle = Point(x=381, y=117)
+2024-10-06 15:33:57 пропускаем бой
+2024-10-06 15:33:57 move_to_click
+2024-10-06 15:34:03 move_to_click
+2024-10-06 15:34:12 move_to_click
+2024-10-06 15:34:17 move_to_click
+2024-10-06 15:34:30 move_to_click
+2024-10-06 15:34:34 move_to_click
+2024-10-06 15:36:23 in_battle
+2024-10-06 15:36:23 skip_battle = Point(x=381, y=117)
+2024-10-06 15:36:23 пропускаем бой
+2024-10-06 15:36:23 move_to_click
+2024-10-06 15:36:30 move_to_click
+2024-10-06 15:36:38 move_to_click
+2024-10-06 15:36:44 move_to_click
+2024-10-06 15:39:59 move_to_click
+2024-10-06 15:40:08 move_to_click
+2024-10-06 15:40:13 move_to_click
+2024-10-06 15:42:27 move_to_click
+2024-10-06 15:42:36 move_to_click
+2024-10-06 15:42:42 move_to_click
+2024-10-06 15:42:54 move_to_click
+2024-10-06 15:42:58 move_to_click
+2024-10-06 15:43:00 move_to_click
+2024-10-06 15:44:47 in_battle
+2024-10-06 15:44:47 skip_battle = Point(x=381, y=117)
+2024-10-06 15:44:47 пропускаем бой
+2024-10-06 15:44:47 move_to_click
+2024-10-06 15:44:55 move_to_click
+2024-10-06 15:45:04 move_to_click
+2024-10-06 15:45:09 move_to_click
+2024-10-06 15:46:20 move_to_click
+2024-10-06 15:46:29 move_to_click
+2024-10-06 15:46:35 move_to_click
+2024-10-06 15:49:48 move_to_click
+2024-10-06 15:49:57 move_to_click
+2024-10-06 15:50:02 move_to_click
+2024-10-06 15:50:12 move_to_click
+2024-10-06 15:50:16 move_to_click
+2024-10-06 15:51:07 in_battle
+2024-10-06 15:51:08 skip_battle = Point(x=381, y=117)
+2024-10-06 15:51:08 пропускаем бой
+2024-10-06 15:51:08 move_to_click
+2024-10-06 15:51:15 move_to_click
+2024-10-06 15:51:23 move_to_click
+2024-10-06 15:51:29 move_to_click
+2024-10-06 15:51:41 move_to_click
+2024-10-06 15:51:45 in_battle
+2024-10-06 15:51:46 skip_battle = Point(x=381, y=117)
+2024-10-06 15:51:46 пропускаем бой
+2024-10-06 15:51:46 move_to_click
+2024-10-06 15:51:53 move_to_click
+2024-10-06 15:52:02 move_to_click
+2024-10-06 15:52:07 move_to_click
+2024-10-06 15:52:18 move_to_click
+2024-10-06 15:52:22 in_battle
+2024-10-06 15:52:22 skip_battle = Point(x=381, y=117)
+2024-10-06 15:52:22 пропускаем бой
+2024-10-06 15:52:22 move_to_click
+2024-10-06 15:52:29 move_to_click
+2024-10-06 15:52:37 move_to_click
+2024-10-06 15:52:43 move_to_click
+2024-10-06 15:53:56 move_to_click
+2024-10-06 15:54:05 move_to_click
+2024-10-06 15:54:11 move_to_click
+2024-10-06 15:54:22 move_to_click
+2024-10-06 15:54:25 move_to_click
+2024-10-06 15:54:28 move_to_click
+2024-10-06 15:56:16 in_battle
+2024-10-06 15:56:16 skip_battle = Point(x=381, y=117)
+2024-10-06 15:56:17 пропускаем бой
+2024-10-06 15:56:17 move_to_click
+2024-10-06 15:56:23 move_to_click
+2024-10-06 15:56:32 move_to_click
+2024-10-06 15:56:37 move_to_click
+2024-10-06 15:57:48 move_to_click
+2024-10-06 15:57:57 move_to_click
+2024-10-06 15:58:03 move_to_click
+2024-10-06 15:59:15 move_to_click
+2024-10-06 15:59:23 move_to_click
+2024-10-06 15:59:29 move_to_click
+2024-10-06 15:59:39 move_to_click
+2024-10-06 15:59:42 move_to_click
+2024-10-06 15:59:45 move_to_click
+2024-10-06 16:02:34 in_battle
+2024-10-06 16:02:34 skip_battle = Point(x=381, y=117)
+2024-10-06 16:02:34 пропускаем бой
+2024-10-06 16:02:34 move_to_click
+2024-10-06 16:02:42 move_to_click
+2024-10-06 16:02:51 move_to_click
+2024-10-06 16:02:56 move_to_click
+2024-10-06 16:03:08 move_to_click
+2024-10-06 16:03:11 move_to_click
+2024-10-06 16:04:01 in_battle
+2024-10-06 16:04:01 skip_battle = Point(x=381, y=117)
+2024-10-06 16:04:01 пропускаем бой
+2024-10-06 16:04:01 move_to_click
+2024-10-06 16:04:09 move_to_click
+2024-10-06 16:04:18 move_to_click
+2024-10-06 16:04:23 move_to_click
+2024-10-06 16:05:36 move_to_click
+2024-10-06 16:05:45 move_to_click
+2024-10-06 16:05:50 move_to_click
+2024-10-06 16:07:03 move_to_click
+2024-10-06 16:07:12 move_to_click
+2024-10-06 16:07:17 move_to_click
+2024-10-06 16:08:33 move_to_click
+2024-10-06 16:08:41 move_to_click
+2024-10-06 16:08:47 move_to_click
+2024-10-06 16:11:00 move_to_click
+2024-10-06 16:11:08 move_to_click
+2024-10-06 16:11:14 move_to_click
+2024-10-06 16:11:24 move_to_click
+2024-10-06 16:11:28 move_to_click
+2024-10-06 16:11:33 move_to_click
+2024-10-06 16:13:19 in_battle
+2024-10-06 16:13:19 skip_battle = Point(x=381, y=117)
+2024-10-06 16:13:20 пропускаем бой
+2024-10-06 16:13:20 move_to_click
+2024-10-06 16:13:27 move_to_click
+2024-10-06 16:13:36 move_to_click
+2024-10-06 16:13:42 move_to_click
+2024-10-06 16:13:46 move_to_click
+2024-10-06 16:19:39 move_to_click
+2024-10-06 16:19:44 move_to_click
+2024-10-06 16:20:57 move_to_click
+2024-10-06 16:21:06 move_to_click
+2024-10-06 16:21:11 move_to_click
+2024-10-06 16:21:15 move_to_click
+2024-10-06 16:32:07 move_to_click
+2024-10-06 16:32:13 move_to_click
+2024-10-06 16:36:32 move_to_click
+2024-10-06 16:36:41 move_to_click
+2024-10-06 16:36:47 move_to_click
+2024-10-06 16:36:57 move_to_click
+2024-10-06 16:37:00 move_to_click
+2024-10-06 16:37:05 move_to_click
+2024-10-06 16:42:53 in_battle
+2024-10-06 16:42:53 skip_battle = Point(x=381, y=123)
+2024-10-06 16:42:53 пропускаем бой
+2024-10-06 16:42:53 move_to_click
+2024-10-06 16:43:01 move_to_click
+2024-10-06 16:43:09 move_to_click
+2024-10-06 16:43:15 move_to_click
+2024-10-06 16:47:55 move_to_click
+2024-10-06 16:48:02 move_to_click
+2024-10-06 16:48:13 move_to_click
+2024-10-06 16:48:17 move_to_click
+2024-10-06 16:52:07 in_battle
+2024-10-06 16:52:08 skip_battle = Point(x=381, y=123)
+2024-10-06 16:52:08 пропускаем бой
+2024-10-06 16:52:08 move_to_click
+2024-10-06 16:52:15 move_to_click
+2024-10-06 16:52:24 move_to_click
+2024-10-06 16:52:30 move_to_click
+2024-10-06 16:52:41 move_to_click
+2024-10-06 16:52:44 move_to_click
+2024-10-06 16:54:35 in_battle
+2024-10-06 16:54:35 skip_battle = Point(x=381, y=123)
+2024-10-06 16:54:36 пропускаем бой
+2024-10-06 16:54:36 move_to_click
+2024-10-06 16:54:42 move_to_click
+2024-10-06 16:54:51 move_to_click
+2024-10-06 16:54:56 move_to_click
+2024-10-06 16:57:16 move_to_click
+2024-10-06 16:57:25 move_to_click
+2024-10-06 16:57:32 move_to_click
+2024-10-06 16:57:43 move_to_click
+2024-10-06 16:57:47 move_to_click
+2024-10-06 17:03:37 in_battle
+2024-10-06 17:03:37 skip_battle = Point(x=381, y=123)
+2024-10-06 17:03:37 пропускаем бой
+2024-10-06 17:03:37 move_to_click
+2024-10-06 17:03:43 move_to_click
+2024-10-06 17:03:52 move_to_click
+2024-10-06 17:03:58 move_to_click
+2024-10-06 17:07:15 move_to_click
+2024-10-06 17:07:24 move_to_click
+2024-10-06 17:07:30 move_to_click
+2024-10-06 17:10:52 move_to_click
+2024-10-06 17:11:01 move_to_click
+2024-10-06 17:11:06 move_to_click
+2024-10-06 17:11:17 move_to_click
+2024-10-06 17:11:20 move_to_click
+2024-10-06 17:12:11 in_battle
+2024-10-06 17:12:12 skip_battle = Point(x=381, y=123)
+2024-10-06 17:12:12 пропускаем бой
+2024-10-06 17:12:12 move_to_click
+2024-10-06 17:12:19 move_to_click
+2024-10-06 17:12:28 move_to_click
+2024-10-06 17:12:33 move_to_click
+2024-10-06 17:12:45 move_to_click
+2024-10-06 17:12:48 move_to_click
+2024-10-06 17:14:39 in_battle
+2024-10-06 17:14:40 skip_battle = Point(x=381, y=123)
+2024-10-06 17:14:40 пропускаем бой
+2024-10-06 17:14:40 move_to_click
+2024-10-06 17:14:46 move_to_click
+2024-10-06 17:14:55 move_to_click
+2024-10-06 17:15:00 move_to_click
+2024-10-06 17:15:11 move_to_click
+2024-10-06 17:15:15 in_battle
+2024-10-06 17:15:15 skip_battle = Point(x=381, y=123)
+2024-10-06 17:15:16 пропускаем бой
+2024-10-06 17:15:16 move_to_click
+2024-10-06 17:15:23 move_to_click
+2024-10-06 17:15:29 move_to_click
+2024-10-06 17:15:31 move_to_click
+2024-10-06 17:15:38 move_to_click
+2024-10-06 17:16:06 move_to_click
+2024-10-06 17:37:58 move_to_click
+2024-10-06 17:38:01 move_to_click
+2024-10-06 17:38:07 move_to_click
+2024-10-06 17:39:28 move_to_click
+2024-10-06 17:39:37 move_to_click
+2024-10-06 17:39:42 move_to_click
+2024-10-06 17:41:12 move_to_click
+2024-10-06 17:41:15 move_to_click
+2024-10-06 17:41:29 move_to_click
+2024-10-06 17:44:46 move_to_click
+2024-10-06 17:44:59 move_to_click
+2024-10-06 17:45:37 move_to_click
+2024-10-06 17:45:41 move_to_click
+2024-10-06 17:45:46 move_to_click
+2024-10-06 17:45:59 move_to_click
+2024-10-06 17:46:03 move_to_click
+2024-10-06 17:47:52 in_battle
+2024-10-06 17:47:52 skip_battle = Point(x=381, y=123)
+2024-10-06 17:47:52 пропускаем бой
+2024-10-06 17:47:52 move_to_click
+2024-10-06 17:47:59 move_to_click
+2024-10-06 17:48:07 move_to_click
+2024-10-06 17:48:47 move_to_click
+2024-10-06 17:49:03 move_to_click
+2024-10-06 17:50:54 move_to_click
+2024-10-06 17:50:59 move_to_click
+2024-10-06 17:51:12 move_to_click
+2024-10-06 17:51:15 move_to_click
+2024-10-06 17:51:17 move_to_click
+2024-10-06 17:54:04 in_battle
+2024-10-06 17:54:04 skip_battle = Point(x=381, y=123)
+2024-10-06 17:54:04 пропускаем бой
+2024-10-06 17:54:04 move_to_click
+2024-10-06 17:54:12 move_to_click
+2024-10-06 17:54:21 move_to_click
+2024-10-06 17:54:34 move_to_click
+2024-10-06 18:03:24 move_to_click
+2024-10-06 18:03:27 move_to_click
+2024-10-06 18:03:42 move_to_click
+2024-10-06 18:07:25 move_to_click
+2024-10-06 18:07:28 move_to_click
+2024-10-06 18:07:45 move_to_click
+2024-10-06 18:10:30 move_to_click
+2024-10-06 18:10:33 move_to_click
+2024-10-06 18:10:53 move_to_click
+2024-10-06 18:20:10 move_to_click
+2024-10-06 18:20:14 move_to_click
+2024-10-06 18:20:33 move_to_click
+2024-10-06 18:36:52 move_to_click
+2024-10-06 18:36:56 move_to_click
+2024-10-06 18:37:02 move_to_click
+2024-10-06 18:43:18 move_to_click
+2024-10-06 18:43:29 move_to_click
+2024-10-06 18:43:35 move_to_click
+2024-10-06 18:47:58 move_to_click
+2024-10-06 18:48:07 move_to_click
+2024-10-06 18:48:13 move_to_click
+2024-10-06 18:51:35 move_to_click
+2024-10-06 18:51:44 move_to_click
+2024-10-06 18:52:11 move_to_click
+2024-10-06 18:56:33 move_to_click
+2024-10-06 18:56:36 move_to_click
+2024-10-06 18:57:06 move_to_click
+2024-10-06 18:58:34 move_to_click
+2024-10-06 18:58:39 move_to_click
+2024-10-06 18:58:43 move_to_click
+2024-10-06 19:03:47 move_to_click
+2024-10-06 19:03:51 move_to_click
+2024-10-06 19:03:57 move_to_click
+2024-10-06 19:04:10 move_to_click
+2024-10-06 19:04:16 in_battle
+2024-10-06 19:04:16 skip_battle = Point(x=381, y=116)
+2024-10-06 19:04:16 пропускаем бой
+2024-10-06 19:04:16 move_to_click
+2024-10-06 19:04:23 move_to_click
+2024-10-06 19:04:33 move_to_click
+2024-10-06 19:04:39 move_to_click
+2024-10-06 19:06:58 move_to_click
+2024-10-06 19:07:09 move_to_click
+2024-10-06 19:07:17 move_to_click
+2024-10-06 19:07:23 move_to_click
+2024-10-06 19:21:57 move_to_click
+2024-10-06 19:22:05 move_to_click
+2024-10-06 19:22:21 move_to_click
+2024-10-06 19:22:26 move_to_click
+2024-10-06 19:22:32 move_to_click
+2024-10-06 19:22:42 in_battle
+2024-10-06 19:22:42 skip_battle = Point(x=381, y=114)
+2024-10-06 19:22:42 пропускаем бой
+2024-10-06 19:22:42 move_to_click
+2024-10-06 19:22:51 move_to_click
+2024-10-06 19:23:02 move_to_click
+2024-10-06 19:23:10 move_to_click
+2024-10-06 19:25:04 move_to_click
+2024-10-06 19:25:17 move_to_click
+2024-10-06 19:25:25 move_to_click
+2024-10-06 19:26:10 move_to_click
+2024-10-06 19:26:26 move_to_click
+2024-10-06 19:26:39 move_to_click
+2024-10-06 19:26:57 move_to_click
+2024-10-06 19:27:02 move_to_click
+2024-10-06 19:28:47 in_battle
+2024-10-06 19:28:48 skip_battle = Point(x=381, y=114)
+2024-10-06 19:28:48 пропускаем бой
+2024-10-06 19:28:48 move_to_click
+2024-10-06 19:29:00 move_to_click
+2024-10-06 19:29:12 move_to_click
+2024-10-06 19:29:19 move_to_click
+2024-10-06 19:30:06 move_to_click
+2024-10-06 19:30:18 move_to_click
+2024-10-06 19:30:28 move_to_click
+2024-10-06 19:33:37 move_to_click
+2024-10-06 19:33:45 move_to_click
+2024-10-06 19:33:51 move_to_click
+2024-10-06 19:36:02 move_to_click
+2024-10-06 19:36:11 move_to_click
+2024-10-06 19:36:18 move_to_click
+2024-10-06 19:36:28 move_to_click
+2024-10-06 19:36:31 move_to_click
+2024-10-06 19:36:36 move_to_click
+2024-10-06 19:39:22 in_battle
+2024-10-06 19:39:23 skip_battle = Point(x=381, y=114)
+2024-10-06 19:39:23 пропускаем бой
+2024-10-06 19:39:23 move_to_click
+2024-10-06 19:39:29 move_to_click
+2024-10-06 19:39:39 move_to_click
+2024-10-06 19:39:45 move_to_click
+2024-10-06 19:39:55 move_to_click
+2024-10-06 19:39:58 move_to_click
+2024-10-06 19:40:01 move_to_click
+2024-10-06 19:41:50 in_battle
+2024-10-06 19:41:51 skip_battle = Point(x=381, y=114)
+2024-10-06 19:41:51 пропускаем бой
+2024-10-06 19:41:51 move_to_click
+2024-10-06 19:41:59 move_to_click
+2024-10-06 19:42:40 move_to_click
+2024-10-06 19:42:51 move_to_click
+2024-10-06 19:42:57 move_to_click
+2024-10-06 19:51:39 move_to_click
+2024-10-06 19:51:45 move_to_click
+2024-10-06 19:51:56 move_to_click
+2024-10-06 19:52:00 move_to_click
+2024-10-06 19:52:55 move_to_click
+2024-10-06 19:53:04 move_to_click
+2024-10-06 19:53:11 move_to_click
+2024-10-06 19:56:20 move_to_click
+2024-10-06 19:56:29 move_to_click
+2024-10-06 19:56:35 move_to_click
+2024-10-06 19:56:45 move_to_click
+2024-10-06 19:56:49 move_to_click
+2024-10-06 19:56:54 move_to_click
+2024-10-06 19:57:15 move_to_click
+2024-10-06 19:57:23 move_to_click
+2024-10-06 19:57:30 move_to_click
+2024-10-06 19:59:41 move_to_click
+2024-10-06 19:59:50 move_to_click
+2024-10-06 19:59:56 move_to_click
+2024-10-06 20:03:07 move_to_click
+2024-10-06 20:03:17 move_to_click
+2024-10-06 20:03:24 move_to_click
+2024-10-06 20:03:37 move_to_click
+2024-10-06 20:03:41 move_to_click
+2024-10-06 20:03:43 move_to_click
+2024-10-06 20:05:59 in_battle
+2024-10-06 20:05:59 skip_battle = Point(x=381, y=114)
+2024-10-06 20:06:00 пропускаем бой
+2024-10-06 20:06:00 move_to_click
+2024-10-06 20:06:13 move_to_click
+2024-10-06 20:06:23 move_to_click
+2024-10-06 20:06:31 move_to_click
+2024-10-06 20:06:42 move_to_click
+2024-10-06 20:06:51 move_to_click
+2024-10-06 20:07:00 move_to_click
+2024-10-06 20:07:07 move_to_click
+2024-10-06 20:07:11 move_to_click
+2024-10-06 20:07:30 move_to_click
+2024-10-06 20:07:33 move_to_click
+2024-10-06 20:07:35 move_to_click
+2024-10-06 20:07:41 move_to_click
+2024-10-06 20:07:54 fun.push_close
+2024-10-06 20:07:54 close = Point(x=384, y=594)
+2024-10-06 20:07:54 move_to_click
+2024-10-06 20:08:00 move_to_click
+2024-10-06 20:12:45 move_to_click
+2024-10-06 20:12:55 fun.push_close
+2024-10-06 20:12:55 close = Point(x=384, y=594)
+2024-10-06 20:12:55 move_to_click
+2024-10-06 20:13:00 move_to_click
+2024-10-06 20:17:51 move_to_click
+2024-10-06 20:18:05 fun.push_close
+2024-10-06 20:18:06 close = Point(x=384, y=594)
+2024-10-06 20:18:06 move_to_click
+2024-10-06 20:18:11 move_to_click
+2024-10-06 20:22:55 move_to_click
+2024-10-06 20:23:06 fun.push_close
+2024-10-06 20:23:07 close = Point(x=384, y=594)
+2024-10-06 20:23:07 move_to_click
+2024-10-06 20:23:12 move_to_click
+2024-10-06 20:27:59 move_to_click
+2024-10-06 20:28:13 fun.push_close
+2024-10-06 20:28:14 close = Point(x=384, y=594)
+2024-10-06 20:28:14 move_to_click
+2024-10-06 20:28:18 move_to_click
+2024-10-06 20:33:01 move_to_click
+2024-10-06 20:33:14 fun.push_close
+2024-10-06 20:33:14 close = Point(x=384, y=594)
+2024-10-06 20:33:14 move_to_click
+2024-10-06 20:33:19 move_to_click
+2024-10-06 20:38:06 move_to_click
+2024-10-06 20:38:19 fun.push_close
+2024-10-06 20:38:20 close = Point(x=384, y=594)
+2024-10-06 20:38:20 move_to_click
+2024-10-06 20:38:25 move_to_click
+2024-10-06 20:43:11 move_to_click
+2024-10-06 20:43:25 fun.push_close
+2024-10-06 20:43:26 close = Point(x=384, y=594)
+2024-10-06 20:43:26 move_to_click
+2024-10-06 20:43:33 move_to_click
+2024-10-06 20:48:16 move_to_click
+2024-10-06 20:48:34 fun.push_close
+2024-10-06 20:48:35 close = Point(x=384, y=594)
+2024-10-06 20:48:35 move_to_click
+2024-10-06 20:48:40 move_to_click
+2024-10-06 20:53:18 move_to_click
+2024-10-06 20:53:30 fun.push_close
+2024-10-06 20:53:31 close = Point(x=384, y=594)
+2024-10-06 20:53:31 move_to_click
+2024-10-06 20:53:38 move_to_click
+2024-10-06 20:58:24 move_to_click
+2024-10-06 20:58:39 fun.push_close
+2024-10-06 20:58:40 close = Point(x=384, y=594)
+2024-10-06 20:58:40 move_to_click
+2024-10-06 20:58:45 move_to_click
+2024-10-06 21:03:28 move_to_click
+2024-10-06 21:03:37 fun.push_close
+2024-10-06 21:03:38 close = Point(x=384, y=594)
+2024-10-06 21:03:38 move_to_click
+2024-10-06 21:03:43 move_to_click
+2024-10-06 21:08:31 move_to_click
+2024-10-06 21:08:44 fun.push_close
+2024-10-06 21:08:45 close = Point(x=384, y=594)
+2024-10-06 21:08:45 move_to_click
+2024-10-06 21:08:50 move_to_click
+2024-10-06 21:13:38 move_to_click
+2024-10-06 21:13:50 fun.push_close
+2024-10-06 21:13:50 close = Point(x=384, y=594)
+2024-10-06 21:13:50 move_to_click
+2024-10-06 21:13:56 move_to_click
+2024-10-06 21:18:41 move_to_click
+2024-10-06 21:18:54 fun.push_close
+2024-10-06 21:18:55 close = Point(x=384, y=594)
+2024-10-06 21:18:55 move_to_click
+2024-10-06 21:18:59 move_to_click
+2024-10-06 21:23:45 move_to_click
+2024-10-06 21:23:57 fun.push_close
+2024-10-06 21:23:57 close = Point(x=384, y=594)
+2024-10-06 21:23:57 move_to_click
+2024-10-06 21:24:03 move_to_click
+2024-10-06 21:28:49 move_to_click
+2024-10-06 21:29:05 fun.push_close
+2024-10-06 21:29:05 close = Point(x=384, y=594)
+2024-10-06 21:29:05 move_to_click
+2024-10-06 21:29:11 move_to_click
+2024-10-06 21:33:53 move_to_click
+2024-10-06 21:34:09 fun.push_close
+2024-10-06 21:34:09 close = Point(x=384, y=594)
+2024-10-06 21:34:09 move_to_click
+2024-10-06 21:34:14 move_to_click
+2024-10-06 21:38:55 move_to_click
+2024-10-06 21:39:09 fun.push_close
+2024-10-06 21:39:09 close = Point(x=384, y=694)
+2024-10-06 21:39:09 move_to_click
+2024-10-06 21:39:14 move_to_click
+2024-10-06 21:43:58 move_to_click
+2024-10-06 21:44:10 fun.push_close
+2024-10-06 21:44:10 close = Point(x=384, y=594)
+2024-10-06 21:44:10 move_to_click
+2024-10-06 21:44:15 move_to_click
+2024-10-06 21:45:00 move_to_click
+2024-10-06 21:45:03 move_to_click
+2024-10-06 21:45:07 move_to_click
+2024-10-06 21:45:42 move_to_click
+2024-10-06 21:45:43 move_to_click
+2024-10-06 21:46:07 fun.push_close
+2024-10-06 21:46:07 close = Point(x=384, y=544)
+2024-10-06 21:46:07 move_to_click
+2024-10-06 21:46:12 move_to_click
+2024-10-06 21:46:14 move_to_click
+2024-10-06 21:46:17 move_to_click
+2024-10-06 21:49:00 move_to_click
+2024-10-06 21:49:08 fun.push_close
+2024-10-06 21:49:09 close = Point(x=384, y=594)
+2024-10-06 21:49:09 move_to_click
+2024-10-06 21:49:13 move_to_click
+2024-10-06 21:49:16 move_to_click
+2024-10-06 21:50:12 move_to_click
+2024-10-06 21:50:46 move_to_click
+2024-10-06 21:50:48 move_to_click
+2024-10-06 21:51:09 fun.push_close
+2024-10-06 21:51:09 close = Point(x=384, y=544)
+2024-10-06 21:51:09 move_to_click
+2024-10-06 21:51:14 move_to_click
+2024-10-06 21:51:15 move_to_click
+2024-10-06 21:51:19 move_to_click
+2024-10-06 21:54:02 move_to_click
+2024-10-06 21:54:13 fun.push_close
+2024-10-06 21:54:14 close = Point(x=384, y=594)
+2024-10-06 21:54:14 move_to_click
+2024-10-06 21:54:19 move_to_click
+2024-10-06 21:54:22 move_to_click
+2024-10-06 21:55:17 move_to_click
+2024-10-06 21:55:52 move_to_click
+2024-10-06 21:55:54 move_to_click
+2024-10-06 21:56:15 fun.push_close
+2024-10-06 21:56:15 close = Point(x=384, y=544)
+2024-10-06 21:56:15 move_to_click
+2024-10-06 21:56:20 move_to_click
+2024-10-06 21:56:21 move_to_click
+2024-10-06 21:56:25 move_to_click
+2024-10-06 21:59:06 move_to_click
+2024-10-06 21:59:20 fun.push_close
+2024-10-06 21:59:20 close = Point(x=384, y=594)
+2024-10-06 21:59:20 move_to_click
+2024-10-06 21:59:25 move_to_click
+2024-10-06 21:59:28 move_to_click
+2024-10-06 22:00:19 move_to_click
+2024-10-06 22:00:57 move_to_click
+2024-10-06 22:00:58 move_to_click
+2024-10-06 22:01:20 fun.push_close
+2024-10-06 22:01:20 close = Point(x=384, y=544)
+2024-10-06 22:01:20 move_to_click
+2024-10-06 22:01:25 move_to_click
+2024-10-06 22:01:27 move_to_click
+2024-10-06 22:01:30 move_to_click
+2024-10-06 22:04:09 move_to_click
+2024-10-06 22:04:21 fun.push_close
+2024-10-06 22:04:21 close = Point(x=384, y=594)
+2024-10-06 22:04:21 move_to_click
+2024-10-06 22:04:26 move_to_click
+2024-10-06 22:04:29 move_to_click
+2024-10-06 22:05:24 move_to_click
+2024-10-06 22:05:59 move_to_click
+2024-10-06 22:06:01 move_to_click
+2024-10-06 22:06:23 fun.push_close
+2024-10-06 22:06:23 close = Point(x=384, y=544)
+2024-10-06 22:06:23 move_to_click
+2024-10-06 22:06:29 move_to_click
+2024-10-06 22:06:30 move_to_click
+2024-10-06 22:06:33 move_to_click
+2024-10-06 22:10:28 move_to_click
+2024-10-06 22:11:04 move_to_click
+2024-10-06 22:11:05 move_to_click
+2024-10-06 22:11:28 fun.push_close
+2024-10-06 22:11:28 close = Point(x=384, y=544)
+2024-10-06 22:11:28 move_to_click
+2024-10-06 22:11:33 move_to_click
+2024-10-06 22:11:34 move_to_click
+2024-10-06 22:11:37 move_to_click
+2024-10-06 22:15:32 move_to_click
+2024-10-06 22:16:06 move_to_click
+2024-10-06 22:16:08 move_to_click
+2024-10-06 22:16:26 fun.push_close
+2024-10-06 22:16:27 close = Point(x=384, y=544)
+2024-10-06 22:16:27 move_to_click
+2024-10-06 22:16:31 move_to_click
+2024-10-06 22:16:33 move_to_click
+2024-10-06 22:16:36 move_to_click
+2024-10-06 22:20:35 move_to_click
+2024-10-06 22:21:10 move_to_click
+2024-10-06 22:21:12 move_to_click
+2024-10-06 22:21:26 fun.push_close
+2024-10-06 22:21:26 close = Point(x=384, y=544)
+2024-10-06 22:21:26 move_to_click
+2024-10-06 22:21:31 move_to_click
+2024-10-06 22:21:32 move_to_click
+2024-10-06 22:21:35 move_to_click
+2024-10-06 22:25:39 move_to_click
+2024-10-06 22:26:14 move_to_click
+2024-10-06 22:26:15 move_to_click
+2024-10-06 22:26:37 fun.push_close
+2024-10-06 22:26:37 close = Point(x=384, y=544)
+2024-10-06 22:26:37 move_to_click
+2024-10-06 22:26:42 move_to_click
+2024-10-06 22:26:44 move_to_click
+2024-10-06 22:26:47 move_to_click
+2024-10-06 22:30:42 move_to_click
+2024-10-06 22:31:17 move_to_click
+2024-10-06 22:31:19 move_to_click
+2024-10-06 22:31:41 fun.push_close
+2024-10-06 22:31:41 close = Point(x=384, y=544)
+2024-10-06 22:31:41 move_to_click
+2024-10-06 22:31:46 move_to_click
+2024-10-06 22:31:47 move_to_click
+2024-10-06 22:31:50 move_to_click
+2024-10-06 22:35:45 move_to_click
+2024-10-06 22:36:20 move_to_click
+2024-10-06 22:36:21 move_to_click
+2024-10-06 22:36:44 fun.push_close
+2024-10-06 22:36:45 close = Point(x=384, y=544)
+2024-10-06 22:36:45 move_to_click
+2024-10-06 22:36:49 move_to_click
+2024-10-06 22:36:51 move_to_click
+2024-10-06 22:36:54 move_to_click

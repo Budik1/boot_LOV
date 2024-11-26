@@ -1,0 +1,3342 @@
+2024-07-21 09:15:31 in_battle
+2024-07-21 09:15:32 skip_battle = Point(x=386, y=113)
+2024-07-21 09:15:32 пропускаем бой
+2024-07-21 09:15:32 move_to_click
+2024-07-21 09:15:34 ожидание close
+2024-07-21 09:15:34 ожидание close
+2024-07-21 09:15:35 ожидание close
+2024-07-21 09:15:35 ожидание close
+2024-07-21 09:15:36 ожидание close
+2024-07-21 09:15:36 ожидание close
+2024-07-21 09:15:37 закрыть результат боя
+2024-07-21 09:15:37 move_to_click
+2024-07-21 09:15:40 arena.battle_in_arena
+2024-07-21 09:15:40 quantity_battles = 29
+2024-07-21 09:15:40 go_in_hall_glory
+2024-07-21 09:15:41 link_in_hall_glory = None
+2024-07-21 09:15:41 hall_glory = Point(x=728, y=113)
+2024-07-21 09:15:41 close = None
+2024-07-21 09:15:41 hall_glory = Point(x=728, y=113)
+2024-07-21 09:15:41 move_to_click
+2024-07-21 09:15:47 link_in_hall_glory = , Point(x=384, y=160)
+2024-07-21 09:15:47 hero_arena = , None
+2024-07-21 09:15:47 поиск противника
+2024-07-21 09:15:47 move_to_click
+2024-07-21 09:15:49 move_to_click
+2024-07-21 09:15:52 move_to_click
+2024-07-21 09:15:54 move_to_click
+2024-07-21 09:15:57 move_to_click
+2024-07-21 09:15:59 move_to_click
+2024-07-21 09:16:02 move_to_click
+2024-07-21 09:16:04 move_to_click
+2024-07-21 09:16:06 move_to_click
+2024-07-21 09:16:08 move_to_click
+2024-07-21 09:16:11 move_to_click
+2024-07-21 09:16:13 move_to_click
+2024-07-21 09:16:15 move_to_click
+2024-07-21 09:16:18 move_to_click
+2024-07-21 09:16:20 move_to_click
+2024-07-21 09:16:23 move_to_click
+2024-07-21 09:16:25 move_to_click
+2024-07-21 09:16:27  it = 17
+2024-07-21 09:16:27 attack = Point(x=643, y=303)
+2024-07-21 09:16:27 move_to_click
+2024-07-21 09:16:29 link_arena = None
+2024-07-21 09:16:32 link_arena = Point(x=388, y=168)
+2024-07-21 09:16:32 безоружен
+2024-07-21 09:16:33 ожидание боя
+2024-07-21 09:20:30 in_battl = Point(x=272, y=590)
+2024-07-21 09:20:30 move_to_click
+2024-07-21 09:20:32 ожидание пропустить бой
+2024-07-21 09:20:34 in_battle
+2024-07-21 09:20:35 skip_battle = Point(x=386, y=113)
+2024-07-21 09:20:35 пропускаем бой
+2024-07-21 09:20:35 move_to_click
+2024-07-21 09:20:37 ожидание close
+2024-07-21 09:20:37 ожидание close
+2024-07-21 09:20:38 ожидание close
+2024-07-21 09:20:38 ожидание close
+2024-07-21 09:20:39 ожидание close
+2024-07-21 09:20:40 закрыть результат боя
+2024-07-21 09:20:40 move_to_click
+2024-07-21 09:20:42 arena.battle_in_arena
+2024-07-21 09:20:42 quantity_battles = 30
+2024-07-21 09:20:43 go_in_hall_glory
+2024-07-21 09:20:44 link_in_hall_glory = None
+2024-07-21 09:20:44 hall_glory = Point(x=728, y=113)
+2024-07-21 09:20:44 close = None
+2024-07-21 09:20:44 hall_glory = Point(x=728, y=113)
+2024-07-21 09:20:44 move_to_click
+2024-07-21 09:20:49 link_in_hall_glory = , Point(x=384, y=160)
+2024-07-21 09:20:50 hero_arena = , None
+2024-07-21 09:20:50 поиск противника
+2024-07-21 09:20:50 move_to_click
+2024-07-21 09:20:52 move_to_click
+2024-07-21 09:20:54 move_to_click
+2024-07-21 09:20:57 move_to_click
+2024-07-21 09:20:59 move_to_click
+2024-07-21 09:21:02 move_to_click
+2024-07-21 09:21:04 move_to_click
+2024-07-21 09:21:06 move_to_click
+2024-07-21 09:21:09 move_to_click
+2024-07-21 09:21:11 move_to_click
+2024-07-21 09:21:13 move_to_click
+2024-07-21 09:21:16 move_to_click
+2024-07-21 09:21:18 move_to_click
+2024-07-21 09:21:21 move_to_click
+2024-07-21 09:21:23 move_to_click
+2024-07-21 09:21:25 move_to_click
+2024-07-21 09:21:28 move_to_click
+2024-07-21 09:21:30  it = 17
+2024-07-21 09:21:30 attack = Point(x=643, y=303)
+2024-07-21 09:21:30 move_to_click
+2024-07-21 09:21:32 link_arena = None
+2024-07-21 09:21:34 link_arena = Point(x=388, y=168)
+2024-07-21 09:21:35 безоружен
+2024-07-21 09:21:35 ожидание боя
+2024-07-21 09:25:34 in_battl = Point(x=272, y=590)
+2024-07-21 09:25:34 move_to_click
+2024-07-21 09:25:36 ожидание пропустить бой
+2024-07-21 09:25:38 in_battle
+2024-07-21 09:25:39 skip_battle = Point(x=386, y=113)
+2024-07-21 09:25:39 пропускаем бой
+2024-07-21 09:25:39 move_to_click
+2024-07-21 09:25:41 ожидание close
+2024-07-21 09:25:41 ожидание close
+2024-07-21 09:25:42 ожидание close
+2024-07-21 09:25:42 ожидание close
+2024-07-21 09:25:43 ожидание close
+2024-07-21 09:25:44 закрыть результат боя
+2024-07-21 09:25:44 move_to_click
+2024-07-21 09:25:46 arena.battle_in_arena
+2024-07-21 09:25:46 quantity_battles = 31
+2024-07-21 09:25:47 go_in_hall_glory
+2024-07-21 09:25:48 link_in_hall_glory = None
+2024-07-21 09:25:48 hall_glory = Point(x=728, y=113)
+2024-07-21 09:25:48 close = None
+2024-07-21 09:25:48 hall_glory = Point(x=728, y=113)
+2024-07-21 09:25:48 move_to_click
+2024-07-21 09:25:53 link_in_hall_glory = , Point(x=384, y=160)
+2024-07-21 09:25:53 hero_arena = , None
+2024-07-21 09:25:53 поиск противника
+2024-07-21 09:25:53 move_to_click
+2024-07-21 09:25:56 move_to_click
+2024-07-21 09:25:58 move_to_click
+2024-07-21 09:26:00 move_to_click
+2024-07-21 09:26:02 move_to_click
+2024-07-21 09:26:05 move_to_click
+2024-07-21 09:26:07 move_to_click
+2024-07-21 09:26:09 move_to_click
+2024-07-21 09:26:12 move_to_click
+2024-07-21 09:26:15 move_to_click
+2024-07-21 09:26:17 move_to_click
+2024-07-21 09:26:19 move_to_click
+2024-07-21 09:26:22 move_to_click
+2024-07-21 09:26:24 move_to_click
+2024-07-21 09:26:27 move_to_click
+2024-07-21 09:26:29 move_to_click
+2024-07-21 09:26:31 move_to_click
+2024-07-21 09:26:33  it = 17
+2024-07-21 09:26:34 attack = Point(x=643, y=303)
+2024-07-21 09:26:34 move_to_click
+2024-07-21 09:26:35 link_arena = None
+2024-07-21 09:26:38 link_arena = Point(x=388, y=168)
+2024-07-21 09:26:38 безоружен
+2024-07-21 09:26:39 ожидание боя
+2024-07-21 09:30:37 in_battl = Point(x=272, y=590)
+2024-07-21 09:30:37 move_to_click
+2024-07-21 09:30:39 ожидание пропустить бой
+2024-07-21 09:30:42 in_battle
+2024-07-21 09:30:42 skip_battle = Point(x=386, y=113)
+2024-07-21 09:30:42 пропускаем бой
+2024-07-21 09:30:42 move_to_click
+2024-07-21 09:30:44 ожидание close
+2024-07-21 09:30:45 ожидание close
+2024-07-21 09:30:45 ожидание close
+2024-07-21 09:30:46 ожидание close
+2024-07-21 09:30:46 ожидание close
+2024-07-21 09:30:47 закрыть результат боя
+2024-07-21 09:30:47 move_to_click
+2024-07-21 09:30:50 arena.battle_in_arena
+2024-07-21 09:30:50 quantity_battles = 32
+2024-07-21 09:30:50 go_in_hall_glory
+2024-07-21 09:30:51 link_in_hall_glory = None
+2024-07-21 09:30:51 hall_glory = Point(x=728, y=113)
+2024-07-21 09:30:51 close = None
+2024-07-21 09:30:51 hall_glory = Point(x=728, y=113)
+2024-07-21 09:30:51 move_to_click
+2024-07-21 09:30:57 link_in_hall_glory = , Point(x=384, y=160)
+2024-07-21 09:30:57 hero_arena = , None
+2024-07-21 09:30:57 поиск противника
+2024-07-21 09:30:57 move_to_click
+2024-07-21 09:30:59 move_to_click
+2024-07-21 09:31:01 move_to_click
+2024-07-21 09:31:04 move_to_click
+2024-07-21 09:31:06 move_to_click
+2024-07-21 09:31:08 move_to_click
+2024-07-21 09:31:11 move_to_click
+2024-07-21 09:31:13 move_to_click
+2024-07-21 09:31:15 move_to_click
+2024-07-21 09:31:18 move_to_click
+2024-07-21 09:31:20 move_to_click
+2024-07-21 09:31:23 move_to_click
+2024-07-21 09:31:25 move_to_click
+2024-07-21 09:31:27 move_to_click
+2024-07-21 09:31:30 move_to_click
+2024-07-21 09:31:32 move_to_click
+2024-07-21 09:31:34 move_to_click
+2024-07-21 09:31:36  it = 17
+2024-07-21 09:31:37 attack = Point(x=643, y=303)
+2024-07-21 09:31:37 move_to_click
+2024-07-21 09:31:38 link_arena = None
+2024-07-21 09:31:41 link_arena = Point(x=388, y=168)
+2024-07-21 09:31:41 безоружен
+2024-07-21 09:31:42 ожидание боя
+2024-07-21 09:36:54 
+2024-07-21 09:36:54 *******                      *******
+2024-07-21 09:36:54 ******* перезапуск программы *******
+2024-07-21 09:36:54 *******                      *******
+2024-07-21 09:36:54 
+2024-07-21 09:37:10 move_to_click
+2024-07-21 09:37:15 move_to_click
+2024-07-21 09:37:20 move_to_click
+2024-07-21 09:37:26 move_to_click
+2024-07-21 09:37:33 move_to_click
+2024-07-21 09:37:37 move_to_click
+2024-07-21 09:37:40 move_to_click
+2024-07-21 09:37:45 move_to_click
+2024-07-21 09:37:51 move_to_click
+2024-07-21 09:37:58 move_to_click
+2024-07-21 09:38:02 move_to_click
+2024-07-21 09:38:05 move_to_click
+2024-07-21 09:38:10 move_to_click
+2024-07-21 09:38:16 move_to_click
+2024-07-21 09:38:23 move_to_click
+2024-07-21 09:38:27 move_to_click
+2024-07-21 09:38:30 move_to_click
+2024-07-21 09:38:35 move_to_click
+2024-07-21 09:38:42 move_to_click
+2024-07-21 09:38:48 move_to_click
+2024-07-21 09:38:52 move_to_click
+2024-07-21 09:38:56 move_to_click
+2024-07-21 09:39:01 move_to_click
+2024-07-21 09:39:07 move_to_click
+2024-07-21 09:39:13 move_to_click
+2024-07-21 09:39:17 move_to_click
+2024-07-21 09:39:21 move_to_click
+2024-07-21 09:39:26 move_to_click
+2024-07-21 09:39:32 move_to_click
+2024-07-21 09:39:39 move_to_click
+2024-07-21 09:39:43 move_to_click
+2024-07-21 09:39:46 move_to_click
+2024-07-21 09:39:51 move_to_click
+2024-07-21 09:39:58 move_to_click
+2024-07-21 09:40:04 move_to_click
+2024-07-21 09:40:08 move_to_click
+2024-07-21 09:40:12 move_to_click
+2024-07-21 09:40:16 move_to_click
+2024-07-21 09:40:23 move_to_click
+2024-07-21 09:40:29 move_to_click
+2024-07-21 09:40:33 move_to_click
+2024-07-21 09:40:37 move_to_click
+2024-07-21 09:40:42 move_to_click
+2024-07-21 09:40:48 move_to_click
+2024-07-21 09:40:54 move_to_click
+2024-07-21 09:40:58 move_to_click
+2024-07-21 09:41:02 move_to_click
+2024-07-21 09:41:07 move_to_click
+2024-07-21 09:41:24 move_to_click
+2024-07-21 09:41:28 move_to_click
+2024-07-21 09:41:33 move_to_click
+2024-07-21 09:41:39 move_to_click
+2024-07-21 09:41:44 move_to_click
+2024-07-21 09:41:48 move_to_click
+2024-07-21 09:41:52 move_to_click
+2024-07-21 09:41:54 move_to_click
+2024-07-21 09:50:18 move_to_click
+2024-07-21 09:50:23 move_to_click
+2024-07-21 09:50:29 move_to_click
+2024-07-21 09:50:37 move_to_click
+2024-07-21 09:50:46 move_to_click
+2024-07-21 09:50:51 move_to_click
+2024-07-21 09:50:55 move_to_click
+2024-07-21 09:51:01 move_to_click
+2024-07-21 09:51:09 move_to_click
+2024-07-21 09:51:18 move_to_click
+2024-07-21 09:51:22 move_to_click
+2024-07-21 09:51:26 move_to_click
+2024-07-21 09:51:32 move_to_click
+2024-07-21 09:51:40 move_to_click
+2024-07-21 09:51:47 move_to_click
+2024-07-21 09:51:51 move_to_click
+2024-07-21 09:51:55 move_to_click
+2024-07-21 09:52:01 move_to_click
+2024-07-21 09:52:09 move_to_click
+2024-07-21 09:52:17 move_to_click
+2024-07-21 09:52:21 move_to_click
+2024-07-21 09:52:25 move_to_click
+2024-07-21 09:52:31 move_to_click
+2024-07-21 09:52:39 move_to_click
+2024-07-21 09:52:48 move_to_click
+2024-07-21 09:52:52 move_to_click
+2024-07-21 09:52:56 move_to_click
+2024-07-21 09:53:02 move_to_click
+2024-07-21 09:53:10 move_to_click
+2024-07-21 09:53:17 move_to_click
+2024-07-21 09:53:21 move_to_click
+2024-07-21 09:53:25 move_to_click
+2024-07-21 09:53:31 move_to_click
+2024-07-21 09:53:39 move_to_click
+2024-07-21 09:53:47 move_to_click
+2024-07-21 09:53:51 move_to_click
+2024-07-21 09:53:55 move_to_click
+2024-07-21 09:54:01 move_to_click
+2024-07-21 09:54:09 move_to_click
+2024-07-21 09:54:16 move_to_click
+2024-07-21 09:54:21 move_to_click
+2024-07-21 09:54:25 move_to_click
+2024-07-21 09:54:31 move_to_click
+2024-07-21 09:54:38 move_to_click
+2024-07-21 09:54:45 move_to_click
+2024-07-21 09:54:50 move_to_click
+2024-07-21 09:54:54 move_to_click
+2024-07-21 09:55:00 move_to_click
+2024-07-21 09:55:21 move_to_click
+2024-07-21 09:55:25 move_to_click
+2024-07-21 09:55:31 move_to_click
+2024-07-21 09:55:39 move_to_click
+2024-07-21 09:55:48 move_to_click
+2024-07-21 09:55:53 move_to_click
+2024-07-21 09:55:57 move_to_click
+2024-07-21 09:55:59 move_to_click
+2024-07-21 09:56:37 move_to_click
+2024-07-21 09:56:47 move_to_click
+2024-07-21 09:57:03 move_to_click
+2024-07-21 09:57:08 move_to_click
+2024-07-21 09:57:11 move_to_click
+2024-07-21 09:59:01 in_battle
+2024-07-21 09:59:04 skip_battle = Point(x=386, y=130)
+2024-07-21 09:59:05 пропускаем бой
+2024-07-21 09:59:05 move_to_click
+2024-07-21 09:59:19 move_to_click
+2024-07-21 09:59:30 move_to_click
+2024-07-21 09:59:40 move_to_click
+2024-07-21 10:04:46 in_battle
+2024-07-21 10:04:46 skip_battle = Point(x=386, y=130)
+2024-07-21 10:04:47 пропускаем бой
+2024-07-21 10:04:47 move_to_click
+2024-07-21 10:04:51 in_battle
+2024-07-21 10:04:52 skip_battle = Point(x=386, y=130)
+2024-07-21 10:04:52 пропускаем бой
+2024-07-21 10:04:52 move_to_click
+2024-07-21 10:04:57 move_to_click
+2024-07-21 10:05:08 move_to_click
+2024-07-21 10:05:16 move_to_click
+2024-07-21 10:05:31 move_to_click
+2024-07-21 10:05:36 move_to_click
+2024-07-21 10:05:38 move_to_click
+2024-07-21 10:09:24 in_battle
+2024-07-21 10:09:24 skip_battle = Point(x=386, y=130)
+2024-07-21 10:09:25 пропускаем бой
+2024-07-21 10:09:25 move_to_click
+2024-07-21 10:09:36 move_to_click
+2024-07-21 10:09:46 move_to_click
+2024-07-21 10:09:56 move_to_click
+2024-07-21 10:10:14 move_to_click
+2024-07-21 10:10:19 move_to_click
+2024-07-21 10:10:22 move_to_click
+2024-07-21 10:16:04 in_battle
+2024-07-21 10:16:05 skip_battle = Point(x=386, y=130)
+2024-07-21 10:16:05 пропускаем бой
+2024-07-21 10:16:05 move_to_click
+2024-07-21 10:16:16 move_to_click
+2024-07-21 10:16:26 move_to_click
+2024-07-21 10:16:38 move_to_click
+2024-07-21 10:16:55 move_to_click
+2024-07-21 10:17:00 move_to_click
+2024-07-21 10:22:46 in_battle
+2024-07-21 10:22:47 skip_battle = Point(x=386, y=130)
+2024-07-21 10:22:47 пропускаем бой
+2024-07-21 10:22:47 move_to_click
+2024-07-21 10:22:57 move_to_click
+2024-07-21 10:23:08 move_to_click
+2024-07-21 10:23:18 move_to_click
+2024-07-21 10:23:39 move_to_click
+2024-07-21 10:23:44 move_to_click
+2024-07-21 10:23:48 move_to_click
+2024-07-21 10:29:31 in_battle
+2024-07-21 10:29:32 skip_battle = Point(x=386, y=130)
+2024-07-21 10:29:32 пропускаем бой
+2024-07-21 10:29:32 move_to_click
+2024-07-21 10:29:43 move_to_click
+2024-07-21 10:29:54 move_to_click
+2024-07-21 10:30:01 move_to_click
+2024-07-21 10:32:07 in_battle
+2024-07-21 10:32:08 skip_battle = Point(x=386, y=120)
+2024-07-21 10:32:08 пропускаем бой
+2024-07-21 10:32:08 move_to_click
+2024-07-21 10:32:20 move_to_click
+2024-07-21 10:32:31 move_to_click
+2024-07-21 10:32:41 move_to_click
+2024-07-21 10:38:47 in_battle
+2024-07-21 10:38:48 skip_battle = Point(x=386, y=120)
+2024-07-21 10:38:48 пропускаем бой
+2024-07-21 10:38:48 move_to_click
+2024-07-21 10:38:59 move_to_click
+2024-07-21 10:39:10 move_to_click
+2024-07-21 10:39:18 move_to_click
+2024-07-21 10:39:23 move_to_click
+2024-07-21 11:24:29 move_to_click
+2024-07-21 11:24:34 move_to_click
+2024-07-21 11:24:41 move_to_click
+2024-07-21 11:24:47 move_to_click
+2024-07-21 11:24:55 move_to_click
+2024-07-21 11:25:04 move_to_click
+2024-07-21 11:25:09 move_to_click
+2024-07-21 11:25:14 move_to_click
+2024-07-21 11:25:28 move_to_click
+2024-07-21 11:25:37 move_to_click
+2024-07-21 11:25:44 move_to_click
+2024-07-21 11:25:48 move_to_click
+2024-07-21 11:25:53 move_to_click
+2024-07-21 11:25:59 move_to_click
+2024-07-21 11:26:07 move_to_click
+2024-07-21 11:26:14 move_to_click
+2024-07-21 11:26:19 move_to_click
+2024-07-21 11:26:23 move_to_click
+2024-07-21 11:26:29 move_to_click
+2024-07-21 11:26:37 move_to_click
+2024-07-21 11:26:45 move_to_click
+2024-07-21 11:26:49 move_to_click
+2024-07-21 11:26:53 move_to_click
+2024-07-21 11:26:59 move_to_click
+2024-07-21 11:27:07 move_to_click
+2024-07-21 11:27:16 move_to_click
+2024-07-21 11:27:21 move_to_click
+2024-07-21 11:27:25 move_to_click
+2024-07-21 11:27:31 move_to_click
+2024-07-21 11:27:39 move_to_click
+2024-07-21 11:27:48 move_to_click
+2024-07-21 11:27:52 move_to_click
+2024-07-21 11:27:57 move_to_click
+2024-07-21 11:28:02 move_to_click
+2024-07-21 11:28:11 move_to_click
+2024-07-21 11:28:18 move_to_click
+2024-07-21 11:28:23 move_to_click
+2024-07-21 11:28:27 move_to_click
+2024-07-21 11:28:33 move_to_click
+2024-07-21 11:28:41 move_to_click
+2024-07-21 11:28:50 move_to_click
+2024-07-21 11:28:55 move_to_click
+2024-07-21 11:28:59 move_to_click
+2024-07-21 11:29:04 move_to_click
+2024-07-21 11:29:12 move_to_click
+2024-07-21 11:29:20 move_to_click
+2024-07-21 11:29:24 move_to_click
+2024-07-21 11:29:28 move_to_click
+2024-07-21 11:29:34 move_to_click
+2024-07-21 11:29:42 move_to_click
+2024-07-21 11:29:51 move_to_click
+2024-07-21 11:29:55 move_to_click
+2024-07-21 11:30:00 move_to_click
+2024-07-21 11:30:02 move_to_click
+2024-07-21 11:31:45 move_to_click
+2024-07-21 11:31:54 move_to_click
+2024-07-21 11:32:09 move_to_click
+2024-07-21 11:32:14 move_to_click
+2024-07-21 11:35:02 in_battle
+2024-07-21 11:35:02 skip_battle = Point(x=386, y=118)
+2024-07-21 11:35:02 пропускаем бой
+2024-07-21 11:35:03 move_to_click
+2024-07-21 11:35:14 move_to_click
+2024-07-21 11:35:25 move_to_click
+2024-07-21 11:35:35 move_to_click
+2024-07-21 11:38:43 in_battle
+2024-07-21 11:38:43 skip_battle = Point(x=386, y=118)
+2024-07-21 11:38:44 пропускаем бой
+2024-07-21 11:38:44 move_to_click
+2024-07-21 11:38:56 move_to_click
+2024-07-21 11:39:07 move_to_click
+2024-07-21 11:39:15 move_to_click
+2024-07-21 11:42:22 in_battle
+2024-07-21 11:42:23 skip_battle = Point(x=386, y=118)
+2024-07-21 11:42:23 пропускаем бой
+2024-07-21 11:42:23 move_to_click
+2024-07-21 11:42:32 move_to_click
+2024-07-21 11:42:43 move_to_click
+2024-07-21 11:42:51 move_to_click
+2024-07-21 11:45:02 move_to_click
+2024-07-21 11:45:13 move_to_click
+2024-07-21 11:45:20 move_to_click
+2024-07-21 11:45:35 move_to_click
+2024-07-21 11:45:40 move_to_click
+2024-07-21 11:46:27 in_battle
+2024-07-21 11:46:27 skip_battle = Point(x=386, y=118)
+2024-07-21 11:46:27 пропускаем бой
+2024-07-21 11:46:27 move_to_click
+2024-07-21 11:46:39 move_to_click
+2024-07-21 11:46:50 move_to_click
+2024-07-21 11:47:00 move_to_click
+2024-07-21 11:47:15 move_to_click
+2024-07-21 11:47:20 move_to_click
+2024-07-21 11:50:05 in_battle
+2024-07-21 11:50:06 skip_battle = Point(x=386, y=118)
+2024-07-21 11:50:06 пропускаем бой
+2024-07-21 11:50:06 move_to_click
+2024-07-21 11:50:18 move_to_click
+2024-07-21 11:50:29 move_to_click
+2024-07-21 11:50:37 move_to_click
+2024-07-21 11:50:54 move_to_click
+2024-07-21 11:50:58 in_battle
+2024-07-21 11:50:59 skip_battle = Point(x=386, y=118)
+2024-07-21 11:50:59 пропускаем бой
+2024-07-21 11:50:59 move_to_click
+2024-07-21 11:51:11 move_to_click
+2024-07-21 11:51:22 move_to_click
+2024-07-21 11:51:30 move_to_click
+2024-07-21 11:54:37 in_battle
+2024-07-21 11:54:37 skip_battle = Point(x=386, y=118)
+2024-07-21 11:54:37 пропускаем бой
+2024-07-21 11:54:37 move_to_click
+2024-07-21 11:54:49 move_to_click
+2024-07-21 11:55:00 move_to_click
+2024-07-21 11:55:09 move_to_click
+2024-07-21 11:55:24 move_to_click
+2024-07-21 11:55:29 move_to_click
+2024-07-21 11:58:16 in_battle
+2024-07-21 11:58:17 skip_battle = Point(x=386, y=118)
+2024-07-21 11:58:17 пропускаем бой
+2024-07-21 11:58:17 move_to_click
+2024-07-21 11:58:23 move_to_click
+2024-07-21 11:58:34 move_to_click
+2024-07-21 11:58:42 move_to_click
+2024-07-21 12:00:48 in_battle
+2024-07-21 12:00:49 skip_battle = Point(x=386, y=118)
+2024-07-21 12:00:49 пропускаем бой
+2024-07-21 12:00:49 move_to_click
+2024-07-21 12:00:58 move_to_click
+2024-07-21 12:01:10 move_to_click
+2024-07-21 12:01:19 move_to_click
+2024-07-21 12:01:36 move_to_click
+2024-07-21 12:01:41 move_to_click
+2024-07-21 12:01:44 move_to_click
+2024-07-21 12:04:27 in_battle
+2024-07-21 12:04:27 skip_battle = Point(x=386, y=118)
+2024-07-21 12:04:28 пропускаем бой
+2024-07-21 12:04:28 move_to_click
+2024-07-21 12:04:40 move_to_click
+2024-07-21 12:04:51 move_to_click
+2024-07-21 12:04:59 move_to_click
+2024-07-21 12:05:15 move_to_click
+2024-07-21 12:05:19 in_battle
+2024-07-21 12:05:20 skip_battle = None
+2024-07-21 12:05:27 move_to_click
+2024-07-21 12:05:38 move_to_click
+2024-07-21 12:05:44 move_to_click
+2024-07-21 12:05:59 move_to_click
+2024-07-21 12:06:04 in_battle
+2024-07-21 12:06:04 skip_battle = Point(x=386, y=118)
+2024-07-21 12:06:04 пропускаем бой
+2024-07-21 12:06:04 move_to_click
+2024-07-21 12:06:16 move_to_click
+2024-07-21 12:06:27 move_to_click
+2024-07-21 12:06:34 move_to_click
+2024-07-21 12:06:49 move_to_click
+2024-07-21 12:06:53 move_to_click
+2024-07-21 12:07:41 in_battle
+2024-07-21 12:07:41 skip_battle = Point(x=386, y=118)
+2024-07-21 12:07:41 пропускаем бой
+2024-07-21 12:07:41 move_to_click
+2024-07-21 12:07:53 move_to_click
+2024-07-21 12:08:04 move_to_click
+2024-07-21 12:08:12 move_to_click
+2024-07-21 12:08:28 move_to_click
+2024-07-21 12:08:33 move_to_click
+2024-07-21 12:08:38 move_to_click
+2024-07-21 12:11:19 in_battle
+2024-07-21 12:11:19 skip_battle = Point(x=386, y=118)
+2024-07-21 12:11:19 пропускаем бой
+2024-07-21 12:11:19 move_to_click
+2024-07-21 12:11:29 move_to_click
+2024-07-21 12:11:40 move_to_click
+2024-07-21 12:11:47 move_to_click
+2024-07-21 12:12:02 move_to_click
+2024-07-21 12:12:06 move_to_click
+2024-07-21 12:12:54 in_battle
+2024-07-21 12:12:55 skip_battle = Point(x=386, y=118)
+2024-07-21 12:12:55 пропускаем бой
+2024-07-21 12:12:55 move_to_click
+2024-07-21 12:13:06 move_to_click
+2024-07-21 12:13:17 move_to_click
+2024-07-21 12:13:24 move_to_click
+2024-07-21 12:13:39 move_to_click
+2024-07-21 12:13:44 move_to_click
+2024-07-21 12:14:32 in_battle
+2024-07-21 12:14:33 skip_battle = None
+2024-07-21 12:14:40 move_to_click
+2024-07-21 12:14:52 move_to_click
+2024-07-21 12:15:01 move_to_click
+2024-07-21 12:15:06 move_to_click
+2024-07-21 12:29:07 move_to_click
+2024-07-21 12:29:12 move_to_click
+2024-07-21 12:29:19 move_to_click
+2024-07-21 12:29:27 move_to_click
+2024-07-21 12:29:34 move_to_click
+2024-07-21 12:29:39 move_to_click
+2024-07-21 12:29:43 move_to_click
+2024-07-21 12:29:48 move_to_click
+2024-07-21 12:29:58 move_to_click
+2024-07-21 12:30:07 move_to_click
+2024-07-21 12:30:11 move_to_click
+2024-07-21 12:30:15 move_to_click
+2024-07-21 12:30:21 move_to_click
+2024-07-21 12:30:28 move_to_click
+2024-07-21 12:30:36 move_to_click
+2024-07-21 12:30:40 move_to_click
+2024-07-21 12:30:44 move_to_click
+2024-07-21 12:30:50 move_to_click
+2024-07-21 12:30:57 move_to_click
+2024-07-21 12:31:04 move_to_click
+2024-07-21 12:31:08 move_to_click
+2024-07-21 12:31:12 move_to_click
+2024-07-21 12:31:18 move_to_click
+2024-07-21 12:31:25 move_to_click
+2024-07-21 12:31:33 move_to_click
+2024-07-21 12:31:38 move_to_click
+2024-07-21 12:31:42 move_to_click
+2024-07-21 12:31:47 move_to_click
+2024-07-21 12:31:55 move_to_click
+2024-07-21 12:32:03 move_to_click
+2024-07-21 12:32:08 move_to_click
+2024-07-21 12:32:12 move_to_click
+2024-07-21 12:32:18 move_to_click
+2024-07-21 12:32:41 move_to_click
+2024-07-21 12:32:45 move_to_click
+2024-07-21 12:32:51 move_to_click
+2024-07-21 12:33:00 move_to_click
+2024-07-21 12:33:10 move_to_click
+2024-07-21 12:33:14 move_to_click
+2024-07-21 12:33:19 move_to_click
+2024-07-21 12:33:25 move_to_click
+2024-07-21 12:33:33 move_to_click
+2024-07-21 12:33:40 move_to_click
+2024-07-21 12:33:44 move_to_click
+2024-07-21 12:33:48 move_to_click
+2024-07-21 12:33:54 move_to_click
+2024-07-21 12:34:03 move_to_click
+2024-07-21 12:34:12 move_to_click
+2024-07-21 12:34:16 move_to_click
+2024-07-21 12:34:20 move_to_click
+2024-07-21 12:34:26 move_to_click
+2024-07-21 12:34:34 move_to_click
+2024-07-21 12:34:41 move_to_click
+2024-07-21 12:34:45 move_to_click
+2024-07-21 12:34:49 move_to_click
+2024-07-21 12:34:52 move_to_click
+2024-07-21 12:37:57 move_to_click
+2024-07-21 12:38:06 move_to_click
+2024-07-21 12:41:12 in_battle
+2024-07-21 12:41:13 skip_battle = Point(x=386, y=123)
+2024-07-21 12:41:13 пропускаем бой
+2024-07-21 12:41:13 move_to_click
+2024-07-21 12:41:25 move_to_click
+2024-07-21 12:41:36 move_to_click
+2024-07-21 12:41:44 move_to_click
+2024-07-21 12:42:52 in_battle
+2024-07-21 12:42:53 skip_battle = Point(x=386, y=123)
+2024-07-21 12:42:53 пропускаем бой
+2024-07-21 12:42:53 move_to_click
+2024-07-21 12:42:59 in_battle
+2024-07-21 12:43:01 skip_battle = Point(x=386, y=123)
+2024-07-21 12:43:01 пропускаем бой
+2024-07-21 12:43:01 move_to_click
+2024-07-21 12:43:22 move_to_click
+2024-07-21 12:43:33 move_to_click
+2024-07-21 12:43:40 move_to_click
+2024-07-21 12:43:55 move_to_click
+2024-07-21 12:44:00 move_to_click
+2024-07-21 12:44:46 in_battle
+2024-07-21 12:44:47 skip_battle = Point(x=386, y=123)
+2024-07-21 12:44:47 пропускаем бой
+2024-07-21 12:44:47 move_to_click
+2024-07-21 12:44:59 move_to_click
+2024-07-21 12:45:10 move_to_click
+2024-07-21 12:45:17 move_to_click
+2024-07-21 12:46:25 in_battle
+2024-07-21 12:46:25 skip_battle = Point(x=386, y=123)
+2024-07-21 12:46:25 пропускаем бой
+2024-07-21 12:46:25 move_to_click
+2024-07-21 12:46:37 move_to_click
+2024-07-21 12:46:48 move_to_click
+2024-07-21 12:46:56 move_to_click
+2024-07-21 12:47:12 move_to_click
+2024-07-21 12:47:17 move_to_click
+2024-07-21 12:47:20 move_to_click
+2024-07-21 12:50:05 in_battle
+2024-07-21 12:50:05 skip_battle = Point(x=386, y=123)
+2024-07-21 12:50:05 пропускаем бой
+2024-07-21 12:50:05 move_to_click
+2024-07-21 12:50:17 move_to_click
+2024-07-21 12:50:28 move_to_click
+2024-07-21 12:50:37 move_to_click
+2024-07-21 12:53:44 in_battle
+2024-07-21 12:53:45 skip_battle = Point(x=386, y=123)
+2024-07-21 12:53:45 пропускаем бой
+2024-07-21 12:53:45 move_to_click
+2024-07-21 12:53:54 move_to_click
+2024-07-21 12:54:05 move_to_click
+2024-07-21 12:54:14 move_to_click
+2024-07-21 12:57:21 in_battle
+2024-07-21 12:57:21 skip_battle = Point(x=386, y=123)
+2024-07-21 12:57:22 пропускаем бой
+2024-07-21 12:57:22 move_to_click
+2024-07-21 12:57:34 move_to_click
+2024-07-21 12:57:45 move_to_click
+2024-07-21 12:57:53 move_to_click
+2024-07-21 12:58:09 move_to_click
+2024-07-21 12:58:14 move_to_click
+2024-07-21 12:58:17 move_to_click
+2024-07-21 12:59:59 in_battle
+2024-07-21 13:00:00 skip_battle = Point(x=386, y=123)
+2024-07-21 13:00:00 пропускаем бой
+2024-07-21 13:00:00 move_to_click
+2024-07-21 13:00:06 move_to_click
+2024-07-21 13:00:17 move_to_click
+2024-07-21 13:00:25 move_to_click
+2024-07-21 13:02:31 in_battle
+2024-07-21 13:02:32 skip_battle = Point(x=386, y=123)
+2024-07-21 13:02:32 пропускаем бой
+2024-07-21 13:02:32 move_to_click
+2024-07-21 13:02:41 move_to_click
+2024-07-21 13:02:52 move_to_click
+2024-07-21 13:03:01 move_to_click
+2024-07-21 13:03:16 move_to_click
+2024-07-21 13:03:21 move_to_click
+2024-07-21 13:06:07 in_battle
+2024-07-21 13:06:08 skip_battle = Point(x=386, y=123)
+2024-07-21 13:06:08 пропускаем бой
+2024-07-21 13:06:08 move_to_click
+2024-07-21 13:06:20 move_to_click
+2024-07-21 13:06:31 move_to_click
+2024-07-21 13:06:38 move_to_click
+2024-07-21 13:07:45 in_battle
+2024-07-21 13:07:46 skip_battle = Point(x=386, y=123)
+2024-07-21 13:07:46 пропускаем бой
+2024-07-21 13:07:46 move_to_click
+2024-07-21 13:07:55 move_to_click
+2024-07-21 13:08:06 move_to_click
+2024-07-21 13:08:13 move_to_click
+2024-07-21 13:09:18 in_battle
+2024-07-21 13:09:19 skip_battle = Point(x=386, y=123)
+2024-07-21 13:09:19 пропускаем бой
+2024-07-21 13:09:19 move_to_click
+2024-07-21 13:09:30 move_to_click
+2024-07-21 13:09:42 move_to_click
+2024-07-21 13:09:49 move_to_click
+2024-07-21 13:10:55 in_battle
+2024-07-21 13:10:56 skip_battle = Point(x=386, y=123)
+2024-07-21 13:10:56 пропускаем бой
+2024-07-21 13:10:56 move_to_click
+2024-07-21 13:11:07 move_to_click
+2024-07-21 13:11:17 move_to_click
+2024-07-21 13:11:23 move_to_click
+2024-07-21 13:11:35 move_to_click
+2024-07-21 13:11:39 move_to_click
+2024-07-21 13:12:29 in_battle
+2024-07-21 13:12:30 skip_battle = Point(x=386, y=123)
+2024-07-21 13:12:31 пропускаем бой
+2024-07-21 13:12:31 move_to_click
+2024-07-21 13:12:39 move_to_click
+2024-07-21 13:12:48 move_to_click
+2024-07-21 13:12:53 move_to_click
+2024-07-21 13:13:05 move_to_click
+2024-07-21 13:13:08 move_to_click
+2024-07-21 13:14:58 in_battle
+2024-07-21 13:14:59 skip_battle = Point(x=386, y=123)
+2024-07-21 13:14:59 пропускаем бой
+2024-07-21 13:14:59 move_to_click
+2024-07-21 13:15:07 move_to_click
+2024-07-21 13:15:16 move_to_click
+2024-07-21 13:15:21 move_to_click
+2024-07-21 13:15:32 move_to_click
+2024-07-21 13:15:36 move_to_click
+2024-07-21 13:16:26 in_battle
+2024-07-21 13:16:26 skip_battle = Point(x=386, y=123)
+2024-07-21 13:16:26 пропускаем бой
+2024-07-21 13:16:26 move_to_click
+2024-07-21 13:16:34 move_to_click
+2024-07-21 13:16:43 move_to_click
+2024-07-21 13:16:49 move_to_click
+2024-07-21 13:18:53 in_battle
+2024-07-21 13:18:53 skip_battle = Point(x=386, y=123)
+2024-07-21 13:18:53 пропускаем бой
+2024-07-21 13:18:53 move_to_click
+2024-07-21 13:19:01 move_to_click
+2024-07-21 13:19:10 move_to_click
+2024-07-21 13:19:16 move_to_click
+2024-07-21 13:22:22 in_battle
+2024-07-21 13:22:23 skip_battle = Point(x=386, y=123)
+2024-07-21 13:22:23 пропускаем бой
+2024-07-21 13:22:23 move_to_click
+2024-07-21 13:22:31 move_to_click
+2024-07-21 13:22:40 move_to_click
+2024-07-21 13:22:45 move_to_click
+2024-07-21 13:22:49 move_to_click
+2024-07-21 13:26:33 arena.battle_in_arena
+2024-07-21 13:26:33 quantity_battles = 0
+2024-07-21 13:26:33 go_in_hall_glory
+2024-07-21 13:26:34 link_in_hall_glory = None
+2024-07-21 13:26:34 hall_glory = Point(x=728, y=121)
+2024-07-21 13:26:34 close = None
+2024-07-21 13:26:34 hall_glory = Point(x=728, y=121)
+2024-07-21 13:26:34 move_to_click
+2024-07-21 13:26:41 link_in_hall_glory = , Point(x=384, y=168)
+2024-07-21 13:26:41 hero_arena = , None
+2024-07-21 13:26:41 поиск противника
+2024-07-21 13:26:41 move_to_click
+2024-07-21 13:26:44 move_to_click
+2024-07-21 13:26:46 move_to_click
+2024-07-21 13:26:48 move_to_click
+2024-07-21 13:26:50 move_to_click
+2024-07-21 13:26:53 move_to_click
+2024-07-21 13:26:55 move_to_click
+2024-07-21 13:26:58 move_to_click
+2024-07-21 13:27:00 move_to_click
+2024-07-21 13:27:03 move_to_click
+2024-07-21 13:27:05 move_to_click
+2024-07-21 13:27:08 move_to_click
+2024-07-21 13:27:10 move_to_click
+2024-07-21 13:27:12 move_to_click
+2024-07-21 13:27:14 move_to_click
+2024-07-21 13:27:17 move_to_click
+2024-07-21 13:27:19 move_to_click
+2024-07-21 13:27:21  it = 17
+2024-07-21 13:27:21 attack = Point(x=643, y=311)
+2024-07-21 13:27:21 move_to_click
+2024-07-21 13:27:23 link_arena = None
+2024-07-21 13:27:26 link_arena = Point(x=388, y=176)
+2024-07-21 13:27:26 безоружен
+2024-07-21 13:27:27 in_battl = Point(x=272, y=598)
+2024-07-21 13:27:27 move_to_click
+2024-07-21 13:27:29 ожидание пропустить бой
+2024-07-21 13:27:32 in_battle
+2024-07-21 13:27:32 skip_battle = Point(x=386, y=121)
+2024-07-21 13:27:32 пропускаем бой
+2024-07-21 13:27:32 move_to_click
+2024-07-21 13:27:34 ожидание close
+2024-07-21 13:27:35 ожидание close
+2024-07-21 13:27:35 ожидание close
+2024-07-21 13:27:36 ожидание close
+2024-07-21 13:27:36 ожидание close
+2024-07-21 13:27:37 закрыть результат боя
+2024-07-21 13:27:37 move_to_click
+2024-07-21 13:27:40 arena.battle_in_arena
+2024-07-21 13:27:40 quantity_battles = 1
+2024-07-21 13:27:40 go_in_hall_glory
+2024-07-21 13:27:41 link_in_hall_glory = None
+2024-07-21 13:27:41 hall_glory = Point(x=728, y=121)
+2024-07-21 13:27:41 close = None
+2024-07-21 13:27:41 hall_glory = Point(x=728, y=121)
+2024-07-21 13:27:41 move_to_click
+2024-07-21 13:27:47 link_in_hall_glory = , Point(x=384, y=168)
+2024-07-21 13:27:47 hero_arena = , None
+2024-07-21 13:27:47 поиск противника
+2024-07-21 13:27:47 move_to_click
+2024-07-21 13:27:50 move_to_click
+2024-07-21 13:27:52 move_to_click
+2024-07-21 13:27:55 move_to_click
+2024-07-21 13:27:57 move_to_click
+2024-07-21 13:28:00 move_to_click
+2024-07-21 13:28:02 move_to_click
+2024-07-21 13:28:04 move_to_click
+2024-07-21 13:28:07 move_to_click
+2024-07-21 13:28:09 move_to_click
+2024-07-21 13:28:11 move_to_click
+2024-07-21 13:28:14 move_to_click
+2024-07-21 13:28:16 move_to_click
+2024-07-21 13:28:19 move_to_click
+2024-07-21 13:28:22 move_to_click
+2024-07-21 13:28:24 move_to_click
+2024-07-21 13:28:26 move_to_click
+2024-07-21 13:28:28  it = 17
+2024-07-21 13:28:28 attack = Point(x=643, y=311)
+2024-07-21 13:28:28 move_to_click
+2024-07-21 13:28:30 link_arena = None
+2024-07-21 13:28:31 link_arena = Point(x=388, y=176)
+2024-07-21 13:28:31 безоружен
+2024-07-21 13:28:32 ожидание боя
+2024-07-21 13:32:30 in_battl = Point(x=272, y=598)
+2024-07-21 13:32:30 move_to_click
+2024-07-21 13:32:32 ожидание пропустить бой
+2024-07-21 13:32:35 in_battle
+2024-07-21 13:32:35 skip_battle = Point(x=386, y=121)
+2024-07-21 13:32:35 пропускаем бой
+2024-07-21 13:32:35 move_to_click
+2024-07-21 13:32:37 ожидание close
+2024-07-21 13:32:38 ожидание close
+2024-07-21 13:32:38 ожидание close
+2024-07-21 13:32:39 ожидание close
+2024-07-21 13:32:39 ожидание close
+2024-07-21 13:32:40 закрыть результат боя
+2024-07-21 13:32:40 move_to_click
+2024-07-21 13:32:43 arena.battle_in_arena
+2024-07-21 13:32:43 quantity_battles = 2
+2024-07-21 13:32:43 go_in_hall_glory
+2024-07-21 13:32:44 link_in_hall_glory = None
+2024-07-21 13:32:44 hall_glory = Point(x=728, y=121)
+2024-07-21 13:32:44 close = None
+2024-07-21 13:32:44 hall_glory = Point(x=728, y=121)
+2024-07-21 13:32:44 move_to_click
+2024-07-21 13:32:49 link_in_hall_glory = , Point(x=384, y=168)
+2024-07-21 13:32:50 hero_arena = , None
+2024-07-21 13:32:50 поиск противника
+2024-07-21 13:32:50 move_to_click
+2024-07-21 13:32:52 move_to_click
+2024-07-21 13:32:54 move_to_click
+2024-07-21 13:32:56 move_to_click
+2024-07-21 13:32:59 move_to_click
+2024-07-21 13:33:01 move_to_click
+2024-07-21 13:33:03 move_to_click
+2024-07-21 13:33:06 move_to_click
+2024-07-21 13:33:09 move_to_click
+2024-07-21 13:33:11 move_to_click
+2024-07-21 13:33:13 move_to_click
+2024-07-21 13:33:16 move_to_click
+2024-07-21 13:33:18 move_to_click
+2024-07-21 13:33:20 move_to_click
+2024-07-21 13:33:22 move_to_click
+2024-07-21 13:33:25 move_to_click
+2024-07-21 13:33:27 move_to_click
+2024-07-21 13:33:29  it = 17
+2024-07-21 13:33:29 attack = Point(x=643, y=313)
+2024-07-21 13:33:29 move_to_click
+2024-07-21 13:33:31 link_arena = None
+2024-07-21 13:33:32 link_arena = Point(x=388, y=173)
+2024-07-21 13:33:33 безоружен
+2024-07-21 13:33:34 ожидание боя
+2024-07-21 13:37:34 in_battl = Point(x=272, y=598)
+2024-07-21 13:37:34 move_to_click
+2024-07-21 13:37:36 ожидание пропустить бой
+2024-07-21 13:37:39 in_battle
+2024-07-21 13:37:39 skip_battle = Point(x=386, y=121)
+2024-07-21 13:37:39 пропускаем бой
+2024-07-21 13:37:39 move_to_click
+2024-07-21 13:37:41 ожидание close
+2024-07-21 13:37:42 ожидание close
+2024-07-21 13:37:42 ожидание close
+2024-07-21 13:37:43 ожидание close
+2024-07-21 13:37:43 ожидание close
+2024-07-21 13:37:44 закрыть результат боя
+2024-07-21 13:37:44 move_to_click
+2024-07-21 13:37:47 arena.battle_in_arena
+2024-07-21 13:37:47 quantity_battles = 3
+2024-07-21 13:37:48 go_in_hall_glory
+2024-07-21 13:37:49 link_in_hall_glory = None
+2024-07-21 13:37:49 hall_glory = Point(x=728, y=121)
+2024-07-21 13:37:49 close = None
+2024-07-21 13:37:49 hall_glory = Point(x=728, y=121)
+2024-07-21 13:37:49 move_to_click
+2024-07-21 13:37:54 link_in_hall_glory = , Point(x=384, y=168)
+2024-07-21 13:37:54 hero_arena = , None
+2024-07-21 13:37:54 поиск противника
+2024-07-21 13:37:54 move_to_click
+2024-07-21 13:37:56 move_to_click
+2024-07-21 13:37:59 move_to_click
+2024-07-21 13:38:01 move_to_click
+2024-07-21 13:38:03 move_to_click
+2024-07-21 13:38:06 move_to_click
+2024-07-21 13:38:08 move_to_click
+2024-07-21 13:38:11 move_to_click
+2024-07-21 13:38:13 move_to_click
+2024-07-21 13:38:15 move_to_click
+2024-07-21 13:38:18 move_to_click
+2024-07-21 13:38:21 move_to_click
+2024-07-21 13:38:23 move_to_click
+2024-07-21 13:38:25 move_to_click
+2024-07-21 13:38:27 move_to_click
+2024-07-21 13:38:30 move_to_click
+2024-07-21 13:38:32 move_to_click
+2024-07-21 13:38:34  it = 17
+2024-07-21 13:38:34 attack = Point(x=643, y=311)
+2024-07-21 13:38:34 move_to_click
+2024-07-21 13:38:36 link_arena = None
+2024-07-21 13:38:38 link_arena = Point(x=388, y=175)
+2024-07-21 13:38:38 безоружен
+2024-07-21 13:38:39 ожидание боя
+2024-07-21 13:42:38 in_battl = Point(x=272, y=598)
+2024-07-21 13:42:38 move_to_click
+2024-07-21 13:42:40 ожидание пропустить бой
+2024-07-21 13:42:46 in_battle
+2024-07-21 13:42:46 skip_battle = Point(x=386, y=121)
+2024-07-21 13:42:46 пропускаем бой
+2024-07-21 13:42:46 move_to_click
+2024-07-21 13:42:48 ожидание close
+2024-07-21 13:42:48 ожидание close
+2024-07-21 13:42:49 ожидание close
+2024-07-21 13:42:50 ожидание close
+2024-07-21 13:42:50 ожидание close
+2024-07-21 13:42:51 закрыть результат боя
+2024-07-21 13:42:51 move_to_click
+2024-07-21 13:42:54 arena.battle_in_arena
+2024-07-21 13:42:54 quantity_battles = 4
+2024-07-21 13:42:54 go_in_hall_glory
+2024-07-21 13:42:55 link_in_hall_glory = None
+2024-07-21 13:42:55 hall_glory = Point(x=728, y=121)
+2024-07-21 13:42:55 close = None
+2024-07-21 13:42:55 hall_glory = Point(x=728, y=121)
+2024-07-21 13:42:55 move_to_click
+2024-07-21 13:43:00 link_in_hall_glory = , Point(x=384, y=168)
+2024-07-21 13:43:01 hero_arena = , None
+2024-07-21 13:43:01 поиск противника
+2024-07-21 13:43:01 move_to_click
+2024-07-21 13:43:03 move_to_click
+2024-07-21 13:43:05 move_to_click
+2024-07-21 13:43:08 move_to_click
+2024-07-21 13:43:10 move_to_click
+2024-07-21 13:43:13 move_to_click
+2024-07-21 13:43:15 move_to_click
+2024-07-21 13:43:18 move_to_click
+2024-07-21 13:43:20 move_to_click
+2024-07-21 13:43:23 move_to_click
+2024-07-21 13:43:25 move_to_click
+2024-07-21 13:43:28 move_to_click
+2024-07-21 13:43:30 move_to_click
+2024-07-21 13:43:32 move_to_click
+2024-07-21 13:43:35 move_to_click
+2024-07-21 13:43:37 move_to_click
+2024-07-21 13:43:40 move_to_click
+2024-07-21 13:43:42  it = 17
+2024-07-21 13:43:42 attack = Point(x=643, y=311)
+2024-07-21 13:43:42 move_to_click
+2024-07-21 13:43:44 link_arena = None
+2024-07-21 13:43:45 link_arena = Point(x=388, y=176)
+2024-07-21 13:43:45 безоружен
+2024-07-21 13:43:46 ожидание боя
+2024-07-21 13:47:45 in_battl = Point(x=272, y=598)
+2024-07-21 13:47:45 move_to_click
+2024-07-21 13:47:47 ожидание пропустить бой
+2024-07-21 13:47:50 in_battle
+2024-07-21 13:47:50 skip_battle = Point(x=386, y=121)
+2024-07-21 13:47:50 пропускаем бой
+2024-07-21 13:47:50 move_to_click
+2024-07-21 13:47:52 ожидание close
+2024-07-21 13:47:53 ожидание close
+2024-07-21 13:47:53 ожидание close
+2024-07-21 13:47:54 ожидание close
+2024-07-21 13:47:54 ожидание close
+2024-07-21 13:47:55 закрыть результат боя
+2024-07-21 13:47:55 move_to_click
+2024-07-21 13:47:58 arena.battle_in_arena
+2024-07-21 13:47:58 quantity_battles = 5
+2024-07-21 13:47:59 go_in_hall_glory
+2024-07-21 13:48:00 link_in_hall_glory = None
+2024-07-21 13:48:00 hall_glory = Point(x=728, y=121)
+2024-07-21 13:48:00 close = None
+2024-07-21 13:48:00 hall_glory = Point(x=728, y=121)
+2024-07-21 13:48:00 move_to_click
+2024-07-21 13:48:05 link_in_hall_glory = , Point(x=384, y=168)
+2024-07-21 13:48:05 hero_arena = , None
+2024-07-21 13:48:05 поиск противника
+2024-07-21 13:48:06 move_to_click
+2024-07-21 13:48:08 move_to_click
+2024-07-21 13:48:10 move_to_click
+2024-07-21 13:48:13 move_to_click
+2024-07-21 13:48:15 move_to_click
+2024-07-21 13:48:17 move_to_click
+2024-07-21 13:48:20 move_to_click
+2024-07-21 13:48:22 move_to_click
+2024-07-21 13:48:24 move_to_click
+2024-07-21 13:48:26 move_to_click
+2024-07-21 13:48:29 move_to_click
+2024-07-21 13:48:31 move_to_click
+2024-07-21 13:48:34 move_to_click
+2024-07-21 13:48:36 move_to_click
+2024-07-21 13:48:38 move_to_click
+2024-07-21 13:48:41 move_to_click
+2024-07-21 13:48:43 move_to_click
+2024-07-21 13:48:45  it = 17
+2024-07-21 13:48:45 attack = Point(x=643, y=315)
+2024-07-21 13:48:45 move_to_click
+2024-07-21 13:48:47 link_arena = None
+2024-07-21 13:48:48 link_arena = Point(x=388, y=176)
+2024-07-21 13:48:48 безоружен
+2024-07-21 13:48:49 ожидание боя
+2024-07-21 13:52:48 in_battl = Point(x=272, y=598)
+2024-07-21 13:52:48 move_to_click
+2024-07-21 13:52:50 ожидание пропустить бой
+2024-07-21 13:52:53 in_battle
+2024-07-21 13:52:53 skip_battle = Point(x=386, y=121)
+2024-07-21 13:52:53 пропускаем бой
+2024-07-21 13:52:53 move_to_click
+2024-07-21 13:52:55 ожидание close
+2024-07-21 13:52:56 ожидание close
+2024-07-21 13:52:56 ожидание close
+2024-07-21 13:52:57 ожидание close
+2024-07-21 13:52:58 ожидание close
+2024-07-21 13:52:59 закрыть результат боя
+2024-07-21 13:52:59 move_to_click
+2024-07-21 13:53:01 arena.battle_in_arena
+2024-07-21 13:53:01 quantity_battles = 6
+2024-07-21 13:53:02 go_in_hall_glory
+2024-07-21 13:53:03 link_in_hall_glory = None
+2024-07-21 13:53:03 hall_glory = Point(x=728, y=121)
+2024-07-21 13:53:03 close = None
+2024-07-21 13:53:03 hall_glory = Point(x=728, y=121)
+2024-07-21 13:53:03 move_to_click
+2024-07-21 13:53:08 link_in_hall_glory = , Point(x=384, y=168)
+2024-07-21 13:53:09 hero_arena = , None
+2024-07-21 13:53:09 поиск противника
+2024-07-21 13:53:09 move_to_click
+2024-07-21 13:53:11 move_to_click
+2024-07-21 13:53:13 move_to_click
+2024-07-21 13:53:16 move_to_click
+2024-07-21 13:53:18 move_to_click
+2024-07-21 13:53:20 move_to_click
+2024-07-21 13:53:23 move_to_click
+2024-07-21 13:53:25 move_to_click
+2024-07-21 13:53:27 move_to_click
+2024-07-21 13:53:30 move_to_click
+2024-07-21 13:53:32 move_to_click
+2024-07-21 13:53:35 move_to_click
+2024-07-21 13:53:37 move_to_click
+2024-07-21 13:53:39 move_to_click
+2024-07-21 13:53:42 move_to_click
+2024-07-21 13:53:44 move_to_click
+2024-07-21 13:53:46 move_to_click
+2024-07-21 13:53:48  it = 17
+2024-07-21 13:53:49 attack = Point(x=643, y=311)
+2024-07-21 13:53:49 move_to_click
+2024-07-21 13:53:50 link_arena = None
+2024-07-21 13:53:52 link_arena = Point(x=388, y=173)
+2024-07-21 13:53:52 безоружен
+2024-07-21 13:53:53 ожидание боя
+2024-07-21 13:57:52 in_battl = Point(x=272, y=598)
+2024-07-21 13:57:52 move_to_click
+2024-07-21 13:57:54 ожидание пропустить бой
+2024-07-21 13:57:57 in_battle
+2024-07-21 13:57:57 skip_battle = Point(x=386, y=121)
+2024-07-21 13:57:57 пропускаем бой
+2024-07-21 13:57:57 move_to_click
+2024-07-21 13:57:59 ожидание close
+2024-07-21 13:58:00 ожидание close
+2024-07-21 13:58:00 ожидание close
+2024-07-21 13:58:01 ожидание close
+2024-07-21 13:58:01 ожидание close
+2024-07-21 13:58:02 закрыть результат боя
+2024-07-21 13:58:02 move_to_click
+2024-07-21 13:58:05 arena.battle_in_arena
+2024-07-21 13:58:05 quantity_battles = 7
+2024-07-21 13:58:05 go_in_hall_glory
+2024-07-21 13:58:06 link_in_hall_glory = None
+2024-07-21 13:58:06 hall_glory = Point(x=728, y=121)
+2024-07-21 13:58:06 close = None
+2024-07-21 13:58:06 hall_glory = Point(x=728, y=121)
+2024-07-21 13:58:06 move_to_click
+2024-07-21 13:58:12 link_in_hall_glory = , Point(x=384, y=168)
+2024-07-21 13:58:12 hero_arena = , None
+2024-07-21 13:58:12 поиск противника
+2024-07-21 13:58:12 move_to_click
+2024-07-21 13:58:15 move_to_click
+2024-07-21 13:58:17 move_to_click
+2024-07-21 13:58:19 move_to_click
+2024-07-21 13:58:21 move_to_click
+2024-07-21 13:58:24 move_to_click
+2024-07-21 13:58:26 move_to_click
+2024-07-21 13:58:28 move_to_click
+2024-07-21 13:58:31 move_to_click
+2024-07-21 13:58:33 move_to_click
+2024-07-21 13:58:35 move_to_click
+2024-07-21 13:58:37 move_to_click
+2024-07-21 13:58:40 move_to_click
+2024-07-21 13:58:42 move_to_click
+2024-07-21 13:58:45 move_to_click
+2024-07-21 13:58:47 move_to_click
+2024-07-21 13:58:49 move_to_click
+2024-07-21 13:58:51  it = 17
+2024-07-21 13:58:51 attack = Point(x=643, y=326)
+2024-07-21 13:58:51 move_to_click
+2024-07-21 13:58:53 link_arena = None
+2024-07-21 16:00:44 link_arena = Point(x=388, y=176)
+2024-07-21 16:00:44 безоружен
+2024-07-21 16:00:45 in_battl = Point(x=272, y=598)
+2024-07-21 16:00:45 move_to_click
+2024-07-21 16:00:47 ожидание пропустить бой
+2024-07-21 16:00:50 in_battle
+2024-07-21 16:00:50 skip_battle = Point(x=386, y=121)
+2024-07-21 16:00:50 пропускаем бой
+2024-07-21 16:00:50 move_to_click
+2024-07-21 16:00:52 ожидание close
+2024-07-21 16:00:53 ожидание close
+2024-07-21 16:00:54 ожидание close
+2024-07-21 16:00:54 ожидание close
+2024-07-21 16:00:55 ожидание close
+2024-07-21 16:00:56 закрыть результат боя
+2024-07-21 16:00:56 move_to_click
+2024-07-21 16:00:58 arena.battle_in_arena
+2024-07-21 16:00:58 quantity_battles = 8
+2024-07-21 16:00:59 go_in_hall_glory
+2024-07-21 16:01:00 link_in_hall_glory = None
+2024-07-21 16:01:00 hall_glory = Point(x=728, y=121)
+2024-07-21 16:01:00 close = None
+2024-07-21 16:01:00 hall_glory = Point(x=728, y=121)
+2024-07-21 16:01:00 move_to_click
+2024-07-21 16:01:06 link_in_hall_glory = , Point(x=384, y=168)
+2024-07-21 16:01:07 hero_arena = , None
+2024-07-21 16:01:07 поиск противника
+2024-07-21 16:01:07 move_to_click
+2024-07-21 16:01:10 move_to_click
+2024-07-21 16:01:12 move_to_click
+2024-07-21 16:01:14 move_to_click
+2024-07-21 16:01:16 move_to_click
+2024-07-21 16:01:19 move_to_click
+2024-07-21 16:01:21 move_to_click
+2024-07-21 16:01:24 move_to_click
+2024-07-21 16:01:26 move_to_click
+2024-07-21 16:01:28 move_to_click
+2024-07-21 16:01:31 move_to_click
+2024-07-21 16:01:33 move_to_click
+2024-07-21 16:01:36 move_to_click
+2024-07-21 16:01:38 move_to_click
+2024-07-21 16:01:41 move_to_click
+2024-07-21 16:01:43 move_to_click
+2024-07-21 16:01:45 move_to_click
+2024-07-21 16:01:47  it = 17
+2024-07-21 16:01:47 attack = Point(x=643, y=311)
+2024-07-21 16:01:47 move_to_click
+2024-07-21 16:01:49 link_arena = None
+2024-07-21 16:01:52 link_arena = Point(x=388, y=176)
+2024-07-21 16:01:52 безоружен
+2024-07-21 16:01:53 ожидание боя
+2024-07-21 16:05:49 in_battl = Point(x=272, y=598)
+2024-07-21 16:05:49 move_to_click
+2024-07-21 16:05:51 ожидание пропустить бой
+2024-07-21 16:05:53 in_battle
+2024-07-21 16:05:54 skip_battle = Point(x=386, y=121)
+2024-07-21 16:05:54 пропускаем бой
+2024-07-21 16:05:54 move_to_click
+2024-07-21 16:05:56 ожидание close
+2024-07-21 16:05:56 ожидание close
+2024-07-21 16:05:57 ожидание close
+2024-07-21 16:05:57 ожидание close
+2024-07-21 16:05:58 ожидание close
+2024-07-21 16:05:59 закрыть результат боя
+2024-07-21 16:05:59 move_to_click
+2024-07-21 16:06:01 arena.battle_in_arena
+2024-07-21 16:06:01 quantity_battles = 9
+2024-07-21 16:06:02 go_in_hall_glory
+2024-07-21 16:06:03 link_in_hall_glory = None
+2024-07-21 16:06:03 hall_glory = Point(x=728, y=121)
+2024-07-21 16:06:03 close = None
+2024-07-21 16:06:03 hall_glory = Point(x=728, y=121)
+2024-07-21 16:06:03 move_to_click
+2024-07-21 16:06:08 link_in_hall_glory = , Point(x=384, y=168)
+2024-07-21 16:06:08 hero_arena = , None
+2024-07-21 16:06:08 поиск противника
+2024-07-21 16:06:09 move_to_click
+2024-07-21 16:06:11 move_to_click
+2024-07-21 16:06:13 move_to_click
+2024-07-21 16:06:16 move_to_click
+2024-07-21 16:06:18 move_to_click
+2024-07-21 16:06:20 move_to_click
+2024-07-21 16:06:23 move_to_click
+2024-07-21 16:06:25 move_to_click
+2024-07-21 16:06:28 move_to_click
+2024-07-21 16:06:30 move_to_click
+2024-07-21 16:06:32 move_to_click
+2024-07-21 16:06:35 move_to_click
+2024-07-21 16:06:37 move_to_click
+2024-07-21 16:06:39 move_to_click
+2024-07-21 16:06:42 move_to_click
+2024-07-21 16:06:44 move_to_click
+2024-07-21 16:06:46 move_to_click
+2024-07-21 16:06:48  it = 17
+2024-07-21 16:06:48 attack = Point(x=643, y=311)
+2024-07-21 16:06:48 move_to_click
+2024-07-21 16:06:50 link_arena = None
+2024-07-21 16:06:52 link_arena = Point(x=388, y=173)
+2024-07-21 16:06:52 безоружен
+2024-07-21 16:06:53 ожидание боя
+2024-07-21 16:10:52 in_battl = Point(x=272, y=598)
+2024-07-21 16:10:52 move_to_click
+2024-07-21 16:10:54 ожидание пропустить бой
+2024-07-21 16:10:57 in_battle
+2024-07-21 16:10:57 skip_battle = Point(x=386, y=121)
+2024-07-21 16:10:57 пропускаем бой
+2024-07-21 16:10:57 move_to_click
+2024-07-21 16:10:59 ожидание close
+2024-07-21 16:11:00 ожидание close
+2024-07-21 16:11:00 ожидание close
+2024-07-21 16:11:01 ожидание close
+2024-07-21 16:11:01 ожидание close
+2024-07-21 16:11:03 закрыть результат боя
+2024-07-21 16:11:03 move_to_click
+2024-07-21 16:11:05 arena.battle_in_arena
+2024-07-21 16:11:05 quantity_battles = 10
+2024-07-21 16:11:06 go_in_hall_glory
+2024-07-21 16:11:07 link_in_hall_glory = None
+2024-07-21 16:11:07 hall_glory = None
+2024-07-21 16:11:07 close = None
+2024-07-21 16:11:08 hall_glory = Point(x=728, y=121)
+2024-07-21 16:11:08 move_to_click
+2024-07-21 16:11:13 link_in_hall_glory = , Point(x=384, y=168)
+2024-07-21 16:11:13 hero_arena = , None
+2024-07-21 16:11:13 поиск противника
+2024-07-21 16:11:13 move_to_click
+2024-07-21 16:11:16 move_to_click
+2024-07-21 16:11:18 move_to_click
+2024-07-21 16:11:20 move_to_click
+2024-07-21 16:11:23 move_to_click
+2024-07-21 16:11:25 move_to_click
+2024-07-21 16:11:27 move_to_click
+2024-07-21 16:11:30 move_to_click
+2024-07-21 16:11:32 move_to_click
+2024-07-21 16:11:34 move_to_click
+2024-07-21 16:11:37 move_to_click
+2024-07-21 16:11:39 move_to_click
+2024-07-21 16:11:42 move_to_click
+2024-07-21 16:11:44 move_to_click
+2024-07-21 16:11:46 move_to_click
+2024-07-21 16:11:48 move_to_click
+2024-07-21 16:11:50 move_to_click
+2024-07-21 16:11:53  it = 17
+2024-07-21 16:11:53 attack = Point(x=643, y=311)
+2024-07-21 16:11:53 move_to_click
+2024-07-21 16:11:55 link_arena = None
+2024-07-21 16:11:56 link_arena = Point(x=388, y=174)
+2024-07-21 16:11:56 безоружен
+2024-07-21 16:11:57 ожидание боя
+2024-07-21 16:15:55 in_battl = Point(x=272, y=598)
+2024-07-21 16:15:55 move_to_click
+2024-07-21 16:15:57 ожидание пропустить бой
+2024-07-21 16:16:00 in_battle
+2024-07-21 16:16:00 skip_battle = Point(x=386, y=121)
+2024-07-21 16:16:00 пропускаем бой
+2024-07-21 16:16:00 move_to_click
+2024-07-21 16:16:02 ожидание close
+2024-07-21 16:16:03 ожидание close
+2024-07-21 16:16:03 ожидание close
+2024-07-21 16:16:04 ожидание close
+2024-07-21 16:16:04 ожидание close
+2024-07-21 16:16:05 закрыть результат боя
+2024-07-21 16:16:05 move_to_click
+2024-07-21 16:16:08 arena.battle_in_arena
+2024-07-21 16:16:08 quantity_battles = 11
+2024-07-21 16:16:09 go_in_hall_glory
+2024-07-21 16:16:10 link_in_hall_glory = None
+2024-07-21 16:16:10 hall_glory = Point(x=728, y=121)
+2024-07-21 16:16:10 close = None
+2024-07-21 16:16:10 hall_glory = Point(x=728, y=121)
+2024-07-21 16:16:10 move_to_click
+2024-07-21 16:16:15 link_in_hall_glory = , Point(x=384, y=168)
+2024-07-21 16:16:15 hero_arena = , None
+2024-07-21 16:16:15 поиск противника
+2024-07-21 16:16:15 move_to_click
+2024-07-21 16:16:17 move_to_click
+2024-07-21 16:16:20 move_to_click
+2024-07-21 16:16:22 move_to_click
+2024-07-21 16:16:24 move_to_click
+2024-07-21 16:16:26 move_to_click
+2024-07-21 16:16:29 move_to_click
+2024-07-21 16:16:31 move_to_click
+2024-07-21 16:16:33 move_to_click
+2024-07-21 16:16:35 move_to_click
+2024-07-21 16:16:38 move_to_click
+2024-07-21 16:16:40 move_to_click
+2024-07-21 16:16:43 move_to_click
+2024-07-21 16:16:45 move_to_click
+2024-07-21 16:16:47 move_to_click
+2024-07-21 16:16:49 move_to_click
+2024-07-21 16:16:52 move_to_click
+2024-07-21 16:16:53  it = 17
+2024-07-21 16:16:53 attack = Point(x=643, y=311)
+2024-07-21 16:16:53 move_to_click
+2024-07-21 16:16:55 link_arena = None
+2024-07-21 16:16:57 link_arena = Point(x=388, y=172)
+2024-07-21 16:16:57 безоружен
+2024-07-21 16:16:58 ожидание боя
+2024-07-21 16:21:00 in_battl = Point(x=272, y=598)
+2024-07-21 16:21:00 move_to_click
+2024-07-21 16:21:03 ожидание пропустить бой
+2024-07-21 16:21:06 in_battle
+2024-07-21 16:21:07 skip_battle = Point(x=386, y=121)
+2024-07-21 16:21:07 пропускаем бой
+2024-07-21 16:21:07 move_to_click
+2024-07-21 16:21:09 ожидание close
+2024-07-21 16:21:10 ожидание close
+2024-07-21 16:21:11 ожидание close
+2024-07-21 16:21:12 ожидание close
+2024-07-21 16:21:14 закрыть результат боя
+2024-07-21 16:21:14 move_to_click
+2024-07-21 16:21:17 arena.battle_in_arena
+2024-07-21 16:21:17 quantity_battles = 12
+2024-07-21 16:21:18 go_in_hall_glory
+2024-07-21 16:21:20 link_in_hall_glory = None
+2024-07-21 16:21:20 hall_glory = Point(x=728, y=121)
+2024-07-21 16:21:20 close = None
+2024-07-21 16:21:20 hall_glory = Point(x=728, y=121)
+2024-07-21 16:21:20 move_to_click
+2024-07-21 16:21:29 link_in_hall_glory = , Point(x=384, y=168)
+2024-07-21 16:21:29 hero_arena = , None
+2024-07-21 16:21:29 поиск противника
+2024-07-21 16:21:30 move_to_click
+2024-07-21 16:21:33 move_to_click
+2024-07-21 16:21:36 move_to_click
+2024-07-21 16:22:19 arena.battle_in_arena
+2024-07-21 16:22:19 quantity_battles = 12
+2024-07-21 16:22:20 link_in_hall_glory = , Point(x=384, y=168)
+2024-07-21 16:22:21 hero_arena = , None
+2024-07-21 16:22:21 поиск противника
+2024-07-21 16:22:21 move_to_click
+2024-07-21 16:22:25 move_to_click
+2024-07-21 16:22:28 move_to_click
+2024-07-21 16:22:31 move_to_click
+2024-07-21 16:22:37 move_to_click
+2024-07-21 16:22:44 move_to_click
+2024-07-21 16:22:51 move_to_click
+2024-07-21 16:22:56 move_to_click
+2024-07-21 16:23:02 move_to_click
+2024-07-21 16:23:11 move_to_click
+2024-07-21 16:23:14 move_to_click
+2024-07-21 16:23:20 move_to_click
+2024-07-21 16:23:27 move_to_click
+2024-07-21 16:23:31 move_to_click
+2024-07-21 16:23:34 move_to_click
+2024-07-21 16:23:37  it = 15
+2024-07-21 16:23:37 attack = Point(x=643, y=311)
+2024-07-21 16:23:37 move_to_click
+2024-07-21 16:23:40 link_arena = None
+2024-07-21 16:23:46 link_arena = Point(x=388, y=176)
+2024-07-21 16:23:47 безоружен
+2024-07-21 16:23:52 ожидание боя
+2024-07-21 16:26:11 in_battl = Point(x=272, y=598)
+2024-07-21 16:26:11 move_to_click
+2024-07-21 16:28:03 move_to_click
+2024-07-21 16:28:10 move_to_click
+2024-07-21 16:30:17 in_battle
+2024-07-21 16:30:18 skip_battle = None
+2024-07-21 16:30:25 move_to_click
+2024-07-21 16:30:36 move_to_click
+2024-07-21 16:30:42 move_to_click
+2024-07-21 16:30:57 move_to_click
+2024-07-21 16:31:02 in_battle
+2024-07-21 16:31:03 skip_battle = Point(x=386, y=121)
+2024-07-21 16:31:03 пропускаем бой
+2024-07-21 16:31:03 move_to_click
+2024-07-21 16:31:09 move_to_click
+2024-07-21 16:31:20 move_to_click
+2024-07-21 16:31:32 move_to_click
+2024-07-21 16:31:46 move_to_click
+2024-07-21 16:31:51 move_to_click
+2024-07-21 16:31:54 move_to_click
+2024-07-21 16:36:37 in_battle
+2024-07-21 16:36:38 skip_battle = Point(x=386, y=121)
+2024-07-21 16:36:38 пропускаем бой
+2024-07-21 16:36:38 move_to_click
+2024-07-21 16:36:43 in_battle
+2024-07-21 16:36:43 skip_battle = Point(x=386, y=121)
+2024-07-21 16:36:43 пропускаем бой
+2024-07-21 16:36:43 move_to_click
+2024-07-21 16:36:49 move_to_click
+2024-07-21 16:37:00 move_to_click
+2024-07-21 16:37:07 move_to_click
+2024-07-21 16:37:22 move_to_click
+2024-07-21 16:37:27 move_to_click
+2024-07-21 16:38:15 in_battle
+2024-07-21 16:38:16 skip_battle = None
+2024-07-21 16:38:23 move_to_click
+2024-07-21 16:38:34 move_to_click
+2024-07-21 16:38:43 move_to_click
+2024-07-21 16:41:49 in_battle
+2024-07-21 16:41:50 skip_battle = Point(x=386, y=121)
+2024-07-21 16:41:50 пропускаем бой
+2024-07-21 16:41:50 move_to_click
+2024-07-21 16:42:02 move_to_click
+2024-07-21 16:42:13 move_to_click
+2024-07-21 16:42:22 move_to_click
+2024-07-21 16:42:38 move_to_click
+2024-07-21 16:42:42 move_to_click
+2024-07-21 16:45:29 in_battle
+2024-07-21 16:45:30 skip_battle = Point(x=386, y=121)
+2024-07-21 16:45:30 пропускаем бой
+2024-07-21 16:45:30 move_to_click
+2024-07-21 16:45:37 move_to_click
+2024-07-21 16:45:48 move_to_click
+2024-07-21 16:45:55 move_to_click
+2024-07-21 16:46:10 move_to_click
+2024-07-21 16:46:15 move_to_click
+2024-07-21 16:46:18 move_to_click
+2024-07-21 16:48:07 move_to_click
+2024-07-21 16:48:18 move_to_click
+2024-07-21 16:48:27 move_to_click
+2024-07-21 16:48:42 move_to_click
+2024-07-21 16:48:47 move_to_click
+2024-07-21 16:52:33 in_battle
+2024-07-21 16:52:34 skip_battle = Point(x=386, y=121)
+2024-07-21 16:52:34 пропускаем бой
+2024-07-21 16:52:34 move_to_click
+2024-07-21 16:52:40 move_to_click
+2024-07-21 16:52:51 move_to_click
+2024-07-21 16:53:02 move_to_click
+2024-07-21 16:53:17 move_to_click
+2024-07-21 16:53:39 move_to_click
+2024-07-21 17:09:41 in_battle
+2024-07-21 17:09:42 skip_battle = None
+2024-07-21 17:10:44 
+2024-07-21 17:10:44 *******                      *******
+2024-07-21 17:10:44 ******* перезапуск программы *******
+2024-07-21 17:10:44 *******                      *******
+2024-07-21 17:10:44 
+2024-07-21 17:11:31 move_to_click
+2024-07-21 17:11:41 move_to_click
+2024-07-21 17:15:54 move_to_click
+2024-07-21 17:16:05 move_to_click
+2024-07-21 17:16:12 move_to_click
+2024-07-21 17:17:18 in_battle
+2024-07-21 17:17:19 skip_battle = Point(x=386, y=120)
+2024-07-21 17:17:19 пропускаем бой
+2024-07-21 17:17:19 move_to_click
+2024-07-21 17:17:25 move_to_click
+2024-07-21 17:17:36 move_to_click
+2024-07-21 17:17:46 move_to_click
+2024-07-21 17:18:02 move_to_click
+2024-07-21 17:18:06 move_to_click
+2024-07-21 17:23:59 move_to_click
+2024-07-21 17:24:10 move_to_click
+2024-07-21 17:24:19 move_to_click
+2024-07-21 17:24:34 move_to_click
+2024-07-21 17:24:38 move_to_click
+2024-07-21 17:24:42 move_to_click
+2024-07-21 17:28:25 in_battle
+2024-07-21 17:28:26 skip_battle = Point(x=386, y=120)
+2024-07-21 17:28:26 пропускаем бой
+2024-07-21 17:28:26 move_to_click
+2024-07-21 17:28:37 move_to_click
+2024-07-21 17:28:48 move_to_click
+2024-07-21 17:28:58 move_to_click
+2024-07-21 17:29:13 move_to_click
+2024-07-21 17:29:18 move_to_click
+2024-07-21 17:43:36 move_to_click
+2024-07-21 17:43:48 move_to_click
+2024-07-21 17:43:56 move_to_click
+2024-07-21 17:44:02 move_to_click
+2024-07-21 18:17:00 move_to_click
+2024-07-21 18:17:50 move_to_click
+2024-07-21 18:40:49 
+2024-07-21 18:40:50 *******                      *******
+2024-07-21 18:40:50 ******* перезапуск программы *******
+2024-07-21 18:40:50 *******                      *******
+2024-07-21 18:40:50 
+2024-07-21 18:41:13 move_to_click
+2024-07-21 18:43:34 
+2024-07-21 18:43:34 *******                      *******
+2024-07-21 18:43:34 ******* перезапуск программы *******
+2024-07-21 18:43:34 *******                      *******
+2024-07-21 18:43:34 
+2024-07-21 18:43:49 move_to_click
+2024-07-21 18:43:57 move_to_click
+2024-07-21 18:45:03 in_battle
+2024-07-21 18:45:03 skip_battle = Point(x=386, y=123)
+2024-07-21 18:45:03 пропускаем бой
+2024-07-21 18:45:03 move_to_click
+2024-07-21 18:45:15 move_to_click
+2024-07-21 18:45:26 move_to_click
+2024-07-21 18:45:42 move_to_click
+2024-07-21 18:48:40 
+2024-07-21 18:48:40 *******                      *******
+2024-07-21 18:48:40 ******* перезапуск программы *******
+2024-07-21 18:48:41 *******                      *******
+2024-07-21 18:48:41 
+2024-07-21 18:49:02 move_to_click
+2024-07-21 18:49:17 move_to_click
+2024-07-21 18:54:25 in_battle
+2024-07-21 18:54:26 skip_battle = Point(x=386, y=123)
+2024-07-21 18:54:26 пропускаем бой
+2024-07-21 18:54:26 move_to_click
+2024-07-21 18:54:32 in_battle
+2024-07-21 18:54:33 skip_battle = Point(x=386, y=123)
+2024-07-21 18:54:33 пропускаем бой
+2024-07-21 18:54:33 move_to_click
+2024-07-21 18:54:39 move_to_click
+2024-07-21 18:54:50 move_to_click
+2024-07-21 18:55:14 move_to_click
+2024-07-21 18:56:46 
+2024-07-21 18:56:46 *******                      *******
+2024-07-21 18:56:46 ******* перезапуск программы *******
+2024-07-21 18:56:46 *******                      *******
+2024-07-21 18:56:46 
+2024-07-21 18:56:55 move_to_click
+2024-07-21 18:58:26 move_to_click
+2024-07-21 18:58:31 move_to_click
+2024-07-21 18:58:54 move_to_click
+2024-07-21 18:59:01 move_to_click
+2024-07-21 19:03:09 in_battle
+2024-07-21 19:03:09 skip_battle = Point(x=386, y=123)
+2024-07-21 19:03:10 пропускаем бой
+2024-07-21 19:03:10 move_to_click
+2024-07-21 19:03:21 move_to_click
+2024-07-21 19:03:32 move_to_click
+2024-07-21 19:04:05 move_to_click
+2024-07-21 19:07:28 
+2024-07-21 19:07:28 *******                      *******
+2024-07-21 19:07:28 ******* перезапуск программы *******
+2024-07-21 19:07:28 *******                      *******
+2024-07-21 19:07:28 
+2024-07-21 19:07:37 move_to_click
+2024-07-21 19:07:43 move_to_click
+2024-07-21 19:08:00 move_to_click
+2024-07-21 19:08:07 move_to_click
+2024-07-21 19:10:14 in_battle
+2024-07-21 19:10:15 skip_battle = Point(x=386, y=123)
+2024-07-21 19:10:15 пропускаем бой
+2024-07-21 19:10:15 move_to_click
+2024-07-21 19:10:26 move_to_click
+2024-07-21 19:10:36 move_to_click
+2024-07-21 19:10:43 move_to_click
+2024-07-21 19:10:59 move_to_click
+2024-07-21 19:11:03 move_to_click
+2024-07-21 19:11:06 move_to_click
+2024-07-21 19:12:50 in_battle
+2024-07-21 19:12:50 skip_battle = Point(x=386, y=123)
+2024-07-21 19:12:50 пропускаем бой
+2024-07-21 19:12:50 move_to_click
+2024-07-21 19:13:01 move_to_click
+2024-07-21 19:13:12 move_to_click
+2024-07-21 19:13:20 move_to_click
+2024-07-21 19:15:28 in_battle
+2024-07-21 19:15:29 skip_battle = Point(x=386, y=123)
+2024-07-21 19:15:29 пропускаем бой
+2024-07-21 19:15:29 move_to_click
+2024-07-21 19:15:39 move_to_click
+2024-07-21 19:15:50 move_to_click
+2024-07-21 19:15:59 move_to_click
+2024-07-21 19:20:05 in_battle
+2024-07-21 19:20:06 skip_battle = Point(x=386, y=123)
+2024-07-21 19:20:06 пропускаем бой
+2024-07-21 19:20:06 move_to_click
+2024-07-21 19:20:17 move_to_click
+2024-07-21 19:20:28 move_to_click
+2024-07-21 19:20:36 move_to_click
+2024-07-21 19:22:43 in_battle
+2024-07-21 19:22:44 skip_battle = Point(x=386, y=123)
+2024-07-21 19:22:44 пропускаем бой
+2024-07-21 19:22:44 move_to_click
+2024-07-21 19:22:55 move_to_click
+2024-07-21 19:23:06 move_to_click
+2024-07-21 19:23:14 move_to_click
+2024-07-21 19:23:28 move_to_click
+2024-07-21 19:23:33 move_to_click
+2024-07-21 19:23:36 move_to_click
+2024-07-21 19:24:21 in_battle
+2024-07-21 19:24:21 skip_battle = Point(x=386, y=123)
+2024-07-21 19:24:22 пропускаем бой
+2024-07-21 19:24:22 move_to_click
+2024-07-21 19:24:33 move_to_click
+2024-07-21 19:24:44 move_to_click
+2024-07-21 19:24:50 move_to_click
+2024-07-21 19:25:56 in_battle
+2024-07-21 19:25:56 skip_battle = Point(x=386, y=123)
+2024-07-21 19:25:57 пропускаем бой
+2024-07-21 19:25:57 move_to_click
+2024-07-21 19:26:08 move_to_click
+2024-07-21 19:26:18 move_to_click
+2024-07-21 19:26:26 move_to_click
+2024-07-21 19:26:41 move_to_click
+2024-07-21 19:26:45 move_to_click
+2024-07-21 19:30:32 in_battle
+2024-07-21 19:30:33 skip_battle = Point(x=386, y=123)
+2024-07-21 19:30:33 пропускаем бой
+2024-07-21 19:30:33 move_to_click
+2024-07-21 19:30:42 move_to_click
+2024-07-21 19:30:53 move_to_click
+2024-07-21 19:31:01 move_to_click
+2024-07-21 19:31:16 move_to_click
+2024-07-21 19:31:21 move_to_click
+2024-07-21 19:31:23 move_to_click
+2024-07-21 19:36:07 in_battle
+2024-07-21 19:36:07 skip_battle = Point(x=386, y=123)
+2024-07-21 19:36:08 пропускаем бой
+2024-07-21 19:36:08 move_to_click
+2024-07-21 19:36:12 in_battle
+2024-07-21 19:36:13 skip_battle = Point(x=386, y=123)
+2024-07-21 19:36:13 пропускаем бой
+2024-07-21 19:36:13 move_to_click
+2024-07-21 19:36:18 move_to_click
+2024-07-21 19:36:29 move_to_click
+2024-07-21 19:36:37 move_to_click
+2024-07-21 19:36:52 move_to_click
+2024-07-21 19:36:56 move_to_click
+2024-07-21 19:41:43 in_battle
+2024-07-21 19:41:43 skip_battle = Point(x=386, y=123)
+2024-07-21 19:41:43 пропускаем бой
+2024-07-21 19:41:43 move_to_click
+2024-07-21 19:41:48 in_battle
+2024-07-21 19:41:49 skip_battle = Point(x=386, y=123)
+2024-07-21 19:41:49 пропускаем бой
+2024-07-21 19:41:49 move_to_click
+2024-07-21 19:41:54 move_to_click
+2024-07-21 19:42:05 move_to_click
+2024-07-21 19:42:41 move_to_click
+2024-07-21 19:48:15 move_to_click
+2024-07-21 19:48:23 move_to_click
+2024-07-21 19:48:38 move_to_click
+2024-07-21 19:48:43 move_to_click
+2024-07-21 19:48:46 move_to_click
+2024-07-21 19:51:29 in_battle
+2024-07-21 19:51:30 skip_battle = None
+2024-07-21 19:51:37 move_to_click
+2024-07-21 19:51:48 move_to_click
+2024-07-21 19:51:55 move_to_click
+2024-07-21 19:52:10 move_to_click
+2024-07-21 19:52:15 move_to_click
+2024-07-21 19:52:19 move_to_click
+2024-07-21 19:53:00 in_battle
+2024-07-21 19:53:01 skip_battle = Point(x=386, y=120)
+2024-07-21 19:53:01 пропускаем бой
+2024-07-21 19:53:01 move_to_click
+2024-07-21 19:53:13 move_to_click
+2024-07-21 19:53:23 move_to_click
+2024-07-21 19:53:32 move_to_click
+2024-07-21 19:53:38 move_to_click
+2024-07-21 19:55:19 move_to_click
+2024-07-21 19:55:26 move_to_click
+2024-07-21 19:56:41 move_to_click
+2024-07-21 19:56:52 move_to_click
+2024-07-21 19:57:00 move_to_click
+2024-07-21 19:57:05 move_to_click
+2024-07-21 19:58:31 arena.battle_in_arena
+2024-07-21 19:58:31 quantity_battles = 0
+2024-07-21 19:58:32 go_in_hall_glory
+2024-07-21 19:58:33 link_in_hall_glory = None
+2024-07-21 19:58:33 hall_glory = Point(x=728, y=120)
+2024-07-21 19:58:33 close = None
+2024-07-21 19:58:33 hall_glory = Point(x=728, y=120)
+2024-07-21 19:58:33 move_to_click
+2024-07-21 19:58:44 link_in_hall_glory = , Point(x=384, y=167)
+2024-07-21 19:58:44 hero_arena = , None
+2024-07-21 19:58:44 поиск противника
+2024-07-21 19:58:45 move_to_click
+2024-07-21 19:58:48 move_to_click
+2024-07-21 19:58:51 move_to_click
+2024-07-21 19:58:54 move_to_click
+2024-07-21 19:58:57 move_to_click
+2024-07-21 19:59:00 move_to_click
+2024-07-21 19:59:03 move_to_click
+2024-07-21 19:59:06 move_to_click
+2024-07-21 19:59:09 move_to_click
+2024-07-21 19:59:12 move_to_click
+2024-07-21 19:59:15 move_to_click
+2024-07-21 19:59:18 move_to_click
+2024-07-21 19:59:21 move_to_click
+2024-07-21 19:59:25 move_to_click
+2024-07-21 19:59:28 move_to_click
+2024-07-21 19:59:31 move_to_click
+2024-07-21 19:59:34 move_to_click
+2024-07-21 19:59:36  it = 17
+2024-07-21 19:59:36 attack = Point(x=643, y=310)
+2024-07-21 19:59:36 move_to_click
+2024-07-21 19:59:38 link_arena = None
+2024-07-21 19:59:42 link_arena = Point(x=388, y=175)
+2024-07-21 19:59:42 безоружен
+2024-07-21 19:59:44 in_battl = Point(x=272, y=597)
+2024-07-21 19:59:44 move_to_click
+2024-07-21 19:59:46 ожидание пропустить бой
+2024-07-21 19:59:49 in_battle
+2024-07-21 19:59:50 skip_battle = Point(x=386, y=120)
+2024-07-21 19:59:50 пропускаем бой
+2024-07-21 19:59:50 move_to_click
+2024-07-21 19:59:52 ожидание close
+2024-07-21 19:59:53 ожидание close
+2024-07-21 19:59:54 ожидание close
+2024-07-21 19:59:55 ожидание close
+2024-07-21 19:59:57 закрыть результат боя
+2024-07-21 19:59:57 move_to_click
+2024-07-21 19:59:59 arena.battle_in_arena
+2024-07-21 19:59:59 quantity_battles = 1
+2024-07-21 20:00:01 go_in_hall_glory
+2024-07-21 20:00:03 link_in_hall_glory = None
+2024-07-21 20:00:03 hall_glory = Point(x=728, y=120)
+2024-07-21 20:00:03 close = None
+2024-07-21 20:00:03 hall_glory = Point(x=728, y=120)
+2024-07-21 20:00:03 move_to_click
+2024-07-21 20:00:11 link_in_hall_glory = , Point(x=384, y=167)
+2024-07-21 20:00:11 hero_arena = , None
+2024-07-21 20:00:11 поиск противника
+2024-07-21 20:00:12 move_to_click
+2024-07-21 20:00:15 move_to_click
+2024-07-21 20:00:18 move_to_click
+2024-07-21 20:00:21 move_to_click
+2024-07-21 20:00:24 move_to_click
+2024-07-21 20:00:27 move_to_click
+2024-07-21 20:00:30 move_to_click
+2024-07-21 20:00:33 move_to_click
+2024-07-21 20:00:36 move_to_click
+2024-07-21 20:00:39 move_to_click
+2024-07-21 20:00:42 move_to_click
+2024-07-21 20:00:45 move_to_click
+2024-07-21 20:00:48 move_to_click
+2024-07-21 20:00:52 move_to_click
+2024-07-21 20:00:55 move_to_click
+2024-07-21 20:00:58 move_to_click
+2024-07-21 20:01:01 move_to_click
+2024-07-21 20:01:03  it = 17
+2024-07-21 20:01:03 attack = Point(x=643, y=310)
+2024-07-21 20:01:03 move_to_click
+2024-07-21 20:01:05 link_arena = None
+2024-07-21 20:01:07 link_arena = Point(x=388, y=164)
+2024-07-21 20:01:08 безоружен
+2024-07-21 20:01:09 ожидание боя
+2024-07-21 20:04:48 in_battl = Point(x=272, y=597)
+2024-07-21 20:04:48 move_to_click
+2024-07-21 20:04:51 ожидание пропустить бой
+2024-07-21 20:04:54 in_battle
+2024-07-21 20:04:55 skip_battle = Point(x=386, y=120)
+2024-07-21 20:04:55 пропускаем бой
+2024-07-21 20:04:55 move_to_click
+2024-07-21 20:04:57 ожидание close
+2024-07-21 20:04:58 ожидание close
+2024-07-21 20:04:59 ожидание close
+2024-07-21 20:05:00 ожидание close
+2024-07-21 20:05:02 закрыть результат боя
+2024-07-21 20:05:02 move_to_click
+2024-07-21 20:05:05 arena.battle_in_arena
+2024-07-21 20:05:05 quantity_battles = 2
+2024-07-21 20:05:06 go_in_hall_glory
+2024-07-21 20:05:08 link_in_hall_glory = None
+2024-07-21 20:05:08 hall_glory = Point(x=728, y=120)
+2024-07-21 20:05:08 close = None
+2024-07-21 20:05:08 hall_glory = Point(x=728, y=120)
+2024-07-21 20:05:08 move_to_click
+2024-07-21 20:05:17 link_in_hall_glory = , Point(x=384, y=167)
+2024-07-21 20:05:17 hero_arena = , None
+2024-07-21 20:05:17 поиск противника
+2024-07-21 20:05:18 move_to_click
+2024-07-21 20:05:21 move_to_click
+2024-07-21 20:05:24 move_to_click
+2024-07-21 20:05:27 move_to_click
+2024-07-21 20:05:30 move_to_click
+2024-07-21 20:05:33 move_to_click
+2024-07-21 20:05:36 move_to_click
+2024-07-21 20:05:39 move_to_click
+2024-07-21 20:05:42 move_to_click
+2024-07-21 20:05:46 move_to_click
+2024-07-21 20:05:49 move_to_click
+2024-07-21 20:05:52 move_to_click
+2024-07-21 20:05:55 move_to_click
+2024-07-21 20:05:58 move_to_click
+2024-07-21 20:06:01 move_to_click
+2024-07-21 20:06:04 move_to_click
+2024-07-21 20:06:07 move_to_click
+2024-07-21 20:06:09  it = 17
+2024-07-21 20:06:09 attack = Point(x=643, y=310)
+2024-07-21 20:06:09 move_to_click
+2024-07-21 20:06:11 link_arena = None
+2024-07-21 20:06:14 link_arena = Point(x=388, y=175)
+2024-07-21 20:06:15 безоружен
+2024-07-21 20:06:16 ожидание боя
+2024-07-21 20:09:52 in_battl = Point(x=272, y=597)
+2024-07-21 20:09:52 move_to_click
+2024-07-21 20:09:55 ожидание пропустить бой
+2024-07-21 20:09:58 in_battle
+2024-07-21 20:09:58 skip_battle = Point(x=386, y=120)
+2024-07-21 20:09:59 пропускаем бой
+2024-07-21 20:09:59 move_to_click
+2024-07-21 20:10:01 ожидание close
+2024-07-21 20:10:02 ожидание close
+2024-07-21 20:10:02 ожидание close
+2024-07-21 20:10:03 ожидание close
+2024-07-21 20:10:04 ожидание close
+2024-07-21 20:10:05 ожидание close
+2024-07-21 20:10:06 ожидание close
+2024-07-21 20:10:07 ожидание close
+2024-07-21 20:10:08 ожидание close
+2024-07-21 20:10:09 ожидание close
+2024-07-21 20:10:09 ожидание close
+2024-07-21 20:10:10 ожидание close
+2024-07-21 20:10:11 ожидание close
+2024-07-21 20:10:12 ожидание close
+2024-07-21 20:10:13 ожидание close
+2024-07-21 20:10:14 ожидание close
+2024-07-21 20:10:15 ожидание close
+2024-07-21 20:10:15 ожидание close
+2024-07-21 20:10:16 ожидание close
+2024-07-21 20:10:17 ожидание close
+2024-07-21 20:10:18 ожидание close
+2024-07-21 20:10:20 закрыть результат боя
+2024-07-21 20:10:20 move_to_click
+2024-07-21 20:10:23 arena.battle_in_arena
+2024-07-21 20:10:23 quantity_battles = 3
+2024-07-21 20:10:24 go_in_hall_glory
+2024-07-21 20:10:25 link_in_hall_glory = None
+2024-07-21 20:10:25 hall_glory = None
+2024-07-21 20:10:25 close = None
+2024-07-21 20:10:27 hall_glory = Point(x=728, y=120)
+2024-07-21 20:10:27 move_to_click
+2024-07-21 20:10:37 link_in_hall_glory = , Point(x=384, y=167)
+2024-07-21 20:10:37 hero_arena = , None
+2024-07-21 20:10:37 поиск противника
+2024-07-21 20:10:38 move_to_click
+2024-07-21 20:10:41 move_to_click
+2024-07-21 20:10:44 move_to_click
+2024-07-21 20:10:47 move_to_click
+2024-07-21 20:10:50 move_to_click
+2024-07-21 20:10:53 move_to_click
+2024-07-21 20:10:56 move_to_click
+2024-07-21 20:10:59 move_to_click
+2024-07-21 20:11:02 move_to_click
+2024-07-21 20:11:05 move_to_click
+2024-07-21 20:11:08 move_to_click
+2024-07-21 20:11:12 move_to_click
+2024-07-21 20:11:15 move_to_click
+2024-07-21 20:11:18 move_to_click
+2024-07-21 20:11:21 move_to_click
+2024-07-21 20:11:24 move_to_click
+2024-07-21 20:11:27 move_to_click
+2024-07-21 20:11:29  it = 17
+2024-07-21 20:11:30 attack = Point(x=643, y=310)
+2024-07-21 20:11:30 move_to_click
+2024-07-21 20:11:32 link_arena = None
+2024-07-21 20:11:35 link_arena = Point(x=388, y=175)
+2024-07-21 20:11:36 безоружен
+2024-07-21 20:11:37 ожидание боя
+2024-07-21 20:14:56 in_battl = Point(x=272, y=597)
+2024-07-21 20:14:56 move_to_click
+2024-07-21 20:14:59 ожидание пропустить бой
+2024-07-21 20:15:02 in_battle
+2024-07-21 20:15:02 skip_battle = Point(x=386, y=120)
+2024-07-21 20:15:03 пропускаем бой
+2024-07-21 20:15:03 move_to_click
+2024-07-21 20:15:05 ожидание close
+2024-07-21 20:15:06 ожидание close
+2024-07-21 20:15:06 ожидание close
+2024-07-21 20:15:07 ожидание close
+2024-07-21 20:15:08 ожидание close
+2024-07-21 20:15:09 ожидание close
+2024-07-21 20:15:10 ожидание close
+2024-07-21 20:15:11 ожидание close
+2024-07-21 20:15:12 ожидание close
+2024-07-21 20:15:13 ожидание close
+2024-07-21 20:15:14 ожидание close
+2024-07-21 20:15:15 ожидание close
+2024-07-21 20:15:15 ожидание close
+2024-07-21 20:15:16 ожидание close
+2024-07-21 20:15:17 ожидание close
+2024-07-21 20:15:18 ожидание close
+2024-07-21 20:15:19 ожидание close
+2024-07-21 20:15:20 ожидание close
+2024-07-21 20:15:21 ожидание close
+2024-07-21 20:15:22 ожидание close
+2024-07-21 20:15:24 закрыть результат боя
+2024-07-21 20:15:24 move_to_click
+2024-07-21 20:15:26 arena.battle_in_arena
+2024-07-21 20:15:26 quantity_battles = 4
+2024-07-21 20:15:28 go_in_hall_glory
+2024-07-21 20:15:30 link_in_hall_glory = None
+2024-07-21 20:15:30 hall_glory = Point(x=728, y=120)
+2024-07-21 20:15:30 close = None
+2024-07-21 20:15:30 hall_glory = Point(x=728, y=120)
+2024-07-21 20:15:30 move_to_click
+2024-07-21 20:15:39 link_in_hall_glory = , Point(x=384, y=167)
+2024-07-21 20:15:40 hero_arena = , None
+2024-07-21 20:15:40 поиск противника
+2024-07-21 20:15:40 move_to_click
+2024-07-21 20:15:44 move_to_click
+2024-07-21 20:15:47 move_to_click
+2024-07-21 20:15:50 move_to_click
+2024-07-21 20:15:53 move_to_click
+2024-07-21 20:15:56 move_to_click
+2024-07-21 20:15:59 move_to_click
+2024-07-21 20:16:02 move_to_click
+2024-07-21 20:16:05 move_to_click
+2024-07-21 20:16:08 move_to_click
+2024-07-21 20:16:11 move_to_click
+2024-07-21 20:16:14 move_to_click
+2024-07-21 20:16:17 move_to_click
+2024-07-21 20:16:20 move_to_click
+2024-07-21 20:16:23 move_to_click
+2024-07-21 20:16:26 move_to_click
+2024-07-21 20:16:29 move_to_click
+2024-07-21 20:16:31  it = 17
+2024-07-21 20:16:32 attack = Point(x=643, y=310)
+2024-07-21 20:16:32 move_to_click
+2024-07-21 20:16:34 link_arena = None
+2024-07-21 20:16:37 link_arena = Point(x=388, y=175)
+2024-07-21 20:16:38 безоружен
+2024-07-21 20:16:39 ожидание боя
+2024-07-21 20:20:01 in_battl = Point(x=272, y=597)
+2024-07-21 20:20:01 move_to_click
+2024-07-21 20:20:03 ожидание пропустить бой
+2024-07-21 20:20:07 in_battle
+2024-07-21 20:20:07 skip_battle = Point(x=386, y=120)
+2024-07-21 20:20:07 пропускаем бой
+2024-07-21 20:20:07 move_to_click
+2024-07-21 20:20:10 ожидание close
+2024-07-21 20:20:11 ожидание close
+2024-07-21 20:20:12 ожидание close
+2024-07-21 20:20:14 закрыть результат боя
+2024-07-21 20:20:14 move_to_click
+2024-07-21 20:20:16 arena.battle_in_arena
+2024-07-21 20:20:16 quantity_battles = 5
+2024-07-21 20:20:17 go_in_hall_glory
+2024-07-21 20:20:19 link_in_hall_glory = None
+2024-07-21 20:20:19 hall_glory = Point(x=728, y=120)
+2024-07-21 20:20:19 close = None
+2024-07-21 20:20:19 hall_glory = Point(x=728, y=120)
+2024-07-21 20:20:19 move_to_click
+2024-07-21 20:20:28 link_in_hall_glory = , Point(x=384, y=167)
+2024-07-21 20:20:29 hero_arena = , None
+2024-07-21 20:20:29 поиск противника
+2024-07-21 20:20:29 move_to_click
+2024-07-21 20:20:32 move_to_click
+2024-07-21 20:20:35 move_to_click
+2024-07-21 20:20:38 move_to_click
+2024-07-21 20:20:42 move_to_click
+2024-07-21 20:20:45 move_to_click
+2024-07-21 20:20:48 move_to_click
+2024-07-21 20:20:51 move_to_click
+2024-07-21 20:20:54 move_to_click
+2024-07-21 20:20:57 move_to_click
+2024-07-21 20:21:00 move_to_click
+2024-07-21 20:21:03 move_to_click
+2024-07-21 20:21:06 move_to_click
+2024-07-21 20:21:09 move_to_click
+2024-07-21 20:21:12 move_to_click
+2024-07-21 20:21:15 move_to_click
+2024-07-21 20:21:18 move_to_click
+2024-07-21 20:21:20  it = 17
+2024-07-21 20:21:21 attack = Point(x=643, y=310)
+2024-07-21 20:21:21 move_to_click
+2024-07-21 20:21:23 link_arena = None
+2024-07-21 20:21:26 link_arena = Point(x=388, y=175)
+2024-07-21 20:21:27 безоружен
+2024-07-21 20:21:28 ожидание боя
+2024-07-21 20:25:06 in_battl = Point(x=272, y=597)
+2024-07-21 20:25:06 move_to_click
+2024-07-21 20:25:08 ожидание пропустить бой
+2024-07-21 20:25:11 in_battle
+2024-07-21 20:25:12 skip_battle = Point(x=386, y=120)
+2024-07-21 20:25:12 пропускаем бой
+2024-07-21 20:25:12 move_to_click
+2024-07-21 20:25:14 ожидание close
+2024-07-21 20:25:15 ожидание close
+2024-07-21 20:25:16 ожидание close
+2024-07-21 20:25:17 ожидание close
+2024-07-21 20:25:19 закрыть результат боя
+2024-07-21 20:25:19 move_to_click
+2024-07-21 20:25:21 arena.battle_in_arena
+2024-07-21 20:25:21 quantity_battles = 6
+2024-07-21 20:25:22 go_in_hall_glory
+2024-07-21 20:25:24 link_in_hall_glory = None
+2024-07-21 20:25:24 hall_glory = Point(x=728, y=120)
+2024-07-21 20:25:24 close = None
+2024-07-21 20:25:24 hall_glory = Point(x=728, y=120)
+2024-07-21 20:25:24 move_to_click
+2024-07-21 20:25:33 link_in_hall_glory = , Point(x=384, y=167)
+2024-07-21 20:25:34 hero_arena = , None
+2024-07-21 20:25:34 поиск противника
+2024-07-21 20:25:34 move_to_click
+2024-07-21 20:25:37 move_to_click
+2024-07-21 20:25:40 move_to_click
+2024-07-21 20:25:43 move_to_click
+2024-07-21 20:25:46 move_to_click
+2024-07-21 20:25:50 move_to_click
+2024-07-21 20:25:53 move_to_click
+2024-07-21 20:25:56 move_to_click
+2024-07-21 20:25:59 move_to_click
+2024-07-21 20:26:02 move_to_click
+2024-07-21 20:26:05 move_to_click
+2024-07-21 20:26:08 move_to_click
+2024-07-21 20:26:11 move_to_click
+2024-07-21 20:26:14 move_to_click
+2024-07-21 20:26:17 move_to_click
+2024-07-21 20:26:20 move_to_click
+2024-07-21 20:26:23 move_to_click
+2024-07-21 20:26:25  it = 17
+2024-07-21 20:26:25 attack = Point(x=643, y=310)
+2024-07-21 20:26:25 move_to_click
+2024-07-21 20:26:28 link_arena = None
+2024-07-21 20:26:31 link_arena = Point(x=388, y=175)
+2024-07-21 20:26:32 безоружен
+2024-07-21 20:26:33 ожидание боя
+2024-07-21 20:30:10 in_battl = Point(x=272, y=597)
+2024-07-21 20:30:10 move_to_click
+2024-07-21 20:30:13 ожидание пропустить бой
+2024-07-21 20:30:16 in_battle
+2024-07-21 20:30:17 skip_battle = Point(x=386, y=120)
+2024-07-21 20:30:17 пропускаем бой
+2024-07-21 20:30:17 move_to_click
+2024-07-21 20:30:19 ожидание close
+2024-07-21 20:30:20 ожидание close
+2024-07-21 20:30:21 ожидание close
+2024-07-21 20:30:22 ожидание close
+2024-07-21 20:30:24 закрыть результат боя
+2024-07-21 20:30:24 move_to_click
+2024-07-21 20:30:27 arena.battle_in_arena
+2024-07-21 20:30:27 quantity_battles = 7
+2024-07-21 20:30:28 go_in_hall_glory
+2024-07-21 20:30:30 link_in_hall_glory = None
+2024-07-21 20:30:30 hall_glory = Point(x=728, y=120)
+2024-07-21 20:30:30 close = None
+2024-07-21 20:30:30 hall_glory = Point(x=728, y=120)
+2024-07-21 20:30:30 move_to_click
+2024-07-21 20:30:39 link_in_hall_glory = , Point(x=384, y=167)
+2024-07-21 20:30:39 hero_arena = , None
+2024-07-21 20:30:39 поиск противника
+2024-07-21 20:30:39 move_to_click
+2024-07-21 20:30:42 move_to_click
+2024-07-21 20:30:46 move_to_click
+2024-07-21 20:30:49 move_to_click
+2024-07-21 20:30:52 move_to_click
+2024-07-21 20:30:55 move_to_click
+2024-07-21 20:30:57 move_to_click
+2024-07-21 20:31:01 move_to_click
+2024-07-21 20:31:04 move_to_click
+2024-07-21 20:31:07 move_to_click
+2024-07-21 20:31:10 move_to_click
+2024-07-21 20:31:13 move_to_click
+2024-07-21 20:31:16 move_to_click
+2024-07-21 20:31:19 move_to_click
+2024-07-21 20:31:22 move_to_click
+2024-07-21 20:31:26 move_to_click
+2024-07-21 20:31:29 move_to_click
+2024-07-21 20:31:31  it = 17
+2024-07-21 20:31:31 attack = Point(x=643, y=310)
+2024-07-21 20:31:31 move_to_click
+2024-07-21 20:31:33 link_arena = None
+2024-07-21 20:31:37 link_arena = Point(x=388, y=175)
+2024-07-21 20:31:37 безоружен
+2024-07-21 20:31:39 ожидание боя
+2024-07-21 20:35:15 in_battl = Point(x=272, y=597)
+2024-07-21 20:35:15 move_to_click
+2024-07-21 20:35:17 ожидание пропустить бой
+2024-07-21 20:35:20 in_battle
+2024-07-21 20:35:21 skip_battle = Point(x=386, y=120)
+2024-07-21 20:35:21 пропускаем бой
+2024-07-21 20:35:21 move_to_click
+2024-07-21 20:35:23 ожидание close
+2024-07-21 20:35:24 ожидание close
+2024-07-21 20:35:25 ожидание close
+2024-07-21 20:35:26 ожидание close
+2024-07-21 20:35:28 закрыть результат боя
+2024-07-21 20:35:28 move_to_click
+2024-07-21 20:35:30 arena.battle_in_arena
+2024-07-21 20:35:30 quantity_battles = 8
+2024-07-21 20:35:31 go_in_hall_glory
+2024-07-21 20:35:33 link_in_hall_glory = None
+2024-07-21 20:35:33 hall_glory = Point(x=728, y=120)
+2024-07-21 20:35:33 close = None
+2024-07-21 20:35:33 hall_glory = Point(x=728, y=120)
+2024-07-21 20:35:33 move_to_click
+2024-07-21 20:35:42 link_in_hall_glory = , Point(x=384, y=167)
+2024-07-21 20:35:42 hero_arena = , None
+2024-07-21 20:35:42 поиск противника
+2024-07-21 20:35:43 move_to_click
+2024-07-21 20:35:46 move_to_click
+2024-07-21 20:35:49 move_to_click
+2024-07-21 20:35:52 move_to_click
+2024-07-21 20:35:55 move_to_click
+2024-07-21 20:35:58 move_to_click
+2024-07-21 20:36:02 move_to_click
+2024-07-21 20:36:04 move_to_click
+2024-07-21 20:36:07 move_to_click
+2024-07-21 20:36:10 move_to_click
+2024-07-21 20:36:14 move_to_click
+2024-07-21 20:36:16 move_to_click
+2024-07-21 20:36:19 move_to_click
+2024-07-21 20:36:22 move_to_click
+2024-07-21 20:36:25 move_to_click
+2024-07-21 20:36:28 move_to_click
+2024-07-21 20:36:31 move_to_click
+2024-07-21 20:36:34  it = 17
+2024-07-21 20:36:34 attack = Point(x=643, y=310)
+2024-07-21 20:36:34 move_to_click
+2024-07-21 20:36:36 link_arena = None
+2024-07-21 20:36:39 link_arena = Point(x=388, y=175)
+2024-07-21 20:36:40 безоружен
+2024-07-21 20:36:41 ожидание боя
+2024-07-21 20:40:19 in_battl = Point(x=272, y=597)
+2024-07-21 20:40:19 move_to_click
+2024-07-21 20:40:21 ожидание пропустить бой
+2024-07-21 20:40:24 in_battle
+2024-07-21 20:40:25 skip_battle = Point(x=386, y=120)
+2024-07-21 20:40:25 пропускаем бой
+2024-07-21 20:40:25 move_to_click
+2024-07-21 20:40:27 ожидание close
+2024-07-21 20:40:28 ожидание close
+2024-07-21 20:40:29 ожидание close
+2024-07-21 20:40:30 ожидание close
+2024-07-21 20:40:32 закрыть результат боя
+2024-07-21 20:40:32 move_to_click
+2024-07-21 20:40:35 arena.battle_in_arena
+2024-07-21 20:40:35 quantity_battles = 9
+2024-07-21 20:40:36 go_in_hall_glory
+2024-07-21 20:40:37 link_in_hall_glory = None
+2024-07-21 20:40:37 hall_glory = Point(x=728, y=120)
+2024-07-21 20:40:37 close = None
+2024-07-21 20:40:37 hall_glory = Point(x=728, y=120)
+2024-07-21 20:40:37 move_to_click
+2024-07-21 20:40:46 link_in_hall_glory = , Point(x=384, y=167)
+2024-07-21 20:40:46 hero_arena = , None
+2024-07-21 20:40:46 поиск противника
+2024-07-21 20:40:47 move_to_click
+2024-07-21 20:40:50 move_to_click
+2024-07-21 20:40:53 move_to_click
+2024-07-21 20:40:56 move_to_click
+2024-07-21 20:40:59 move_to_click
+2024-07-21 20:41:02 move_to_click
+2024-07-21 20:41:05 move_to_click
+2024-07-21 20:41:08 move_to_click
+2024-07-21 20:41:11 move_to_click
+2024-07-21 20:41:14 move_to_click
+2024-07-21 20:41:17 move_to_click
+2024-07-21 20:41:20 move_to_click
+2024-07-21 20:41:23 move_to_click
+2024-07-21 20:41:26 move_to_click
+2024-07-21 20:41:29 move_to_click
+2024-07-21 20:41:32 move_to_click
+2024-07-21 20:41:35 move_to_click
+2024-07-21 20:41:37  it = 17
+2024-07-21 20:41:37 attack = Point(x=643, y=310)
+2024-07-21 20:41:37 move_to_click
+2024-07-21 20:41:40 link_arena = None
+2024-07-21 20:41:43 link_arena = Point(x=388, y=175)
+2024-07-21 20:41:44 безоружен
+2024-07-21 20:41:45 ожидание боя
+2024-07-21 20:45:23 in_battl = Point(x=272, y=597)
+2024-07-21 20:45:23 move_to_click
+2024-07-21 20:45:25 ожидание пропустить бой
+2024-07-21 20:45:28 in_battle
+2024-07-21 20:45:29 skip_battle = Point(x=386, y=120)
+2024-07-21 20:45:29 пропускаем бой
+2024-07-21 20:45:29 move_to_click
+2024-07-21 20:45:31 ожидание close
+2024-07-21 20:45:32 ожидание close
+2024-07-21 20:45:33 ожидание close
+2024-07-21 20:45:34 ожидание close
+2024-07-21 20:45:36 закрыть результат боя
+2024-07-21 20:45:36 move_to_click
+2024-07-21 20:45:38 arena.battle_in_arena
+2024-07-21 20:45:38 quantity_battles = 10
+2024-07-21 20:45:39 go_in_hall_glory
+2024-07-21 20:45:41 link_in_hall_glory = None
+2024-07-21 20:45:41 hall_glory = Point(x=728, y=120)
+2024-07-21 20:45:41 close = None
+2024-07-21 20:45:41 hall_glory = Point(x=728, y=120)
+2024-07-21 20:45:41 move_to_click
+2024-07-21 20:45:50 link_in_hall_glory = , Point(x=384, y=167)
+2024-07-21 20:45:51 hero_arena = , None
+2024-07-21 20:45:51 поиск противника
+2024-07-21 20:45:51 move_to_click
+2024-07-21 20:45:54 move_to_click
+2024-07-21 20:45:57 move_to_click
+2024-07-21 20:46:00 move_to_click
+2024-07-21 20:46:03 move_to_click
+2024-07-21 20:46:07 move_to_click
+2024-07-21 20:46:10 move_to_click
+2024-07-21 20:46:13 move_to_click
+2024-07-21 20:46:16 move_to_click
+2024-07-21 20:46:19 move_to_click
+2024-07-21 20:46:21 move_to_click
+2024-07-21 20:46:25 move_to_click
+2024-07-21 20:46:28 move_to_click
+2024-07-21 20:46:31 move_to_click
+2024-07-21 20:46:34 move_to_click
+2024-07-21 20:46:37 move_to_click
+2024-07-21 20:46:40 move_to_click
+2024-07-21 20:46:42  it = 17
+2024-07-21 20:46:42 attack = Point(x=643, y=310)
+2024-07-21 20:46:42 move_to_click
+2024-07-21 20:46:44 link_arena = None
+2024-07-21 20:46:48 link_arena = Point(x=388, y=175)
+2024-07-21 20:46:48 безоружен
+2024-07-21 20:46:50 ожидание боя
+2024-07-21 20:50:28 in_battl = Point(x=272, y=597)
+2024-07-21 20:50:28 move_to_click
+2024-07-21 20:50:30 ожидание пропустить бой
+2024-07-21 20:50:35 in_battle
+2024-07-21 20:50:35 skip_battle = Point(x=386, y=120)
+2024-07-21 20:50:35 пропускаем бой
+2024-07-21 20:50:35 move_to_click
+2024-07-21 20:50:38 ожидание close
+2024-07-21 20:50:39 ожидание close
+2024-07-21 20:50:39 ожидание close
+2024-07-21 20:50:40 ожидание close
+2024-07-21 20:50:42 закрыть результат боя
+2024-07-21 20:50:42 move_to_click
+2024-07-21 20:50:45 arena.battle_in_arena
+2024-07-21 20:50:45 quantity_battles = 11
+2024-07-21 20:50:46 go_in_hall_glory
+2024-07-21 20:50:48 link_in_hall_glory = None
+2024-07-21 20:50:48 hall_glory = Point(x=728, y=120)
+2024-07-21 20:50:48 close = None
+2024-07-21 20:50:48 hall_glory = Point(x=728, y=120)
+2024-07-21 20:50:48 move_to_click
+2024-07-21 20:50:57 link_in_hall_glory = , Point(x=384, y=167)
+2024-07-21 20:50:58 hero_arena = , None
+2024-07-21 20:50:58 поиск противника
+2024-07-21 20:50:58 move_to_click
+2024-07-21 20:51:01 move_to_click
+2024-07-21 20:51:04 move_to_click
+2024-07-21 20:51:07 move_to_click
+2024-07-21 20:51:10 move_to_click
+2024-07-21 20:51:13 move_to_click
+2024-07-21 20:51:16 move_to_click
+2024-07-21 20:51:19 move_to_click
+2024-07-21 20:51:22 move_to_click
+2024-07-21 20:51:25 move_to_click
+2024-07-21 20:51:28 move_to_click
+2024-07-21 20:51:31 move_to_click
+2024-07-21 20:51:34 move_to_click
+2024-07-21 20:51:37 move_to_click
+2024-07-21 20:51:40 move_to_click
+2024-07-21 20:51:43 move_to_click
+2024-07-21 20:51:46 move_to_click
+2024-07-21 20:51:48  it = 17
+2024-07-21 20:51:49 attack = Point(x=643, y=310)
+2024-07-21 20:51:49 move_to_click
+2024-07-21 20:51:51 link_arena = None
+2024-07-21 20:51:54 link_arena = Point(x=388, y=175)
+2024-07-21 20:51:55 безоружен
+2024-07-21 20:51:56 ожидание боя
+2024-07-21 20:55:32 in_battl = Point(x=272, y=597)
+2024-07-21 20:55:32 move_to_click
+2024-07-21 20:55:35 ожидание пропустить бой
+2024-07-21 20:55:38 in_battle
+2024-07-21 20:55:38 skip_battle = Point(x=386, y=120)
+2024-07-21 20:55:39 пропускаем бой
+2024-07-21 20:55:39 move_to_click
+2024-07-21 20:55:41 ожидание close
+2024-07-21 20:55:42 ожидание close
+2024-07-21 20:55:43 ожидание close
+2024-07-21 20:55:44 ожидание close
+2024-07-21 20:55:46 закрыть результат боя
+2024-07-21 20:55:46 move_to_click
+2024-07-21 20:55:48 arena.battle_in_arena
+2024-07-21 20:55:48 quantity_battles = 12
+2024-07-21 20:55:49 go_in_hall_glory
+2024-07-21 20:55:51 link_in_hall_glory = None
+2024-07-21 20:55:51 hall_glory = Point(x=728, y=120)
+2024-07-21 20:55:51 close = None
+2024-07-21 20:55:51 hall_glory = Point(x=728, y=120)
+2024-07-21 20:55:51 move_to_click
+2024-07-21 20:56:01 link_in_hall_glory = , Point(x=384, y=167)
+2024-07-21 20:56:01 hero_arena = , None
+2024-07-21 20:56:01 поиск противника
+2024-07-21 20:56:02 move_to_click
+2024-07-21 20:56:05 move_to_click
+2024-07-21 20:56:08 move_to_click
+2024-07-21 20:56:11 move_to_click
+2024-07-21 20:56:14 move_to_click
+2024-07-21 20:56:17 move_to_click
+2024-07-21 20:56:20 move_to_click
+2024-07-21 20:56:23 move_to_click
+2024-07-21 20:56:26 move_to_click
+2024-07-21 20:56:29 move_to_click
+2024-07-21 20:56:32 move_to_click
+2024-07-21 20:56:35 move_to_click
+2024-07-21 20:56:38 move_to_click
+2024-07-21 20:56:41 move_to_click
+2024-07-21 20:56:44 move_to_click
+2024-07-21 20:56:47 move_to_click
+2024-07-21 20:56:50 move_to_click
+2024-07-21 20:56:52  it = 17
+2024-07-21 20:56:52 attack = Point(x=643, y=310)
+2024-07-21 20:56:52 move_to_click
+2024-07-21 20:56:54 link_arena = None
+2024-07-21 20:56:58 link_arena = Point(x=388, y=175)
+2024-07-21 20:56:58 безоружен
+2024-07-21 20:57:00 ожидание боя
+2024-07-21 21:00:39 in_battl = Point(x=272, y=597)
+2024-07-21 21:00:39 move_to_click
+2024-07-21 21:00:41 ожидание пропустить бой
+2024-07-21 21:00:44 in_battle
+2024-07-21 21:00:45 skip_battle = Point(x=386, y=120)
+2024-07-21 21:00:45 пропускаем бой
+2024-07-21 21:00:45 move_to_click
+2024-07-21 21:00:47 ожидание close
+2024-07-21 21:00:48 ожидание close
+2024-07-21 21:00:49 ожидание close
+2024-07-21 21:00:50 ожидание close
+2024-07-21 21:00:52 закрыть результат боя
+2024-07-21 21:00:52 move_to_click
+2024-07-21 21:00:55 arena.battle_in_arena
+2024-07-21 21:00:55 quantity_battles = 13
+2024-07-21 21:00:56 go_in_hall_glory
+2024-07-21 21:00:58 link_in_hall_glory = None
+2024-07-21 21:00:58 hall_glory = Point(x=728, y=120)
+2024-07-21 21:00:58 close = None
+2024-07-21 21:00:58 hall_glory = Point(x=728, y=120)
+2024-07-21 21:00:58 move_to_click
+2024-07-21 21:01:08 link_in_hall_glory = , Point(x=384, y=167)
+2024-07-21 21:01:09 hero_arena = , None
+2024-07-21 21:01:09 поиск противника
+2024-07-21 21:01:09 move_to_click
+2024-07-21 21:01:12 move_to_click
+2024-07-21 21:01:15 move_to_click
+2024-07-21 21:01:18 move_to_click
+2024-07-21 21:01:21 move_to_click
+2024-07-21 21:01:24 move_to_click
+2024-07-21 21:01:27 move_to_click
+2024-07-21 21:01:30 move_to_click
+2024-07-21 21:01:33 move_to_click
+2024-07-21 21:01:36 move_to_click
+2024-07-21 21:01:39 move_to_click
+2024-07-21 21:01:42 move_to_click
+2024-07-21 21:01:45 move_to_click
+2024-07-21 21:01:48 move_to_click
+2024-07-21 21:01:51 move_to_click
+2024-07-21 21:01:54 move_to_click
+2024-07-21 21:01:57 move_to_click
+2024-07-21 21:01:59  it = 17
+2024-07-21 21:01:59 attack = Point(x=643, y=310)
+2024-07-21 21:01:59 move_to_click
+2024-07-21 21:02:02 link_arena = None
+2024-07-21 21:02:05 link_arena = Point(x=388, y=175)
+2024-07-21 21:02:05 безоружен
+2024-07-21 21:02:07 ожидание боя
+2024-07-21 21:05:42 in_battl = Point(x=272, y=597)
+2024-07-21 21:05:42 move_to_click
+2024-07-21 21:05:45 ожидание пропустить бой
+2024-07-21 21:05:48 in_battle
+2024-07-21 21:05:49 skip_battle = Point(x=386, y=120)
+2024-07-21 21:05:49 пропускаем бой
+2024-07-21 21:05:49 move_to_click
+2024-07-21 21:05:51 ожидание close
+2024-07-21 21:05:52 ожидание close
+2024-07-21 21:05:53 ожидание close
+2024-07-21 21:05:54 ожидание close
+2024-07-21 21:05:56 закрыть результат боя
+2024-07-21 21:05:56 move_to_click
+2024-07-21 21:05:58 arena.battle_in_arena
+2024-07-21 21:05:58 quantity_battles = 14
+2024-07-21 21:06:00 go_in_hall_glory
+2024-07-21 21:06:02 link_in_hall_glory = None
+2024-07-21 21:06:02 hall_glory = Point(x=728, y=120)
+2024-07-21 21:06:02 close = None
+2024-07-21 21:06:02 hall_glory = Point(x=728, y=120)
+2024-07-21 21:06:02 move_to_click
+2024-07-21 21:06:12 link_in_hall_glory = , Point(x=384, y=167)
+2024-07-21 21:06:13 hero_arena = , None
+2024-07-21 21:06:13 поиск противника
+2024-07-21 21:06:13 move_to_click
+2024-07-21 21:06:17 move_to_click
+2024-07-21 21:06:19 move_to_click
+2024-07-21 21:06:22 move_to_click
+2024-07-21 21:06:25 move_to_click
+2024-07-21 21:06:29 move_to_click
+2024-07-21 21:06:31 move_to_click
+2024-07-21 21:06:34 move_to_click
+2024-07-21 21:06:37 move_to_click
+2024-07-21 21:06:40 move_to_click
+2024-07-21 21:06:43 move_to_click
+2024-07-21 21:06:46 move_to_click
+2024-07-21 21:06:49 move_to_click
+2024-07-21 21:06:52 move_to_click
+2024-07-21 21:06:55 move_to_click
+2024-07-21 21:06:59 move_to_click
+2024-07-21 21:07:01 move_to_click
+2024-07-21 21:07:04  it = 17
+2024-07-21 21:07:04 attack = Point(x=643, y=310)
+2024-07-21 21:07:04 move_to_click
+2024-07-21 21:07:06 link_arena = None
+2024-07-21 21:07:10 link_arena = Point(x=388, y=175)
+2024-07-21 21:07:11 безоружен
+2024-07-21 21:07:13 ожидание боя
+2024-07-21 21:10:48 in_battl = Point(x=272, y=597)
+2024-07-21 21:10:48 move_to_click
+2024-07-21 21:10:50 ожидание пропустить бой
+2024-07-21 21:10:53 in_battle
+2024-07-21 21:10:54 skip_battle = Point(x=386, y=120)
+2024-07-21 21:10:54 пропускаем бой
+2024-07-21 21:10:54 move_to_click
+2024-07-21 21:10:57 ожидание close
+2024-07-21 21:10:58 ожидание close
+2024-07-21 21:10:58 ожидание close
+2024-07-21 21:10:59 ожидание close
+2024-07-21 21:11:01 закрыть результат боя
+2024-07-21 21:11:01 move_to_click
+2024-07-21 21:11:04 arena.battle_in_arena
+2024-07-21 21:11:04 quantity_battles = 15
+2024-07-21 21:11:05 go_in_hall_glory
+2024-07-21 21:11:07 link_in_hall_glory = None
+2024-07-21 21:11:07 hall_glory = Point(x=728, y=120)
+2024-07-21 21:11:07 close = None
+2024-07-21 21:11:07 hall_glory = Point(x=728, y=120)
+2024-07-21 21:11:07 move_to_click
+2024-07-21 21:11:17 link_in_hall_glory = , Point(x=384, y=167)
+2024-07-21 21:11:18 hero_arena = , None
+2024-07-21 21:11:18 поиск противника
+2024-07-21 21:11:18 move_to_click
+2024-07-21 21:11:22 move_to_click
+2024-07-21 21:11:25 move_to_click
+2024-07-21 21:11:28 move_to_click
+2024-07-21 21:11:31 move_to_click
+2024-07-21 21:11:34 move_to_click
+2024-07-21 21:11:37 move_to_click
+2024-07-21 21:11:40 move_to_click
+2024-07-21 21:11:43 move_to_click
+2024-07-21 21:11:46 move_to_click
+2024-07-21 21:11:49 move_to_click
+2024-07-21 21:11:52 move_to_click
+2024-07-21 21:11:55 move_to_click
+2024-07-21 21:11:58 move_to_click
+2024-07-21 21:12:01 move_to_click
+2024-07-21 21:12:04 move_to_click
+2024-07-21 21:12:07 move_to_click
+2024-07-21 21:12:10  it = 17
+2024-07-21 21:12:10 attack = Point(x=643, y=310)
+2024-07-21 21:12:10 move_to_click
+2024-07-21 21:12:12 link_arena = None
+2024-07-21 21:12:15 link_arena = Point(x=388, y=175)
+2024-07-21 21:12:16 безоружен
+2024-07-21 21:12:17 ожидание боя
+2024-07-21 21:15:52 in_battl = Point(x=272, y=597)
+2024-07-21 21:15:52 move_to_click
+2024-07-21 21:15:55 ожидание пропустить бой
+2024-07-21 21:15:59 in_battle
+2024-07-21 21:15:59 skip_battle = Point(x=386, y=120)
+2024-07-21 21:15:59 пропускаем бой
+2024-07-21 21:15:59 move_to_click
+2024-07-21 21:16:02 ожидание close
+2024-07-21 21:16:03 ожидание close
+2024-07-21 21:16:04 ожидание close
+2024-07-21 21:16:05 ожидание close
+2024-07-21 21:16:06 закрыть результат боя
+2024-07-21 21:16:06 move_to_click
+2024-07-21 21:16:09 arena.battle_in_arena
+2024-07-21 21:16:09 quantity_battles = 16
+2024-07-21 21:16:10 go_in_hall_glory
+2024-07-21 21:16:12 link_in_hall_glory = None
+2024-07-21 21:16:12 hall_glory = Point(x=728, y=120)
+2024-07-21 21:16:12 close = None
+2024-07-21 21:16:12 hall_glory = Point(x=728, y=120)
+2024-07-21 21:16:12 move_to_click
+2024-07-21 21:16:21 link_in_hall_glory = , Point(x=384, y=167)
+2024-07-21 21:16:22 hero_arena = , None
+2024-07-21 21:16:22 поиск противника
+2024-07-21 21:16:22 move_to_click
+2024-07-21 21:16:25 move_to_click
+2024-07-21 21:16:28 move_to_click
+2024-07-21 21:16:31 move_to_click
+2024-07-21 21:16:34 move_to_click
+2024-07-21 21:16:37 move_to_click
+2024-07-21 21:16:40 move_to_click
+2024-07-21 21:16:43 move_to_click
+2024-07-21 21:16:46 move_to_click
+2024-07-21 21:16:49 move_to_click
+2024-07-21 21:16:52 move_to_click
+2024-07-21 21:16:55 move_to_click
+2024-07-21 21:16:58 move_to_click
+2024-07-21 21:17:01 move_to_click
+2024-07-21 21:17:04 move_to_click
+2024-07-21 21:17:07 move_to_click
+2024-07-21 21:17:10 move_to_click
+2024-07-21 21:17:12  it = 17
+2024-07-21 21:17:12 attack = Point(x=643, y=310)
+2024-07-21 21:17:12 move_to_click
+2024-07-21 21:17:14 link_arena = None
+2024-07-21 21:17:18 link_arena = Point(x=388, y=175)
+2024-07-21 21:17:18 безоружен
+2024-07-21 21:17:20 ожидание боя
+2024-07-21 21:20:58 in_battl = Point(x=272, y=597)
+2024-07-21 21:20:58 move_to_click
+2024-07-21 21:21:00 ожидание пропустить бой
+2024-07-21 21:21:03 in_battle
+2024-07-21 21:21:04 skip_battle = Point(x=386, y=120)
+2024-07-21 21:21:04 пропускаем бой
+2024-07-21 21:21:04 move_to_click
+2024-07-21 21:21:06 ожидание close
+2024-07-21 21:21:07 ожидание close
+2024-07-21 21:21:08 ожидание close
+2024-07-21 21:21:09 ожидание close
+2024-07-21 21:21:11 закрыть результат боя
+2024-07-21 21:21:11 move_to_click
+2024-07-21 21:21:14 arena.battle_in_arena
+2024-07-21 21:21:14 quantity_battles = 17
+2024-07-21 21:21:15 go_in_hall_glory
+2024-07-21 21:21:17 link_in_hall_glory = None
+2024-07-21 21:21:17 hall_glory = Point(x=728, y=120)
+2024-07-21 21:21:17 close = None
+2024-07-21 21:21:17 hall_glory = Point(x=728, y=120)
+2024-07-21 21:21:17 move_to_click
+2024-07-21 21:21:26 link_in_hall_glory = , Point(x=384, y=167)
+2024-07-21 21:21:27 hero_arena = , None
+2024-07-21 21:21:27 поиск противника
+2024-07-21 21:21:27 move_to_click
+2024-07-21 21:21:30 move_to_click
+2024-07-21 21:21:33 move_to_click
+2024-07-21 21:21:36 move_to_click
+2024-07-21 21:21:39 move_to_click
+2024-07-21 21:21:42 move_to_click
+2024-07-21 21:21:45 move_to_click
+2024-07-21 21:21:48 move_to_click
+2024-07-21 21:21:51 move_to_click
+2024-07-21 21:21:54 move_to_click
+2024-07-21 21:21:57 move_to_click
+2024-07-21 21:22:00 move_to_click
+2024-07-21 21:22:04 move_to_click
+2024-07-21 21:22:07 move_to_click
+2024-07-21 21:22:10 move_to_click
+2024-07-21 21:22:13 move_to_click
+2024-07-21 21:22:16 move_to_click
+2024-07-21 21:22:18  it = 17
+2024-07-21 21:22:18 attack = Point(x=643, y=310)
+2024-07-21 21:22:18 move_to_click
+2024-07-21 21:22:20 link_arena = None
+2024-07-21 21:22:24 link_arena = Point(x=388, y=175)
+2024-07-21 21:22:24 безоружен
+2024-07-21 21:22:25 ожидание боя
+2024-07-21 21:26:02 in_battl = Point(x=272, y=597)
+2024-07-21 21:26:02 move_to_click
+2024-07-21 21:26:05 ожидание пропустить бой
+2024-07-21 21:26:08 in_battle
+2024-07-21 21:26:08 skip_battle = Point(x=386, y=120)
+2024-07-21 21:26:09 пропускаем бой
+2024-07-21 21:26:09 move_to_click
+2024-07-21 21:26:11 ожидание close
+2024-07-21 21:26:12 ожидание close
+2024-07-21 21:26:13 ожидание close
+2024-07-21 21:26:14 ожидание close
+2024-07-21 21:26:16 закрыть результат боя
+2024-07-21 21:26:16 move_to_click
+2024-07-21 21:26:18 arena.battle_in_arena
+2024-07-21 21:26:18 quantity_battles = 18
+2024-07-21 21:26:19 go_in_hall_glory
+2024-07-21 21:26:21 link_in_hall_glory = None
+2024-07-21 21:26:21 hall_glory = Point(x=728, y=120)
+2024-07-21 21:26:21 close = None
+2024-07-21 21:26:21 hall_glory = Point(x=728, y=120)
+2024-07-21 21:26:21 move_to_click
+2024-07-21 21:26:30 link_in_hall_glory = , Point(x=384, y=167)
+2024-07-21 21:26:31 hero_arena = , None
+2024-07-21 21:26:31 поиск противника
+2024-07-21 21:26:31 move_to_click
+2024-07-21 21:26:34 move_to_click
+2024-07-21 21:26:37 move_to_click
+2024-07-21 21:26:40 move_to_click
+2024-07-21 21:26:43 move_to_click
+2024-07-21 21:26:46 move_to_click
+2024-07-21 21:26:49 move_to_click
+2024-07-21 21:26:52 move_to_click
+2024-07-21 21:26:55 move_to_click
+2024-07-21 21:26:58 move_to_click
+2024-07-21 21:27:01 move_to_click
+2024-07-21 21:27:04 move_to_click
+2024-07-21 21:27:07 move_to_click
+2024-07-21 21:27:10 move_to_click
+2024-07-21 21:27:13 move_to_click
+2024-07-21 21:27:16 move_to_click
+2024-07-21 21:27:19 move_to_click
+2024-07-21 21:27:21  it = 17
+2024-07-21 21:27:22 attack = Point(x=643, y=310)
+2024-07-21 21:27:22 move_to_click
+2024-07-21 21:27:24 link_arena = None
+2024-07-21 21:27:27 link_arena = Point(x=388, y=175)
+2024-07-21 21:27:28 безоружен
+2024-07-21 21:27:29 ожидание боя
+2024-07-21 21:31:06 in_battl = Point(x=272, y=597)
+2024-07-21 21:31:06 move_to_click
+2024-07-21 21:31:08 ожидание пропустить бой
+2024-07-21 21:31:12 in_battle
+2024-07-21 21:31:12 skip_battle = Point(x=386, y=120)
+2024-07-21 21:31:12 пропускаем бой
+2024-07-21 21:31:12 move_to_click
+2024-07-21 21:31:15 ожидание close
+2024-07-21 21:31:16 ожидание close
+2024-07-21 21:31:17 ожидание close
+2024-07-21 21:31:18 ожидание close
+2024-07-21 21:31:19 закрыть результат боя
+2024-07-21 21:31:19 move_to_click
+2024-07-21 21:31:22 arena.battle_in_arena
+2024-07-21 21:31:22 quantity_battles = 19
+2024-07-21 21:31:23 go_in_hall_glory
+2024-07-21 21:31:25 link_in_hall_glory = None
+2024-07-21 21:31:25 hall_glory = Point(x=728, y=120)
+2024-07-21 21:31:25 close = None
+2024-07-21 21:31:25 hall_glory = Point(x=728, y=120)
+2024-07-21 21:31:25 move_to_click
+2024-07-21 21:31:34 link_in_hall_glory = , Point(x=384, y=167)
+2024-07-21 21:31:34 hero_arena = , None
+2024-07-21 21:31:34 поиск противника
+2024-07-21 21:31:35 move_to_click
+2024-07-21 21:31:38 move_to_click
+2024-07-21 21:31:41 move_to_click
+2024-07-21 21:31:44 move_to_click
+2024-07-21 21:31:48 move_to_click
+2024-07-21 21:31:51 move_to_click
+2024-07-21 21:31:53  it = 6
+2024-07-21 21:31:54 attack = Point(x=643, y=310)
+2024-07-21 21:31:54 move_to_click
+2024-07-21 21:31:56 link_arena = None
+2024-07-21 21:31:59 link_arena = Point(x=388, y=175)
+2024-07-21 21:32:00 безоружен
+2024-07-21 21:32:02 ожидание боя
+2024-07-21 22:35:55 
+2024-07-21 22:35:55 *******                      *******
+2024-07-21 22:35:55 ******* перезапуск программы *******
+2024-07-21 22:35:55 *******                      *******
+2024-07-21 22:35:55 
+2024-07-21 22:36:00 arena.battle_in_arena
+2024-07-21 22:36:00 quantity_battles = 0
+2024-07-21 22:36:00 go_in_hall_glory
+2024-07-21 22:36:01 link_in_hall_glory = None
+2024-07-21 22:36:01 hall_glory = Point(x=728, y=123)
+2024-07-21 22:36:01 close = None
+2024-07-21 22:36:01 hall_glory = Point(x=728, y=123)
+2024-07-21 22:36:01 move_to_click
+2024-07-21 22:36:08 link_in_hall_glory = , Point(x=384, y=170)
+2024-07-21 22:36:08 hero_arena = , None
+2024-07-21 22:36:08 поиск противника
+2024-07-21 22:36:09 move_to_click
+2024-07-21 22:36:12 move_to_click
+2024-07-21 22:36:14 move_to_click
+2024-07-21 22:36:16 move_to_click
+2024-07-21 22:36:19 move_to_click
+2024-07-21 22:36:22 move_to_click
+2024-07-21 22:36:25 move_to_click
+2024-07-21 22:36:27 move_to_click
+2024-07-21 22:36:29 move_to_click
+2024-07-21 22:36:32 move_to_click
+2024-07-21 22:36:34 move_to_click
+2024-07-21 22:36:37 move_to_click
+2024-07-21 22:36:39 move_to_click
+2024-07-21 22:36:42 move_to_click
+2024-07-21 22:36:44 move_to_click
+2024-07-21 22:36:47 move_to_click
+2024-07-21 22:36:49 move_to_click
+2024-07-21 22:36:51  it = 17
+2024-07-21 22:36:51 attack = Point(x=643, y=313)
+2024-07-21 22:36:51 move_to_click
+2024-07-21 22:36:53 link_arena = None
+2024-07-21 22:36:56 link_arena = Point(x=388, y=178)
+2024-07-21 22:36:56 безоружен
+2024-07-21 22:36:57 in_battl = Point(x=272, y=600)
+2024-07-21 22:36:57 move_to_click
+2024-07-21 22:36:59 ожидание пропустить бой
+2024-07-21 22:37:01 in_battle
+2024-07-21 22:37:02 skip_battle = Point(x=386, y=123)
+2024-07-21 22:37:02 пропускаем бой
+2024-07-21 22:37:02 move_to_click
+2024-07-21 22:37:04 ожидание close
+2024-07-21 22:37:04 ожидание close
+2024-07-21 22:37:05 ожидание close
+2024-07-21 22:37:05 ожидание close
+2024-07-21 22:37:06 ожидание close
+2024-07-21 22:37:07 закрыть результат боя
+2024-07-21 22:37:07 move_to_click
+2024-07-21 22:37:09 arena.battle_in_arena
+2024-07-21 22:37:09 quantity_battles = 1
+2024-07-21 22:37:10 go_in_hall_glory
+2024-07-21 22:37:11 link_in_hall_glory = None
+2024-07-21 22:37:11 hall_glory = Point(x=728, y=123)
+2024-07-21 22:37:11 close = None
+2024-07-21 22:37:11 hall_glory = Point(x=728, y=123)
+2024-07-21 22:37:11 move_to_click
+2024-07-21 22:38:00 arena.battle_in_arena
+2024-07-21 22:38:00 quantity_battles = 1
+2024-07-21 22:38:01 go_in_hall_glory
+2024-07-21 22:38:02 link_in_hall_glory = None
+2024-07-21 22:38:02 hall_glory = Point(x=728, y=123)
+2024-07-21 22:38:02 close = None
+2024-07-21 22:38:02 hall_glory = Point(x=728, y=123)
+2024-07-21 22:38:02 move_to_click
+2024-07-21 22:38:07 link_in_hall_glory = , Point(x=384, y=170)
+2024-07-21 22:38:07 hero_arena = , None
+2024-07-21 22:38:07 поиск противника
+2024-07-21 22:38:07 move_to_click
+2024-07-21 22:38:10 move_to_click
+2024-07-21 22:38:12 move_to_click
+2024-07-21 22:38:15 move_to_click
+2024-07-21 22:38:17 move_to_click
+2024-07-21 22:38:20 move_to_click
+2024-07-21 22:38:22 move_to_click
+2024-07-21 22:38:25 move_to_click
+2024-07-21 22:38:27 move_to_click
+2024-07-21 22:38:29 move_to_click
+2024-07-21 22:38:32 move_to_click
+2024-07-21 22:38:34 move_to_click
+2024-07-21 22:38:37 move_to_click
+2024-07-21 22:38:39 move_to_click
+2024-07-21 22:38:42 move_to_click
+2024-07-21 22:38:44 move_to_click
+2024-07-21 22:38:47 move_to_click
+2024-07-21 22:38:48  it = 17
+2024-07-21 22:38:49 attack = Point(x=643, y=313)
+2024-07-21 22:38:49 move_to_click
+2024-07-21 22:38:51 link_arena = None
+2024-07-21 22:38:52 link_arena = Point(x=388, y=176)
+2024-07-21 22:38:52 безоружен
+2024-07-21 22:38:53 ожидание боя
+2024-07-21 22:45:35 in_battl = Point(x=272, y=600)
+2024-07-21 22:45:35 move_to_click
+2024-07-21 22:45:37 ожидание пропустить бой
+2024-07-21 22:45:39 in_battle
+2024-07-21 22:45:40 skip_battle = Point(x=386, y=123)
+2024-07-21 22:45:40 пропускаем бой
+2024-07-21 22:45:40 move_to_click
+2024-07-21 22:45:42 ожидание close
+2024-07-21 22:45:42 ожидание close
+2024-07-21 22:45:43 ожидание close
+2024-07-21 22:45:43 ожидание close
+2024-07-21 22:45:44 ожидание close
+2024-07-21 22:45:45 закрыть результат боя
+2024-07-21 22:45:45 move_to_click
+2024-07-21 22:45:47 arena.battle_in_arena
+2024-07-21 22:45:47 quantity_battles = 2
+2024-07-21 22:45:48 go_in_hall_glory
+2024-07-21 22:45:49 link_in_hall_glory = None
+2024-07-21 22:45:49 hall_glory = Point(x=728, y=123)
+2024-07-21 22:45:49 close = None
+2024-07-21 22:45:49 hall_glory = Point(x=728, y=123)
+2024-07-21 22:45:49 move_to_click
+2024-07-21 22:45:54 link_in_hall_glory = , Point(x=384, y=170)
+2024-07-21 22:45:54 hero_arena = , None
+2024-07-21 22:45:54 поиск противника
+2024-07-21 22:45:55 move_to_click
+2024-07-21 22:45:57 move_to_click
+2024-07-21 22:45:59 move_to_click
+2024-07-21 22:46:02 move_to_click
+2024-07-21 22:46:04 move_to_click
+2024-07-21 22:46:06 move_to_click
+2024-07-21 22:46:09 move_to_click
+2024-07-21 22:46:11 move_to_click
+2024-07-21 22:46:13 move_to_click
+2024-07-21 22:46:15 move_to_click
+2024-07-21 22:46:17 move_to_click
+2024-07-21 22:46:20 move_to_click
+2024-07-21 22:46:22 move_to_click
+2024-07-21 22:46:25 move_to_click
+2024-07-21 22:46:27 move_to_click
+2024-07-21 22:46:29 move_to_click
+2024-07-21 22:46:32 move_to_click
+2024-07-21 22:46:34  it = 17
+2024-07-21 22:46:34 attack = Point(x=643, y=313)
+2024-07-21 22:46:34 move_to_click
+2024-07-21 22:46:36 link_arena = None
+2024-07-21 22:46:37 link_arena = Point(x=388, y=178)
+2024-07-21 22:46:37 безоружен
+2024-07-21 22:46:38 ожидание боя
+2024-07-21 22:50:38 in_battl = Point(x=272, y=600)
+2024-07-21 22:50:38 move_to_click
+2024-07-21 22:50:40 ожидание пропустить бой
+2024-07-21 22:50:42 in_battle
+2024-07-21 22:50:42 skip_battle = Point(x=386, y=123)
+2024-07-21 22:50:43 пропускаем бой
+2024-07-21 22:50:43 move_to_click
+2024-07-21 22:50:44 ожидание close
+2024-07-21 22:50:45 ожидание close
+2024-07-21 22:50:45 ожидание close
+2024-07-21 22:50:46 ожидание close
+2024-07-21 22:50:46 ожидание close
+2024-07-21 22:50:47 закрыть результат боя
+2024-07-21 22:50:47 move_to_click
+2024-07-21 22:50:50 arena.battle_in_arena
+2024-07-21 22:50:50 quantity_battles = 3
+2024-07-21 22:50:51 go_in_hall_glory
+2024-07-21 22:50:52 link_in_hall_glory = None
+2024-07-21 22:50:52 hall_glory = Point(x=728, y=123)
+2024-07-21 22:50:52 close = None
+2024-07-21 22:50:52 hall_glory = Point(x=728, y=123)
+2024-07-21 22:50:52 move_to_click
+2024-07-21 22:50:56 link_in_hall_glory = , Point(x=384, y=170)
+2024-07-21 22:50:57 hero_arena = , None
+2024-07-21 22:50:57 поиск противника
+2024-07-21 22:50:57 move_to_click
+2024-07-21 22:51:00 move_to_click
+2024-07-21 22:51:02 move_to_click
+2024-07-21 22:51:04 move_to_click
+2024-07-21 22:51:06 move_to_click
+2024-07-21 22:51:09 move_to_click
+2024-07-21 22:51:11 move_to_click
+2024-07-21 22:51:14 move_to_click
+2024-07-21 22:51:16 move_to_click
+2024-07-21 22:51:19 move_to_click
+2024-07-21 22:51:21 move_to_click
+2024-07-21 22:51:24 move_to_click
+2024-07-21 22:51:26 move_to_click
+2024-07-21 22:51:28 move_to_click
+2024-07-21 22:51:30 move_to_click
+2024-07-21 22:51:32 move_to_click
+2024-07-21 22:51:35 move_to_click
+2024-07-21 22:51:37  it = 17
+2024-07-21 22:51:37 attack = Point(x=643, y=313)
+2024-07-21 22:51:37 move_to_click
+2024-07-21 22:51:39 link_arena = None
+2024-07-21 22:51:40 link_arena = Point(x=388, y=174)
+2024-07-21 22:51:40 безоружен
+2024-07-21 22:51:41 ожидание боя
+2024-07-21 22:55:43 in_battl = Point(x=272, y=600)
+2024-07-21 22:55:43 move_to_click
+2024-07-21 22:55:45 ожидание пропустить бой
+2024-07-21 22:55:49 in_battle
+2024-07-21 22:55:49 skip_battle = Point(x=386, y=123)
+2024-07-21 22:55:50 пропускаем бой
+2024-07-21 22:55:50 move_to_click
+2024-07-21 22:55:52 ожидание close
+2024-07-21 22:55:53 ожидание close
+2024-07-21 22:55:54 ожидание close
+2024-07-21 22:55:55 ожидание close
+2024-07-21 22:55:57 закрыть результат боя
+2024-07-21 22:55:57 move_to_click
+2024-07-21 22:55:59 arena.battle_in_arena
+2024-07-21 22:55:59 quantity_battles = 4
+2024-07-21 22:56:01 go_in_hall_glory
+2024-07-21 22:56:02 link_in_hall_glory = None
+2024-07-21 22:56:02 hall_glory = Point(x=728, y=123)
+2024-07-21 22:56:02 close = None
+2024-07-21 22:56:02 hall_glory = Point(x=728, y=123)
+2024-07-21 22:56:02 move_to_click
+2024-07-21 22:56:11 link_in_hall_glory = , Point(x=384, y=170)
+2024-07-21 22:56:11 hero_arena = , None
+2024-07-21 22:56:11 поиск противника
+2024-07-21 22:56:12 move_to_click
+2024-07-21 22:56:15 move_to_click
+2024-07-21 22:56:18 move_to_click
+2024-07-21 22:56:21 move_to_click
+2024-07-21 22:56:24 move_to_click
+2024-07-21 22:56:27 move_to_click
+2024-07-21 22:56:30 move_to_click
+2024-07-21 22:56:33 move_to_click
+2024-07-21 22:56:36 move_to_click
+2024-07-21 22:56:39 move_to_click
+2024-07-21 22:56:42 move_to_click
+2024-07-21 22:56:45 move_to_click
+2024-07-21 22:56:48 move_to_click
+2024-07-21 22:56:51 move_to_click
+2024-07-21 22:56:54 move_to_click
+2024-07-21 22:56:57 move_to_click
+2024-07-21 22:57:00 move_to_click
+2024-07-21 22:57:03  it = 17
+2024-07-21 22:57:03 attack = Point(x=643, y=313)
+2024-07-21 22:57:03 move_to_click
+2024-07-21 22:57:05 link_arena = None
+2024-07-21 22:57:08 link_arena = Point(x=388, y=178)
+2024-07-21 22:57:09 безоружен
+2024-07-21 22:57:11 ожидание боя
+2024-07-21 23:00:47 in_battl = Point(x=272, y=600)
+2024-07-21 23:00:47 move_to_click
+2024-07-21 23:00:49 ожидание пропустить бой
+2024-07-21 23:00:53 in_battle
+2024-07-21 23:00:53 skip_battle = Point(x=386, y=123)
+2024-07-21 23:00:53 пропускаем бой
+2024-07-21 23:00:53 move_to_click
+2024-07-21 23:00:56 ожидание close
+2024-07-21 23:00:57 ожидание close
+2024-07-21 23:00:58 ожидание close
+2024-07-21 23:00:59 ожидание close
+2024-07-21 23:01:00 закрыть результат боя
+2024-07-21 23:01:00 move_to_click
+2024-07-21 23:01:03 arena.battle_in_arena
+2024-07-21 23:01:03 quantity_battles = 5
+2024-07-21 23:01:04 go_in_hall_glory
+2024-07-21 23:01:06 link_in_hall_glory = None
+2024-07-21 23:01:07 hall_glory = Point(x=728, y=123)
+2024-07-21 23:01:07 close = None
+2024-07-21 23:01:07 hall_glory = Point(x=728, y=123)
+2024-07-21 23:01:07 move_to_click
+2024-07-21 23:01:16 link_in_hall_glory = , Point(x=384, y=170)
+2024-07-21 23:01:16 hero_arena = , None
+2024-07-21 23:01:16 поиск противника
+2024-07-21 23:01:17 move_to_click
+2024-07-21 23:01:20 move_to_click
+2024-07-21 23:01:23 move_to_click
+2024-07-21 23:01:26 move_to_click
+2024-07-21 23:01:29 move_to_click
+2024-07-21 23:01:32 move_to_click
+2024-07-21 23:01:35 move_to_click
+2024-07-21 23:01:38 move_to_click
+2024-07-21 23:01:41 move_to_click
+2024-07-21 23:01:44 move_to_click
+2024-07-21 23:01:46 move_to_click
+2024-07-21 23:01:50 move_to_click
+2024-07-21 23:01:53 move_to_click
+2024-07-21 23:01:56 move_to_click
+2024-07-21 23:01:59 move_to_click
+2024-07-21 23:02:02 move_to_click
+2024-07-21 23:02:05 move_to_click
+2024-07-21 23:02:07  it = 17
+2024-07-21 23:02:07 attack = Point(x=643, y=313)
+2024-07-21 23:02:07 move_to_click
+2024-07-21 23:02:09 link_arena = None
+2024-07-21 23:02:12 link_arena = Point(x=388, y=178)
+2024-07-21 23:02:13 безоружен
+2024-07-21 23:02:14 ожидание боя
+2024-07-21 23:05:53 in_battl = Point(x=272, y=600)
+2024-07-21 23:05:53 move_to_click
+2024-07-21 23:05:55 ожидание пропустить бой
+2024-07-21 23:05:58 in_battle
+2024-07-21 23:05:59 skip_battle = Point(x=386, y=123)
+2024-07-21 23:05:59 пропускаем бой
+2024-07-21 23:05:59 move_to_click
+2024-07-21 23:06:01 ожидание close
+2024-07-21 23:06:02 ожидание close
+2024-07-21 23:06:03 ожидание close
+2024-07-21 23:06:04 ожидание close
+2024-07-21 23:06:06 закрыть результат боя
+2024-07-21 23:06:06 move_to_click
+2024-07-21 23:06:08 arena.battle_in_arena
+2024-07-21 23:06:08 quantity_battles = 6
+2024-07-21 23:06:09 go_in_hall_glory
+2024-07-21 23:06:11 link_in_hall_glory = None
+2024-07-21 23:06:11 hall_glory = Point(x=728, y=123)
+2024-07-21 23:06:11 close = None
+2024-07-21 23:06:11 hall_glory = Point(x=728, y=123)
+2024-07-21 23:06:11 move_to_click
+2024-07-21 23:06:20 link_in_hall_glory = , Point(x=384, y=170)
+2024-07-21 23:06:20 hero_arena = , None
+2024-07-21 23:06:20 поиск противника
+2024-07-21 23:06:21 move_to_click
+2024-07-21 23:06:24 move_to_click
+2024-07-21 23:06:27 move_to_click
+2024-07-21 23:06:30 move_to_click
+2024-07-21 23:06:33 move_to_click
+2024-07-21 23:06:36 move_to_click
+2024-07-21 23:06:39 move_to_click
+2024-07-21 23:06:42 move_to_click
+2024-07-21 23:06:44 move_to_click
+2024-07-21 23:06:47 move_to_click
+2024-07-21 23:06:51 move_to_click
+2024-07-21 23:06:54 move_to_click
+2024-07-21 23:06:57 move_to_click
+2024-07-21 23:07:00 move_to_click
+2024-07-21 23:07:03 move_to_click
+2024-07-21 23:07:06 move_to_click
+2024-07-21 23:07:09 move_to_click
+2024-07-21 23:07:11  it = 17
+2024-07-21 23:07:12 attack = Point(x=643, y=313)
+2024-07-21 23:07:12 move_to_click
+2024-07-21 23:07:14 link_arena = None
+2024-07-21 23:07:17 link_arena = Point(x=388, y=178)
+2024-07-21 23:07:18 безоружен
+2024-07-21 23:07:19 ожидание боя
+2024-07-21 23:10:56 in_battl = Point(x=272, y=600)
+2024-07-21 23:10:56 move_to_click
+2024-07-21 23:10:59 ожидание пропустить бой
+2024-07-21 23:11:02 in_battle
+2024-07-21 23:11:03 skip_battle = Point(x=386, y=123)
+2024-07-21 23:11:03 пропускаем бой
+2024-07-21 23:11:03 move_to_click
+2024-07-21 23:11:05 ожидание close
+2024-07-21 23:11:06 ожидание close
+2024-07-21 23:11:07 ожидание close
+2024-07-21 23:11:08 ожидание close
+2024-07-21 23:11:10 закрыть результат боя
+2024-07-21 23:11:10 move_to_click
+2024-07-21 23:11:12 arena.battle_in_arena
+2024-07-21 23:11:12 quantity_battles = 7
+2024-07-21 23:11:13 go_in_hall_glory
+2024-07-21 23:11:15 link_in_hall_glory = None
+2024-07-21 23:11:15 hall_glory = Point(x=728, y=123)
+2024-07-21 23:11:15 close = None
+2024-07-21 23:11:15 hall_glory = Point(x=728, y=123)
+2024-07-21 23:11:15 move_to_click
+2024-07-21 23:11:24 link_in_hall_glory = , Point(x=384, y=170)
+2024-07-21 23:11:25 hero_arena = , None
+2024-07-21 23:11:25 поиск противника
+2024-07-21 23:11:26 move_to_click
+2024-07-21 23:11:28 move_to_click
+2024-07-21 23:11:31 move_to_click
+2024-07-21 23:11:34 move_to_click
+2024-07-21 23:11:37 move_to_click
+2024-07-21 23:11:40 move_to_click
+2024-07-21 23:11:43 move_to_click
+2024-07-21 23:11:46 move_to_click
+2024-07-21 23:11:49 move_to_click
+2024-07-21 23:11:52 move_to_click
+2024-07-21 23:11:55 move_to_click
+2024-07-21 23:11:58 move_to_click
+2024-07-21 23:12:02 move_to_click
+2024-07-21 23:12:04  it = 13
+2024-07-21 23:12:04 attack = Point(x=643, y=313)
+2024-07-21 23:12:04 move_to_click
+2024-07-21 23:12:06 link_arena = None
+2024-07-21 23:12:10 link_arena = Point(x=388, y=178)
+2024-07-21 23:12:10 безоружен
+2024-07-21 23:12:12 ожидание боя
+2024-07-21 23:16:01 in_battl = Point(x=272, y=600)
+2024-07-21 23:16:01 move_to_click
+2024-07-21 23:16:04 ожидание пропустить бой
+2024-07-21 23:16:07 in_battle
+2024-07-21 23:16:08 skip_battle = Point(x=386, y=123)
+2024-07-21 23:16:08 пропускаем бой
+2024-07-21 23:16:08 move_to_click
+2024-07-21 23:16:10 ожидание close
+2024-07-21 23:16:11 ожидание close
+2024-07-21 23:16:12 ожидание close
+2024-07-21 23:16:13 ожидание close
+2024-07-21 23:16:15 закрыть результат боя
+2024-07-21 23:16:15 move_to_click
+2024-07-21 23:16:17 arena.battle_in_arena
+2024-07-21 23:16:17 quantity_battles = 8
+2024-07-21 23:16:18 go_in_hall_glory
+2024-07-21 23:16:20 link_in_hall_glory = None
+2024-07-21 23:16:20 hall_glory = Point(x=728, y=123)
+2024-07-21 23:16:20 close = None
+2024-07-21 23:16:20 hall_glory = Point(x=728, y=123)
+2024-07-21 23:16:20 move_to_click
+2024-07-21 23:16:29 link_in_hall_glory = , Point(x=384, y=170)
+2024-07-21 23:16:30 hero_arena = , None
+2024-07-21 23:16:30 поиск противника
+2024-07-21 23:16:30 move_to_click
+2024-07-21 23:16:33 move_to_click
+2024-07-21 23:16:36 move_to_click
+2024-07-21 23:16:40 move_to_click
+2024-07-21 23:16:42 move_to_click
+2024-07-21 23:16:45 move_to_click
+2024-07-21 23:16:48 move_to_click
+2024-07-21 23:16:51 move_to_click
+2024-07-21 23:16:55 move_to_click
+2024-07-21 23:16:58 move_to_click
+2024-07-21 23:17:01 move_to_click
+2024-07-21 23:17:04 move_to_click
+2024-07-21 23:17:07 move_to_click
+2024-07-21 23:17:10 move_to_click
+2024-07-21 23:17:13 move_to_click
+2024-07-21 23:17:16 move_to_click
+2024-07-21 23:17:19 move_to_click
+2024-07-21 23:17:21  it = 17
+2024-07-21 23:17:22 attack = Point(x=643, y=313)
+2024-07-21 23:17:22 move_to_click
+2024-07-21 23:17:24 link_arena = None
+2024-07-21 23:17:27 link_arena = Point(x=388, y=178)
+2024-07-21 23:17:28 безоружен
+2024-07-21 23:17:29 ожидание боя
+2024-07-21 23:21:06 in_battl = Point(x=272, y=600)
+2024-07-21 23:21:06 move_to_click
+2024-07-21 23:21:09 ожидание пропустить бой
+2024-07-21 23:21:12 in_battle
+2024-07-21 23:21:12 skip_battle = Point(x=386, y=123)
+2024-07-21 23:21:12 пропускаем бой
+2024-07-21 23:21:13 move_to_click
+2024-07-21 23:21:15 ожидание close
+2024-07-21 23:21:16 ожидание close
+2024-07-21 23:21:17 ожидание close
+2024-07-21 23:21:18 ожидание close
+2024-07-21 23:21:19 закрыть результат боя
+2024-07-21 23:21:19 move_to_click
+2024-07-21 23:21:22 arena.battle_in_arena
+2024-07-21 23:21:22 quantity_battles = 9
+2024-07-21 23:21:23 go_in_hall_glory
+2024-07-21 23:21:25 link_in_hall_glory = None
+2024-07-21 23:21:25 hall_glory = Point(x=728, y=123)
+2024-07-21 23:21:25 close = None
+2024-07-21 23:21:25 hall_glory = Point(x=728, y=123)
+2024-07-21 23:21:25 move_to_click
+2024-07-21 23:21:34 link_in_hall_glory = , Point(x=384, y=170)
+2024-07-21 23:21:35 hero_arena = , None
+2024-07-21 23:21:35 поиск противника
+2024-07-21 23:21:35 move_to_click
+2024-07-21 23:21:38 move_to_click
+2024-07-21 23:21:41 move_to_click
+2024-07-21 23:21:44 move_to_click
+2024-07-21 23:21:47 move_to_click
+2024-07-21 23:21:51 move_to_click
+2024-07-21 23:21:55 move_to_click
+2024-07-21 23:21:58 move_to_click
+2024-07-21 23:22:01 move_to_click
+2024-07-21 23:22:05 move_to_click
+2024-07-21 23:22:08 move_to_click
+2024-07-21 23:22:11 move_to_click
+2024-07-21 23:22:14 move_to_click
+2024-07-21 23:22:17 move_to_click
+2024-07-21 23:22:20 move_to_click
+2024-07-21 23:22:23 move_to_click
+2024-07-21 23:22:26 move_to_click
+2024-07-21 23:22:28  it = 17
+2024-07-21 23:22:29 attack = Point(x=643, y=313)
+2024-07-21 23:22:29 move_to_click
+2024-07-21 23:22:31 link_arena = None
+2024-07-21 23:22:34 link_arena = Point(x=388, y=178)
+2024-07-21 23:22:35 безоружен
+2024-07-21 23:22:36 ожидание боя
+2024-07-21 23:26:11 in_battl = Point(x=272, y=600)
+2024-07-21 23:26:11 move_to_click
+2024-07-21 23:26:13 ожидание пропустить бой
+2024-07-21 23:26:17 in_battle
+2024-07-21 23:26:17 skip_battle = Point(x=386, y=123)
+2024-07-21 23:26:17 пропускаем бой
+2024-07-21 23:26:17 move_to_click
+2024-07-21 23:26:20 ожидание close
+2024-07-21 23:26:21 ожидание close
+2024-07-21 23:26:21 ожидание close
+2024-07-21 23:26:22 ожидание close
+2024-07-21 23:26:24 закрыть результат боя
+2024-07-21 23:26:24 move_to_click
+2024-07-21 23:26:27 arena.battle_in_arena
+2024-07-21 23:26:27 quantity_battles = 10
+2024-07-21 23:26:28 go_in_hall_glory
+2024-07-21 23:26:30 link_in_hall_glory = None
+2024-07-21 23:26:30 hall_glory = Point(x=728, y=123)
+2024-07-21 23:26:30 close = None
+2024-07-21 23:26:30 hall_glory = Point(x=728, y=123)
+2024-07-21 23:26:30 move_to_click
+2024-07-21 23:26:38 link_in_hall_glory = , Point(x=384, y=170)
+2024-07-21 23:26:39 hero_arena = , None
+2024-07-21 23:26:39 поиск противника
+2024-07-21 23:26:39 move_to_click
+2024-07-21 23:26:42 move_to_click
+2024-07-21 23:26:45 move_to_click
+2024-07-21 23:26:48 move_to_click
+2024-07-21 23:26:51 move_to_click
+2024-07-21 23:26:54 move_to_click
+2024-07-21 23:26:57 move_to_click
+2024-07-21 23:27:00 move_to_click
+2024-07-21 23:27:03 move_to_click
+2024-07-21 23:27:06 move_to_click
+2024-07-21 23:27:09 move_to_click
+2024-07-21 23:27:12 move_to_click
+2024-07-21 23:27:15 move_to_click
+2024-07-21 23:27:18 move_to_click
+2024-07-21 23:27:21 move_to_click
+2024-07-21 23:27:24 move_to_click
+2024-07-21 23:27:27 move_to_click
+2024-07-21 23:27:30  it = 17
+2024-07-21 23:27:30 attack = Point(x=643, y=313)
+2024-07-21 23:27:30 move_to_click
+2024-07-21 23:27:32 link_arena = None
+2024-07-21 23:27:35 link_arena = Point(x=388, y=178)
+2024-07-21 23:27:36 безоружен
+2024-07-21 23:27:37 ожидание боя
+2024-07-21 23:31:15 in_battl = Point(x=272, y=600)
+2024-07-21 23:31:15 move_to_click
+2024-07-21 23:31:18 ожидание пропустить бой
+2024-07-21 23:31:21 in_battle
+2024-07-21 23:31:22 skip_battle = Point(x=386, y=123)
+2024-07-21 23:31:22 пропускаем бой
+2024-07-21 23:31:22 move_to_click
+2024-07-21 23:31:24 ожидание close
+2024-07-21 23:31:25 ожидание close
+2024-07-21 23:31:26 ожидание close
+2024-07-21 23:31:27 ожидание close
+2024-07-21 23:31:29 закрыть результат боя
+2024-07-21 23:31:29 move_to_click
+2024-07-21 23:31:31 arena.battle_in_arena
+2024-07-21 23:31:31 quantity_battles = 11
+2024-07-21 23:31:32 go_in_hall_glory
+2024-07-21 23:31:34 link_in_hall_glory = None
+2024-07-21 23:31:34 hall_glory = Point(x=728, y=123)
+2024-07-21 23:31:34 close = None
+2024-07-21 23:31:34 hall_glory = Point(x=728, y=123)
+2024-07-21 23:31:34 move_to_click
+2024-07-21 23:31:43 link_in_hall_glory = , Point(x=384, y=170)
+2024-07-21 23:31:44 hero_arena = , None
+2024-07-21 23:31:44 поиск противника
+2024-07-21 23:31:44 move_to_click
+2024-07-21 23:31:47 move_to_click
+2024-07-21 23:31:50 move_to_click
+2024-07-21 23:31:53 move_to_click
+2024-07-21 23:31:56 move_to_click
+2024-07-21 23:31:59 move_to_click
+2024-07-21 23:32:02 move_to_click
+2024-07-21 23:32:05 move_to_click
+2024-07-21 23:32:08 move_to_click
+2024-07-21 23:32:11 move_to_click
+2024-07-21 23:32:14 move_to_click
+2024-07-21 23:32:17 move_to_click
+2024-07-21 23:32:20 move_to_click
+2024-07-21 23:32:23 move_to_click
+2024-07-21 23:32:26 move_to_click
+2024-07-21 23:32:29 move_to_click
+2024-07-21 23:32:32 move_to_click
+2024-07-21 23:32:34  it = 17
+2024-07-21 23:32:34 attack = Point(x=643, y=313)
+2024-07-21 23:32:34 move_to_click
+2024-07-21 23:32:37 link_arena = None
+2024-07-21 23:32:40 link_arena = Point(x=388, y=178)
+2024-07-21 23:32:41 безоружен
+2024-07-21 23:32:42 ожидание боя
+2024-07-21 23:36:19 in_battl = Point(x=272, y=600)
+2024-07-21 23:36:19 move_to_click
+2024-07-21 23:36:22 ожидание пропустить бой
+2024-07-21 23:36:25 in_battle
+2024-07-21 23:36:26 skip_battle = Point(x=386, y=123)
+2024-07-21 23:36:26 пропускаем бой
+2024-07-21 23:36:26 move_to_click
+2024-07-21 23:36:28 ожидание close
+2024-07-21 23:36:29 ожидание close
+2024-07-21 23:36:30 ожидание close
+2024-07-21 23:36:31 ожидание close
+2024-07-21 23:36:33 закрыть результат боя
+2024-07-21 23:36:33 move_to_click
+2024-07-21 23:36:35 arena.battle_in_arena
+2024-07-21 23:36:35 quantity_battles = 12
+2024-07-21 23:36:37 go_in_hall_glory
+2024-07-21 23:36:39 link_in_hall_glory = None
+2024-07-21 23:36:39 hall_glory = Point(x=728, y=123)
+2024-07-21 23:36:39 close = None
+2024-07-21 23:36:39 hall_glory = Point(x=728, y=123)
+2024-07-21 23:36:39 move_to_click
+2024-07-21 23:36:50 link_in_hall_glory = , Point(x=384, y=170)
+2024-07-21 23:36:50 hero_arena = , None
+2024-07-21 23:36:50 поиск противника
+2024-07-21 23:36:51 move_to_click
+2024-07-21 23:36:54 move_to_click
+2024-07-21 23:36:57 move_to_click
+2024-07-21 23:37:00 move_to_click
+2024-07-21 23:37:03 move_to_click
+2024-07-21 23:37:06 move_to_click
+2024-07-21 23:37:09 move_to_click
+2024-07-21 23:37:12 move_to_click
+2024-07-21 23:37:15 move_to_click
+2024-07-21 23:37:18 move_to_click
+2024-07-21 23:37:20 move_to_click
+2024-07-21 23:37:23 move_to_click
+2024-07-21 23:37:26 move_to_click
+2024-07-21 23:37:29 move_to_click
+2024-07-21 23:37:32 move_to_click
+2024-07-21 23:37:35 move_to_click
+2024-07-21 23:37:39 move_to_click
+2024-07-21 23:37:41  it = 17
+2024-07-21 23:37:41 attack = Point(x=643, y=313)
+2024-07-21 23:37:41 move_to_click
+2024-07-21 23:37:43 link_arena = None
+2024-07-21 23:37:46 link_arena = Point(x=388, y=178)
+2024-07-21 23:37:47 безоружен
+2024-07-21 23:37:48 ожидание боя
+2024-07-21 23:41:24 in_battl = Point(x=272, y=600)
+2024-07-21 23:41:24 move_to_click
+2024-07-21 23:41:27 ожидание пропустить бой
+2024-07-21 23:41:30 in_battle
+2024-07-21 23:41:31 skip_battle = Point(x=386, y=123)
+2024-07-21 23:41:31 пропускаем бой
+2024-07-21 23:41:31 move_to_click
+2024-07-21 23:41:33 ожидание close
+2024-07-21 23:41:34 ожидание close
+2024-07-21 23:41:35 ожидание close
+2024-07-21 23:41:36 ожидание close
+2024-07-21 23:41:38 закрыть результат боя
+2024-07-21 23:41:38 move_to_click
+2024-07-21 23:41:40 arena.battle_in_arena
+2024-07-21 23:41:40 quantity_battles = 13
+2024-07-21 23:41:41 go_in_hall_glory
+2024-07-21 23:41:43 link_in_hall_glory = None
+2024-07-21 23:41:44 hall_glory = Point(x=728, y=123)
+2024-07-21 23:41:44 close = None
+2024-07-21 23:41:44 hall_glory = Point(x=728, y=123)
+2024-07-21 23:41:44 move_to_click
+2024-07-21 23:41:52 link_in_hall_glory = , Point(x=384, y=170)
+2024-07-21 23:41:53 hero_arena = , None
+2024-07-21 23:41:53 поиск противника
+2024-07-21 23:41:53 move_to_click
+2024-07-21 23:41:56 move_to_click
+2024-07-21 23:41:59 move_to_click
+2024-07-21 23:42:02 move_to_click
+2024-07-21 23:42:05 move_to_click
+2024-07-21 23:42:08 move_to_click
+2024-07-21 23:42:11 move_to_click
+2024-07-21 23:42:14 move_to_click
+2024-07-21 23:42:17 move_to_click
+2024-07-21 23:42:20 move_to_click
+2024-07-21 23:42:23 move_to_click
+2024-07-21 23:42:26 move_to_click
+2024-07-21 23:42:29 move_to_click
+2024-07-21 23:42:33 move_to_click
+2024-07-21 23:42:36 move_to_click
+2024-07-21 23:42:39 move_to_click
+2024-07-21 23:42:42 move_to_click
+2024-07-21 23:42:44  it = 17
+2024-07-21 23:42:44 attack = Point(x=643, y=313)
+2024-07-21 23:42:44 move_to_click
+2024-07-21 23:42:46 link_arena = None
+2024-07-21 23:42:50 link_arena = Point(x=388, y=178)
+2024-07-21 23:42:50 безоружен
+2024-07-21 23:42:52 ожидание боя
