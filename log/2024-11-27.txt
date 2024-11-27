@@ -1,0 +1,1422 @@
+2024-11-27 01:30:04 arena.battle_in_arena
+2024-11-27 01:30:04 quantity_battles = 0
+2024-11-27 01:30:05 go_in_hall_glory
+2024-11-27 01:30:06 link_in_hall_glory = None
+2024-11-27 01:30:06 hall_glory = Point(x=np.int64(722), y=np.int64(117))
+2024-11-27 01:30:06 close = None
+2024-11-27 01:30:06 hall_glory = Point(x=np.int64(722), y=np.int64(117))
+2024-11-27 01:30:06 move_to_click
+2024-11-27 01:30:13 link_in_hall_glory = , Point(x=np.int64(378), y=np.int64(164))
+2024-11-27 01:30:14 hero_arena = , None
+2024-11-27 01:30:14 поиск противника
+2024-11-27 01:30:14 move_to_click
+2024-11-27 01:30:17 move_to_click
+2024-11-27 01:30:20 move_to_click
+2024-11-27 01:30:23 move_to_click
+2024-11-27 01:30:26 move_to_click
+2024-11-27 01:30:30 move_to_click
+2024-11-27 01:30:33 move_to_click
+2024-11-27 01:30:36 move_to_click
+2024-11-27 01:30:39 move_to_click
+2024-11-27 01:30:42 move_to_click
+2024-11-27 01:30:45 move_to_click
+2024-11-27 01:30:48 move_to_click
+2024-11-27 01:30:51 move_to_click
+2024-11-27 01:30:55 move_to_click
+2024-11-27 01:30:58 move_to_click
+2024-11-27 01:31:01 move_to_click
+2024-11-27 01:31:04 move_to_click
+2024-11-27 01:31:07  it = 17
+2024-11-27 01:31:07 attack = Point(x=np.int64(637), y=np.int64(307))
+2024-11-27 01:31:07 move_to_click
+2024-11-27 01:31:09 link_arena = None
+2024-11-27 01:31:11 link_arena = Point(x=np.int64(382), y=np.int64(172))
+2024-11-27 01:31:11 безоружен
+2024-11-27 01:31:12 in_battl = Point(x=np.int64(266), y=np.int64(594))
+2024-11-27 01:31:12 move_to_click
+2024-11-27 01:31:14 ожидание пропустить бой
+2024-11-27 01:31:17 in_battle
+2024-11-27 01:31:17 skip_battle = Point(x=np.int64(380), y=np.int64(117))
+2024-11-27 01:31:17 пропускаем бой
+2024-11-27 01:31:17 move_to_click
+2024-11-27 01:31:19 ожидание close
+2024-11-27 01:31:20 ожидание close
+2024-11-27 01:31:20 ожидание close
+2024-11-27 01:31:21 ожидание close
+2024-11-27 01:31:21 ожидание close
+2024-11-27 01:31:22 закрыть результат боя
+2024-11-27 01:31:22 move_to_click
+2024-11-27 01:31:25 arena.battle_in_arena
+2024-11-27 01:31:25 quantity_battles = 1
+2024-11-27 01:31:26 go_in_hall_glory
+2024-11-27 01:31:27 link_in_hall_glory = None
+2024-11-27 01:31:27 hall_glory = Point(x=np.int64(722), y=np.int64(117))
+2024-11-27 01:31:27 close = None
+2024-11-27 01:31:27 hall_glory = Point(x=np.int64(722), y=np.int64(117))
+2024-11-27 01:31:27 move_to_click
+2024-11-27 01:31:32 link_in_hall_glory = , Point(x=np.int64(378), y=np.int64(164))
+2024-11-27 01:31:33 hero_arena = , None
+2024-11-27 01:31:33 поиск противника
+2024-11-27 01:31:33 move_to_click
+2024-11-27 01:31:36 move_to_click
+2024-11-27 01:31:39 move_to_click
+2024-11-27 01:31:42 move_to_click
+2024-11-27 01:31:45 move_to_click
+2024-11-27 01:31:48 move_to_click
+2024-11-27 01:31:52 move_to_click
+2024-11-27 01:31:55 move_to_click
+2024-11-27 01:31:58 move_to_click
+2024-11-27 01:32:01 move_to_click
+2024-11-27 01:32:04 move_to_click
+2024-11-27 01:32:07 move_to_click
+2024-11-27 01:32:10 move_to_click
+2024-11-27 01:32:13 move_to_click
+2024-11-27 01:32:16 move_to_click
+2024-11-27 01:32:19 move_to_click
+2024-11-27 01:32:23 move_to_click
+2024-11-27 01:32:25  it = 17
+2024-11-27 01:32:26 attack = Point(x=np.int64(637), y=np.int64(307))
+2024-11-27 01:32:26 move_to_click
+2024-11-27 01:32:28 link_arena = None
+2024-11-27 01:32:34 link_arena = Point(x=np.int64(382), y=np.int64(172))
+2024-11-27 01:32:35 безоружен
+2024-11-27 01:32:36 ожидание боя
+2024-11-27 01:36:16 in_battl = Point(x=np.int64(266), y=np.int64(594))
+2024-11-27 01:36:16 move_to_click
+2024-11-27 01:36:17 ожидание пропустить бой
+2024-11-27 01:36:20 in_battle
+2024-11-27 01:36:20 skip_battle = Point(x=np.int64(380), y=np.int64(117))
+2024-11-27 01:36:21 пропускаем бой
+2024-11-27 01:36:21 move_to_click
+2024-11-27 01:36:23 ожидание close
+2024-11-27 01:36:23 ожидание close
+2024-11-27 01:36:24 ожидание close
+2024-11-27 01:36:24 ожидание close
+2024-11-27 01:36:25 ожидание close
+2024-11-27 01:36:26 закрыть результат боя
+2024-11-27 01:36:26 move_to_click
+2024-11-27 01:36:28 arena.battle_in_arena
+2024-11-27 01:36:28 quantity_battles = 2
+2024-11-27 01:36:29 go_in_hall_glory
+2024-11-27 01:36:30 link_in_hall_glory = None
+2024-11-27 01:36:30 hall_glory = None
+2024-11-27 01:36:30 close = None
+2024-11-27 01:36:33 hall_glory = Point(x=np.int64(722), y=np.int64(117))
+2024-11-27 01:36:33 move_to_click
+2024-11-27 01:36:38 link_in_hall_glory = , Point(x=np.int64(378), y=np.int64(164))
+2024-11-27 01:36:39 hero_arena = , None
+2024-11-27 01:36:39 поиск противника
+2024-11-27 01:36:39 move_to_click
+2024-11-27 01:36:42 move_to_click
+2024-11-27 01:36:45 move_to_click
+2024-11-27 01:36:48 move_to_click
+2024-11-27 01:36:51 move_to_click
+2024-11-27 01:36:54 move_to_click
+2024-11-27 01:36:57 move_to_click
+2024-11-27 01:37:00 move_to_click
+2024-11-27 01:37:03 move_to_click
+2024-11-27 01:37:07 move_to_click
+2024-11-27 01:37:10 move_to_click
+2024-11-27 01:37:13 move_to_click
+2024-11-27 01:37:16 move_to_click
+2024-11-27 01:37:19 move_to_click
+2024-11-27 01:37:22 move_to_click
+2024-11-27 01:37:25 move_to_click
+2024-11-27 01:37:28 move_to_click
+2024-11-27 01:37:31  it = 17
+2024-11-27 01:37:31 attack = Point(x=np.int64(637), y=np.int64(307))
+2024-11-27 01:37:31 move_to_click
+2024-11-27 01:37:33 link_arena = None
+2024-11-27 01:37:34 link_arena = Point(x=np.int64(382), y=np.int64(172))
+2024-11-27 01:37:35 безоружен
+2024-11-27 01:37:36 ожидание боя
+2024-11-27 01:41:18 in_battl = Point(x=np.int64(266), y=np.int64(594))
+2024-11-27 01:41:18 move_to_click
+2024-11-27 01:41:20 ожидание пропустить бой
+2024-11-27 01:41:22 in_battle
+2024-11-27 01:41:23 skip_battle = Point(x=np.int64(380), y=np.int64(117))
+2024-11-27 01:41:23 пропускаем бой
+2024-11-27 01:41:23 move_to_click
+2024-11-27 01:41:25 ожидание close
+2024-11-27 01:41:25 ожидание close
+2024-11-27 01:41:26 ожидание close
+2024-11-27 01:41:27 ожидание close
+2024-11-27 01:41:27 ожидание close
+2024-11-27 01:41:28 закрыть результат боя
+2024-11-27 01:41:28 move_to_click
+2024-11-27 01:41:31 arena.battle_in_arena
+2024-11-27 01:41:31 quantity_battles = 3
+2024-11-27 01:41:31 go_in_hall_glory
+2024-11-27 01:41:32 link_in_hall_glory = None
+2024-11-27 01:41:32 hall_glory = Point(x=np.int64(722), y=np.int64(117))
+2024-11-27 01:41:32 close = None
+2024-11-27 01:41:32 hall_glory = Point(x=np.int64(722), y=np.int64(117))
+2024-11-27 01:41:32 move_to_click
+2024-11-27 01:41:38 link_in_hall_glory = , Point(x=np.int64(378), y=np.int64(164))
+2024-11-27 01:41:38 hero_arena = , None
+2024-11-27 01:41:38 поиск противника
+2024-11-27 01:41:38 move_to_click
+2024-11-27 01:41:41 move_to_click
+2024-11-27 01:41:44 move_to_click
+2024-11-27 01:41:48 move_to_click
+2024-11-27 01:41:51 move_to_click
+2024-11-27 01:41:54 move_to_click
+2024-11-27 01:41:57 move_to_click
+2024-11-27 01:42:00 move_to_click
+2024-11-27 01:42:03 move_to_click
+2024-11-27 01:42:06 move_to_click
+2024-11-27 01:42:09 move_to_click
+2024-11-27 01:42:12 move_to_click
+2024-11-27 01:42:15 move_to_click
+2024-11-27 01:42:18 move_to_click
+2024-11-27 01:42:22 move_to_click
+2024-11-27 01:42:25 move_to_click
+2024-11-27 01:42:28 move_to_click
+2024-11-27 01:42:30  it = 17
+2024-11-27 01:42:31 attack = Point(x=np.int64(637), y=np.int64(307))
+2024-11-27 01:42:31 move_to_click
+2024-11-27 01:42:33 link_arena = None
+2024-11-27 01:42:34 link_arena = Point(x=np.int64(382), y=np.int64(172))
+2024-11-27 01:42:35 безоружен
+2024-11-27 01:42:36 ожидание боя
+2024-11-27 01:46:21 in_battl = Point(x=np.int64(266), y=np.int64(594))
+2024-11-27 01:46:21 move_to_click
+2024-11-27 01:46:23 ожидание пропустить бой
+2024-11-27 01:46:25 in_battle
+2024-11-27 01:46:25 skip_battle = Point(x=np.int64(380), y=np.int64(117))
+2024-11-27 01:46:26 пропускаем бой
+2024-11-27 01:46:26 move_to_click
+2024-11-27 01:46:28 ожидание close
+2024-11-27 01:46:28 ожидание close
+2024-11-27 01:46:29 ожидание close
+2024-11-27 01:46:29 ожидание close
+2024-11-27 01:46:30 ожидание close
+2024-11-27 01:46:31 закрыть результат боя
+2024-11-27 01:46:31 move_to_click
+2024-11-27 01:46:33 arena.battle_in_arena
+2024-11-27 01:46:33 quantity_battles = 4
+2024-11-27 01:46:34 go_in_hall_glory
+2024-11-27 01:46:35 link_in_hall_glory = None
+2024-11-27 01:46:35 hall_glory = Point(x=np.int64(722), y=np.int64(117))
+2024-11-27 01:46:35 close = None
+2024-11-27 01:46:35 hall_glory = Point(x=np.int64(722), y=np.int64(117))
+2024-11-27 01:46:35 move_to_click
+2024-11-27 01:46:41 link_in_hall_glory = , Point(x=np.int64(378), y=np.int64(164))
+2024-11-27 01:46:41 hero_arena = , None
+2024-11-27 01:46:41 поиск противника
+2024-11-27 01:46:41 move_to_click
+2024-11-27 01:46:44 move_to_click
+2024-11-27 01:46:47 move_to_click
+2024-11-27 01:46:50 move_to_click
+2024-11-27 01:46:53 move_to_click
+2024-11-27 01:46:56 move_to_click
+2024-11-27 01:47:00 move_to_click
+2024-11-27 01:47:03 move_to_click
+2024-11-27 01:47:06 move_to_click
+2024-11-27 01:47:09 move_to_click
+2024-11-27 01:47:12 move_to_click
+2024-11-27 01:47:15 move_to_click
+2024-11-27 01:47:18 move_to_click
+2024-11-27 01:47:21 move_to_click
+2024-11-27 01:47:24 move_to_click
+2024-11-27 01:47:27 move_to_click
+2024-11-27 01:47:30 move_to_click
+2024-11-27 01:47:33  it = 17
+2024-11-27 01:47:34 attack = Point(x=np.int64(637), y=np.int64(307))
+2024-11-27 01:47:34 move_to_click
+2024-11-27 01:47:35 link_arena = None
+2024-11-27 01:47:37 link_arena = Point(x=np.int64(382), y=np.int64(172))
+2024-11-27 01:47:37 безоружен
+2024-11-27 01:47:38 ожидание боя
+2024-11-27 01:51:24 in_battl = Point(x=np.int64(266), y=np.int64(594))
+2024-11-27 01:51:24 move_to_click
+2024-11-27 01:51:26 ожидание пропустить бой
+2024-11-27 01:51:29 in_battle
+2024-11-27 01:51:29 skip_battle = Point(x=np.int64(380), y=np.int64(117))
+2024-11-27 01:51:29 пропускаем бой
+2024-11-27 01:51:29 move_to_click
+2024-11-27 01:51:31 ожидание close
+2024-11-27 01:51:32 ожидание close
+2024-11-27 01:51:32 ожидание close
+2024-11-27 01:51:33 ожидание close
+2024-11-27 01:51:33 ожидание close
+2024-11-27 01:51:35 закрыть результат боя
+2024-11-27 01:51:35 move_to_click
+2024-11-27 01:51:37 arena.battle_in_arena
+2024-11-27 01:51:37 quantity_battles = 5
+2024-11-27 01:51:38 go_in_hall_glory
+2024-11-27 01:51:39 link_in_hall_glory = None
+2024-11-27 01:51:39 hall_glory = Point(x=np.int64(722), y=np.int64(117))
+2024-11-27 01:51:39 close = None
+2024-11-27 01:51:39 hall_glory = Point(x=np.int64(722), y=np.int64(117))
+2024-11-27 01:51:39 move_to_click
+2024-11-27 01:51:44 link_in_hall_glory = , Point(x=np.int64(378), y=np.int64(164))
+2024-11-27 01:51:45 hero_arena = , None
+2024-11-27 01:51:45 поиск противника
+2024-11-27 01:51:45 move_to_click
+2024-11-27 01:51:48 move_to_click
+2024-11-27 01:51:51 move_to_click
+2024-11-27 01:51:54 move_to_click
+2024-11-27 01:51:57 move_to_click
+2024-11-27 01:52:00 move_to_click
+2024-11-27 01:52:03 move_to_click
+2024-11-27 01:52:06 move_to_click
+2024-11-27 01:52:10 move_to_click
+2024-11-27 01:52:13 move_to_click
+2024-11-27 01:52:16 move_to_click
+2024-11-27 01:52:19 move_to_click
+2024-11-27 01:52:22 move_to_click
+2024-11-27 01:52:25 move_to_click
+2024-11-27 01:52:28 move_to_click
+2024-11-27 01:52:31 move_to_click
+2024-11-27 01:52:34 move_to_click
+2024-11-27 01:52:37  it = 17
+2024-11-27 01:52:37 attack = Point(x=np.int64(637), y=np.int64(307))
+2024-11-27 01:52:38 move_to_click
+2024-11-27 01:52:39 link_arena = None
+2024-11-27 01:52:41 link_arena = Point(x=np.int64(382), y=np.int64(172))
+2024-11-27 01:52:41 безоружен
+2024-11-27 01:52:42 ожидание боя
+2024-11-27 01:56:28 in_battl = Point(x=np.int64(266), y=np.int64(594))
+2024-11-27 01:56:28 move_to_click
+2024-11-27 01:56:30 ожидание пропустить бой
+2024-11-27 01:56:32 in_battle
+2024-11-27 01:56:33 skip_battle = Point(x=np.int64(380), y=np.int64(117))
+2024-11-27 01:56:33 пропускаем бой
+2024-11-27 01:56:33 move_to_click
+2024-11-27 01:56:35 ожидание close
+2024-11-27 01:56:36 ожидание close
+2024-11-27 01:56:36 ожидание close
+2024-11-27 01:56:37 ожидание close
+2024-11-27 01:56:37 ожидание close
+2024-11-27 01:56:38 закрыть результат боя
+2024-11-27 01:56:38 move_to_click
+2024-11-27 01:56:41 arena.battle_in_arena
+2024-11-27 01:56:41 quantity_battles = 6
+2024-11-27 01:56:41 go_in_hall_glory
+2024-11-27 01:56:42 link_in_hall_glory = None
+2024-11-27 01:56:42 hall_glory = Point(x=np.int64(722), y=np.int64(117))
+2024-11-27 01:56:42 close = None
+2024-11-27 01:56:42 hall_glory = Point(x=np.int64(722), y=np.int64(117))
+2024-11-27 01:56:42 move_to_click
+2024-11-27 01:56:48 link_in_hall_glory = , Point(x=np.int64(378), y=np.int64(164))
+2024-11-27 01:56:48 hero_arena = , None
+2024-11-27 01:56:48 поиск противника
+2024-11-27 01:56:49 move_to_click
+2024-11-27 01:56:52 move_to_click
+2024-11-27 01:56:55 move_to_click
+2024-11-27 01:56:58 move_to_click
+2024-11-27 01:57:01 move_to_click
+2024-11-27 01:57:04 move_to_click
+2024-11-27 01:57:07 move_to_click
+2024-11-27 01:57:10 move_to_click
+2024-11-27 01:57:13 move_to_click
+2024-11-27 01:57:16 move_to_click
+2024-11-27 01:57:19 move_to_click
+2024-11-27 01:57:22 move_to_click
+2024-11-27 01:57:26 move_to_click
+2024-11-27 01:57:29 move_to_click
+2024-11-27 01:57:32 move_to_click
+2024-11-27 01:57:35 move_to_click
+2024-11-27 01:57:38 move_to_click
+2024-11-27 01:57:41  it = 17
+2024-11-27 01:57:41 attack = Point(x=np.int64(637), y=np.int64(307))
+2024-11-27 01:57:41 move_to_click
+2024-11-27 01:57:43 link_arena = None
+2024-11-27 01:57:44 link_arena = Point(x=np.int64(382), y=np.int64(172))
+2024-11-27 01:57:45 безоружен
+2024-11-27 01:57:46 ожидание боя
+2024-11-27 02:01:32 in_battl = Point(x=np.int64(266), y=np.int64(594))
+2024-11-27 02:01:32 move_to_click
+2024-11-27 02:01:34 ожидание пропустить бой
+2024-11-27 02:01:36 in_battle
+2024-11-27 02:01:37 skip_battle = Point(x=np.int64(380), y=np.int64(117))
+2024-11-27 02:01:37 пропускаем бой
+2024-11-27 02:01:37 move_to_click
+2024-11-27 02:01:39 ожидание close
+2024-11-27 02:01:39 ожидание close
+2024-11-27 02:01:40 ожидание close
+2024-11-27 02:01:40 ожидание close
+2024-11-27 02:01:41 ожидание close
+2024-11-27 02:01:42 закрыть результат боя
+2024-11-27 02:01:42 move_to_click
+2024-11-27 02:01:44 arena.battle_in_arena
+2024-11-27 02:01:45 quantity_battles = 7
+2024-11-27 02:01:45 go_in_hall_glory
+2024-11-27 02:01:46 link_in_hall_glory = None
+2024-11-27 02:01:46 hall_glory = Point(x=np.int64(722), y=np.int64(117))
+2024-11-27 02:01:46 close = None
+2024-11-27 02:01:46 hall_glory = Point(x=np.int64(722), y=np.int64(117))
+2024-11-27 02:01:46 move_to_click
+2024-11-27 02:01:52 link_in_hall_glory = , Point(x=np.int64(378), y=np.int64(164))
+2024-11-27 02:01:52 hero_arena = , None
+2024-11-27 02:01:52 поиск противника
+2024-11-27 02:01:52 move_to_click
+2024-11-27 02:01:56 move_to_click
+2024-11-27 02:01:59 move_to_click
+2024-11-27 02:02:02 move_to_click
+2024-11-27 02:02:05 move_to_click
+2024-11-27 02:02:08 move_to_click
+2024-11-27 02:02:11 move_to_click
+2024-11-27 02:02:14 move_to_click
+2024-11-27 02:02:17 move_to_click
+2024-11-27 02:02:20 move_to_click
+2024-11-27 02:02:23 move_to_click
+2024-11-27 02:02:26 move_to_click
+2024-11-27 02:02:29 move_to_click
+2024-11-27 02:02:32 move_to_click
+2024-11-27 02:02:36 move_to_click
+2024-11-27 02:02:39 move_to_click
+2024-11-27 02:02:42 move_to_click
+2024-11-27 02:02:44  it = 17
+2024-11-27 02:02:45 attack = Point(x=np.int64(637), y=np.int64(307))
+2024-11-27 02:02:45 move_to_click
+2024-11-27 02:02:47 link_arena = None
+2024-11-27 02:02:48 link_arena = Point(x=np.int64(382), y=np.int64(172))
+2024-11-27 02:02:49 безоружен
+2024-11-27 02:02:50 ожидание боя
+2024-11-27 02:06:35 in_battl = Point(x=np.int64(266), y=np.int64(594))
+2024-11-27 02:06:35 move_to_click
+2024-11-27 02:06:37 ожидание пропустить бой
+2024-11-27 02:06:39 in_battle
+2024-11-27 02:06:40 skip_battle = Point(x=np.int64(380), y=np.int64(117))
+2024-11-27 02:06:40 пропускаем бой
+2024-11-27 02:06:40 move_to_click
+2024-11-27 02:06:42 ожидание close
+2024-11-27 02:06:42 ожидание close
+2024-11-27 02:06:43 ожидание close
+2024-11-27 02:06:43 ожидание close
+2024-11-27 02:06:44 ожидание close
+2024-11-27 02:06:45 закрыть результат боя
+2024-11-27 02:06:45 move_to_click
+2024-11-27 02:06:47 arena.battle_in_arena
+2024-11-27 02:06:47 quantity_battles = 8
+2024-11-27 02:06:48 go_in_hall_glory
+2024-11-27 02:06:49 link_in_hall_glory = None
+2024-11-27 02:06:49 hall_glory = Point(x=np.int64(722), y=np.int64(117))
+2024-11-27 02:06:49 close = None
+2024-11-27 02:06:49 hall_glory = Point(x=np.int64(722), y=np.int64(117))
+2024-11-27 02:06:49 move_to_click
+2024-11-27 02:06:54 link_in_hall_glory = , Point(x=np.int64(378), y=np.int64(164))
+2024-11-27 02:06:55 hero_arena = , None
+2024-11-27 02:06:55 поиск противника
+2024-11-27 02:06:55 move_to_click
+2024-11-27 02:06:58 move_to_click
+2024-11-27 02:07:01 move_to_click
+2024-11-27 02:07:04 move_to_click
+2024-11-27 02:07:07 move_to_click
+2024-11-27 02:07:10 move_to_click
+2024-11-27 02:07:14 move_to_click
+2024-11-27 02:07:17 move_to_click
+2024-11-27 02:07:20 move_to_click
+2024-11-27 02:07:23 move_to_click
+2024-11-27 02:07:26 move_to_click
+2024-11-27 02:07:29 move_to_click
+2024-11-27 02:07:32 move_to_click
+2024-11-27 02:07:35 move_to_click
+2024-11-27 02:07:38 move_to_click
+2024-11-27 02:07:41 move_to_click
+2024-11-27 02:07:45 move_to_click
+2024-11-27 02:07:47  it = 17
+2024-11-27 02:07:48 attack = Point(x=np.int64(637), y=np.int64(307))
+2024-11-27 02:07:48 move_to_click
+2024-11-27 02:07:50 link_arena = None
+2024-11-27 02:07:51 link_arena = Point(x=np.int64(382), y=np.int64(172))
+2024-11-27 02:07:51 безоружен
+2024-11-27 02:07:53 ожидание боя
+2024-11-27 02:11:38 in_battl = Point(x=np.int64(266), y=np.int64(594))
+2024-11-27 02:11:38 move_to_click
+2024-11-27 02:11:40 ожидание пропустить бой
+2024-11-27 02:11:42 in_battle
+2024-11-27 02:11:43 skip_battle = Point(x=np.int64(380), y=np.int64(117))
+2024-11-27 02:11:43 пропускаем бой
+2024-11-27 02:11:43 move_to_click
+2024-11-27 02:11:45 ожидание close
+2024-11-27 02:11:45 ожидание close
+2024-11-27 02:11:46 ожидание close
+2024-11-27 02:11:47 ожидание close
+2024-11-27 02:11:47 ожидание close
+2024-11-27 02:11:48 закрыть результат боя
+2024-11-27 02:11:48 move_to_click
+2024-11-27 02:11:51 arena.battle_in_arena
+2024-11-27 02:11:51 quantity_battles = 9
+2024-11-27 02:11:51 go_in_hall_glory
+2024-11-27 02:11:52 link_in_hall_glory = None
+2024-11-27 02:11:52 hall_glory = Point(x=np.int64(722), y=np.int64(117))
+2024-11-27 02:11:52 close = None
+2024-11-27 02:11:52 hall_glory = Point(x=np.int64(722), y=np.int64(117))
+2024-11-27 02:11:52 move_to_click
+2024-11-27 02:11:58 link_in_hall_glory = , Point(x=np.int64(378), y=np.int64(164))
+2024-11-27 02:11:58 hero_arena = , None
+2024-11-27 02:11:58 поиск противника
+2024-11-27 02:11:58 move_to_click
+2024-11-27 02:12:02 move_to_click
+2024-11-27 02:12:05 move_to_click
+2024-11-27 02:12:08 move_to_click
+2024-11-27 02:12:11 move_to_click
+2024-11-27 02:12:14 move_to_click
+2024-11-27 02:12:17 move_to_click
+2024-11-27 02:12:20 move_to_click
+2024-11-27 02:12:23 move_to_click
+2024-11-27 02:12:26 move_to_click
+2024-11-27 02:12:29 move_to_click
+2024-11-27 02:12:32 move_to_click
+2024-11-27 02:12:35 move_to_click
+2024-11-27 02:12:39 move_to_click
+2024-11-27 02:12:42 move_to_click
+2024-11-27 02:12:45 move_to_click
+2024-11-27 02:12:48 move_to_click
+2024-11-27 02:12:50  it = 17
+2024-11-27 02:12:51 attack = Point(x=np.int64(637), y=np.int64(307))
+2024-11-27 02:12:51 move_to_click
+2024-11-27 02:12:53 link_arena = None
+2024-11-27 02:12:54 link_arena = Point(x=np.int64(382), y=np.int64(172))
+2024-11-27 02:12:55 безоружен
+2024-11-27 02:12:56 ожидание боя
+2024-11-27 02:16:40 in_battl = Point(x=np.int64(266), y=np.int64(594))
+2024-11-27 02:16:40 move_to_click
+2024-11-27 02:16:42 ожидание пропустить бой
+2024-11-27 02:16:45 in_battle
+2024-11-27 02:16:45 skip_battle = Point(x=np.int64(380), y=np.int64(117))
+2024-11-27 02:16:45 пропускаем бой
+2024-11-27 02:16:45 move_to_click
+2024-11-27 02:16:47 ожидание close
+2024-11-27 02:16:48 ожидание close
+2024-11-27 02:16:48 ожидание close
+2024-11-27 02:16:49 ожидание close
+2024-11-27 02:16:50 ожидание close
+2024-11-27 02:16:51 закрыть результат боя
+2024-11-27 02:16:51 move_to_click
+2024-11-27 02:16:53 arena.battle_in_arena
+2024-11-27 02:16:53 quantity_battles = 10
+2024-11-27 02:16:54 go_in_hall_glory
+2024-11-27 02:16:55 link_in_hall_glory = None
+2024-11-27 02:16:55 hall_glory = Point(x=np.int64(722), y=np.int64(117))
+2024-11-27 02:16:55 close = None
+2024-11-27 02:16:55 hall_glory = Point(x=np.int64(722), y=np.int64(117))
+2024-11-27 02:16:55 move_to_click
+2024-11-27 02:17:01 link_in_hall_glory = , Point(x=np.int64(378), y=np.int64(164))
+2024-11-27 02:17:01 hero_arena = , None
+2024-11-27 02:17:01 поиск противника
+2024-11-27 02:17:01 move_to_click
+2024-11-27 02:17:04 move_to_click
+2024-11-27 02:17:07 move_to_click
+2024-11-27 02:17:10 move_to_click
+2024-11-27 02:17:13 move_to_click
+2024-11-27 02:17:17 move_to_click
+2024-11-27 02:17:20 move_to_click
+2024-11-27 02:17:23 move_to_click
+2024-11-27 02:17:26 move_to_click
+2024-11-27 02:17:29 move_to_click
+2024-11-27 02:17:32 move_to_click
+2024-11-27 02:17:35 move_to_click
+2024-11-27 02:17:38 move_to_click
+2024-11-27 02:17:41 move_to_click
+2024-11-27 02:17:44 move_to_click
+2024-11-27 02:17:47 move_to_click
+2024-11-27 02:17:51 move_to_click
+2024-11-27 02:17:53  it = 17
+2024-11-27 02:17:54 attack = Point(x=np.int64(637), y=np.int64(307))
+2024-11-27 02:17:54 move_to_click
+2024-11-27 02:17:56 link_arena = None
+2024-11-27 02:17:57 link_arena = Point(x=np.int64(382), y=np.int64(172))
+2024-11-27 02:17:57 безоружен
+2024-11-27 02:17:59 ожидание боя
+2024-11-27 02:21:44 in_battl = Point(x=np.int64(266), y=np.int64(594))
+2024-11-27 02:21:44 move_to_click
+2024-11-27 02:21:46 ожидание пропустить бой
+2024-11-27 02:21:49 in_battle
+2024-11-27 02:21:49 skip_battle = Point(x=np.int64(380), y=np.int64(117))
+2024-11-27 02:21:49 пропускаем бой
+2024-11-27 02:21:49 move_to_click
+2024-11-27 02:21:51 ожидание close
+2024-11-27 02:21:52 ожидание close
+2024-11-27 02:21:52 ожидание close
+2024-11-27 02:21:53 ожидание close
+2024-11-27 02:21:53 ожидание close
+2024-11-27 02:21:54 закрыть результат боя
+2024-11-27 02:21:54 move_to_click
+2024-11-27 02:21:57 arena.battle_in_arena
+2024-11-27 02:21:57 quantity_battles = 11
+2024-11-27 02:21:58 go_in_hall_glory
+2024-11-27 02:21:59 link_in_hall_glory = None
+2024-11-27 02:21:59 hall_glory = Point(x=np.int64(722), y=np.int64(117))
+2024-11-27 02:21:59 close = None
+2024-11-27 02:21:59 hall_glory = Point(x=np.int64(722), y=np.int64(117))
+2024-11-27 02:21:59 move_to_click
+2024-11-27 02:22:04 link_in_hall_glory = , Point(x=np.int64(378), y=np.int64(164))
+2024-11-27 02:22:04 hero_arena = , None
+2024-11-27 02:22:04 поиск противника
+2024-11-27 02:22:05 move_to_click
+2024-11-27 02:22:08 move_to_click
+2024-11-27 02:22:11 move_to_click
+2024-11-27 02:22:14 move_to_click
+2024-11-27 02:22:17 move_to_click
+2024-11-27 02:22:20 move_to_click
+2024-11-27 02:22:23 move_to_click
+2024-11-27 02:22:26 move_to_click
+2024-11-27 02:22:29 move_to_click
+2024-11-27 02:22:32 move_to_click
+2024-11-27 02:22:35 move_to_click
+2024-11-27 02:22:39 move_to_click
+2024-11-27 02:22:42 move_to_click
+2024-11-27 02:22:45 move_to_click
+2024-11-27 02:22:48 move_to_click
+2024-11-27 02:22:51 move_to_click
+2024-11-27 02:22:54 move_to_click
+2024-11-27 02:22:57  it = 17
+2024-11-27 02:22:57 attack = Point(x=np.int64(637), y=np.int64(307))
+2024-11-27 02:22:57 move_to_click
+2024-11-27 02:22:59 link_arena = None
+2024-11-27 02:23:00 link_arena = Point(x=np.int64(382), y=np.int64(172))
+2024-11-27 02:23:01 безоружен
+2024-11-27 02:23:02 ожидание боя
+2024-11-27 02:26:48 in_battl = Point(x=np.int64(266), y=np.int64(594))
+2024-11-27 02:26:48 move_to_click
+2024-11-27 02:26:50 ожидание пропустить бой
+2024-11-27 02:26:53 in_battle
+2024-11-27 02:26:53 skip_battle = Point(x=np.int64(380), y=np.int64(117))
+2024-11-27 02:26:53 пропускаем бой
+2024-11-27 02:26:53 move_to_click
+2024-11-27 02:26:55 ожидание close
+2024-11-27 02:26:55 ожидание close
+2024-11-27 02:26:56 ожидание close
+2024-11-27 02:26:57 ожидание close
+2024-11-27 02:26:57 ожидание close
+2024-11-27 02:26:58 закрыть результат боя
+2024-11-27 02:26:58 move_to_click
+2024-11-27 02:27:01 arena.battle_in_arena
+2024-11-27 02:27:01 quantity_battles = 12
+2024-11-27 02:27:01 go_in_hall_glory
+2024-11-27 02:27:02 link_in_hall_glory = None
+2024-11-27 02:27:02 hall_glory = Point(x=np.int64(722), y=np.int64(117))
+2024-11-27 02:27:02 close = None
+2024-11-27 02:27:02 hall_glory = Point(x=np.int64(722), y=np.int64(117))
+2024-11-27 02:27:02 move_to_click
+2024-11-27 02:27:08 link_in_hall_glory = , Point(x=np.int64(378), y=np.int64(164))
+2024-11-27 02:27:08 hero_arena = , None
+2024-11-27 02:27:08 поиск противника
+2024-11-27 02:27:08 move_to_click
+2024-11-27 02:27:12 move_to_click
+2024-11-27 02:27:15 move_to_click
+2024-11-27 02:27:18 move_to_click
+2024-11-27 02:27:21 move_to_click
+2024-11-27 02:27:24 move_to_click
+2024-11-27 02:27:27 move_to_click
+2024-11-27 02:27:30 move_to_click
+2024-11-27 02:27:33 move_to_click
+2024-11-27 02:27:36 move_to_click
+2024-11-27 02:27:39 move_to_click
+2024-11-27 02:27:42 move_to_click
+2024-11-27 02:27:45 move_to_click
+2024-11-27 02:27:48 move_to_click
+2024-11-27 02:27:51 move_to_click
+2024-11-27 02:27:54 move_to_click
+2024-11-27 02:27:57 move_to_click
+2024-11-27 02:28:00  it = 17
+2024-11-27 02:28:01 attack = Point(x=np.int64(637), y=np.int64(307))
+2024-11-27 02:28:01 move_to_click
+2024-11-27 02:28:03 link_arena = None
+2024-11-27 02:28:04 link_arena = Point(x=np.int64(382), y=np.int64(171))
+2024-11-27 02:28:04 безоружен
+2024-11-27 02:28:06 ожидание боя
+2024-11-27 02:31:52 in_battl = Point(x=np.int64(266), y=np.int64(594))
+2024-11-27 02:31:52 move_to_click
+2024-11-27 02:31:54 ожидание пропустить бой
+2024-11-27 02:31:56 in_battle
+2024-11-27 02:31:57 skip_battle = Point(x=np.int64(380), y=np.int64(117))
+2024-11-27 02:31:57 пропускаем бой
+2024-11-27 02:31:57 move_to_click
+2024-11-27 02:31:59 ожидание close
+2024-11-27 02:31:59 ожидание close
+2024-11-27 02:32:00 ожидание close
+2024-11-27 02:32:01 ожидание close
+2024-11-27 02:32:01 ожидание close
+2024-11-27 02:32:02 закрыть результат боя
+2024-11-27 02:32:02 move_to_click
+2024-11-27 02:32:05 arena.battle_in_arena
+2024-11-27 02:32:05 quantity_battles = 13
+2024-11-27 02:32:05 go_in_hall_glory
+2024-11-27 02:32:06 link_in_hall_glory = None
+2024-11-27 02:32:06 hall_glory = Point(x=np.int64(722), y=np.int64(117))
+2024-11-27 02:32:06 close = None
+2024-11-27 02:32:06 hall_glory = Point(x=np.int64(722), y=np.int64(117))
+2024-11-27 02:32:06 move_to_click
+2024-11-27 02:32:16 link_in_hall_glory = , Point(x=np.int64(378), y=np.int64(164))
+2024-11-27 02:32:16 hero_arena = , None
+2024-11-27 02:32:16 поиск противника
+2024-11-27 02:32:16 move_to_click
+2024-11-27 02:32:18 move_to_click
+2024-11-27 02:32:21 move_to_click
+2024-11-27 02:32:23 move_to_click
+2024-11-27 02:32:26 move_to_click
+2024-11-27 02:32:28 move_to_click
+2024-11-27 02:32:31 move_to_click
+2024-11-27 02:32:33 move_to_click
+2024-11-27 02:32:36 move_to_click
+2024-11-27 02:32:38 move_to_click
+2024-11-27 02:32:40 move_to_click
+2024-11-27 02:32:43 move_to_click
+2024-11-27 02:32:45 move_to_click
+2024-11-27 02:32:48 move_to_click
+2024-11-27 02:32:50 move_to_click
+2024-11-27 02:32:53 move_to_click
+2024-11-27 02:32:55 move_to_click
+2024-11-27 02:32:58 move_to_click
+2024-11-27 02:33:00 move_to_click
+2024-11-27 02:33:03 move_to_click
+2024-11-27 02:33:05 move_to_click
+2024-11-27 02:33:07 move_to_click
+2024-11-27 02:33:10 move_to_click
+2024-11-27 02:33:12 move_to_click
+2024-11-27 02:33:15 move_to_click
+2024-11-27 02:33:17 move_to_click
+2024-11-27 02:33:20 move_to_click
+2024-11-27 02:33:22 move_to_click
+2024-11-27 02:33:24 move_to_click
+2024-11-27 02:33:27 move_to_click
+2024-11-27 02:33:29 move_to_click
+2024-11-27 02:33:32 move_to_click
+2024-11-27 02:33:34 move_to_click
+2024-11-27 02:33:37 move_to_click
+2024-11-27 02:33:39 move_to_click
+2024-11-27 02:33:42 move_to_click
+2024-11-27 02:33:44 move_to_click
+2024-11-27 02:33:46 move_to_click
+2024-11-27 02:33:49 move_to_click
+2024-11-27 02:33:51 move_to_click
+2024-11-27 02:33:54 move_to_click
+2024-11-27 02:33:56 move_to_click
+2024-11-27 02:33:59 move_to_click
+2024-11-27 02:34:01 move_to_click
+2024-11-27 02:34:04 move_to_click
+2024-11-27 02:34:06 move_to_click
+2024-11-27 02:34:09 move_to_click
+2024-11-27 02:34:11 move_to_click
+2024-11-27 02:34:13 move_to_click
+2024-11-27 02:34:16 move_to_click
+2024-11-27 02:34:18 move_to_click
+2024-11-27 02:34:21 move_to_click
+2024-11-27 02:34:23 move_to_click
+2024-11-27 02:34:26 move_to_click
+2024-11-27 02:34:28 move_to_click
+2024-11-27 02:34:31 move_to_click
+2024-11-27 02:34:33 move_to_click
+2024-11-27 02:34:36 move_to_click
+2024-11-27 02:34:38 move_to_click
+2024-11-27 02:34:40 move_to_click
+2024-11-27 02:34:43 move_to_click
+2024-11-27 02:34:45 move_to_click
+2024-11-27 02:34:48 move_to_click
+2024-11-27 02:34:50 move_to_click
+2024-11-27 02:34:53 move_to_click
+2024-11-27 02:34:55 move_to_click
+2024-11-27 02:34:58 move_to_click
+2024-11-27 02:35:00 move_to_click
+2024-11-27 02:35:02 move_to_click
+2024-11-27 02:35:05 move_to_click
+2024-11-27 02:35:07 move_to_click
+2024-11-27 02:35:10 move_to_click
+2024-11-27 02:35:12 move_to_click
+2024-11-27 02:35:15 move_to_click
+2024-11-27 02:35:17 move_to_click
+2024-11-27 02:35:19 move_to_click
+2024-11-27 02:35:22 move_to_click
+2024-11-27 02:35:24 move_to_click
+2024-11-27 02:35:27 move_to_click
+2024-11-27 02:35:29 move_to_click
+2024-11-27 02:35:32 move_to_click
+2024-11-27 02:35:34 move_to_click
+2024-11-27 02:35:37 move_to_click
+2024-11-27 02:35:39 move_to_click
+2024-11-27 02:35:41 move_to_click
+2024-11-27 02:35:44 move_to_click
+2024-11-27 02:35:46 move_to_click
+2024-11-27 02:35:49 move_to_click
+2024-11-27 02:35:51 move_to_click
+2024-11-27 02:35:54 move_to_click
+2024-11-27 02:35:56 move_to_click
+2024-11-27 02:35:59 move_to_click
+2024-11-27 02:36:01 move_to_click
+2024-11-27 02:36:03 move_to_click
+2024-11-27 02:36:06 move_to_click
+2024-11-27 02:36:08 move_to_click
+2024-11-27 02:36:11 move_to_click
+2024-11-27 02:36:13 move_to_click
+2024-11-27 02:36:16 move_to_click
+2024-11-27 02:36:18 move_to_click
+2024-11-27 02:36:21 move_to_click
+2024-11-27 02:36:23 move_to_click
+2024-11-27 02:36:25 move_to_click
+2024-11-27 02:36:28 move_to_click
+2024-11-27 02:36:30 move_to_click
+2024-11-27 02:36:33 move_to_click
+2024-11-27 02:36:35 move_to_click
+2024-11-27 02:36:38 move_to_click
+2024-11-27 02:36:40 move_to_click
+2024-11-27 02:36:42 move_to_click
+2024-11-27 02:36:45 move_to_click
+2024-11-27 02:36:47 move_to_click
+2024-11-27 02:36:50 move_to_click
+2024-11-27 02:36:52 move_to_click
+2024-11-27 02:36:55 move_to_click
+2024-11-27 02:36:57 move_to_click
+2024-11-27 02:37:00 move_to_click
+2024-11-27 02:37:02 move_to_click
+2024-11-27 02:37:04 move_to_click
+2024-11-27 02:37:07 move_to_click
+2024-11-27 02:37:09 move_to_click
+2024-11-27 02:37:12 move_to_click
+2024-11-27 02:37:14 move_to_click
+2024-11-27 02:37:17 move_to_click
+2024-11-27 02:37:19 move_to_click
+2024-11-27 02:37:22 move_to_click
+2024-11-27 02:37:24 move_to_click
+2024-11-27 02:37:26 move_to_click
+2024-11-27 02:37:29 move_to_click
+2024-11-27 02:37:31 move_to_click
+2024-11-27 02:37:34 move_to_click
+2024-11-27 02:37:36 move_to_click
+2024-11-27 02:37:39 move_to_click
+2024-11-27 02:37:41 move_to_click
+2024-11-27 02:37:44 move_to_click
+2024-11-27 02:37:46 move_to_click
+2024-11-27 02:37:48 move_to_click
+2024-11-27 02:37:51 move_to_click
+2024-11-27 02:37:53 move_to_click
+2024-11-27 02:37:56 move_to_click
+2024-11-27 02:37:58 move_to_click
+2024-11-27 02:38:01 move_to_click
+2024-11-27 02:38:03 move_to_click
+2024-11-27 02:38:06 move_to_click
+2024-11-27 02:38:08 move_to_click
+2024-11-27 02:38:10 move_to_click
+2024-11-27 02:38:13 move_to_click
+2024-11-27 02:38:15 move_to_click
+2024-11-27 02:38:18 move_to_click
+2024-11-27 02:38:20 move_to_click
+2024-11-27 02:38:23 move_to_click
+2024-11-27 02:38:25 move_to_click
+2024-11-27 02:38:27 move_to_click
+2024-11-27 02:38:30 move_to_click
+2024-11-27 02:38:32 move_to_click
+2024-11-27 02:38:35 move_to_click
+2024-11-27 02:38:37 move_to_click
+2024-11-27 02:38:40 move_to_click
+2024-11-27 02:38:42 move_to_click
+2024-11-27 02:38:45 move_to_click
+2024-11-27 02:38:47 move_to_click
+2024-11-27 02:38:49 move_to_click
+2024-11-27 02:38:52 move_to_click
+2024-11-27 02:38:54 move_to_click
+2024-11-27 02:38:57 move_to_click
+2024-11-27 02:38:59 move_to_click
+2024-11-27 02:39:02 move_to_click
+2024-11-27 02:39:04 move_to_click
+2024-11-27 02:39:06 move_to_click
+2024-11-27 02:39:09 move_to_click
+2024-11-27 02:39:11 move_to_click
+2024-11-27 02:39:14 move_to_click
+2024-11-27 02:39:16 move_to_click
+2024-11-27 02:39:19 move_to_click
+2024-11-27 02:39:21 move_to_click
+2024-11-27 02:39:24 move_to_click
+2024-11-27 02:39:26 move_to_click
+2024-11-27 02:39:29 move_to_click
+2024-11-27 02:39:31 move_to_click
+2024-11-27 02:39:33 move_to_click
+2024-11-27 02:39:36 move_to_click
+2024-11-27 02:39:38 move_to_click
+2024-11-27 02:39:41 move_to_click
+2024-11-27 02:39:43 move_to_click
+2024-11-27 02:39:46 move_to_click
+2024-11-27 02:39:48 move_to_click
+2024-11-27 02:39:51 move_to_click
+2024-11-27 02:39:53 move_to_click
+2024-11-27 02:39:55 move_to_click
+2024-11-27 02:39:58 move_to_click
+2024-11-27 02:40:00 move_to_click
+2024-11-27 02:40:03 move_to_click
+2024-11-27 02:40:05 move_to_click
+2024-11-27 02:40:08 move_to_click
+2024-11-27 02:40:10 move_to_click
+2024-11-27 02:40:13 move_to_click
+2024-11-27 02:40:15 move_to_click
+2024-11-27 02:40:17 move_to_click
+2024-11-27 02:40:20 move_to_click
+2024-11-27 02:40:22 move_to_click
+2024-11-27 02:40:25 move_to_click
+2024-11-27 02:40:27 move_to_click
+2024-11-27 02:40:30 move_to_click
+2024-11-27 02:40:32 move_to_click
+2024-11-27 02:40:35 move_to_click
+2024-11-27 02:40:37 move_to_click
+2024-11-27 02:40:40 move_to_click
+2024-11-27 02:40:42 move_to_click
+2024-11-27 02:40:44 move_to_click
+2024-11-27 02:40:47 move_to_click
+2024-11-27 02:40:49 move_to_click
+2024-11-27 02:40:52 move_to_click
+2024-11-27 02:40:54 move_to_click
+2024-11-27 02:40:57 move_to_click
+2024-11-27 02:40:59 move_to_click
+2024-11-27 02:41:01 move_to_click
+2024-11-27 02:41:04 move_to_click
+2024-11-27 02:41:06 move_to_click
+2024-11-27 02:41:09 move_to_click
+2024-11-27 02:41:11 move_to_click
+2024-11-27 02:41:14 move_to_click
+2024-11-27 02:41:16 move_to_click
+2024-11-27 02:41:18 move_to_click
+2024-11-27 02:41:21 move_to_click
+2024-11-27 02:41:23 move_to_click
+2024-11-27 02:41:26 move_to_click
+2024-11-27 02:41:28 move_to_click
+2024-11-27 02:41:31 move_to_click
+2024-11-27 02:41:33 move_to_click
+2024-11-27 02:41:36 move_to_click
+2024-11-27 02:41:38 move_to_click
+2024-11-27 02:41:40 move_to_click
+2024-11-27 02:41:43 move_to_click
+2024-11-27 02:41:45 move_to_click
+2024-11-27 02:41:48 move_to_click
+2024-11-27 02:41:50 move_to_click
+2024-11-27 02:41:53 move_to_click
+2024-11-27 02:41:55 move_to_click
+2024-11-27 02:41:58 move_to_click
+2024-11-27 02:42:00 move_to_click
+2024-11-27 02:42:03 move_to_click
+2024-11-27 02:42:05 move_to_click
+2024-11-27 02:42:07 move_to_click
+2024-11-27 02:42:10 move_to_click
+2024-11-27 02:42:12 move_to_click
+2024-11-27 02:42:15 move_to_click
+2024-11-27 02:42:17 move_to_click
+2024-11-27 02:42:20 move_to_click
+2024-11-27 02:42:22 move_to_click
+2024-11-27 02:42:25 move_to_click
+2024-11-27 02:42:27 move_to_click
+2024-11-27 02:42:29 move_to_click
+2024-11-27 02:42:32 move_to_click
+2024-11-27 02:42:34 move_to_click
+2024-11-27 02:42:37 move_to_click
+2024-11-27 02:42:39 move_to_click
+2024-11-27 02:42:42 move_to_click
+2024-11-27 02:42:44 move_to_click
+2024-11-27 02:42:47 move_to_click
+2024-11-27 02:42:49 move_to_click
+2024-11-27 02:42:51 move_to_click
+2024-11-27 02:42:54 move_to_click
+2024-11-27 02:42:56 move_to_click
+2024-11-27 02:42:59 move_to_click
+2024-11-27 02:43:01 move_to_click
+2024-11-27 02:43:04 move_to_click
+2024-11-27 02:43:06 move_to_click
+2024-11-27 02:43:09 move_to_click
+2024-11-27 02:43:11 move_to_click
+2024-11-27 02:43:14 move_to_click
+2024-11-27 02:43:16 move_to_click
+2024-11-27 02:43:18 move_to_click
+2024-11-27 02:43:21 move_to_click
+2024-11-27 02:43:23 move_to_click
+2024-11-27 02:43:26 move_to_click
+2024-11-27 02:43:28 move_to_click
+2024-11-27 02:43:31 move_to_click
+2024-11-27 02:43:33 move_to_click
+2024-11-27 02:43:36 move_to_click
+2024-11-27 02:43:38 move_to_click
+2024-11-27 02:43:41 move_to_click
+2024-11-27 02:43:43 move_to_click
+2024-11-27 02:43:45 move_to_click
+2024-11-27 02:43:48 move_to_click
+2024-11-27 02:43:50 move_to_click
+2024-11-27 02:43:53 move_to_click
+2024-11-27 02:43:55 move_to_click
+2024-11-27 02:43:58 move_to_click
+2024-11-27 02:44:00 move_to_click
+2024-11-27 02:44:03 move_to_click
+2024-11-27 02:44:05 move_to_click
+2024-11-27 02:44:07 move_to_click
+2024-11-27 02:44:10 move_to_click
+2024-11-27 02:44:12 move_to_click
+2024-11-27 02:44:15 move_to_click
+2024-11-27 02:44:17 move_to_click
+2024-11-27 02:44:20 move_to_click
+2024-11-27 02:44:22 move_to_click
+2024-11-27 02:44:24 move_to_click
+2024-11-27 02:44:27 move_to_click
+2024-11-27 02:44:29 move_to_click
+2024-11-27 02:44:32 move_to_click
+2024-11-27 02:44:34 move_to_click
+2024-11-27 02:44:37 move_to_click
+2024-11-27 02:44:39 move_to_click
+2024-11-27 02:44:42 move_to_click
+2024-11-27 02:44:44 move_to_click
+2024-11-27 02:44:47 move_to_click
+2024-11-27 02:44:49 move_to_click
+2024-11-27 02:44:51 move_to_click
+2024-11-27 02:44:54 move_to_click
+2024-11-27 02:44:56 move_to_click
+2024-11-27 02:44:59 move_to_click
+2024-11-27 02:45:01 move_to_click
+2024-11-27 02:45:04 move_to_click
+2024-11-27 02:45:06 move_to_click
+2024-11-27 02:45:08 move_to_click
+2024-11-27 02:45:11 move_to_click
+2024-11-27 02:45:13 move_to_click
+2024-11-27 02:45:16 move_to_click
+2024-11-27 02:45:18 move_to_click
+2024-11-27 02:45:21 move_to_click
+2024-11-27 02:45:23 move_to_click
+2024-11-27 02:45:25 move_to_click
+2024-11-27 02:45:28 move_to_click
+2024-11-27 02:45:30 move_to_click
+2024-11-27 02:45:33 move_to_click
+2024-11-27 02:45:35 move_to_click
+2024-11-27 02:45:38 move_to_click
+2024-11-27 02:45:40 move_to_click
+2024-11-27 02:45:43 move_to_click
+2024-11-27 02:45:45 move_to_click
+2024-11-27 02:45:47 move_to_click
+2024-11-27 02:45:50 move_to_click
+2024-11-27 02:45:52 move_to_click
+2024-11-27 02:45:55 move_to_click
+2024-11-27 02:45:57 move_to_click
+2024-11-27 02:46:00 move_to_click
+2024-11-27 02:46:02 move_to_click
+2024-11-27 02:46:05 move_to_click
+2024-11-27 02:46:07 move_to_click
+2024-11-27 02:46:09 move_to_click
+2024-11-27 02:46:12 move_to_click
+2024-11-27 02:46:14 move_to_click
+2024-11-27 02:46:17 move_to_click
+2024-11-27 02:46:19 move_to_click
+2024-11-27 02:46:22 move_to_click
+2024-11-27 02:46:24 move_to_click
+2024-11-27 02:46:27 move_to_click
+2024-11-27 02:46:29 move_to_click
+2024-11-27 02:46:31 move_to_click
+2024-11-27 02:46:34 move_to_click
+2024-11-27 02:46:36 move_to_click
+2024-11-27 02:46:39 move_to_click
+2024-11-27 02:46:41 move_to_click
+2024-11-27 02:46:44 move_to_click
+2024-11-27 02:46:46 move_to_click
+2024-11-27 02:46:48 move_to_click
+2024-11-27 02:46:51 move_to_click
+2024-11-27 02:46:53 move_to_click
+2024-11-27 02:46:56 move_to_click
+2024-11-27 02:46:58 move_to_click
+2024-11-27 02:47:01 move_to_click
+2024-11-27 02:47:03 move_to_click
+2024-11-27 02:47:06 move_to_click
+2024-11-27 02:47:08 move_to_click
+2024-11-27 02:47:11 move_to_click
+2024-11-27 02:47:13 move_to_click
+2024-11-27 02:47:16 move_to_click
+2024-11-27 02:47:18 move_to_click
+2024-11-27 02:47:20 move_to_click
+2024-11-27 02:47:23 move_to_click
+2024-11-27 02:47:25 move_to_click
+2024-11-27 02:47:28 move_to_click
+2024-11-27 02:47:30 move_to_click
+2024-11-27 02:47:33 move_to_click
+2024-11-27 02:47:35 move_to_click
+2024-11-27 02:47:37 move_to_click
+2024-11-27 02:47:40 move_to_click
+2024-11-27 02:47:42 move_to_click
+2024-11-27 02:47:45 move_to_click
+2024-11-27 02:47:47 move_to_click
+2024-11-27 02:47:50 move_to_click
+2024-11-27 02:47:52 move_to_click
+2024-11-27 02:47:55 move_to_click
+2024-11-27 02:47:57 move_to_click
+2024-11-27 02:47:59 move_to_click
+2024-11-27 02:48:02 move_to_click
+2024-11-27 02:48:04 move_to_click
+2024-11-27 02:48:07 move_to_click
+2024-11-27 02:48:09 move_to_click
+2024-11-27 02:48:12 move_to_click
+2024-11-27 02:48:14 move_to_click
+2024-11-27 02:48:17 move_to_click
+2024-11-27 02:48:19 move_to_click
+2024-11-27 02:48:22 move_to_click
+2024-11-27 02:48:24 move_to_click
+2024-11-27 02:48:26 move_to_click
+2024-11-27 02:48:29 move_to_click
+2024-11-27 02:48:31 move_to_click
+2024-11-27 02:48:34 move_to_click
+2024-11-27 02:48:36 move_to_click
+2024-11-27 02:48:39 move_to_click
+2024-11-27 02:48:41 move_to_click
+2024-11-27 02:48:44 move_to_click
+2024-11-27 02:48:46 move_to_click
+2024-11-27 02:48:48 move_to_click
+2024-11-27 02:48:51 move_to_click
+2024-11-27 02:48:53 move_to_click
+2024-11-27 02:48:56 move_to_click
+2024-11-27 02:48:58 move_to_click
+2024-11-27 02:49:01 move_to_click
+2024-11-27 02:49:03 move_to_click
+2024-11-27 02:49:06 move_to_click
+2024-11-27 02:49:08 move_to_click
+2024-11-27 02:49:10 move_to_click
+2024-11-27 02:49:13 move_to_click
+2024-11-27 02:49:15 move_to_click
+2024-11-27 02:49:18 move_to_click
+2024-11-27 02:49:20 move_to_click
+2024-11-27 02:49:23 move_to_click
+2024-11-27 02:49:25 move_to_click
+2024-11-27 02:49:28 move_to_click
+2024-11-27 02:49:30 move_to_click
+2024-11-27 02:49:32 move_to_click
+2024-11-27 02:49:35 move_to_click
+2024-11-27 02:49:37 move_to_click
+2024-11-27 02:49:40 move_to_click
+2024-11-27 02:49:42 move_to_click
+2024-11-27 02:49:45 move_to_click
+2024-11-27 02:49:47 move_to_click
+2024-11-27 02:49:50 move_to_click
+2024-11-27 02:49:52 move_to_click
+2024-11-27 02:49:54 move_to_click
+2024-11-27 02:49:57 move_to_click
+2024-11-27 02:49:59 move_to_click
+2024-11-27 02:50:02 move_to_click
+2024-11-27 02:50:04 move_to_click
+2024-11-27 02:50:07 move_to_click
+2024-11-27 02:50:09 move_to_click
+2024-11-27 02:50:12 move_to_click
+2024-11-27 02:50:14 move_to_click
+2024-11-27 02:50:17 move_to_click
+2024-11-27 02:50:19 move_to_click
+2024-11-27 02:50:21 move_to_click
+2024-11-27 02:50:24 move_to_click
+2024-11-27 02:50:26 move_to_click
+2024-11-27 02:50:29 move_to_click
+2024-11-27 02:50:31 move_to_click
+2024-11-27 02:50:34 move_to_click
+2024-11-27 02:50:36 move_to_click
+2024-11-27 02:50:39 move_to_click
+2024-11-27 02:50:41 move_to_click
+2024-11-27 02:50:43 move_to_click
+2024-11-27 02:50:46 move_to_click
+2024-11-27 02:50:48 move_to_click
+2024-11-27 02:50:51 move_to_click
+2024-11-27 02:50:53 move_to_click
+2024-11-27 02:50:56 move_to_click
+2024-11-27 02:50:58 move_to_click
+2024-11-27 02:51:01 move_to_click
+2024-11-27 02:51:03 move_to_click
+2024-11-27 02:51:06 move_to_click
+2024-11-27 02:51:08 move_to_click
+2024-11-27 02:51:11 move_to_click
+2024-11-27 02:51:13 move_to_click
+2024-11-27 02:51:16 move_to_click
+2024-11-27 02:51:18 move_to_click
+2024-11-27 02:51:21 move_to_click
+2024-11-27 02:51:23 move_to_click
+2024-11-27 02:51:25 move_to_click
+2024-11-27 02:51:28 move_to_click
+2024-11-27 02:51:30 move_to_click
+2024-11-27 02:51:33 move_to_click
+2024-11-27 02:51:35 move_to_click
+2024-11-27 02:51:38 move_to_click
+2024-11-27 02:51:40 move_to_click
+2024-11-27 02:51:43 move_to_click
+2024-11-27 02:51:45 move_to_click
+2024-11-27 02:51:48 move_to_click
+2024-11-27 02:51:50 move_to_click
+2024-11-27 02:51:52 move_to_click
+2024-11-27 02:51:55 move_to_click
+2024-11-27 02:51:57 move_to_click
+2024-11-27 02:52:00 move_to_click
+2024-11-27 02:52:03 move_to_click
+2024-11-27 02:52:05 move_to_click
+2024-11-27 02:52:08 move_to_click
+2024-11-27 02:52:10 move_to_click
+2024-11-27 02:52:13 move_to_click
+2024-11-27 02:52:15 move_to_click
+2024-11-27 02:52:18 move_to_click
+2024-11-27 02:52:20 move_to_click
+2024-11-27 02:52:23 move_to_click
+2024-11-27 02:52:25 move_to_click
+2024-11-27 02:52:27 move_to_click
+2024-11-27 02:52:30 move_to_click
+2024-11-27 02:52:32 move_to_click
+2024-11-27 02:52:35 move_to_click
+2024-11-27 02:52:37 move_to_click
+2024-11-27 02:52:40 move_to_click
+2024-11-27 02:52:42 move_to_click
+2024-11-27 02:52:45 move_to_click
+2024-11-27 02:52:47 move_to_click
+2024-11-27 02:52:49 move_to_click
+2024-11-27 02:52:52 move_to_click
+2024-11-27 02:52:54 move_to_click
+2024-11-27 02:52:57 move_to_click
+2024-11-27 02:52:59 move_to_click
+2024-11-27 02:53:02 move_to_click
+2024-11-27 02:53:04 move_to_click
+2024-11-27 02:53:07 move_to_click
+2024-11-27 02:53:09 move_to_click
+2024-11-27 02:53:11 move_to_click
+2024-11-27 02:53:14 move_to_click
+2024-11-27 02:53:16 move_to_click
+2024-11-27 02:53:19 move_to_click
+2024-11-27 02:53:21 move_to_click
+2024-11-27 02:53:24 move_to_click
+2024-11-27 02:53:26 move_to_click
+2024-11-27 02:53:29 move_to_click
+2024-11-27 02:53:31 move_to_click
+2024-11-27 02:53:34 move_to_click
+2024-11-27 02:53:36 move_to_click
+2024-11-27 02:53:39 move_to_click
+2024-11-27 02:53:41 move_to_click
+2024-11-27 02:53:44 move_to_click
+2024-11-27 02:53:46 move_to_click
+2024-11-27 02:53:49 move_to_click
+2024-11-27 02:53:51 move_to_click
+2024-11-27 02:53:54 move_to_click
+2024-11-27 02:53:56 move_to_click
+2024-11-27 02:53:59 move_to_click
+2024-11-27 02:54:01 move_to_click
+2024-11-27 02:54:04 move_to_click
+2024-11-27 02:54:06 move_to_click
+2024-11-27 02:54:09 move_to_click
+2024-11-27 02:54:11 move_to_click
+2024-11-27 02:54:13 move_to_click
+2024-11-27 02:54:16 move_to_click
+2024-11-27 02:54:18 move_to_click
+2024-11-27 02:54:21 move_to_click
+2024-11-27 02:54:23 move_to_click
+2024-11-27 02:54:26 move_to_click
+2024-11-27 02:54:28 move_to_click
+2024-11-27 02:54:31 move_to_click
+2024-11-27 02:54:34 move_to_click
+2024-11-27 02:54:36 move_to_click
+2024-11-27 02:54:38 move_to_click
+2024-11-27 02:54:41 move_to_click
+2024-11-27 02:54:44 move_to_click
+2024-11-27 02:54:46 move_to_click
+2024-11-27 02:54:49 move_to_click
+2024-11-27 02:54:51 move_to_click
+2024-11-27 02:54:53 move_to_click
+2024-11-27 02:54:56 move_to_click
+2024-11-27 02:54:58 move_to_click
+2024-11-27 02:55:01 move_to_click
+2024-11-27 02:55:03 move_to_click
+2024-11-27 02:55:06 move_to_click
+2024-11-27 02:55:08 move_to_click
+2024-11-27 02:55:11 move_to_click
+2024-11-27 02:55:13 move_to_click
+2024-11-27 02:55:16 move_to_click
+2024-11-27 02:55:18 move_to_click
+2024-11-27 02:55:20 move_to_click
+2024-11-27 02:55:23 move_to_click
+2024-11-27 02:55:25 move_to_click
+2024-11-27 02:55:28 move_to_click
+2024-11-27 02:55:30 move_to_click
+2024-11-27 02:55:33 move_to_click
+2024-11-27 02:55:35 move_to_click
+2024-11-27 02:55:38 move_to_click
+2024-11-27 02:55:40 move_to_click
+2024-11-27 02:55:42 move_to_click
+2024-11-27 02:55:45 move_to_click
+2024-11-27 02:55:47 move_to_click
+2024-11-27 02:55:50 move_to_click
+2024-11-27 02:55:52 move_to_click
+2024-11-27 02:55:55 move_to_click
+2024-11-27 02:55:57 move_to_click
+2024-11-27 02:55:59 move_to_click
+2024-11-27 02:56:02 move_to_click
+2024-11-27 02:56:04 move_to_click
+2024-11-27 02:56:07 move_to_click
+2024-11-27 02:56:09 move_to_click
+2024-11-27 02:56:12 move_to_click
+2024-11-27 02:56:14 move_to_click
+2024-11-27 02:56:17 move_to_click
+2024-11-27 02:56:19 move_to_click
+2024-11-27 02:56:21 move_to_click
+2024-11-27 02:56:24 move_to_click
+2024-11-27 02:56:26 move_to_click
+2024-11-27 02:56:29 move_to_click
+2024-11-27 02:56:31 move_to_click
+2024-11-27 02:56:34 move_to_click
+2024-11-27 02:56:36 move_to_click
+2024-11-27 02:56:39 move_to_click
+2024-11-27 02:56:41 move_to_click
+2024-11-27 08:42:19 move_to_click
+2024-11-27 08:42:24 move_to_click
+2024-11-27 08:42:29 move_to_click
+2024-11-27 08:42:37 move_to_click
+2024-11-27 08:42:46 move_to_click
+2024-11-27 08:42:49 move_to_click
+2024-11-27 08:42:55 move_to_click
+2024-11-27 08:43:01 move_to_click
+2024-11-27 08:43:06 move_to_click
+2024-11-27 08:43:08 move_to_click
+2024-11-27 08:43:12 move_to_click
+2024-11-27 08:43:17 move_to_click
+2024-11-27 08:43:24 move_to_click
+2024-11-27 08:43:28 move_to_click
+2024-11-27 08:43:31 move_to_click
+2024-11-27 08:43:34 move_to_click
+2024-11-27 08:43:40 move_to_click
+2024-11-27 08:43:46 move_to_click
+2024-11-27 08:43:51 move_to_click
+2024-11-27 08:43:53 move_to_click
+2024-11-27 08:43:57 move_to_click
+2024-11-27 08:44:02 move_to_click
+2024-11-27 08:44:09 move_to_click
+2024-11-27 08:44:12 move_to_click
+2024-11-27 08:44:15 move_to_click
+2024-11-27 08:44:18 move_to_click
+2024-11-27 08:44:24 move_to_click
+2024-11-27 08:44:30 move_to_click
+2024-11-27 08:44:35 move_to_click
+2024-11-27 08:44:37 move_to_click
+2024-11-27 08:44:41 move_to_click
+2024-11-27 08:44:46 move_to_click
+2024-11-27 08:44:53 move_to_click
+2024-11-27 08:44:57 move_to_click
+2024-11-27 08:45:00 move_to_click
+2024-11-27 08:45:03 move_to_click
+2024-11-27 08:45:09 move_to_click
+2024-11-27 08:45:15 move_to_click
+2024-11-27 08:45:19 move_to_click
+2024-11-27 08:45:22 move_to_click
+2024-11-27 08:45:26 move_to_click
+2024-11-27 08:45:31 move_to_click
+2024-11-27 08:45:37 move_to_click
+2024-11-27 08:45:41 move_to_click
+2024-11-27 08:45:43 move_to_click
+2024-11-27 08:45:47 move_to_click
+2024-11-27 08:45:53 move_to_click
+2024-11-27 08:45:59 move_to_click
+2024-11-27 08:46:03 move_to_click
+2024-11-27 08:46:06 move_to_click
+2024-11-27 08:46:10 move_to_click
+2024-11-27 08:46:15 move_to_click
+2024-11-27 08:46:21 move_to_click
+2024-11-27 08:46:25 move_to_click
+2024-11-27 08:46:27 move_to_click
+2024-11-27 08:46:31 move_to_click
+2024-11-27 08:46:33 move_to_click
+2024-11-27 08:48:06 move_to_click
+2024-11-27 08:48:10 move_to_click
+2024-11-27 08:48:15 move_to_click
+2024-11-27 08:48:26 move_to_click
+2024-11-27 08:48:37 move_to_click
+2024-11-27 08:48:40 move_to_click
+2024-11-27 08:48:46 move_to_click
+2024-11-27 08:48:53 move_to_click
+2024-11-27 08:48:56 move_to_click
+2024-11-27 08:48:59 move_to_click
+2024-11-27 08:49:02 move_to_click
+2024-11-27 08:49:08 move_to_click
+2024-11-27 08:49:14 move_to_click
+2024-11-27 08:49:19 move_to_click
+2024-11-27 08:49:21 move_to_click
+2024-11-27 08:49:25 move_to_click
+2024-11-27 08:49:30 move_to_click
+2024-11-27 08:49:37 move_to_click
+2024-11-27 08:49:40 move_to_click
+2024-11-27 08:49:42 move_to_click
+2024-11-27 08:49:46 move_to_click
+2024-11-27 08:49:52 move_to_click
+2024-11-27 08:49:58 move_to_click
+2024-11-27 08:50:01 move_to_click
+2024-11-27 08:50:04 move_to_click
+2024-11-27 08:50:08 move_to_click
+2024-11-27 08:50:13 move_to_click
+2024-11-27 08:50:20 move_to_click
+2024-11-27 08:50:24 move_to_click
+2024-11-27 08:50:27 move_to_click
+2024-11-27 08:50:30 move_to_click
+2024-11-27 08:50:36 move_to_click
+2024-11-27 08:50:42 move_to_click
+2024-11-27 08:50:46 move_to_click
+2024-11-27 08:50:48 move_to_click
+2024-11-27 08:50:52 move_to_click
+2024-11-27 08:50:57 move_to_click
+2024-11-27 08:51:04 move_to_click
+2024-11-27 08:51:08 move_to_click
+2024-11-27 08:51:11 move_to_click
+2024-11-27 08:51:14 move_to_click
+2024-11-27 08:51:20 move_to_click
+2024-11-27 08:51:26 move_to_click
+2024-11-27 08:51:29 move_to_click
+2024-11-27 08:51:32 move_to_click
+2024-11-27 08:51:36 move_to_click
+2024-11-27 08:51:41 move_to_click
+2024-11-27 08:51:48 move_to_click
+2024-11-27 08:51:51 move_to_click
+2024-11-27 08:51:54 move_to_click
+2024-11-27 08:51:58 move_to_click
+2024-11-27 08:52:03 move_to_click
+2024-11-27 08:52:09 move_to_click
+2024-11-27 08:52:14 move_to_click
+2024-11-27 08:52:16 move_to_click
+2024-11-27 08:52:20 move_to_click
+2024-11-27 08:52:22 move_to_click
+2024-11-27 08:52:36 move_to_click
+2024-11-27 08:52:42 move_to_click
+2024-11-27 08:52:52 move_to_click
+2024-11-27 08:52:55 move_to_click
+2024-11-27 08:52:58 move_to_click
+2024-11-27 08:55:46 in_battle
+2024-11-27 08:55:46 skip_battle = Point(x=np.int64(380), y=np.int64(117))
+2024-11-27 08:55:46 пропускаем бой
+2024-11-27 08:55:46 move_to_click
+2024-11-27 08:55:59 move_to_click
+2024-11-27 08:56:08 move_to_click
+2024-11-27 08:56:14 move_to_click
+2024-11-27 09:00:41 move_to_click
+2024-11-27 09:00:50 move_to_click
+2024-11-27 09:00:55 move_to_click
+2024-11-27 09:01:07 move_to_click
+2024-11-27 09:01:10 move_to_click
+2024-11-27 09:01:12 move_to_click
+2024-11-27 09:03:00 in_battle
+2024-11-27 09:03:01 skip_battle = Point(x=np.int64(380), y=np.int64(117))
+2024-11-27 09:03:01 пропускаем бой
+2024-11-27 09:03:01 move_to_click
+2024-11-27 09:03:12 move_to_click
+2024-11-27 09:03:21 move_to_click
+2024-11-27 09:03:28 move_to_click
+2024-11-27 09:03:38 move_to_click
+2024-11-27 09:03:42 move_to_click
+2024-11-27 09:09:32 in_battle
+2024-11-27 09:09:33 skip_battle = Point(x=np.int64(380), y=np.int64(117))
+2024-11-27 09:09:33 пропускаем бой
+2024-11-27 09:09:33 move_to_click
+2024-11-27 09:09:43 move_to_click
+2024-11-27 09:09:52 move_to_click
+2024-11-27 09:09:58 move_to_click
+2024-11-27 09:12:22 move_to_click
+2024-11-27 09:12:31 move_to_click
+2024-11-27 09:12:37 move_to_click
+2024-11-27 09:12:49 move_to_click
+2024-11-27 09:12:52 move_to_click
+2024-11-27 09:12:55 move_to_click
+2024-11-27 09:16:42 in_battle
+2024-11-27 09:16:42 skip_battle = Point(x=np.int64(380), y=np.int64(117))
+2024-11-27 09:16:43 пропускаем бой
+2024-11-27 09:16:43 move_to_click
+2024-11-27 09:16:53 move_to_click
+2024-11-27 09:17:02 move_to_click
+2024-11-27 09:17:08 move_to_click
+2024-11-27 09:17:18 move_to_click
+2024-11-27 09:17:22 move_to_click
+2024-11-27 09:17:24 move_to_click
+2024-11-27 09:19:12 in_battle
+2024-11-27 09:19:13 skip_battle = Point(x=np.int64(380), y=np.int64(117))
+2024-11-27 09:19:13 пропускаем бой
+2024-11-27 09:19:13 move_to_click
+2024-11-27 09:19:23 move_to_click
+2024-11-27 09:19:32 move_to_click
+2024-11-27 09:19:39 move_to_click
+2024-11-27 09:25:57 move_to_click
+2024-11-27 09:26:02 move_to_click
+2024-11-27 09:26:05 move_to_click
+2024-11-27 09:26:13 move_to_click
+2024-11-27 09:26:42 move_to_click
