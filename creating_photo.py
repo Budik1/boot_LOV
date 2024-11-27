@@ -1,9 +1,10 @@
 import pyautogui
-from fun import foto, open_taverna, find_link_i, loc_center_img
+import fun
 
 
 def creating_photo_tasks():
-    pos = open_taverna()
+    """ Создание фото заданий """
+    pos = fun.open_taverna()
     width = 145
     height = 24
     step = 80
@@ -11,50 +12,50 @@ def creating_photo_tasks():
     x += 130
     y += 296
     r_x_1, r_y_1 = x, y
-    foto("img/full_t/line_1.png", _region=(r_x_1, r_y_1, width, height))
+    fun.foto("img/full_t/line_1.png", _region=(r_x_1, r_y_1, width, height))
     y += step
     r_x_2, r_y_2 = x, y
-    foto("img/full_t/line_2.png", _region=(r_x_2, r_y_2, width, height))
+    fun.foto("img/full_t/line_2.png", _region=(r_x_2, r_y_2, width, height))
     y += step
     r_x_3, r_y_3 = x, y
-    foto("img/full_t/line_3.png", _region=(r_x_3, r_y_3, width, height))
+    fun.foto("img/full_t/line_3.png", _region=(r_x_3, r_y_3, width, height))
 
 
 def creating_photo_hero_in_hall_glory():
-    in_hall_glory = pyautogui.locateCenterOnScreen('img/arena/link_in_hall_glory.png', confidence=0.98)
+    in_hall_glory = fun.loc_center_img('img/arena/link_in_hall_glory.png', confidence=0.98)
     pyautogui.moveTo(in_hall_glory, duration=1)
     x, y = in_hall_glory
     y += 116
     x -= 250
     pos = x, y
     # pyautogui.moveTo(pos, duration=1)
-    foto('img/tests/hero_arena.png', (x, y, 140, 55))
+    fun.foto('img/tests/hero_arena.png', (x, y, 140, 55))
 
 
 def creating_photo_hero_ver_in_hall_glory():
-    link_arena = pyautogui.locateCenterOnScreen('img/arena/link_arena.png', confidence=0.98)
+    link_arena = fun.loc_center_img('img/arena/link_arena.png', confidence=0.98)
     pyautogui.moveTo(link_arena, duration=1)
     x, y = link_arena
     y += 22
     x += 15
     pos = x, y
     pyautogui.moveTo(pos, duration=1)
-    foto('img/tests/test_ver.png', (x, y, 214, 421))
+    fun.foto('img/tests/test_ver.png', (x, y, 214, 421))
 
 
 def creating_photo_hero():
-    pos = find_link_i()
+    pos = fun.find_link_i()
     pyautogui.moveTo(pos, duration=1)
     x, y = pos
     y -= 90
     x -= 30
     pos = x, y
     # pyautogui.moveTo(pos, duration=1)
-    foto('img/tests/test_her.png', (x, y, 58, 80))
+    fun.foto('img/tests/test_her.png', (x, y, 58, 80))
 
 
 def creating_photo_guru():
-    pos = find_link_i()
+    pos = fun.find_link_i()
     pyautogui.moveTo(pos, duration=1)
     x, y = pos
     y -= 81
@@ -64,11 +65,11 @@ def creating_photo_guru():
     # x_k += 40
     # y_k += 40
     # pyautogui.moveTo(x_k, y_k, duration=1)
-    foto('img/tests/guru.png', (x, y, 38, 37))
+    fun.foto('img/tests/guru.png', (x, y, 38, 37))
 
 
 def attak_guru():
-    pos = pyautogui.locateCenterOnScreen('img/city/guru.png', confidence=0.9)
+    pos = fun.loc_center_img('img/city/guru.png', confidence=0.9)
     pyautogui.moveTo(pos, duration=1)
     x, y = pos
     y += 150
@@ -78,11 +79,11 @@ def attak_guru():
     # x_k += 40
     # y_k += 40
     # pyautogui.moveTo(x_k, y_k, duration=1)
-    foto('img/city/attak_guru.png', (x, y, 40, 40))
+    fun.foto('img/city/attak_guru.png', (x, y, 40, 40))
 
 
 def first_cell_foto():
-    exit_img = loc_center_img('img/everything/exit.png')
+    exit_img = fun.loc_center_img('img/everything/exit.png', confidence=0.9)
     if exit_img:
         pyautogui.moveTo(exit_img, duration=1)
         x, y = exit_img
@@ -96,13 +97,13 @@ def first_cell_foto():
         y += corr
         pos = x, y
         pyautogui.moveTo(pos, duration=1)
-        foto('img/tests/cell.png', (x_v, y_v, corr, corr))
+        fun.foto('img/tests/cell.png', (x_v, y_v, corr, corr))
     else:
         print('не вижу')
 
 
 def mask_pos_foto():
-    exit_img = loc_center_img('img/everything/exit.png')
+    exit_img = fun.loc_center_img('img/everything/exit.png', confidence=0.9)
     if exit_img:
         pyautogui.moveTo(exit_img, duration=1)
         x, y = exit_img
@@ -116,13 +117,13 @@ def mask_pos_foto():
         y += corr
         pos = x, y
         pyautogui.moveTo(pos, duration=1)
-        foto('img/tests/cell.png', (x_v, y_v, corr, corr))
+        fun.foto('img/tests/cell.png', (x_v, y_v, corr, corr))
     else:
         print('не вижу')
 
 
 def link_backpack():
-    exit_img = loc_center_img('img/everything/exit.png')
+    exit_img = fun.loc_center_img('img/everything/exit.png', confidence=0.9)
     if exit_img:
         pyautogui.moveTo(exit_img, duration=1)
         x, y = exit_img
@@ -136,13 +137,13 @@ def link_backpack():
         # y += 30
         # pos = x, y
         # pyautogui.moveTo(pos, duration=1)
-        foto('img/tests/cell.png', (x_v, y_v, 87, 30))
+        fun.foto('img/tests/cell.png', (x_v, y_v, 87, 30))
     else:
         print('не вижу')
 
 
 def creating_photo_lvl():
-    pos = find_link_i()
+    pos = fun.find_link_i()
     pyautogui.moveTo(pos, duration=1)
     x, y = pos
     y -= 94 - 1
@@ -153,12 +154,13 @@ def creating_photo_lvl():
     x_k += change
     y_k += change
     pyautogui.moveTo(x_k, y_k, duration=1)
-    foto('img/energy/lvl/23lvl.png', (x, y, change, change))
+    fun.foto('img/energy/lvl/23lvl.png', (x, y, change, change))
     print('23lvl.png create')
 
 
 def creating_result():
-    pos = find_link_i()
+    """Результат задания"""
+    pos = fun.find_link_i()
     pyautogui.moveTo(pos, duration=2)
     x, y = pos
     y += 54 - 1
@@ -170,7 +172,7 @@ def creating_result():
     x_k += change_x
     y_k += change_y
     pyautogui.moveTo(x_k, y_k, duration=1)
-    foto('img/tests/test_rezult_.png', (x, y, change_x, change_y))
+    fun.foto('img/tests/test_result_.png', (x, y, change_x, change_y))
 
 # creating_result()
 # creating_photo_lvl()
