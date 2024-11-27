@@ -99,7 +99,7 @@ def first_cell_foto():
         foto('img/tests/cell.png', (x_v, y_v, corr, corr))
     else:
         print('не вижу')
-        
+
 
 def mask_pos_foto():
     exit_img = loc_center_img('img/everything/exit.png')
@@ -145,18 +145,19 @@ def creating_photo_lvl():
     pos = find_link_i()
     pyautogui.moveTo(pos, duration=1)
     x, y = pos
-    y -= 94 -1
-    x += 26 +1
+    y -= 94 - 1
+    x += 26 + 1
     pyautogui.moveTo(x, y, duration=1)
     x_k, y_k = x, y
     change = 36
     x_k += change
     y_k += change
     pyautogui.moveTo(x_k, y_k, duration=1)
-    foto('img/energy/lvl/22lvl.png', (x, y, change, change))
+    foto('img/energy/lvl/23lvl.png', (x, y, change, change))
+    print('23lvl.png create')
 
 
-def creat_rezult():
+def creating_result():
     pos = find_link_i()
     pyautogui.moveTo(pos, duration=2)
     x, y = pos
@@ -171,8 +172,7 @@ def creat_rezult():
     pyautogui.moveTo(x_k, y_k, duration=1)
     foto('img/tests/test_rezult_.png', (x, y, change_x, change_y))
 
-
-# creat_rezult()
+# creating_result()
 # creating_photo_lvl()
 # link_backpack()
 # mask_pos_foto()

@@ -1420,3 +1420,73 @@
 2024-11-27 09:26:05 move_to_click
 2024-11-27 09:26:13 move_to_click
 2024-11-27 09:26:42 move_to_click
+2024-11-27 09:57:46 move_to_click
+2024-11-27 09:57:50 move_to_click
+2024-11-27 09:57:52 move_to_click
+2024-11-27 09:57:56 move_to_click
+2024-11-27 09:58:05 fun.push_close
+2024-11-27 09:58:06 close = Point(x=np.int64(383), y=np.int64(600))
+2024-11-27 09:58:06 move_to_click
+2024-11-27 09:58:12 move_to_click
+2024-11-27 10:02:59 move_to_click
+2024-11-27 10:03:13 fun.push_close
+2024-11-27 10:03:14 close = Point(x=np.int64(383), y=np.int64(600))
+2024-11-27 10:03:14 move_to_click
+2024-11-27 10:03:19 move_to_click
+2024-11-27 10:08:02 move_to_click
+2024-11-27 10:08:12 fun.push_close
+2024-11-27 10:08:12 close = Point(x=np.int64(383), y=np.int64(600))
+2024-11-27 10:08:12 move_to_click
+2024-11-27 10:08:18 move_to_click
+2024-11-27 10:12:53 move_to_click
+2024-11-27 10:12:59 move_to_click
+2024-11-27 10:13:01 move_to_click
+2024-11-27 10:13:03 move_to_click
+2024-11-27 10:13:07 move_to_click
+2024-11-27 10:13:14 fun.push_close
+2024-11-27 10:13:15 close = Point(x=np.int64(383), y=np.int64(600))
+2024-11-27 10:13:15 move_to_click
+2024-11-27 10:13:20 move_to_click
+2024-11-27 10:18:10 move_to_click
+2024-11-27 10:18:18 fun.push_close
+2024-11-27 10:18:18 close = Point(x=np.int64(383), y=np.int64(600))
+2024-11-27 10:18:18 move_to_click
+2024-11-27 10:18:23 move_to_click
+2024-11-27 10:26:58 move_to_click
+2024-11-27 10:27:01 move_to_click
+2024-11-27 10:27:04 move_to_click
+2024-11-27 10:27:08 move_to_click
+2024-11-27 10:27:16 fun.push_close
+2024-11-27 10:27:17 close = Point(x=np.int64(390), y=np.int64(597))
+2024-11-27 10:27:17 move_to_click
+2024-11-27 10:27:22 move_to_click
+2024-11-27 10:32:10 move_to_click
+2024-11-27 10:32:19 fun.push_close
+2024-11-27 10:32:20 close = Point(x=np.int64(390), y=np.int64(597))
+2024-11-27 10:32:20 move_to_click
+2024-11-27 10:32:25 move_to_click
+2024-11-27 10:37:15 move_to_click
+2024-11-27 10:37:34 fun.push_close
+2024-11-27 10:37:35 close = Point(x=np.int64(390), y=np.int64(597))
+2024-11-27 10:37:35 move_to_click
+2024-11-27 10:37:41 move_to_click
+2024-11-27 10:42:20 move_to_click
+2024-11-27 10:42:28 fun.push_close
+2024-11-27 10:42:28 close = Point(x=np.int64(390), y=np.int64(597))
+2024-11-27 10:42:28 move_to_click
+2024-11-27 10:42:33 move_to_click
+2024-11-27 10:47:24 move_to_click
+2024-11-27 10:47:33 fun.push_close
+2024-11-27 10:47:33 close = Point(x=np.int64(390), y=np.int64(597))
+2024-11-27 10:47:33 move_to_click
+2024-11-27 10:47:38 move_to_click
+2024-11-27 10:52:28 move_to_click
+2024-11-27 10:52:39 fun.push_close
+2024-11-27 10:52:40 close = Point(x=np.int64(390), y=np.int64(597))
+2024-11-27 10:52:40 move_to_click
+2024-11-27 10:52:46 move_to_click
+2024-11-27 10:57:31 move_to_click
+2024-11-27 10:57:41 fun.push_close
+2024-11-27 10:57:41 close = Point(x=np.int64(390), y=np.int64(597))
+2024-11-27 10:57:41 move_to_click
+2024-11-27 10:57:46 move_to_click
