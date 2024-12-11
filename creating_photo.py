@@ -22,7 +22,7 @@ def creating_photo_tasks():
 
 
 def creating_photo_hero_in_hall_glory():
-    in_hall_glory = fun.loc_center_img('img/arena/link_in_hall_glory.png', confidence=0.98)
+    in_hall_glory = fun.locCenterImg('img/arena/link_in_hall_glory.png', confidence=0.98)
     pyautogui.moveTo(in_hall_glory, duration=1)
     x, y = in_hall_glory
     y += 116
@@ -33,14 +33,15 @@ def creating_photo_hero_in_hall_glory():
 
 
 def creating_photo_hero_ver_in_hall_glory():
-    link_arena = fun.loc_center_img('img/arena/link_arena.png', confidence=0.98)
+    link_arena = fun.locCenterImg('img/arena/link_arena.png', confidence=0.98)
     pyautogui.moveTo(link_arena, duration=1)
     x, y = link_arena
-    y += 22
+    rep = 53
+    y += 22 + rep# 22
     x += 15
     pos = x, y
     pyautogui.moveTo(pos, duration=1)
-    fun.foto('img/tests/test_ver.png', (x, y, 214, 421))
+    fun.foto('img/tests/test_ver.png', (x, y, 214, 421 - rep))
 
 
 def creating_photo_hero():
@@ -69,7 +70,7 @@ def creating_photo_guru():
 
 
 def attak_guru():
-    pos = fun.loc_center_img('img/city/guru.png', confidence=0.9)
+    pos = fun.locCenterImg('img/city/guru.png', confidence=0.9)
     pyautogui.moveTo(pos, duration=1)
     x, y = pos
     y += 150
@@ -83,7 +84,7 @@ def attak_guru():
 
 
 def first_cell_foto():
-    exit_img = fun.loc_center_img('img/everything/exit.png', confidence=0.9)
+    exit_img = fun.locCenterImg('img/everything/exit.png', confidence=0.9)
     if exit_img:
         pyautogui.moveTo(exit_img, duration=1)
         x, y = exit_img
@@ -103,7 +104,7 @@ def first_cell_foto():
 
 
 def mask_pos_foto():
-    exit_img = fun.loc_center_img('img/everything/exit.png', confidence=0.9)
+    exit_img = fun.locCenterImg('img/everything/exit.png', confidence=0.9)
     if exit_img:
         pyautogui.moveTo(exit_img, duration=1)
         x, y = exit_img
@@ -123,7 +124,7 @@ def mask_pos_foto():
 
 
 def link_backpack():
-    exit_img = fun.loc_center_img('img/everything/exit.png', confidence=0.9)
+    exit_img = fun.locCenterImg('img/everything/exit.png', confidence=0.9)
     if exit_img:
         pyautogui.moveTo(exit_img, duration=1)
         x, y = exit_img
@@ -154,8 +155,8 @@ def creating_photo_lvl():
     x_k += change
     y_k += change
     pyautogui.moveTo(x_k, y_k, duration=1)
-    fun.foto('img/energy/lvl/23lvl.png', (x, y, change, change))
-    print('23lvl.png create')
+    fun.foto('img/energy/lvl/24lvl.png', (x, y, change, change))
+    print('24lvl.png create')
 
 
 def creating_result():

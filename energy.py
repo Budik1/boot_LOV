@@ -3,7 +3,7 @@ from playsound3 import playsound
 from time import sleep
 
 import fun
-from fun import my_print_to_file, wait_and_stop_img, loc_center_img
+from fun import my_print_to_file, wait_and_stop_img, locCenterImg
 from creating_photo import creating_photo_tasks
 import baza_dannyx as b_d
 import my_text as m_t
@@ -18,11 +18,11 @@ def foto_pos():
 
 def verify_energy(q_it):
     it = 0
-    not_energy = fun.loc_center_img('img/energy/not_energy.png', confidence=0.9)  # ??
+    not_energy = fun.locCenterImg('img/energy/not_energy.png', confidence=0.9)  # ??
     while not not_energy and it < q_it:
         it += 1
         sleep(1)
-        not_energy = fun.loc_center_img('img/energy/not_energy.png', confidence=0.9)
+        not_energy = fun.locCenterImg('img/energy/not_energy.png', confidence=0.9)
     return not_energy
 
 
@@ -31,7 +31,7 @@ def task_selection(tasks):
     conf = 0.99
     while not variant_:
         for img in tasks:
-            task_ = fun.loc_center_img(tasks[img], confidence=conf)
+            task_ = fun.locCenterImg(tasks[img], confidence=conf)
             if task_:
                 print(f"{tasks[img]}, conf={conf}")
                 # print('проверь наличие и место')
@@ -52,14 +52,14 @@ def task_selection(tasks):
 
 
 def energy_gold():
-    close = fun.loc_center_img('img/everything/close.png', confidence=0.89)
+    close = fun.locCenterImg('img/everything/close.png', confidence=0.89)
     if close:
         fun.move_to_click(close, 0)
     # опознать героя
     hero = fun.selection_hero()
     # получение списка заданий
     if hero == 'Gavr':
-        tasks_ = b_d.tasks_gold_g
+        tasks_ = b_d.tasks_gold_gavr
     elif hero == 'Gadya':
         tasks_ = b_d.tasks_gold_v
     elif hero == 'Veles':
@@ -87,11 +87,11 @@ def energy_gold():
 
         else:
             pos_i = fun.find_link_i()
-            taverna = fun.loc_center_img('img/energy/link_taverna.png', confidence=0.9)
+            taverna = fun.locCenterImg('img/energy/link_taverna.png', confidence=0.9)
             while taverna:
                 sleep(1)
-                taverna = fun.loc_center_img('img/energy/link_taverna.png', confidence=0.9)
-            link_battle_end = fun.loc_center_img('img/link_battle_end.png', confidence=0.9)
+                taverna = fun.locCenterImg('img/energy/link_taverna.png', confidence=0.9)
+            link_battle_end = fun.locCenterImg('img/link_battle_end.png', confidence=0.9)
             while not link_battle_end:
                 awake_friend = pyautogui.locateCenterOnScreen('img/energy/_awake_friend.png', confidence=par_conf,
                                                               region=region_events)
@@ -145,15 +145,15 @@ def energy_gold():
                         close = fun.wait_close('Разбудить друга')
                         if close:
                             fun.move_to_click(close, 0)
-                skip_battle = fun.loc_center_img('img/everything/skip_battle.png', confidence=par_conf)
+                skip_battle = fun.locCenterImg('img/everything/skip_battle.png', confidence=par_conf)
                 if skip_battle and review == 1:
                     review = 2
                     fun.in_battle(par_conf - 0.01, pos_i)
-                link_battle_end = fun.loc_center_img('img/link_battle_end.png', confidence=0.9)
+                link_battle_end = fun.locCenterImg('img/link_battle_end.png', confidence=0.9)
             link_battle_end = wait_and_stop_img('img/link_battle_end.png')
             pyautogui.moveTo(link_battle_end, duration=0.25)
             if link_battle_end:
-                link_victory = fun.loc_center_img('img/energy/rezult_vick.png', confidence=0.9)
+                link_victory = fun.locCenterImg('img/energy/rezult_vick.png', confidence=0.9)
                 if link_victory:
                     # print("Победа")
                     fun.melodi_vic()
@@ -195,12 +195,19 @@ def energy_gold():
 
 
 def energy_xp():
-    close = fun.loc_center_img('img/everything/close.png', confidence=0.89)
+    close = fun.locCenterImg('img/everything/close.png', confidence=0.89)
     if close:
         fun.move_to_click(close, 0)
+    # опознать героя
     hero = fun.selection_hero()
+    if not hero:
+        close = fun.locCenterImg('img/everything/close.png', confidence=0.89)
+        if close:
+            fun.move_to_click(close, 0)
+        hero = fun.selection_hero()
+    # получить список его заданий
     if hero == 'Gavr':
-        tasks_ = b_d.tasks_xp_g
+        tasks_ = b_d.tasks_xp_gavr
     elif hero == 'Gadya':
         tasks_ = b_d.tasks_xp_v
     elif hero == 'Veles':
@@ -228,11 +235,11 @@ def energy_xp():
 
         else:
             pos_i = fun.find_link_i()
-            taverna = fun.loc_center_img('img/energy/link_taverna.png', confidence=0.9)
+            taverna = fun.locCenterImg('img/energy/link_taverna.png', confidence=0.9)
             while taverna:
                 sleep(1)
-                taverna = fun.loc_center_img('img/energy/link_taverna.png', confidence=0.9)
-            link_battle_end = fun.loc_center_img('img/link_battle_end.png', confidence=0.9)
+                taverna = fun.locCenterImg('img/energy/link_taverna.png', confidence=0.9)
+            link_battle_end = fun.locCenterImg('img/link_battle_end.png', confidence=0.9)
             while not link_battle_end:
                 awake_friend = pyautogui.locateCenterOnScreen('img/energy/_awake_friend.png', confidence=par_conf,
                                                               region=region_events)
@@ -286,16 +293,16 @@ def energy_xp():
                         close = fun.wait_close('Разбудить друга')
                         if close:
                             fun.move_to_click(close, 0)
-                skip_battle = fun.loc_center_img('img/everything/skip_battle.png', confidence=par_conf)
+                skip_battle = fun.locCenterImg('img/everything/skip_battle.png', confidence=par_conf)
                 if skip_battle and review == 1:
                     review = 2
                     fun.in_battle(par_conf, pos_i)
-                link_battle_end = fun.loc_center_img('img/link_battle_end.png', confidence=0.9)
+                link_battle_end = fun.locCenterImg('img/link_battle_end.png', confidence=0.9)
 
             link_battle_end = wait_and_stop_img('img/link_battle_end.png')
             pyautogui.moveTo(link_battle_end, duration=0.25)
             if link_battle_end:
-                link_victory = fun.loc_center_img('img/energy/rezult_vick.png', confidence=0.9)
+                link_victory = fun.locCenterImg('img/energy/rezult_vick.png', confidence=0.9)
                 if link_victory:
                     # print("Победа")
                     fun.melodi_vic()

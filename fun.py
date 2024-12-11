@@ -23,7 +23,7 @@ def o_in_oo(symbol):
         return str(symbol)
 
 
-def loc_center_img(name_img, confidence=0.9):
+def locCenterImg(name_img, confidence=0.9):
     pos_img = pyautogui.locateCenterOnScreen(name_img, confidence=confidence)
     return pos_img
 
@@ -32,18 +32,18 @@ def wait_and_stop_img(name_img, param_confidence=0.85):
     """    Ждет появление и фиксацию картинки    """
     # lookin_image = pyautogui.locateCenterOnScreen(path_and_name_img, confidence=param_confidence)
 
-    img_1 = loc_center_img(name_img, param_confidence)
+    img_1 = locCenterImg(name_img, param_confidence)
     sleep(0.3)
-    img_2 = loc_center_img(name_img, param_confidence)
+    img_2 = locCenterImg(name_img, param_confidence)
     while not img_1 or img_1 != img_2:
         if img_1 or img_2:
-            img_1 = loc_center_img(name_img, param_confidence)
+            img_1 = locCenterImg(name_img, param_confidence)
             sleep(0.3)
-            img_2 = loc_center_img(name_img, param_confidence)
+            img_2 = locCenterImg(name_img, param_confidence)
         else:
-            img_1 = loc_center_img(name_img, param_confidence)
+            img_1 = locCenterImg(name_img, param_confidence)
             sleep(0.3)
-            img_2 = loc_center_img(name_img, param_confidence)
+            img_2 = locCenterImg(name_img, param_confidence)
     if img_1 == img_2 and img_1:
         return img_2
 
@@ -53,7 +53,7 @@ def attack_guru():
     if name == 'Gavr' or name == 'Gadya' or name == 'Veles' or name == 'Mara':
         # переход на экран 'ученики и наставники'
         # guru = pyautogui.locateCenterOnScreen('img/city/guru.png', confidence=0.9)
-        guru = loc_center_img('img/city/guru.png', 0.9)
+        guru = locCenterImg('img/city/guru.png', 0.9)
         # print('guru', guru)
         move_to_click(guru, 0.2)
         # подтверждение открытия окна "наставник - ученик"
@@ -73,13 +73,13 @@ def attack_guru():
 
 
 def click_update():
-    update = loc_center_img('img/kv/update.png', 0.9)
+    update = locCenterImg('img/kv/update.png', 0.9)
     sleep(0.2)
-    update_1 = loc_center_img('img/kv/update.png', 0.9)
+    update_1 = locCenterImg('img/kv/update.png', 0.9)
     while not update or update != update_1:
-        update = loc_center_img('img/kv/update.png', 0.9)
+        update = locCenterImg('img/kv/update.png', 0.9)
         sleep(0.2)
-        update_1 = loc_center_img('img/kv/update.png', 0.9)
+        update_1 = locCenterImg('img/kv/update.png', 0.9)
     # print("обновить", update)
     move_to_click(update, 0.1)
     x, y = update
@@ -141,7 +141,10 @@ def move_to_click(pos_click: tuple, z_p_k: float):
     # print('должен быть клик')
     sleep(z_p_k)
     pyautogui.hotkey('Ctrl')
-    pyautogui.click(pos_click)
+    if pos_click:
+        pyautogui.click(pos_click)
+    else:
+        print("некуда кликать")
     sleep(0.18)
 
 
@@ -157,10 +160,10 @@ def find_link_i():
 
 def open_taverna():
     """Открыть таверну"""
-    taverna = loc_center_img('img/energy/link_taverna.png')
+    taverna = locCenterImg('img/energy/link_taverna.png')
     if taverna:
         sleep(1)
-        taverna = loc_center_img('img/energy/link_taverna.png')
+        taverna = locCenterImg('img/energy/link_taverna.png')
         pyautogui.moveTo(taverna, duration=1)
         return taverna
     else:
@@ -170,12 +173,12 @@ def open_taverna():
         y += 140
         pos = x, y
         move_to_click(pos, 0.2)
-        taverna = loc_center_img('img/energy/link_taverna.png')
+        taverna = locCenterImg('img/energy/link_taverna.png')
         while not taverna:
             sleep(0.1)
-            taverna = loc_center_img('img/energy/link_taverna.png')
+            taverna = locCenterImg('img/energy/link_taverna.png')
         sleep(1)
-        taverna = loc_center_img('img/energy/link_taverna.png')
+        taverna = locCenterImg('img/energy/link_taverna.png')
         pyautogui.moveTo(taverna, duration=1)
         return taverna
 
@@ -183,11 +186,11 @@ def open_taverna():
 def push_close():
     it = 0
     my_print_to_file('fun.push_close')
-    close = loc_center_img('img/everything/close.png', 0.89)
+    close = locCenterImg('img/everything/close.png', 0.89)
     while not close:
         it += 0.2
         sleep(0.1)
-        close = loc_center_img('img/everything/close.png', 0.89)
+        close = locCenterImg('img/everything/close.png', 0.89)
         if it == int:
             my_print_to_file("поиск close")
     if close:
@@ -197,39 +200,39 @@ def push_close():
 
 def push_close_all_():
     # print('def "fun.push_close_all_"')
-    close = loc_center_img('img/everything/close.png', 0.89)
+    close = locCenterImg('img/everything/close.png', 0.89)
     # print(close, 'close')
     while close:
         close_popup_window()
         push_close()
         sleep(1)
-        close = loc_center_img('img/everything/close.png', 0.89)
+        close = locCenterImg('img/everything/close.png', 0.89)
         # print("цикл close")
 
 
 def close_popup_window():
     print('def "fun.close_popup_window"')
-    knob = loc_center_img('img/everything/knob.png', 0.89)
-    cancel = loc_center_img('img/everything/cancel.png', 0.89)
+    knob = locCenterImg('img/everything/knob.png', 0.89)
+    cancel = locCenterImg('img/everything/cancel.png', 0.89)
     if knob:
         sleep(1)
-        knob = loc_center_img('img/everything/knob.png', 0.89)
+        knob = locCenterImg('img/everything/knob.png', 0.89)
         print("снять галочку")
         move_to_click(knob, 1)
     if cancel:
         sleep(1)
-        cancel = loc_center_img('img/cancel.png', 0.89)
+        cancel = locCenterImg('img/cancel.png', 0.89)
         print('нажал отменить')
         move_to_click(cancel, 1)
 
 
 def exit_to_fountain():
     # print('fun.exit_to_fountain')
-    img_to_fountain = loc_center_img('img/to_fountain_from_houses.png')
+    img_to_fountain = locCenterImg('img/to_fountain_from_houses.png')
     while not img_to_fountain:
         sleep(1)
         print(img_to_fountain, 'to_fountain')
-        img_to_fountain = loc_center_img('img/to_fountain_from_houses.png', 0.85)
+        img_to_fountain = locCenterImg('img/to_fountain_from_houses.png', 0.85)
 
     move_to_click(img_to_fountain, 0.5)
 
@@ -240,44 +243,44 @@ def wait_close(txt):
         pass
         # print('fun.wait_close', txt)
     it = 0
-    close = loc_center_img('img/everything/close.png', 0.89)
+    close = locCenterImg('img/everything/close.png', 0.89)
     while not close and it < 3:
         sleep(1)
         it += 1
-        close = loc_center_img('img/everything/close.png', 0.89)
+        close = locCenterImg('img/everything/close.png', 0.89)
     sleep(0.2)
-    close = loc_center_img('img/everything/close.png', 0.89)
+    close = locCenterImg('img/everything/close.png', 0.89)
     return close
 
 
 def cancel_or_knob():
     print('fun.cancel_or_knob')
     it = 0
-    cancel = loc_center_img('img/everything/cancel.png', 0.89)
-    knob = loc_center_img('img/everything/knob.png', 0.89)
+    cancel = locCenterImg('img/everything/cancel.png', 0.89)
+    knob = locCenterImg('img/everything/knob.png', 0.89)
     while not cancel and not knob and it < 2:
         it += 0.2
         # print(cancel, '= cancel', knob, '= knob')
         sleep(0.1)
-        cancel = loc_center_img('img/everything/cancel.png', 0.89)
-        knob = loc_center_img('img/everything/knob.png', 0.89)
+        cancel = locCenterImg('img/everything/cancel.png', 0.89)
+        knob = locCenterImg('img/everything/knob.png', 0.89)
     if cancel:
         sleep(0.1)
-        cancel = loc_center_img('img/everything/cancel.png', 0.89)
+        cancel = locCenterImg('img/everything/cancel.png', 0.89)
         move_to_click(cancel, 0)
     if knob:
         sleep(0.1)
-        knob = loc_center_img('img/everything/knob.png', 0.89)
+        knob = locCenterImg('img/everything/knob.png', 0.89)
         move_to_click(knob, 0)
     close = wait_close('cancel_or_knob')
     return close
 
 
 def selection_hero():
-    gavril = loc_center_img('img/hero/h_gavril.png')
-    gadya = loc_center_img('img/hero/h_gadya.png')
-    veles = loc_center_img('img/hero/h_veles.png')
-    mara = loc_center_img('img/hero/h_mara.png')
+    gavril = locCenterImg('img/hero/h_gavril.png')
+    gadya = locCenterImg('img/hero/h_gadya.png')
+    veles = locCenterImg('img/hero/h_veles.png')
+    mara = locCenterImg('img/hero/h_mara.png')
     if gavril:
         print(m_t.text_yellow('         Гаврил'))
         hero = 'Gavr'
@@ -298,8 +301,8 @@ def selection_hero():
 
 
 def to_fountain():
-    fountain1 = loc_center_img('img/to_fountain_from_houses.png')
-    fountain2 = loc_center_img('img/to_fountain_from_pier.png')
+    fountain1 = locCenterImg('img/to_fountain_from_houses.png')
+    fountain2 = locCenterImg('img/to_fountain_from_pier.png')
     if fountain1:
         print('от домов к фонтану')
         move_to_click(fountain1, 0)
@@ -313,7 +316,7 @@ def to_fountain():
 def in_battle(par_conf, pos_i):
     my_print_to_file('in_battle')
 
-    skip_battle = loc_center_img('img/everything/skip_battle.png', par_conf)
+    skip_battle = locCenterImg('img/everything/skip_battle.png', par_conf)
     my_print_to_file(f'skip_battle = {skip_battle}')
     if skip_battle:
         x, y = pos_i
@@ -340,9 +343,9 @@ def scroll_down():
 def go_in_hall_glory():
     my_print_to_file('go_in_hall_glory')
 
-    link_in_hall_glory = loc_center_img('img/arena/link_in_hall_glory.png', 0.98)
-    hall_glory = loc_center_img('img/arena/hall_glory.png', 0.999)
-    close = loc_center_img('img/everything/close.png', 0.89)
+    link_in_hall_glory = locCenterImg('img/arena/link_in_hall_glory.png', 0.98)
+    hall_glory = locCenterImg('img/arena/hall_glory.png', 0.999)
+    close = locCenterImg('img/everything/close.png', 0.89)
 
     my_print_to_file(f'link_in_hall_glory = {link_in_hall_glory}')
     my_print_to_file(f'hall_glory = {hall_glory}')
@@ -355,9 +358,9 @@ def go_in_hall_glory():
         elif hall_glory:
             my_print_to_file(f'hall_glory = {hall_glory}')
             move_to_click(hall_glory, 0.2)
-            link_in_hall_glory = loc_center_img('img/arena/link_in_hall_glory.png', 0.98)
+            link_in_hall_glory = locCenterImg('img/arena/link_in_hall_glory.png', 0.98)
             while not link_in_hall_glory:
-                link_in_hall_glory = loc_center_img('img/arena/link_in_hall_glory.png', 0.98)
-        link_in_hall_glory = loc_center_img('img/arena/link_in_hall_glory.png', 0.98)
-        hall_glory = loc_center_img('img/arena/hall_glory.png', 0.999)
-        close = loc_center_img('img/everything/close.png', 0.89)
+                link_in_hall_glory = locCenterImg('img/arena/link_in_hall_glory.png', 0.98)
+        link_in_hall_glory = locCenterImg('img/arena/link_in_hall_glory.png', 0.98)
+        hall_glory = locCenterImg('img/arena/hall_glory.png', 0.999)
+        close = locCenterImg('img/everything/close.png', 0.89)

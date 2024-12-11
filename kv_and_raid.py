@@ -1,6 +1,6 @@
 import pyautogui
 from fun import push_close, move_to_click, click_update, wait_and_stop_img, selection_hero, date_start_prog
-from fun import o_in_oo, loc_center_img, date_utc_now
+from fun import o_in_oo, locCenterImg, date_utc_now
 import my_text as m_t
 import time
 import pickle
@@ -147,7 +147,7 @@ def kv():
     hero_name = selection_hero()
     if not hero_name:
         print(m_t.text_red("Герой не опознан"))
-        exit_kv_img = loc_center_img('img/everything/exit.png')
+        exit_kv_img = locCenterImg('img/everything/exit.png')
         move_to_click(exit_kv_img, 0)
         wait_and_stop_img('img/everything/info1.png', 0.9)
         hero_name = selection_hero()
@@ -175,16 +175,16 @@ def kv():
     time_raid = verifi_time_raid()
     if time_raid:
         print(m_t.text_cyan('рейд!!!'))
-        img_raids = loc_center_img('img/kv/raids.png')
+        img_raids = locCenterImg('img/kv/raids.png')
         move_to_click(img_raids, 0)
         wait_and_stop_img('img/kv/update.png')
     click_update()
 
     q_duel_start = True  # Флаг входа в дуэль, имеет состояния True/False. Если True - вход возможен
-    clan_var_img = loc_center_img('img/kv/clan_var.png', 0.9)
-    duel_start = loc_center_img('img/kv/duel_start.png', 0.9)
-    duel_over = loc_center_img('img/kv/duel_over.png', 0.8)
-    clan_raid_img = loc_center_img('img/kv/clan_raid.png')
+    clan_var_img = locCenterImg('img/kv/clan_var.png', 0.9)
+    duel_start = locCenterImg('img/kv/duel_start.png', 0.9)
+    duel_over = locCenterImg('img/kv/duel_over.png', 0.8)
+    clan_raid_img = locCenterImg('img/kv/clan_raid.png')
 
     # check_kv
     # check_raid
@@ -194,7 +194,7 @@ def kv():
             time_raid = verifi_time_raid()
             if time_raid:
                 print(m_t.text_cyan('рейд!!!'))
-                img_raids = loc_center_img('img/kv/raids.png')
+                img_raids = locCenterImg('img/kv/raids.png')
                 move_to_click(img_raids, 0)
                 wait_and_stop_img('img/kv/update.png')
                 click_update()
@@ -204,8 +204,8 @@ def kv():
         #     wait_and_stop_img('img/kv/update.png')
         if duel_start and q_duel_start:  # загорелась кнопка атаковать в войне
             q_it_print = True
-            clan_var_img = loc_center_img('img/kv/clan_var.png', 0.9)
-            clan_raid_img = loc_center_img('img/kv/clan_raid.png')
+            clan_var_img = locCenterImg('img/kv/clan_var.png', 0.9)
+            clan_raid_img = locCenterImg('img/kv/clan_raid.png')
             if clan_var_img:
                 print("Война, можно атаковать")
             elif clan_raid_img:
@@ -219,7 +219,7 @@ def kv():
                 gady_name_hero = wait_and_stop_img('img/kv/gady.png')
             #     move_to_click(gady_name_hero, 0)
             if time_raid:
-                bomba_img = loc_center_img('img/kv/bomba.png')
+                bomba_img = locCenterImg('img/kv/bomba.png')
                 print('бомба', bomba_img)
                 if bomba_img:
                     move_to_click(bomba_img, 0)
@@ -241,8 +241,8 @@ def kv():
             # задержка для определени победа/поражение
             duel_over = wait_and_stop_img('img/kv/duel_over.png', 0.8)
             pyautogui.moveTo(duel_over, duration=0.5)
-            img_duel_victory = loc_center_img('img/kv/kv_duel_victory.png', 0.9)
-            img_duel_defeat = loc_center_img('img/kv/kv_duel_defeat.png', 0.9)
+            img_duel_victory = locCenterImg('img/kv/kv_duel_victory.png', 0.9)
+            img_duel_defeat = locCenterImg('img/kv/kv_duel_defeat.png', 0.9)
             if img_duel_victory:
                 print("Победа")
                 if hero_name == 'Gavr':
@@ -287,7 +287,7 @@ def kv():
             #
             if time_raid:
                 # print(text_cyan('в цикле рейд!!!'))
-                img_raids = loc_center_img('img/kv/raids.png')
+                img_raids = locCenterImg('img/kv/raids.png')
                 move_to_click(img_raids, 0)
                 wait_and_stop_img('img/kv/update.png')
 
@@ -300,12 +300,12 @@ def kv():
 
             push_close()
             # вылетает на площадь с фонтаном((
-            fountain_pl_img = loc_center_img('img/everything/fountain_pl.jpg', 0.9)
-            clan_raid_img = loc_center_img('img/kv/clan_raid.png', 0.9)
+            fountain_pl_img = locCenterImg('img/everything/fountain_pl.jpg', 0.9)
+            clan_raid_img = locCenterImg('img/kv/clan_raid.png', 0.9)
             while not fountain_pl_img and not clan_raid_img:
                 print('вылет с рейда?')
-                fountain_pl_img = loc_center_img('img/everything/fountain_pl.jpg', 0.9)
-                clan_raid_img = loc_center_img('img/kv/clan_raid.png', 0.9)
+                fountain_pl_img = locCenterImg('img/everything/fountain_pl.jpg', 0.9)
+                clan_raid_img = locCenterImg('img/kv/clan_raid.png', 0.9)
             if fountain_pl_img:
                 print('точно)) надо обратно')
                 if hero_name == 'Gadya':
@@ -321,16 +321,16 @@ def kv():
             raids_img = wait_and_stop_img('img/kv/raids.png', 0.9)
             move_to_click(raids_img, 0)
 
-            img_battle = loc_center_img('img/kv/battles.png')
+            img_battle = locCenterImg('img/kv/battles.png')
             move_to_click(img_battle, 0)
             wait_and_stop_img('img/kv/update.png')
 
-            check_vs = loc_center_img('img/kv/_VS.png')
+            check_vs = locCenterImg('img/kv/_VS.png')
             print("VS = ", bool(check_vs))
             if check_vs:
                 click_update()
             if not check_vs:
-                img_raids = loc_center_img('img/kv/raids.png')
+                img_raids = locCenterImg('img/kv/raids.png')
                 move_to_click(img_raids, 0)
                 wait_and_stop_img('img/kv/update.png')
                 click_update()
@@ -340,10 +340,10 @@ def kv():
             # print(clan_var_img, 'clan_var_img v', clan_raid_img, 'clan_raid_img v')
             # print(clan_raid_img, 'clan_raid_img v')
 
-        check_vs = loc_center_img('img/kv/_VS.png')
+        check_vs = locCenterImg('img/kv/_VS.png')
 
-        duel_start = loc_center_img('img/kv/duel_start.png', 0.9)
-        duel_over = loc_center_img('img/kv/duel_over.png', 0.8)
+        duel_start = locCenterImg('img/kv/duel_start.png', 0.9)
+        duel_over = locCenterImg('img/kv/duel_over.png', 0.8)
         # bomba_img = loc_center_img('img/kv/bomba.png')
 
     print('выход из кв')

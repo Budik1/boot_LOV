@@ -10,7 +10,7 @@ tasks_xp_v = {'t1_1': 'img/tasks_v/t1x.png',
 
 }
 
-tasks_gold_g = {
+tasks_gold_gavr = {
     't1': 'img/tasks_gavr/t1g.png',
     't2': 'img/tasks_gavr/t2g.png',
     't3': 'img/tasks_gavr/t3g.png',
@@ -18,7 +18,7 @@ tasks_gold_g = {
     't5': 'img/tasks_gavr/t5g.png',
     't6': 'img/tasks_gavr/t6g.png',
 }
-tasks_xp_g = {
+tasks_xp_gavr = {
     't1': 'img/tasks_gavr/t1x.png',
     't2': 'img/tasks_gavr/t2x.png',
     't3': 'img/tasks_gavr/t3x.png',
