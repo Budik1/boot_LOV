@@ -50,7 +50,7 @@ def verifi_time_raid():
 
 
 def save_data_kv():
-    print('запись файла kv')
+    # print('запись файла kv')
     global hour_kvStart_gady, hour_kvStart_gavr, date_start_kv_gavr, date_start_kv_gady
     global duel_q___gavr, duel_q_v_gavr, duel_kv_gavr, duel_kv_vikt_gavr
     global duel_q___gady, duel_q_v_gady, duel_kv_gady, duel_kv_vikt_gady
@@ -73,14 +73,14 @@ def save_data_kv():
         'дата-кв': date_kv,
     }
 
-    print('запись переменных kv')  # , data_kv_to_save
+    # print('запись переменных kv')  # , data_kv_to_save
     file1 = open('config_kv.txt', 'wb')
     pickle.dump(data_kv_to_save, file1)
     file1.close()
 
 
 def read_data_kv():
-    print('чтение файла kv')
+    # print('чтение файла kv')
     global hero_name, hour_kvStart_gavr, hour_kvStart_gady, hour_kvVerifi_gavr, hour_kvVerifi_gady
     global duel_q___gavr, duel_q_v_gavr, duel_kv_gavr, duel_kv_vikt_gavr, date_start_kv_gavr
     global duel_q___gady, duel_q_v_gady, duel_kv_gady, duel_kv_vikt_gady, date_start_kv_gady
@@ -89,7 +89,7 @@ def read_data_kv():
         file1 = open('config_kv.txt', 'rb')
         data_kv_to_load = pickle.load(file1)
         file1.close()
-        print('чтение переменных kv')  # , data_kv_to_load
+        # print('чтение переменных kv')  # , data_kv_to_load
 
         duel_q___gady = data_kv_to_load['к-во_боёв-gady']
         duel_q_v_gady = data_kv_to_load['к-во_побед-gady']
