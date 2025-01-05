@@ -315,7 +315,7 @@ def to_fountain():
 
 def in_battle(par_conf, pos_i):
     my_print_to_file('in_battle')
-
+    print('fun.in_battle')
     skip_battle = locCenterImg('img/everything/skip_battle.png', par_conf)
     my_print_to_file(f'skip_battle = {skip_battle}')
     if skip_battle:
@@ -327,6 +327,15 @@ def in_battle(par_conf, pos_i):
         move_to_click(skip_battle, 0.2)
 
         return 1
+
+
+def call_pet(pos_i):
+    print('call_pet')
+    if pos_i:
+        x, y = pos_i
+        y += 410
+        pos_pet = x, y  # позиция пета
+        pyautogui.click(pos_pet)  # нажать на пета
 
 
 def scroll_down():
@@ -364,3 +373,13 @@ def go_in_hall_glory():
         link_in_hall_glory = locCenterImg('img/arena/link_in_hall_glory.png', 0.98)
         hall_glory = locCenterImg('img/arena/hall_glory.png', 0.999)
         close = locCenterImg('img/everything/close.png', 0.89)
+
+
+def to_clan():
+    pos = find_link_i()
+    pyautogui.moveTo(pos, duration=1)
+    x, y = pos
+    y -= 25
+    x += 45
+    pos_click = x, y
+    move_to_click(pos_click, 0)

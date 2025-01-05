@@ -1,0 +1,752 @@
+2024-12-19 05:38:55 move_to_click
+2024-12-19 05:39:05 move_to_click
+2024-12-19 05:39:09 move_to_click
+2024-12-19 05:39:15 move_to_click
+2024-12-19 05:39:55 move_to_click
+2024-12-19 05:40:02 move_to_click
+2024-12-19 05:40:15 move_to_click
+2024-12-19 05:40:19 move_to_click
+2024-12-19 05:44:07 in_battle
+2024-12-19 05:44:07 skip_battle = Point(x=np.int64(381), y=np.int64(120))
+2024-12-19 05:44:08 пропускаем бой
+2024-12-19 05:44:08 move_to_click
+2024-12-19 05:44:19 move_to_click
+2024-12-19 05:44:28 move_to_click
+2024-12-19 05:44:34 move_to_click
+2024-12-19 05:44:45 move_to_click
+2024-12-19 05:44:49 in_battle
+2024-12-19 05:44:49 skip_battle = Point(x=np.int64(381), y=np.int64(120))
+2024-12-19 05:44:49 пропускаем бой
+2024-12-19 05:44:49 move_to_click
+2024-12-19 05:45:01 move_to_click
+2024-12-19 05:45:10 move_to_click
+2024-12-19 05:45:16 move_to_click
+2024-12-19 05:45:27 move_to_click
+2024-12-19 05:45:31 move_to_click
+2024-12-19 05:46:20 in_battle
+2024-12-19 05:46:21 skip_battle = Point(x=np.int64(381), y=np.int64(120))
+2024-12-19 05:46:21 пропускаем бой
+2024-12-19 05:46:21 move_to_click
+2024-12-19 05:46:33 move_to_click
+2024-12-19 05:46:42 move_to_click
+2024-12-19 05:46:47 move_to_click
+2024-12-19 05:49:11 move_to_click
+2024-12-19 05:49:20 move_to_click
+2024-12-19 05:49:26 move_to_click
+2024-12-19 05:53:51 move_to_click
+2024-12-19 05:54:00 move_to_click
+2024-12-19 05:54:06 move_to_click
+2024-12-19 05:58:31 move_to_click
+2024-12-19 05:58:40 move_to_click
+2024-12-19 05:58:47 move_to_click
+2024-12-19 05:58:59 move_to_click
+2024-12-19 05:59:03 move_to_click
+2024-12-19 06:04:52 in_battle
+2024-12-19 06:04:52 skip_battle = Point(x=np.int64(381), y=np.int64(120))
+2024-12-19 06:04:52 пропускаем бой
+2024-12-19 06:04:52 move_to_click
+2024-12-19 06:05:03 move_to_click
+2024-12-19 06:05:12 move_to_click
+2024-12-19 06:05:18 move_to_click
+2024-12-19 06:07:32 move_to_click
+2024-12-19 06:07:41 move_to_click
+2024-12-19 06:07:49 move_to_click
+2024-12-19 06:14:07 move_to_click
+2024-12-19 06:14:16 move_to_click
+2024-12-19 06:14:23 move_to_click
+2024-12-19 06:14:34 move_to_click
+2024-12-19 06:14:37 move_to_click
+2024-12-19 06:19:27 in_battle
+2024-12-19 06:19:28 skip_battle = Point(x=np.int64(381), y=np.int64(120))
+2024-12-19 06:19:28 пропускаем бой
+2024-12-19 06:19:28 move_to_click
+2024-12-19 06:19:38 move_to_click
+2024-12-19 06:19:48 move_to_click
+2024-12-19 06:19:53 move_to_click
+2024-12-19 06:22:08 move_to_click
+2024-12-19 06:22:17 move_to_click
+2024-12-19 06:22:23 move_to_click
+2024-12-19 06:22:27 move_to_click
+2024-12-19 18:10:17 move_to_click
+2024-12-19 18:10:22 move_to_click
+2024-12-19 18:10:27 move_to_click
+2024-12-19 18:10:36 move_to_click
+2024-12-19 18:11:32 move_to_click
+2024-12-19 18:11:35 move_to_click
+2024-12-19 18:11:41 move_to_click
+2024-12-19 18:11:47 move_to_click
+2024-12-19 18:11:52 move_to_click
+2024-12-19 18:11:54 move_to_click
+2024-12-19 18:11:58 move_to_click
+2024-12-19 18:12:04 move_to_click
+2024-12-19 18:12:10 move_to_click
+2024-12-19 18:12:14 move_to_click
+2024-12-19 18:12:17 move_to_click
+2024-12-19 18:12:21 move_to_click
+2024-12-19 18:12:26 move_to_click
+2024-12-19 18:12:32 move_to_click
+2024-12-19 18:12:36 move_to_click
+2024-12-19 18:12:38 move_to_click
+2024-12-19 18:12:42 move_to_click
+2024-12-19 18:12:47 move_to_click
+2024-12-19 18:12:54 move_to_click
+2024-12-19 18:12:57 move_to_click
+2024-12-19 18:13:00 move_to_click
+2024-12-19 18:13:03 move_to_click
+2024-12-19 18:13:09 move_to_click
+2024-12-19 18:13:15 move_to_click
+2024-12-19 18:13:20 move_to_click
+2024-12-19 18:13:22 move_to_click
+2024-12-19 18:13:26 move_to_click
+2024-12-19 18:13:31 move_to_click
+2024-12-19 18:13:38 move_to_click
+2024-12-19 18:13:41 move_to_click
+2024-12-19 18:13:44 move_to_click
+2024-12-19 18:13:48 move_to_click
+2024-12-19 18:13:53 move_to_click
+2024-12-19 18:13:59 move_to_click
+2024-12-19 18:14:03 move_to_click
+2024-12-19 18:14:05 move_to_click
+2024-12-19 18:14:09 move_to_click
+2024-12-19 18:14:15 move_to_click
+2024-12-19 18:14:21 move_to_click
+2024-12-19 18:14:24 move_to_click
+2024-12-19 18:14:27 move_to_click
+2024-12-19 18:14:31 move_to_click
+2024-12-19 18:14:36 move_to_click
+2024-12-19 18:14:42 move_to_click
+2024-12-19 18:14:46 move_to_click
+2024-12-19 18:14:48 move_to_click
+2024-12-19 18:14:52 move_to_click
+2024-12-19 18:14:57 move_to_click
+2024-12-19 18:15:04 move_to_click
+2024-12-19 18:15:08 move_to_click
+2024-12-19 18:15:11 move_to_click
+2024-12-19 18:15:15 move_to_click
+2024-12-19 18:15:16 move_to_click
+2024-12-19 18:16:29 move_to_click
+2024-12-19 18:16:36 move_to_click
+2024-12-19 18:16:49 move_to_click
+2024-12-19 18:16:53 move_to_click
+2024-12-19 18:21:40 in_battle
+2024-12-19 18:21:40 skip_battle = Point(x=np.int64(385), y=np.int64(120))
+2024-12-19 18:21:40 пропускаем бой
+2024-12-19 18:21:40 move_to_click
+2024-12-19 18:21:52 move_to_click
+2024-12-19 18:22:02 move_to_click
+2024-12-19 18:22:07 move_to_click
+2024-12-19 18:23:30 move_to_click
+2024-12-19 18:23:39 move_to_click
+2024-12-19 18:23:45 move_to_click
+2024-12-19 18:23:55 move_to_click
+2024-12-19 18:23:58 move_to_click
+2024-12-19 18:24:03 move_to_click
+2024-12-19 18:24:50 in_battle
+2024-12-19 18:24:50 skip_battle = Point(x=np.int64(385), y=np.int64(120))
+2024-12-19 18:24:50 пропускаем бой
+2024-12-19 18:24:50 move_to_click
+2024-12-19 18:25:02 move_to_click
+2024-12-19 18:25:12 move_to_click
+2024-12-19 18:25:17 move_to_click
+2024-12-19 18:26:39 move_to_click
+2024-12-19 18:26:48 move_to_click
+2024-12-19 18:26:54 move_to_click
+2024-12-19 18:31:22 move_to_click
+2024-12-19 18:31:31 move_to_click
+2024-12-19 18:31:37 move_to_click
+2024-12-19 18:34:02 move_to_click
+2024-12-19 18:34:11 move_to_click
+2024-12-19 18:34:17 move_to_click
+2024-12-19 18:34:27 move_to_click
+2024-12-19 18:34:30 move_to_click
+2024-12-19 18:34:35 move_to_click
+2024-12-19 18:35:22 in_battle
+2024-12-19 18:35:22 skip_battle = Point(x=np.int64(385), y=np.int64(120))
+2024-12-19 18:35:22 пропускаем бой
+2024-12-19 18:35:22 move_to_click
+2024-12-19 18:35:34 move_to_click
+2024-12-19 18:35:43 move_to_click
+2024-12-19 18:35:49 move_to_click
+2024-12-19 18:36:02 move_to_click
+2024-12-19 18:36:06 move_to_click
+2024-12-19 18:40:53 in_battle
+2024-12-19 18:40:53 skip_battle = Point(x=np.int64(385), y=np.int64(120))
+2024-12-19 18:40:53 пропускаем бой
+2024-12-19 18:40:53 move_to_click
+2024-12-19 18:41:05 move_to_click
+2024-12-19 18:41:14 move_to_click
+2024-12-19 18:41:20 move_to_click
+2024-12-19 18:41:30 move_to_click
+2024-12-19 18:41:33 move_to_click
+2024-12-19 18:41:36 move_to_click
+2024-12-19 18:43:25 in_battle
+2024-12-19 18:43:25 skip_battle = Point(x=np.int64(385), y=np.int64(120))
+2024-12-19 18:43:25 пропускаем бой
+2024-12-19 18:43:25 move_to_click
+2024-12-19 18:43:34 move_to_click
+2024-12-19 18:43:43 move_to_click
+2024-12-19 18:43:50 move_to_click
+2024-12-19 18:44:00 move_to_click
+2024-12-19 18:44:04 move_to_click
+2024-12-19 18:44:09 move_to_click
+2024-12-19 18:49:55 in_battle
+2024-12-19 18:49:55 skip_battle = Point(x=np.int64(385), y=np.int64(120))
+2024-12-19 18:49:55 пропускаем бой
+2024-12-19 18:49:55 move_to_click
+2024-12-19 18:50:05 move_to_click
+2024-12-19 18:50:15 move_to_click
+2024-12-19 18:50:21 move_to_click
+2024-12-19 18:50:32 move_to_click
+2024-12-19 18:50:35 move_to_click
+2024-12-19 18:55:26 in_battle
+2024-12-19 18:55:26 skip_battle = Point(x=np.int64(385), y=np.int64(120))
+2024-12-19 18:55:27 пропускаем бой
+2024-12-19 18:55:27 move_to_click
+2024-12-19 18:55:37 move_to_click
+2024-12-19 18:55:46 move_to_click
+2024-12-19 18:55:52 move_to_click
+2024-12-19 18:56:06 move_to_click
+2024-12-19 18:56:09 move_to_click
+2024-12-19 18:56:11 move_to_click
+2024-12-19 18:57:56 in_battle
+2024-12-19 18:57:57 skip_battle = Point(x=np.int64(385), y=np.int64(120))
+2024-12-19 18:57:57 пропускаем бой
+2024-12-19 18:57:57 move_to_click
+2024-12-19 18:58:07 move_to_click
+2024-12-19 18:58:16 move_to_click
+2024-12-19 18:58:22 move_to_click
+2024-12-19 18:58:34 move_to_click
+2024-12-19 18:58:37 move_to_click
+2024-12-19 18:58:39 move_to_click
+2024-12-19 19:00:27 in_battle
+2024-12-19 19:00:27 skip_battle = Point(x=np.int64(385), y=np.int64(120))
+2024-12-19 19:00:27 пропускаем бой
+2024-12-19 19:00:27 move_to_click
+2024-12-19 19:00:38 move_to_click
+2024-12-19 19:00:47 move_to_click
+2024-12-19 19:00:52 move_to_click
+2024-12-19 19:02:19 move_to_click
+2024-12-19 19:02:28 move_to_click
+2024-12-19 19:02:34 move_to_click
+2024-12-19 19:02:38 move_to_click
+2024-12-19 19:05:08 move_to_click
+2024-12-19 19:05:12 move_to_click
+2024-12-19 19:09:05 move_to_click
+2024-12-19 19:09:09 move_to_click
+2024-12-19 19:09:15 move_to_click
+2024-12-19 19:09:21 move_to_click
+2024-12-19 19:09:25 move_to_click
+2024-12-19 19:09:28 move_to_click
+2024-12-19 19:09:32 move_to_click
+2024-12-19 19:09:37 move_to_click
+2024-12-19 19:09:44 move_to_click
+2024-12-19 19:09:47 move_to_click
+2024-12-19 19:09:50 move_to_click
+2024-12-19 19:09:53 move_to_click
+2024-12-19 19:09:59 move_to_click
+2024-12-19 19:10:05 move_to_click
+2024-12-19 19:10:09 move_to_click
+2024-12-19 19:10:11 move_to_click
+2024-12-19 19:10:15 move_to_click
+2024-12-19 19:10:20 move_to_click
+2024-12-19 19:10:27 move_to_click
+2024-12-19 19:10:31 move_to_click
+2024-12-19 19:10:34 move_to_click
+2024-12-19 19:10:38 move_to_click
+2024-12-19 19:10:43 move_to_click
+2024-12-19 19:10:49 move_to_click
+2024-12-19 19:10:54 move_to_click
+2024-12-19 19:10:56 move_to_click
+2024-12-19 19:11:00 move_to_click
+2024-12-19 19:11:05 move_to_click
+2024-12-19 19:11:12 move_to_click
+2024-12-19 19:11:15 move_to_click
+2024-12-19 19:11:18 move_to_click
+2024-12-19 19:11:22 move_to_click
+2024-12-19 19:11:27 move_to_click
+2024-12-19 19:11:33 move_to_click
+2024-12-19 19:11:38 move_to_click
+2024-12-19 19:11:41 move_to_click
+2024-12-19 19:11:44 move_to_click
+2024-12-19 19:11:50 move_to_click
+2024-12-19 19:11:56 move_to_click
+2024-12-19 19:12:00 move_to_click
+2024-12-19 19:12:03 move_to_click
+2024-12-19 19:12:07 move_to_click
+2024-12-19 19:12:12 move_to_click
+2024-12-19 19:12:19 move_to_click
+2024-12-19 19:12:22 move_to_click
+2024-12-19 19:12:25 move_to_click
+2024-12-19 19:12:29 move_to_click
+2024-12-19 19:12:34 move_to_click
+2024-12-19 19:12:41 move_to_click
+2024-12-19 19:12:45 move_to_click
+2024-12-19 19:12:48 move_to_click
+2024-12-19 19:12:51 move_to_click
+2024-12-19 19:12:53 move_to_click
+2024-12-19 19:13:09 move_to_click
+2024-12-19 19:13:14 move_to_click
+2024-12-19 19:14:36 move_to_click
+2024-12-19 19:14:46 move_to_click
+2024-12-19 19:14:51 move_to_click
+2024-12-19 19:15:02 move_to_click
+2024-12-19 19:15:05 move_to_click
+2024-12-19 19:15:56 in_battle
+2024-12-19 19:15:56 skip_battle = Point(x=np.int64(385), y=np.int64(116))
+2024-12-19 19:15:56 пропускаем бой
+2024-12-19 19:15:57 move_to_click
+2024-12-19 19:16:08 move_to_click
+2024-12-19 19:16:17 move_to_click
+2024-12-19 19:16:23 move_to_click
+2024-12-19 19:16:34 move_to_click
+2024-12-19 19:16:37 move_to_click
+2024-12-19 19:16:40 move_to_click
+2024-12-19 19:19:28 in_battle
+2024-12-19 19:19:28 skip_battle = Point(x=np.int64(385), y=np.int64(116))
+2024-12-19 19:19:28 пропускаем бой
+2024-12-19 19:19:28 move_to_click
+2024-12-19 19:19:40 move_to_click
+2024-12-19 19:19:50 move_to_click
+2024-12-19 19:19:55 move_to_click
+2024-12-19 19:20:09 move_to_click
+2024-12-19 19:20:13 in_battle
+2024-12-19 19:20:13 skip_battle = Point(x=np.int64(385), y=np.int64(116))
+2024-12-19 19:20:14 пропускаем бой
+2024-12-19 19:20:14 move_to_click
+2024-12-19 19:20:25 move_to_click
+2024-12-19 19:20:35 move_to_click
+2024-12-19 19:20:41 move_to_click
+2024-12-19 19:24:03 move_to_click
+2024-12-19 19:24:13 move_to_click
+2024-12-19 19:24:19 move_to_click
+2024-12-19 19:27:41 move_to_click
+2024-12-19 19:27:51 move_to_click
+2024-12-19 19:27:56 move_to_click
+2024-12-19 19:29:17 move_to_click
+2024-12-19 19:29:26 move_to_click
+2024-12-19 19:29:31 move_to_click
+2024-12-19 19:30:54 move_to_click
+2024-12-19 19:31:03 move_to_click
+2024-12-19 19:31:09 move_to_click
+2024-12-19 19:31:20 move_to_click
+2024-12-19 19:31:23 move_to_click
+2024-12-19 19:31:25 move_to_click
+2024-12-19 19:34:14 in_battle
+2024-12-19 19:34:14 skip_battle = Point(x=np.int64(385), y=np.int64(116))
+2024-12-19 19:34:14 пропускаем бой
+2024-12-19 19:34:14 move_to_click
+2024-12-19 19:34:26 move_to_click
+2024-12-19 19:34:35 move_to_click
+2024-12-19 19:34:42 move_to_click
+2024-12-19 19:38:03 move_to_click
+2024-12-19 19:38:13 move_to_click
+2024-12-19 19:38:18 move_to_click
+2024-12-19 19:40:32 move_to_click
+2024-12-19 19:40:42 move_to_click
+2024-12-19 19:40:47 move_to_click
+2024-12-19 19:43:03 move_to_click
+2024-12-19 19:43:12 move_to_click
+2024-12-19 19:43:18 move_to_click
+2024-12-19 19:46:41 move_to_click
+2024-12-19 19:46:50 move_to_click
+2024-12-19 19:46:57 move_to_click
+2024-12-19 19:50:15 move_to_click
+2024-12-19 19:50:25 move_to_click
+2024-12-19 19:50:30 move_to_click
+2024-12-19 19:51:54 move_to_click
+2024-12-19 19:52:03 move_to_click
+2024-12-19 19:52:09 move_to_click
+2024-12-19 19:53:32 move_to_click
+2024-12-19 19:53:41 move_to_click
+2024-12-19 19:53:47 move_to_click
+2024-12-19 19:53:50 move_to_click
+2024-12-19 19:55:02 move_to_click
+2024-12-19 19:55:08 move_to_click
+2024-12-19 19:55:21 move_to_click
+2024-12-19 19:55:25 in_battle
+2024-12-19 19:55:26 skip_battle = Point(x=np.int64(385), y=np.int64(116))
+2024-12-19 19:55:26 пропускаем бой
+2024-12-19 19:55:26 move_to_click
+2024-12-19 19:55:37 move_to_click
+2024-12-19 19:55:46 move_to_click
+2024-12-19 19:55:52 move_to_click
+2024-12-19 19:58:07 move_to_click
+2024-12-19 19:58:17 move_to_click
+2024-12-19 19:58:23 move_to_click
+2024-12-19 19:58:26 move_to_click
+2024-12-19 20:01:05 move_to_click
+2024-12-19 20:01:08 move_to_click
+2024-12-19 20:01:11 move_to_click
+2024-12-19 20:01:14 move_to_click
+2024-12-19 20:01:29 fun.push_close
+2024-12-19 20:01:30 close = Point(x=np.int64(388), y=np.int64(597))
+2024-12-19 20:01:30 move_to_click
+2024-12-19 20:01:34 move_to_click
+2024-12-19 20:06:16 move_to_click
+2024-12-19 20:06:36 fun.push_close
+2024-12-19 20:06:36 close = Point(x=np.int64(388), y=np.int64(597))
+2024-12-19 20:06:37 move_to_click
+2024-12-19 20:06:41 move_to_click
+2024-12-19 20:11:18 move_to_click
+2024-12-19 20:11:26 fun.push_close
+2024-12-19 20:11:27 close = Point(x=np.int64(388), y=np.int64(597))
+2024-12-19 20:11:27 move_to_click
+2024-12-19 20:11:32 move_to_click
+2024-12-19 20:16:21 move_to_click
+2024-12-19 20:16:29 fun.push_close
+2024-12-19 20:16:29 close = Point(x=np.int64(388), y=np.int64(597))
+2024-12-19 20:16:29 move_to_click
+2024-12-19 20:16:34 move_to_click
+2024-12-19 20:21:25 move_to_click
+2024-12-19 20:21:32 fun.push_close
+2024-12-19 20:21:32 close = Point(x=np.int64(388), y=np.int64(597))
+2024-12-19 20:21:32 move_to_click
+2024-12-19 20:21:37 move_to_click
+2024-12-19 20:26:28 move_to_click
+2024-12-19 20:26:43 fun.push_close
+2024-12-19 20:26:43 close = Point(x=np.int64(388), y=np.int64(597))
+2024-12-19 20:26:43 move_to_click
+2024-12-19 20:26:48 move_to_click
+2024-12-19 20:31:31 move_to_click
+2024-12-19 20:31:43 fun.push_close
+2024-12-19 20:31:43 close = Point(x=np.int64(388), y=np.int64(597))
+2024-12-19 20:31:43 move_to_click
+2024-12-19 20:31:48 move_to_click
+2024-12-19 20:36:33 move_to_click
+2024-12-19 20:36:41 fun.push_close
+2024-12-19 20:36:41 close = Point(x=np.int64(388), y=np.int64(597))
+2024-12-19 20:36:41 move_to_click
+2024-12-19 20:36:46 move_to_click
+2024-12-19 20:41:37 move_to_click
+2024-12-19 20:41:47 fun.push_close
+2024-12-19 20:41:47 close = Point(x=np.int64(388), y=np.int64(597))
+2024-12-19 20:41:47 move_to_click
+2024-12-19 20:41:52 move_to_click
+2024-12-19 20:46:41 move_to_click
+2024-12-19 20:46:48 fun.push_close
+2024-12-19 20:46:48 close = Point(x=np.int64(388), y=np.int64(597))
+2024-12-19 20:46:48 move_to_click
+2024-12-19 20:46:53 move_to_click
+2024-12-19 20:51:44 move_to_click
+2024-12-19 20:51:59 fun.push_close
+2024-12-19 20:52:00 close = Point(x=np.int64(388), y=np.int64(597))
+2024-12-19 20:52:00 move_to_click
+2024-12-19 20:52:05 move_to_click
+2024-12-19 20:56:47 move_to_click
+2024-12-19 20:56:58 fun.push_close
+2024-12-19 20:56:58 close = Point(x=np.int64(388), y=np.int64(597))
+2024-12-19 20:56:58 move_to_click
+2024-12-19 20:57:03 move_to_click
+2024-12-19 21:01:50 move_to_click
+2024-12-19 21:01:59 fun.push_close
+2024-12-19 21:01:59 close = Point(x=np.int64(388), y=np.int64(597))
+2024-12-19 21:01:59 move_to_click
+2024-12-19 21:02:04 move_to_click
+2024-12-19 21:06:53 move_to_click
+2024-12-19 21:07:09 fun.push_close
+2024-12-19 21:07:09 close = Point(x=np.int64(388), y=np.int64(597))
+2024-12-19 21:07:09 move_to_click
+2024-12-19 21:07:14 move_to_click
+2024-12-19 21:11:55 move_to_click
+2024-12-19 21:12:03 fun.push_close
+2024-12-19 21:12:04 close = Point(x=np.int64(388), y=np.int64(597))
+2024-12-19 21:12:04 move_to_click
+2024-12-19 21:12:09 move_to_click
+2024-12-19 21:16:57 move_to_click
+2024-12-19 21:17:04 fun.push_close
+2024-12-19 21:17:05 close = Point(x=np.int64(388), y=np.int64(597))
+2024-12-19 21:17:05 move_to_click
+2024-12-19 21:17:10 move_to_click
+2024-12-19 21:22:00 move_to_click
+2024-12-19 21:22:12 fun.push_close
+2024-12-19 21:22:13 close = Point(x=np.int64(388), y=np.int64(597))
+2024-12-19 21:22:13 move_to_click
+2024-12-19 21:22:18 move_to_click
+2024-12-19 21:27:03 move_to_click
+2024-12-19 21:27:11 fun.push_close
+2024-12-19 21:27:11 close = Point(x=np.int64(388), y=np.int64(597))
+2024-12-19 21:27:11 move_to_click
+2024-12-19 21:27:16 move_to_click
+2024-12-19 21:32:06 move_to_click
+2024-12-19 21:32:21 fun.push_close
+2024-12-19 21:32:22 close = Point(x=np.int64(388), y=np.int64(597))
+2024-12-19 21:32:22 move_to_click
+2024-12-19 21:32:27 move_to_click
+2024-12-19 21:37:08 move_to_click
+2024-12-19 21:37:15 fun.push_close
+2024-12-19 21:37:16 close = Point(x=np.int64(388), y=np.int64(597))
+2024-12-19 21:37:16 move_to_click
+2024-12-19 21:37:21 move_to_click
+2024-12-19 21:42:11 move_to_click
+2024-12-19 21:42:22 fun.push_close
+2024-12-19 21:42:23 close = Point(x=np.int64(388), y=np.int64(597))
+2024-12-19 21:42:23 move_to_click
+2024-12-19 21:42:28 move_to_click
+2024-12-19 21:45:00 move_to_click
+2024-12-19 21:45:03 move_to_click
+2024-12-19 21:45:24 move_to_click
+2024-12-19 21:45:54 move_to_click
+2024-12-19 21:45:55 move_to_click
+2024-12-19 21:46:09 fun.push_close
+2024-12-19 21:46:09 close = Point(x=np.int64(388), y=np.int64(547))
+2024-12-19 21:46:09 move_to_click
+2024-12-19 21:46:14 move_to_click
+2024-12-19 21:46:16 move_to_click
+2024-12-19 21:46:19 move_to_click
+2024-12-19 21:47:14 move_to_click
+2024-12-19 21:47:23 fun.push_close
+2024-12-19 21:47:24 close = Point(x=np.int64(388), y=np.int64(597))
+2024-12-19 21:47:24 move_to_click
+2024-12-19 21:47:28 move_to_click
+2024-12-19 21:47:31 move_to_click
+2024-12-19 21:50:27 move_to_click
+2024-12-19 21:50:57 move_to_click
+2024-12-19 21:50:59 move_to_click
+2024-12-19 21:51:20 fun.push_close
+2024-12-19 21:51:20 close = Point(x=np.int64(388), y=np.int64(547))
+2024-12-19 21:51:20 move_to_click
+2024-12-19 21:51:24 move_to_click
+2024-12-19 21:51:26 move_to_click
+2024-12-19 21:51:29 move_to_click
+2024-12-19 21:52:16 move_to_click
+2024-12-19 21:52:24 fun.push_close
+2024-12-19 21:52:25 close = Point(x=np.int64(388), y=np.int64(597))
+2024-12-19 21:52:25 move_to_click
+2024-12-19 21:52:29 move_to_click
+2024-12-19 21:52:32 move_to_click
+2024-12-19 21:55:32 move_to_click
+2024-12-19 21:56:02 move_to_click
+2024-12-19 21:56:03 move_to_click
+2024-12-19 21:56:17 fun.push_close
+2024-12-19 21:56:17 close = Point(x=np.int64(388), y=np.int64(547))
+2024-12-19 21:56:17 move_to_click
+2024-12-19 21:56:22 move_to_click
+2024-12-19 21:56:24 move_to_click
+2024-12-19 21:56:26 move_to_click
+2024-12-19 21:56:29 move_to_click
+2024-12-19 22:00:35 move_to_click
+2024-12-19 22:01:04 move_to_click
+2024-12-19 22:01:05 move_to_click
+2024-12-19 22:01:20 fun.push_close
+2024-12-19 22:01:21 close = Point(x=np.int64(388), y=np.int64(547))
+2024-12-19 22:01:21 move_to_click
+2024-12-19 22:01:25 move_to_click
+2024-12-19 22:01:27 move_to_click
+2024-12-19 22:01:30 move_to_click
+2024-12-19 22:01:32 move_to_click
+2024-12-19 22:05:38 move_to_click
+2024-12-19 22:06:08 move_to_click
+2024-12-19 22:06:09 move_to_click
+2024-12-19 22:06:28 fun.push_close
+2024-12-19 22:06:29 close = Point(x=np.int64(388), y=np.int64(547))
+2024-12-19 22:06:29 move_to_click
+2024-12-19 22:06:33 move_to_click
+2024-12-19 22:06:35 move_to_click
+2024-12-19 22:06:38 move_to_click
+2024-12-19 22:06:40 move_to_click
+2024-12-19 22:10:41 move_to_click
+2024-12-19 22:11:10 move_to_click
+2024-12-19 22:11:12 move_to_click
+2024-12-19 22:11:26 fun.push_close
+2024-12-19 22:11:26 close = Point(x=np.int64(388), y=np.int64(547))
+2024-12-19 22:11:26 move_to_click
+2024-12-19 22:11:31 move_to_click
+2024-12-19 22:11:32 move_to_click
+2024-12-19 22:11:35 move_to_click
+2024-12-19 22:11:38 move_to_click
+2024-12-19 22:15:45 move_to_click
+2024-12-19 22:16:14 move_to_click
+2024-12-19 22:16:15 move_to_click
+2024-12-19 22:16:31 fun.push_close
+2024-12-19 22:16:32 close = Point(x=np.int64(388), y=np.int64(547))
+2024-12-19 22:16:32 move_to_click
+2024-12-19 22:16:36 move_to_click
+2024-12-19 22:16:38 move_to_click
+2024-12-19 22:16:41 move_to_click
+2024-12-19 22:16:43 move_to_click
+2024-12-19 22:20:48 move_to_click
+2024-12-19 22:21:17 move_to_click
+2024-12-19 22:21:18 move_to_click
+2024-12-19 22:21:38 fun.push_close
+2024-12-19 22:21:39 close = Point(x=np.int64(388), y=np.int64(547))
+2024-12-19 22:21:39 move_to_click
+2024-12-19 22:21:43 move_to_click
+2024-12-19 22:21:45 move_to_click
+2024-12-19 22:21:48 move_to_click
+2024-12-19 22:21:50 move_to_click
+2024-12-19 22:25:51 move_to_click
+2024-12-19 22:26:20 move_to_click
+2024-12-19 22:26:22 move_to_click
+2024-12-19 22:26:38 fun.push_close
+2024-12-19 22:26:38 close = Point(x=np.int64(388), y=np.int64(547))
+2024-12-19 22:26:38 move_to_click
+2024-12-19 22:26:42 move_to_click
+2024-12-19 22:26:44 move_to_click
+2024-12-19 22:26:47 move_to_click
+2024-12-19 22:26:50 move_to_click
+2024-12-19 22:30:55 move_to_click
+2024-12-19 22:31:25 move_to_click
+2024-12-19 22:31:26 move_to_click
+2024-12-19 22:31:44 fun.push_close
+2024-12-19 22:31:44 close = Point(x=np.int64(388), y=np.int64(547))
+2024-12-19 22:31:44 move_to_click
+2024-12-19 22:31:48 move_to_click
+2024-12-19 22:31:50 move_to_click
+2024-12-19 22:31:53 move_to_click
+2024-12-19 22:31:56 move_to_click
+2024-12-19 22:35:12 move_to_click
+2024-12-19 22:35:17 move_to_click
+2024-12-19 22:35:21 move_to_click
+2024-12-19 22:35:30 move_to_click
+2024-12-19 22:36:55 move_to_click
+2024-12-19 22:36:59 move_to_click
+2024-12-19 22:37:05 move_to_click
+2024-12-19 22:37:11 move_to_click
+2024-12-19 22:37:15 move_to_click
+2024-12-19 22:37:18 move_to_click
+2024-12-19 22:37:22 move_to_click
+2024-12-19 22:37:27 move_to_click
+2024-12-19 22:37:34 move_to_click
+2024-12-19 22:37:38 move_to_click
+2024-12-19 22:37:40 move_to_click
+2024-12-19 22:37:44 move_to_click
+2024-12-19 22:37:50 move_to_click
+2024-12-19 22:37:56 move_to_click
+2024-12-19 22:38:00 move_to_click
+2024-12-19 22:38:03 move_to_click
+2024-12-19 22:38:07 move_to_click
+2024-12-19 22:38:12 move_to_click
+2024-12-19 22:38:19 move_to_click
+2024-12-19 22:38:23 move_to_click
+2024-12-19 22:38:26 move_to_click
+2024-12-19 22:38:29 move_to_click
+2024-12-19 22:38:35 move_to_click
+2024-12-19 22:38:41 move_to_click
+2024-12-19 22:38:45 move_to_click
+2024-12-19 22:38:48 move_to_click
+2024-12-19 22:38:52 move_to_click
+2024-12-19 22:38:57 move_to_click
+2024-12-19 22:39:03 move_to_click
+2024-12-19 22:39:07 move_to_click
+2024-12-19 22:39:10 move_to_click
+2024-12-19 22:39:13 move_to_click
+2024-12-19 22:39:19 move_to_click
+2024-12-19 22:39:25 move_to_click
+2024-12-19 22:39:29 move_to_click
+2024-12-19 22:39:32 move_to_click
+2024-12-19 22:39:36 move_to_click
+2024-12-19 22:39:41 move_to_click
+2024-12-19 22:39:48 move_to_click
+2024-12-19 22:39:51 move_to_click
+2024-12-19 22:39:54 move_to_click
+2024-12-19 22:39:57 move_to_click
+2024-12-19 22:40:03 move_to_click
+2024-12-19 22:40:09 move_to_click
+2024-12-19 22:40:13 move_to_click
+2024-12-19 22:40:16 move_to_click
+2024-12-19 22:40:20 move_to_click
+2024-12-19 22:40:25 move_to_click
+2024-12-19 22:40:31 move_to_click
+2024-12-19 22:40:35 move_to_click
+2024-12-19 22:40:37 move_to_click
+2024-12-19 22:40:41 move_to_click
+2024-12-19 22:40:43 move_to_click
+2024-12-19 22:41:26 move_to_click
+2024-12-19 22:41:32 move_to_click
+2024-12-19 22:41:46 move_to_click
+2024-12-19 22:41:49 move_to_click
+2024-12-19 22:43:46 move_to_click
+2024-12-19 22:43:55 move_to_click
+2024-12-19 22:44:01 move_to_click
+2024-12-19 22:46:47 move_to_click
+2024-12-19 22:46:56 move_to_click
+2024-12-19 22:47:03 move_to_click
+2024-12-19 22:47:14 move_to_click
+2024-12-19 22:47:17 move_to_click
+2024-12-19 22:47:19 move_to_click
+2024-12-19 22:49:37 in_battle
+2024-12-19 22:49:38 skip_battle = Point(x=np.int64(385), y=np.int64(117))
+2024-12-19 22:49:38 пропускаем бой
+2024-12-19 22:49:38 move_to_click
+2024-12-19 22:49:46 move_to_click
+2024-12-19 22:49:55 move_to_click
+2024-12-19 22:50:02 move_to_click
+2024-12-19 22:50:12 move_to_click
+2024-12-19 22:50:15 move_to_click
+2024-12-19 22:50:18 move_to_click
+2024-12-19 22:52:36 in_battle
+2024-12-19 22:52:36 skip_battle = Point(x=np.int64(385), y=np.int64(117))
+2024-12-19 22:52:37 пропускаем бой
+2024-12-19 22:52:37 move_to_click
+2024-12-19 22:52:54 move_to_click
+2024-12-19 22:53:03 move_to_click
+2024-12-19 22:53:10 move_to_click
+2024-12-19 22:53:21 move_to_click
+2024-12-19 22:53:24 move_to_click
+2024-12-19 22:53:27 move_to_click
+2024-12-19 22:56:15 in_battle
+2024-12-19 22:56:15 skip_battle = Point(x=np.int64(385), y=np.int64(117))
+2024-12-19 22:56:15 пропускаем бой
+2024-12-19 22:56:15 move_to_click
+2024-12-19 22:56:25 move_to_click
+2024-12-19 22:56:35 move_to_click
+2024-12-19 22:56:40 move_to_click
+2024-12-19 22:56:51 move_to_click
+2024-12-19 22:56:54 move_to_click
+2024-12-19 22:57:45 in_battle
+2024-12-19 22:57:45 skip_battle = None
+2024-12-19 22:57:53 move_to_click
+2024-12-19 22:58:02 move_to_click
+2024-12-19 22:58:07 move_to_click
+2024-12-19 22:59:21 move_to_click
+2024-12-19 22:59:30 move_to_click
+2024-12-19 22:59:36 move_to_click
+2024-12-19 23:00:50 move_to_click
+2024-12-19 23:00:59 move_to_click
+2024-12-19 23:01:05 move_to_click
+2024-12-19 23:01:18 move_to_click
+2024-12-19 23:01:21 move_to_click
+2024-12-19 23:01:23 move_to_click
+2024-12-19 23:03:09 in_battle
+2024-12-19 23:03:10 skip_battle = Point(x=np.int64(385), y=np.int64(117))
+2024-12-19 23:03:10 пропускаем бой
+2024-12-19 23:03:10 move_to_click
+2024-12-19 23:03:21 move_to_click
+2024-12-19 23:03:31 move_to_click
+2024-12-19 23:03:36 move_to_click
+2024-12-19 23:05:22 move_to_click
+2024-12-19 23:05:32 move_to_click
+2024-12-19 23:05:37 move_to_click
+2024-12-19 23:05:49 move_to_click
+2024-12-19 23:05:52 move_to_click
+2024-12-19 23:05:55 move_to_click
+2024-12-19 23:06:12 in_battle
+2024-12-19 23:06:13 skip_battle = Point(x=np.int64(385), y=np.int64(117))
+2024-12-19 23:06:13 пропускаем бой
+2024-12-19 23:06:13 move_to_click
+2024-12-19 23:06:21 move_to_click
+2024-12-19 23:06:30 move_to_click
+2024-12-19 23:06:37 move_to_click
+2024-12-19 23:06:47 move_to_click
+2024-12-19 23:06:51 move_to_click
+2024-12-19 23:06:53 move_to_click
+2024-12-19 23:09:10 in_battle
+2024-12-19 23:09:10 skip_battle = Point(x=np.int64(385), y=np.int64(117))
+2024-12-19 23:09:11 пропускаем бой
+2024-12-19 23:09:11 move_to_click
+2024-12-19 23:09:22 move_to_click
+2024-12-19 23:09:31 move_to_click
+2024-12-19 23:09:37 move_to_click
+2024-12-19 23:11:50 move_to_click
+2024-12-19 23:11:59 move_to_click
+2024-12-19 23:12:05 move_to_click
+2024-12-19 23:12:15 move_to_click
+2024-12-19 23:12:19 move_to_click
+2024-12-19 23:13:09 in_battle
+2024-12-19 23:13:09 skip_battle = Point(x=np.int64(385), y=np.int64(117))
+2024-12-19 23:13:10 пропускаем бой
+2024-12-19 23:13:10 move_to_click
+2024-12-19 23:13:21 move_to_click
+2024-12-19 23:13:30 move_to_click
+2024-12-19 23:13:35 move_to_click
+2024-12-19 23:13:39 move_to_click

@@ -155,9 +155,29 @@ def creating_photo_lvl():
     x_k += change
     y_k += change
     pyautogui.moveTo(x_k, y_k, duration=1)
-    fun.foto('img/energy/lvl/24lvl.png', (x, y, change, change))
-    print('24lvl.png create')
+    fun.foto('img/energy/lvl/25lvl.png', (x, y, change, change))
+    print('25lvl.png create')
 
+
+def creating_photo_clan():
+    pos = fun.find_link_i()
+    pyautogui.moveTo(pos, duration=1)
+    x, y = pos
+    y -= 40
+    x += 26 + 1
+    pos_foto = x, y
+    pyautogui.moveTo(pos_foto, duration=1)
+    x_k, y_k = x, y
+    change = 48
+    x_k += change
+    y_k += change
+    pyautogui.moveTo(x, y, duration=1)
+    fun.foto('img/kv/clan_gadya2.png', (x, y, change, change))
+
+
+
+# to_clan()
+# creating_photo_clan()
 
 def creating_result():
     """Результат задания"""

@@ -69,6 +69,7 @@ def energy_gold():
 
     energy_ = True
     while energy_:
+        q_call_pet = 0
         review = 0
         fun.open_taverna()
         variant = task_selection(tasks_)
@@ -111,7 +112,10 @@ def energy_gold():
                         popup_xp = pyautogui.locateCenterOnScreen('img/energy/_popup_xp.png', confidence=par_conf,
                                                                   region=region_events)
                         fun.move_to_click(popup_xp, 0.1)
-                        fun.move_to_click(fun.wait_close('я учту это'), 0)
+                        close_img_ = fun.wait_close('я учту это')
+                        while not close_img_:
+                            close_img_ = fun.wait_close('я учту это')
+                        fun.move_to_click(close_img_, 0)
                     if invite_friends:  # Пригласить друга
                         review = 1
                         print(m_t.text_cyan('         Пригласить друга'))
@@ -146,9 +150,9 @@ def energy_gold():
                         if close:
                             fun.move_to_click(close, 0)
                 skip_battle = fun.locCenterImg('img/everything/skip_battle.png', confidence=par_conf)
-                if skip_battle and review == 1:
-                    review = 2
-                    fun.in_battle(par_conf - 0.01, pos_i)
+                if skip_battle and q_call_pet == 0:
+                    q_call_pet = 1
+                    fun.call_pet(pos_i)
                 link_battle_end = fun.locCenterImg('img/link_battle_end.png', confidence=0.9)
             link_battle_end = wait_and_stop_img('img/link_battle_end.png')
             pyautogui.moveTo(link_battle_end, duration=0.25)
@@ -218,6 +222,7 @@ def energy_xp():
     energy_ = True
     while energy_:
         review = 0
+        q_call_pet = 0
         fun.open_taverna()
         variant = task_selection(tasks_)
         fun.move_to_click(variant, 0.5)  # автомат
@@ -294,9 +299,9 @@ def energy_xp():
                         if close:
                             fun.move_to_click(close, 0)
                 skip_battle = fun.locCenterImg('img/everything/skip_battle.png', confidence=par_conf)
-                if skip_battle and review == 1:
-                    review = 2
-                    fun.in_battle(par_conf, pos_i)
+                if skip_battle and q_call_pet == 0:
+                    q_call_pet = 1
+                    fun.call_pet(pos_i)
                 link_battle_end = fun.locCenterImg('img/link_battle_end.png', confidence=0.9)
 
             link_battle_end = wait_and_stop_img('img/link_battle_end.png')

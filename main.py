@@ -64,7 +64,6 @@ state_of_play = {
 def verifi_and_change_data(data_to_load):
     """
     Получает словарь
-
     """
     global gady_game_status, gavr_game_status, veles_game_status, mara_game_status
     global gady_gift_status, gavr_gift_status, veles_gift_status, mara_gift_status
@@ -407,10 +406,10 @@ ttk.Button(text="КВ", command=kv_and_raid.kv).place(x=119, y=line2)
 ttk.Button(text="ГУРУ", command=guru).place(x=119, y=line0)
 
 step_other = -4
-column_C = 110   # 50
+column_C = 110  # 50
 column_E = 70
 column_G = 90
-column_P = 50  #110
+column_P = 50  # 110
 column_K = 130
 column_name = 0
 
@@ -421,7 +420,7 @@ ttk.Button(text='P', width=1, command=mark_gift).place(x=column_P, y=line3)  # �
 ttk.Button(text='K', width=1, command=marks_k).place(x=column_K, y=line3)  # кости
 
 n_line = 3
-# " Gadya"
+" Gadya"
 name_hero = " Gadya"
 n_line += 1
 line = step_line * n_line
@@ -437,7 +436,7 @@ ttk.Entry(textvariable=gady_var_time, width=5).place(x=220, y=line)  # + step_ot
 # " Гавр"
 n_line += 1
 name_hero = " Гавр"
-line = step_line * n_line # + 1
+line = step_line * n_line  # + 1
 ttk.Label(text=name_hero).place(x=0, y=line + step_other)
 ttk.Label(textvariable=gavr_case).place(x=column_C, y=line + step_other)
 ttk.Label(textvariable=gavr_energy).place(x=column_E, y=line + step_other)
@@ -447,16 +446,16 @@ ttk.Label(textvariable=gavr_game).place(x=column_K, y=line + step_other)
 
 ttk.Entry(textvariable=gavr_var_time, width=5).place(x=220, y=line + step_other)
 
-# " Велес"
-# n_line += 1
-# name_hero = " Велес"
-# line = step_line * n_line + 1
-# ttk.Label(text=name_hero).place(x=column_name, y=line + step_other * 2)
-# ttk.Label(textvariable=veles_case).place(x=column_C, y=line + step_other * 2)
-# ttk.Label(textvariable=veles_energy).place(x=column_E, y=line + step_other * 2)
-# ttk.Label(textvariable=veles_guru).place(x=column_G, y=line + step_other * 2)
-# ttk.Label(textvariable=veles_gift).place(x=column_P, y=line + step_other * 2)
-# ttk.Label(textvariable=veles_game).place(x=column_K, y=line + step_other * 2)
+" Велес"
+n_line += 1
+name_hero = " Велес"
+line = step_line * n_line + 1
+ttk.Label(text=name_hero).place(x=column_name, y=line + step_other * 2)
+ttk.Label(textvariable=veles_case).place(x=column_C, y=line + step_other * 2)
+ttk.Label(textvariable=veles_energy).place(x=column_E, y=line + step_other * 2)
+ttk.Label(textvariable=veles_guru).place(x=column_G, y=line + step_other * 2)
+ttk.Label(textvariable=veles_gift).place(x=column_P, y=line + step_other * 2)
+ttk.Label(textvariable=veles_game).place(x=column_K, y=line + step_other * 2)
 
 # " Мара"
 n_line += 1

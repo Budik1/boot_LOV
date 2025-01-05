@@ -1,25 +1,27 @@
 import pyautogui
+
+import fun
 from fun import push_close, move_to_click, click_update, wait_and_stop_img, selection_hero, date_start_prog
 from fun import o_in_oo, locCenterImg, date_utc_now
 import my_text as m_t
 import time
 import pickle
 
-duel_q___gavr = 0
-duel_q_v_gavr = 0
-duel_kv_gavr = 0
-duel_kv_vikt_gavr = 0
-hour_kvStart_gavr = 0
-hour_kvVerifi_gavr = int(time.strftime('%H'))
-date_start_kv_gavr = date_start_prog
+gavr___duel_q = 0
+gavr_duel_q_v = 0
+gavr_duel_kv = 0
+gavr_duel_kv_vikt = 0
+gavr_hour_kvStart = 0
+gavr_hour_kvVerifi = int(time.strftime('%H'))
+gavr_date_start_kv = date_start_prog
 
-duel_q___gady = 0
-duel_q_v_gady = 0
-duel_kv_gady = 0
-duel_kv_vikt_gady = 0
-hour_kvStart_gady = 0
-hour_kvVerifi_gady = int(time.strftime('%H'))
-date_start_kv_gady = date_start_prog
+gady___duel_q = 0
+gady_duel_q_v = 0
+gady_duel_kv = 0
+gady_duel_kv_vikt = 0
+gady_hour_kvStart = 0
+gady_hour_kvVerifi = int(time.strftime('%H'))
+gady_date_start_kv = date_start_prog
 
 date_kv = date_start_prog
 hero_name = 0
@@ -51,24 +53,24 @@ def verifi_time_raid():
 
 def save_data_kv():
     # print('запись файла kv')
-    global hour_kvStart_gady, hour_kvStart_gavr, date_start_kv_gavr, date_start_kv_gady
-    global duel_q___gavr, duel_q_v_gavr, duel_kv_gavr, duel_kv_vikt_gavr
-    global duel_q___gady, duel_q_v_gady, duel_kv_gady, duel_kv_vikt_gady
+    global gady_hour_kvStart, gavr_hour_kvStart, gavr_date_start_kv, gady_date_start_kv
+    global gavr___duel_q, gavr_duel_q_v, gavr_duel_kv, gavr_duel_kv_vikt
+    global gady___duel_q, gady_duel_q_v, gady_duel_kv, gady_duel_kv_vikt
 
     data_kv_to_save = {
-        'к-во_боёв-gady': duel_q___gady,
-        'к-во_побед-gady': duel_q_v_gady,
-        'час-старта-кв-gady': hour_kvStart_gady,
-        'к-во_боёв-в-кв_gady': duel_kv_gady,
-        'к-во_побед-в-кв_gady': duel_kv_vikt_gady,
-        'дата-кв_gady': date_start_kv_gady,
+        'к-во_боёв-gady': gady___duel_q,
+        'к-во_побед-gady': gady_duel_q_v,
+        'час-старта-кв-gady': gady_hour_kvStart,
+        'к-во_боёв-в-кв_gady': gady_duel_kv,
+        'к-во_побед-в-кв_gady': gady_duel_kv_vikt,
+        'дата-кв_gady': gady_date_start_kv,
 
-        'к-во_боёв-gavr': duel_q___gavr,
-        'к-во_побед-gavr': duel_q_v_gavr,
-        'час-старта-кв-gavr': hour_kvStart_gavr,
-        'к-во_боёв-в-кв_gavr': duel_kv_gavr,
-        'к-во_побед-в-кв_gavr': duel_kv_vikt_gavr,
-        'дата-кв_gavr': date_start_kv_gavr,
+        'к-во_боёв-gavr': gavr___duel_q,
+        'к-во_побед-gavr': gavr_duel_q_v,
+        'час-старта-кв-gavr': gavr_hour_kvStart,
+        'к-во_боёв-в-кв_gavr': gavr_duel_kv,
+        'к-во_побед-в-кв_gavr': gavr_duel_kv_vikt,
+        'дата-кв_gavr': gavr_date_start_kv,
 
         'дата-кв': date_kv,
     }
@@ -81,9 +83,9 @@ def save_data_kv():
 
 def read_data_kv():
     # print('чтение файла kv')
-    global hero_name, hour_kvStart_gavr, hour_kvStart_gady, hour_kvVerifi_gavr, hour_kvVerifi_gady
-    global duel_q___gavr, duel_q_v_gavr, duel_kv_gavr, duel_kv_vikt_gavr, date_start_kv_gavr
-    global duel_q___gady, duel_q_v_gady, duel_kv_gady, duel_kv_vikt_gady, date_start_kv_gady
+    global hero_name, gavr_hour_kvStart, gady_hour_kvStart, gavr_hour_kvVerifi, gady_hour_kvVerifi
+    global gavr___duel_q, gavr_duel_q_v, gavr_duel_kv, gavr_duel_kv_vikt, gavr_date_start_kv
+    global gady___duel_q, gady_duel_q_v, gady_duel_kv, gady_duel_kv_vikt, gady_date_start_kv
 
     try:
         file1 = open('config_kv.txt', 'rb')
@@ -91,46 +93,46 @@ def read_data_kv():
         file1.close()
         # print('чтение переменных kv')  # , data_kv_to_load
 
-        duel_q___gady = data_kv_to_load['к-во_боёв-gady']
-        duel_q_v_gady = data_kv_to_load['к-во_побед-gady']
-        hour_kvStart_gady = data_kv_to_load['час-старта-кв-gady']
+        gady___duel_q = data_kv_to_load['к-во_боёв-gady']
+        gady_duel_q_v = data_kv_to_load['к-во_побед-gady']
+        gady_hour_kvStart = data_kv_to_load['час-старта-кв-gady']
         date_kv_load_gady = data_kv_to_load['дата-кв_gady']
 
-        duel_q___gavr = data_kv_to_load['к-во_боёв-gavr']
+        gavr___duel_q = data_kv_to_load['к-во_боёв-gavr']
         duel_q_vikt_gavr = data_kv_to_load['к-во_побед-gavr']
-        hour_kvStart_gavr = data_kv_to_load['час-старта-кв-gavr']
+        gavr_hour_kvStart = data_kv_to_load['час-старта-кв-gavr']
         date_kv_load_gavr = data_kv_to_load['дата-кв_gavr']
 
         if hero_name == 'Gadya':
-            print(f'всего боёв {duel_q___gady}, из них {duel_q_v_gady} побед')
-            print(date_start_kv_gady, date_kv_load_gady)
-            # hour_kvVerifi_gady = 9
-            if date_kv_load_gady == date_start_kv_gady and (hour_kvVerifi_gady - hour_kvStart_gady) <= 3:
-                print('hour_kvVerifi_gady = ', hour_kvVerifi_gady)
-                print('hour_kvStart_gady = ', hour_kvStart_gady)
-                print(hour_kvVerifi_gady - hour_kvStart_gady)
-                duel_kv_gady = data_kv_to_load['к-во_боёв-в-кв_gady']
-                duel_kv_vikt_gady = data_kv_to_load['к-во_побед-в-кв_gady']
+            print(f'всего боёв {gady___duel_q}, из них {gady_duel_q_v} побед')
+            print(gady_date_start_kv, date_kv_load_gady)
+            # gady_hour_kvVerifi = 9
+            if date_kv_load_gady == gady_date_start_kv and (gady_hour_kvVerifi - gady_hour_kvStart) <= 3:
+                print('gady_hour_kvVerifi = ', gady_hour_kvVerifi)
+                print('gady_hour_kvStart = ', gady_hour_kvStart)
+                print(gady_hour_kvVerifi - gady_hour_kvStart)
+                gady_duel_kv = data_kv_to_load['к-во_боёв-в-кв_gady']
+                gady_duel_kv_vikt = data_kv_to_load['к-во_побед-в-кв_gady']
                 print(m_t.text_green("Дата-время кв совпадают"),
-                      m_t.text_magenta(F"боёв в кв {duel_kv_gady}, из них {duel_kv_vikt_gady} побед"))
+                      m_t.text_magenta(F"боёв в кв {gady_duel_kv}, из них {gady_duel_kv_vikt} побед"))
             else:
                 print(m_t.text_red("Дата-время кв не совпадают, суточные счетчики обнулены!"))
-                duel_kv_gady = 0
-                duel_kv_vikt_gady = 0
-                hour_kvStart_gady = hour_kvVerifi_gady
+                gady_duel_kv = 0
+                gady_duel_kv_vikt = 0
+                gady_hour_kvStart = gady_hour_kvVerifi
                 save_data_kv()
         if hero_name == 'Gavr':
-            print(f'всего боёв {duel_q___gavr}, из них {duel_q_vikt_gavr} побед')
-            if date_kv_load_gavr == date_start_kv_gavr and (hour_kvVerifi_gavr - hour_kvStart_gavr) <= 3:
-                duel_kv_gavr = data_kv_to_load['к-во_боёв-в-кв_gavr']
-                duel_kv_vikt_gavr = data_kv_to_load['к-во_побед-в-кв_gavr']
+            print(f'всего боёв {gavr___duel_q}, из них {duel_q_vikt_gavr} побед')
+            if date_kv_load_gavr == gavr_date_start_kv and (gavr_hour_kvVerifi - gavr_hour_kvStart) <= 3:
+                gavr_duel_kv = data_kv_to_load['к-во_боёв-в-кв_gavr']
+                gavr_duel_kv_vikt = data_kv_to_load['к-во_побед-в-кв_gavr']
                 print(m_t.text_green("Дата-время кв совпадают"),
-                      m_t.text_magenta(F"боёв в кв {duel_kv_gavr}, из них {duel_kv_vikt_gavr} побед"))
+                      m_t.text_magenta(F"боёв в кв {gavr_duel_kv}, из них {gavr_duel_kv_vikt} побед"))
             else:
                 print(m_t.text_red("Дата-время кв не совпадают, суточные счетчики обнулены!"))
-                duel_kv_gavr = 0
-                duel_kv_vikt_gavr = 0
-                hour_kvStart_gavr = hour_kvVerifi_gavr
+                gavr_duel_kv = 0
+                gavr_duel_kv_vikt = 0
+                gavr_hour_kvStart = gavr_hour_kvVerifi
                 save_data_kv()
     except:
         print(m_t.text_red('Файл config_kv.txt имеет неверную структуру или не создан.'))
@@ -138,9 +140,9 @@ def read_data_kv():
 
 
 def kv():
-    global duel_q___gavr, duel_q_v_gavr, duel_kv_gavr, duel_kv_vikt_gavr, date_start_kv_gavr
-    global duel_q___gady, duel_q_v_gady, duel_kv_gady, duel_kv_vikt_gady, date_start_kv_gady
-    global hero_name, hour_kvStart_gavr, hour_kvStart_gady, hour_kvVerifi_gady, hour_kvVerifi_gavr
+    global gavr___duel_q, gavr_duel_q_v, gavr_duel_kv, gavr_duel_kv_vikt, gavr_date_start_kv
+    global gady___duel_q, gady_duel_q_v, gady_duel_kv, gady_duel_kv_vikt, gady_date_start_kv
+    global hero_name, gavr_hour_kvStart, gady_hour_kvStart, gady_hour_kvVerifi, gavr_hour_kvVerifi
     global time_raid
 
     q_it_print = True
@@ -152,22 +154,20 @@ def kv():
         wait_and_stop_img('img/everything/info1.png', 0.9)
         hero_name = selection_hero()
     if hero_name == 'Gadya':
-        in_clan = wait_and_stop_img('img/kv/clan_gadya.png', 0.9)
-        move_to_click(in_clan, 0)
+        fun.to_clan()
         btn_battles = wait_and_stop_img('img/kv/battles.png', 0.9)
         move_to_click(btn_battles, 0)
         read_data_kv()  # устновка значений в соответствии с файлом 'config_kv.txt'
-        hour_kvStart_gady = int(time.strftime('%H'))
-        date_start_kv_gady = date_utc_now()
+        gady_hour_kvStart = int(time.strftime('%H'))
+        gady_date_start_kv = date_utc_now()
         print("установка переменных kv Gadya")
     if hero_name == 'Gavr':
-        in_clan = wait_and_stop_img('img/kv/clan_gavr.png', 0.9)
-        move_to_click(in_clan, 0)
+        fun.to_clan()
         btn_battles = wait_and_stop_img('img/kv/battles.png', 0.9)
         move_to_click(btn_battles, 0)
         read_data_kv()  # устновка значений в соответствии с файлом 'config_kv.txt'
-        hour_kvStart_gavr = int(time.strftime('%H'))
-        date_start_kv_gavr = date_start_prog
+        gavr_hour_kvStart = int(time.strftime('%H'))
+        gavr_date_start_kv = date_start_prog
         print("установка переменных kv Gavr")
 
     # read_data_kv()  # устновка значений в соответствии с файлом 'config_kv.txt'
@@ -232,11 +232,11 @@ def kv():
             # print(clan_raid_img, 'clan_raid_img in duel_over')
             q_duel_start = True
             if hero_name == 'Gavr':  # изменение счетчиков КВ для героя
-                duel_q___gavr += 1
-                duel_kv_gavr += 1
+                gavr___duel_q += 1
+                gavr_duel_kv += 1
             elif hero_name == 'Gadya':  # изменение счетчиков КВ для героя
-                duel_q___gady += 1
-                duel_kv_gady += 1
+                gady___duel_q += 1
+                gady_duel_kv += 1
             print(m_t.text_yellow("дуэль в кв окончена"))
             # задержка для определени победа/поражение
             duel_over = wait_and_stop_img('img/kv/duel_over.png', 0.8)
@@ -246,39 +246,39 @@ def kv():
             if img_duel_victory:
                 print("Победа")
                 if hero_name == 'Gavr':
-                    duel_kv_vikt_gavr += 1
-                    duel_q_v_gavr += 1
-                    vik_gavr = round((duel_q_v_gavr / (duel_q___gavr / 100)), 4)
-                    print(m_t.text_green(f"{duel_q_v_gavr} побед в {duel_q___gavr} боях,"),
+                    gavr_duel_kv_vikt += 1
+                    gavr_duel_q_v += 1
+                    vik_gavr = round((gavr_duel_q_v / (gavr___duel_q / 100)), 4)
+                    print(m_t.text_green(f"{gavr_duel_q_v} побед в {gavr___duel_q} боях,"),
                           m_t.text_magenta(f'всего побед {vik_gavr}%)'))
-                    percent_vik_in_kv = round((duel_kv_vikt_gavr / (duel_kv_gavr / 100)), 3)
-                    print(m_t.text_cyan(f'в кв боёв {duel_kv_gavr}, побед {duel_kv_vikt_gavr} ({percent_vik_in_kv}%)'))
+                    percent_vik_in_kv = round((gavr_duel_kv_vikt / (gavr_duel_kv / 100)), 3)
+                    print(m_t.text_cyan(f'в кв боёв {gavr_duel_kv}, побед {gavr_duel_kv_vikt} ({percent_vik_in_kv}%)'))
 
-                    hour_kvVerifi_gavr = int(time.strftime('%H'))
+                    gavr_hour_kvVerifi = int(time.strftime('%H'))
                 elif hero_name == 'Gadya':
-                    duel_kv_vikt_gady += 1
-                    duel_q_v_gady += 1
-                    vik_gady = round((duel_q_v_gady / (duel_q___gady / 100)), 4)
-                    print(m_t.text_green(f"{duel_q_v_gady} побед в {duel_q___gady} боях,"),
+                    gady_duel_kv_vikt += 1
+                    gady_duel_q_v += 1
+                    vik_gady = round((gady_duel_q_v / (gady___duel_q / 100)), 4)
+                    print(m_t.text_green(f"{gady_duel_q_v} побед в {gady___duel_q} боях,"),
                           m_t.text_magenta(f'( {vik_gady}% )'))
-                    percent_vik_in_kv = round((duel_kv_vikt_gady / (duel_kv_gady / 100)), 3)
-                    print(m_t.text_cyan(f'в кв боёв {duel_kv_gady}, побед {duel_kv_vikt_gady} ({percent_vik_in_kv}%)'))
-                    hour_kvVerifi_gady = int(time.strftime('%H'))
+                    percent_vik_in_kv = round((gady_duel_kv_vikt / (gady_duel_kv / 100)), 3)
+                    print(m_t.text_cyan(f'в кв боёв {gady_duel_kv}, побед {gady_duel_kv_vikt} ({percent_vik_in_kv}%)'))
+                    gady_hour_kvVerifi = int(time.strftime('%H'))
             elif img_duel_defeat:
                 print("поражение((")
                 if hero_name == 'Gavr':
-                    vik_gavr = round((duel_q_v_gavr / (duel_q___gavr / 100)), 3)
-                    print(m_t.text_green(f"{duel_q_v_gavr} побед в {duel_q___gavr} боях,"),
+                    vik_gavr = round((gavr_duel_q_v / (gavr___duel_q / 100)), 3)
+                    print(m_t.text_green(f"{gavr_duel_q_v} побед в {gavr___duel_q} боях,"),
                           m_t.text_magenta(f'всего побед {vik_gavr}%)'))
-                    percent_vik_in_kv = round((duel_kv_vikt_gavr / (duel_kv_gavr / 100)), 3)
-                    print(m_t.text_cyan(f'в кв боёв {duel_kv_gavr}, побед {duel_kv_vikt_gavr} ({percent_vik_in_kv}%)'))
+                    percent_vik_in_kv = round((gavr_duel_kv_vikt / (gavr_duel_kv / 100)), 3)
+                    print(m_t.text_cyan(f'в кв боёв {gavr_duel_kv}, побед {gavr_duel_kv_vikt} ({percent_vik_in_kv}%)'))
 
                 elif hero_name == 'Gadya':
-                    vik_gady = round((duel_q_v_gady / (duel_q___gady / 100)), 3)
-                    print(m_t.text_green(f"{duel_q_v_gady} побед в {duel_q___gady} боях,"),
+                    vik_gady = round((gady_duel_q_v / (gady___duel_q / 100)), 3)
+                    print(m_t.text_green(f"{gady_duel_q_v} побед в {gady___duel_q} боях,"),
                           m_t.text_magenta(f'( {vik_gady}% )'))
-                    percent_vik_in_kv = round((duel_kv_vikt_gady / (duel_kv_gady / 100)), 3)
-                    print(m_t.text_cyan(f'в кв боёв {duel_kv_gady}, побед {duel_kv_vikt_gady} ({percent_vik_in_kv}%)'))
+                    percent_vik_in_kv = round((gady_duel_kv_vikt / (gady_duel_kv / 100)), 3)
+                    print(m_t.text_cyan(f'в кв боёв {gady_duel_kv}, побед {gady_duel_kv_vikt} ({percent_vik_in_kv}%)'))
             push_close()
             clan_var_img = wait_and_stop_img('img/kv/clan_var.png', 0.9)
             # clan_raid_img = loc_center_img('img/kv/clan_raid.png')

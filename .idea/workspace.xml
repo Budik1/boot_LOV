@@ -5,19 +5,93 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="add9b86c-8696-440c-ad3b-390278a7b7e6" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/img/energy/lvl/24lvl.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/tasks_gavr/24lvl.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/tasks_mara/22lvl.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/архив/f23/t1x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/архив/f23/t2g.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/архив/f23/t2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/архив/f23/t3g.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/архив/f23/t4g.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/архив/f23/t4x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/архив/f23/t5g.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/архив/f23/t5x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/архив/f23/t6g.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/архив/f23/t6x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/2024-12-25.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/2024-12-26.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/2024-12-29.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tes_item.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/baza_dannyx.py" beforeDir="false" afterPath="$PROJECT_DIR$/baza_dannyx.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config.txt" beforeDir="false" afterPath="$PROJECT_DIR$/config.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config_kv.txt" beforeDir="false" afterPath="$PROJECT_DIR$/config_kv.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/creating_photo.py" beforeDir="false" afterPath="$PROJECT_DIR$/creating_photo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/energy.py" beforeDir="false" afterPath="$PROJECT_DIR$/energy.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fun.py" beforeDir="false" afterPath="$PROJECT_DIR$/fun.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/full_t/line_1.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/full_t/line_1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/full_t/line_2.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/full_t/line_2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/full_t/line_3.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/full_t/line_3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/kv/clan_gadya.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/kv/clan_gadya.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/tasks_gavr/23lvl.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/tasks_gavr/t1g.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/tasks_gavr/t1g.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/tasks_gavr/t1x.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/tasks_gavr/t1x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/tasks_gavr/t2g.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/tasks_gavr/t2g.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/tasks_gavr/t2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/tasks_gavr/t2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/tasks_gavr/t3g.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/tasks_gavr/t3g.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/tasks_gavr/t3x.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/tasks_gavr/t3x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/tasks_gavr/t4g.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/tasks_gavr/t4x.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/tasks_gavr/t4x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/tasks_gavr/t5g.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/tasks_gavr/t5g.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/tasks_gavr/t5x.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/tasks_gavr/t5x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/tasks_gavr/t6g.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/tasks_gavr/t6x.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/tasks_gavr/t6x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/tasks_mara/21lvl.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/tasks_mara/t1g.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/tasks_mara/t1g.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/tasks_mara/t1x.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/tasks_mara/t1x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/tasks_mara/t2g.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/tasks_mara/t2g.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/tasks_mara/t2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/tasks_mara/t2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/tasks_mara/t3g.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/tasks_mara/t3g.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/tasks_mara/t3x.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/tasks_mara/t3x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/tasks_mara/t4g.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/tasks_mara/t4g.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/tasks_mara/t4x.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/tasks_mara/t4x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/tasks_mara/t5g.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/tasks_mara/t5g.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/tasks_mara/t5x.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/tasks_mara/t5x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/tasks_mara/t6g.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/tasks_mara/t6g.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/tasks_mara/t6x.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/tasks_mara/t6x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/tasks_veles/t1g.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/tasks_veles/t1g.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/tasks_veles/t1x.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/tasks_veles/t1x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/tasks_veles/t2g.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/tasks_veles/t2g.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/tasks_veles/t2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/tasks_veles/t2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/tasks_veles/t3g.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/tasks_veles/t3g.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/tasks_veles/t3x.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/tasks_veles/t3x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/tasks_veles/t4g.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/tasks_veles/t4g.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/tasks_veles/t4x.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/tasks_veles/t4x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/tasks_veles/t5g.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/tasks_veles/t5g.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/tasks_veles/t5x.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/tasks_veles/t5x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/tasks_veles/t6g.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/tasks_veles/t6g.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/tasks_veles/t6x.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/tasks_veles/t6x.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/kv_and_raid.py" beforeDir="false" afterPath="$PROJECT_DIR$/kv_and_raid.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/2024-12-11.txt" beforeDir="false" afterPath="$PROJECT_DIR$/log/2024-12-11.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/2024-12-15.txt" beforeDir="false" afterPath="$PROJECT_DIR$/log/2024-12-15.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
@@ -31,17 +105,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;Python.creating_photo.executor&quot;: &quot;Run&quot;,
-    &quot;Python.main.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/py_bot/boot_LOV_2/img/tests&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Python tests.pytest in test_item.py.executor": "Run",
+    "Python.creating_photo.executor": "Run",
+    "Python.main.executor": "Run",
+    "Python.tes_item (1).executor": "Run",
+    "Python.test_item.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/py_bot/boot_LOV_2/img/tests",
+    "run.code.analysis.last.selected.profile": "pProject Default"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\py_bot\boot_LOV_2\img\tests" />
@@ -92,10 +170,74 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="tes_item (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="boot_LOV_2" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tes_item.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="tes_item" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="boot_LOV_2" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="C:\py_bot\boot_LOV_2\tes_item.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest in tes_item.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="boot_LOV_2" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/tes_item.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Python.main" />
+        <item itemvalue="Python.tes_item (1)" />
         <item itemvalue="Python.creating_photo" />
+        <item itemvalue="Python.tes_item" />
+        <item itemvalue="Python tests.pytest in tes_item.py" />
       </list>
     </recent_temporary>
   </component>
@@ -119,5 +261,21 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/kv_and_raid.py</url>
+          <line>260</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/kv_and_raid.py</url>
+          <line>107</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
