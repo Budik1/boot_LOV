@@ -1,9 +1,7 @@
 import pyautogui
 from playsound3 import playsound
 from time import sleep
-
 import fun
-from fun import my_print_to_file, wait_and_stop_img, locCenterImg
 from creating_photo import creating_photo_tasks
 import baza_dannyx as b_d
 import my_text as m_t
@@ -66,6 +64,8 @@ def energy_gold():
         tasks_ = b_d.tasks_gold_vel
     elif hero == 'Mara':
         tasks_ = b_d.tasks_gold_mar
+    else:
+        tasks_ = None
 
     energy_ = True
     while energy_:
@@ -82,7 +82,7 @@ def energy_gold():
         no_energy = verify_energy(4)
         if no_energy:
             print(m_t.text_red('         NO ENERGY !!!'))
-            energy_ = 0
+            energy_ = False
             fun.move_to_click(fun.wait_close('NO ENERGY !!!'), 0.3)
             return hero
 
@@ -154,7 +154,7 @@ def energy_gold():
                     q_call_pet = 1
                     fun.call_pet(pos_i)
                 link_battle_end = fun.locCenterImg('img/link_battle_end.png', confidence=0.9)
-            link_battle_end = wait_and_stop_img('img/link_battle_end.png')
+            link_battle_end = fun.wait_and_stop_img('img/link_battle_end.png')
             pyautogui.moveTo(link_battle_end, duration=0.25)
             if link_battle_end:
                 link_victory = fun.locCenterImg('img/energy/rezult_vick.png', confidence=0.9)
@@ -166,7 +166,7 @@ def energy_gold():
                     fun.melodi_feil()
                     return
 
-            close_img = wait_and_stop_img('img/everything/close.png', 0.85)
+            close_img = fun.wait_and_stop_img('img/everything/close.png', 0.85)
             # закрыть сражение
             fun.move_to_click(close_img, 0)
             sleep(1)
@@ -174,18 +174,18 @@ def energy_gold():
             close = fun.wait_close('ожидание всплывающего события')
             # если всплывает "закрыть"
             if close:
-                c_o_k = fun.cancel_or_knob()  # ищем "кнопку" или "отменить" и если есть нажимаем
-                if c_o_k:  # нажимаем 'close'
-                    fun.move_to_click(c_o_k, 0)
+                c_or_k = fun.cancel_or_knob()  # ищем "кнопку" или "отменить" и если есть нажимаем
+                if c_or_k:  # нажимаем 'close'
+                    fun.move_to_click(c_or_k, 0)
                 else:  # если нет -> жмем 'close'
                     fun.move_to_click(close, 0)
 
                 close = fun.wait_close('ожидание всплывающего события')
                 # если всплывает "закрыть"
                 if close:
-                    c_o_k = fun.cancel_or_knob()  # ищем "кнопку" или "отменить" и если есть нажимаем
-                    if c_o_k:  # нажимаем 'close'
-                        fun.move_to_click(c_o_k, 0)
+                    c_or_k = fun.cancel_or_knob()  # ищем "кнопку" или "отменить" и если есть нажимаем
+                    if c_or_k:  # нажимаем 'close'
+                        fun.move_to_click(c_or_k, 0)
                     else:  # если нет -> жмем 'close'
                         fun.move_to_click(close, 0)
             sleep(1)
@@ -218,6 +218,8 @@ def energy_xp():
         tasks_ = b_d.tasks_xp_vel
     elif hero == 'Mara':
         tasks_ = b_d.tasks_xp_mar
+    else:
+        tasks_ = None
 
     energy_ = True
     while energy_:
@@ -304,7 +306,7 @@ def energy_xp():
                     fun.call_pet(pos_i)
                 link_battle_end = fun.locCenterImg('img/link_battle_end.png', confidence=0.9)
 
-            link_battle_end = wait_and_stop_img('img/link_battle_end.png')
+            link_battle_end = fun.wait_and_stop_img('img/link_battle_end.png')
             pyautogui.moveTo(link_battle_end, duration=0.25)
             if link_battle_end:
                 link_victory = fun.locCenterImg('img/energy/rezult_vick.png', confidence=0.9)
@@ -315,7 +317,7 @@ def energy_xp():
                     print("Неудача")
                     fun.melodi_feil()
                     return
-            close_img = wait_and_stop_img('img/everything/close.png', 0.85)
+            close_img = fun.wait_and_stop_img('img/everything/close.png', 0.85)
             # закрыть сражение
             fun.move_to_click(close_img, 0)
             sleep(1)

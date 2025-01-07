@@ -323,10 +323,7 @@ def in_battle(par_conf, pos_i):
     skip_battle = locCenterImg('img/everything/skip_battle.png', par_conf)
     my_print_to_file(f'skip_battle = {skip_battle}')
     if skip_battle:
-        x, y = pos_i
-        y += 410
-        pos_pet = x, y  # позиция пета
-        pyautogui.click(pos_pet)  # нажать на пета
+        call_pet(pos_i)
         my_print_to_file('пропускаем бой')
         move_to_click(skip_battle, 0.2)
 

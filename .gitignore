@@ -1,0 +1,4 @@
+.gitignore
+/log
+config.txt
+tes_item.py

@@ -8,7 +8,7 @@ tasks_gold_v = {'t1_1': 'img/tasks_v/t1g.png',
 
 tasks_xp_v = {'t1_1': 'img/tasks_v/t1x.png',
 
-}
+              }
 
 tasks_gold_gavr = {
     't1': 'img/tasks_gavr/t1g.png',
@@ -60,3 +60,12 @@ lvl_dict = {
 }
 
 lvl_list = [18, 19, 20, 21, 22, 30]
+
+quantity_battles = 0
+gady_energy_status, gady_case_status = 0, 0
+gavr_energy_status, gavr_case_status = 0, 0
+veles_energy_status, veles_case_status = 0, 0
+mara_energy_status, mara_case_status = 0, 0
+gady_guru_status, gavr_guru_status, veles_guru_status, mara_guru_status = 0, 0, 0, 0
+gady_gift_status, gavr_gift_status, veles_gift_status, mara_gift_status = 0, 0, 0, 0
+gady_game_status, gavr_game_status, veles_game_status, mara_game_status = 0, 0, 0, 0
