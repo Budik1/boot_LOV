@@ -16,6 +16,10 @@ def melodi_feil():
     playsound('muz/feil.mp3')
 
 
+def melodi_pet():
+    playsound('muz/yagnenok.mp3')
+
+
 def o_in_oo(symbol):
     if 0 <= symbol <= 9:
         return str(f'0{symbol}')
@@ -336,6 +340,7 @@ def call_pet(pos_i):
         y += 410
         pos_pet = x, y  # позиция пета
         pyautogui.click(pos_pet)  # нажать на пета
+        melodi_pet()
 
 
 def scroll_down():
