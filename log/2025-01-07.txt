@@ -744,3 +744,1268 @@
 2025-01-07 19:07:08 link_arena = Point(x=np.int64(383), y=np.int64(164))
 2025-01-07 19:07:08 безоружен
 2025-01-07 19:07:09 ожидание боя
+2025-01-07 19:52:14 arena.battle_in_arena
+2025-01-07 19:52:14 quantity_battles = 0
+2025-01-07 19:52:15 go_in_hall_glory
+2025-01-07 19:52:16 link_in_hall_glory = None
+2025-01-07 19:52:16 hall_glory = Point(x=np.int64(723), y=np.int64(117))
+2025-01-07 19:52:16 close = None
+2025-01-07 19:52:16 hall_glory = Point(x=np.int64(723), y=np.int64(117))
+2025-01-07 19:52:16 move_to_click
+2025-01-07 19:52:23 link_in_hall_glory = , Point(x=np.int64(379), y=np.int64(164))
+2025-01-07 19:52:24 hero_arena = , None
+2025-01-07 19:52:24 поиск противника
+2025-01-07 19:52:24 move_to_click
+2025-01-07 19:52:27 move_to_click
+2025-01-07 19:52:30 move_to_click
+2025-01-07 19:52:33 move_to_click
+2025-01-07 19:52:36 move_to_click
+2025-01-07 19:52:40 move_to_click
+2025-01-07 19:52:43 move_to_click
+2025-01-07 19:52:46 move_to_click
+2025-01-07 19:52:49 move_to_click
+2025-01-07 19:52:52 move_to_click
+2025-01-07 19:52:55 move_to_click
+2025-01-07 19:52:58 move_to_click
+2025-01-07 19:53:02 move_to_click
+2025-01-07 19:53:05 move_to_click
+2025-01-07 19:53:08 move_to_click
+2025-01-07 19:53:11 move_to_click
+2025-01-07 19:53:14 move_to_click
+2025-01-07 19:53:17  it = 17
+2025-01-07 19:53:17 attack = Point(x=np.int64(638), y=np.int64(307))
+2025-01-07 19:53:17 move_to_click
+2025-01-07 19:53:19 link_arena = None
+2025-01-07 19:53:21 link_arena = Point(x=np.int64(383), y=np.int64(160))
+2025-01-07 19:53:21 безоружен
+2025-01-07 19:53:22 in_battl = Point(x=np.int64(267), y=np.int64(594))
+2025-01-07 19:53:22 move_to_click
+2025-01-07 19:53:24 ожидание пропустить бой
+2025-01-07 19:53:27 in_battle
+2025-01-07 19:53:27 skip_battle = Point(x=np.int64(381), y=np.int64(117))
+2025-01-07 19:53:30 пропускаем бой
+2025-01-07 19:53:30 move_to_click
+2025-01-07 19:53:32 ожидание close
+2025-01-07 19:53:32 ожидание close
+2025-01-07 19:53:33 ожидание close
+2025-01-07 19:53:33 ожидание close
+2025-01-07 19:53:34 ожидание close
+2025-01-07 19:53:35 закрыть результат боя
+2025-01-07 19:53:35 move_to_click
+2025-01-07 19:53:37 arena.battle_in_arena
+2025-01-07 19:53:38 quantity_battles = 1
+2025-01-07 19:53:38 go_in_hall_glory
+2025-01-07 19:53:39 link_in_hall_glory = None
+2025-01-07 19:53:39 hall_glory = Point(x=np.int64(723), y=np.int64(117))
+2025-01-07 19:53:39 close = None
+2025-01-07 19:53:39 hall_glory = Point(x=np.int64(723), y=np.int64(117))
+2025-01-07 19:53:39 move_to_click
+2025-01-07 19:53:45 link_in_hall_glory = , Point(x=np.int64(379), y=np.int64(164))
+2025-01-07 19:53:45 hero_arena = , None
+2025-01-07 19:53:45 поиск противника
+2025-01-07 19:53:45 move_to_click
+2025-01-07 19:53:49 move_to_click
+2025-01-07 19:53:52 move_to_click
+2025-01-07 19:53:55 move_to_click
+2025-01-07 19:53:58 move_to_click
+2025-01-07 19:54:01 move_to_click
+2025-01-07 19:54:04 move_to_click
+2025-01-07 19:54:08 move_to_click
+2025-01-07 19:54:11 move_to_click
+2025-01-07 19:54:14 move_to_click
+2025-01-07 19:54:17 move_to_click
+2025-01-07 19:54:20 move_to_click
+2025-01-07 19:54:23 move_to_click
+2025-01-07 19:54:26 move_to_click
+2025-01-07 19:54:29 move_to_click
+2025-01-07 19:54:32 move_to_click
+2025-01-07 19:54:35 move_to_click
+2025-01-07 19:54:38  it = 17
+2025-01-07 19:54:39 attack = Point(x=np.int64(638), y=np.int64(307))
+2025-01-07 19:54:39 move_to_click
+2025-01-07 19:54:41 link_arena = None
+2025-01-07 19:54:42 link_arena = Point(x=np.int64(383), y=np.int64(169))
+2025-01-07 19:54:42 безоружен
+2025-01-07 19:54:44 ожидание боя
+2025-01-07 19:58:26 in_battl = Point(x=np.int64(267), y=np.int64(594))
+2025-01-07 19:58:26 move_to_click
+2025-01-07 19:58:28 ожидание пропустить бой
+2025-01-07 19:58:31 in_battle
+2025-01-07 19:58:31 skip_battle = Point(x=np.int64(381), y=np.int64(117))
+2025-01-07 19:58:33 пропускаем бой
+2025-01-07 19:58:33 move_to_click
+2025-01-07 19:58:35 ожидание close
+2025-01-07 19:58:35 ожидание close
+2025-01-07 19:58:36 ожидание close
+2025-01-07 19:58:37 ожидание close
+2025-01-07 19:58:37 ожидание close
+2025-01-07 19:58:38 ожидание close
+2025-01-07 19:58:38 ожидание close
+2025-01-07 19:58:39 ожидание close
+2025-01-07 19:58:39 ожидание close
+2025-01-07 19:58:40 ожидание close
+2025-01-07 19:58:40 ожидание close
+2025-01-07 19:58:41 ожидание close
+2025-01-07 19:58:41 ожидание close
+2025-01-07 19:58:42 ожидание close
+2025-01-07 19:58:43 ожидание close
+2025-01-07 19:58:43 ожидание close
+2025-01-07 19:58:44 ожидание close
+2025-01-07 19:58:44 ожидание close
+2025-01-07 19:58:45 ожидание close
+2025-01-07 19:58:45 ожидание close
+2025-01-07 19:58:46 ожидание close
+2025-01-07 19:58:46 ожидание close
+2025-01-07 19:58:47 ожидание close
+2025-01-07 19:58:48 ожидание close
+2025-01-07 19:58:48 ожидание close
+2025-01-07 19:58:49 ожидание close
+2025-01-07 19:58:49 ожидание close
+2025-01-07 19:58:50 ожидание close
+2025-01-07 19:58:50 ожидание close
+2025-01-07 19:58:51 ожидание close
+2025-01-07 19:58:51 ожидание close
+2025-01-07 19:58:52 ожидание close
+2025-01-07 19:58:53 ожидание close
+2025-01-07 19:58:53 ожидание close
+2025-01-07 19:58:54 закрыть результат боя
+2025-01-07 19:58:54 move_to_click
+2025-01-07 19:58:57 arena.battle_in_arena
+2025-01-07 19:58:57 quantity_battles = 2
+2025-01-07 19:58:57 go_in_hall_glory
+2025-01-07 19:58:58 link_in_hall_glory = None
+2025-01-07 19:58:58 hall_glory = Point(x=np.int64(723), y=np.int64(117))
+2025-01-07 19:58:58 close = None
+2025-01-07 19:58:58 hall_glory = Point(x=np.int64(723), y=np.int64(117))
+2025-01-07 19:58:59 move_to_click
+2025-01-07 19:59:04 link_in_hall_glory = , Point(x=np.int64(379), y=np.int64(164))
+2025-01-07 19:59:04 hero_arena = , None
+2025-01-07 19:59:04 поиск противника
+2025-01-07 19:59:05 move_to_click
+2025-01-07 19:59:08 move_to_click
+2025-01-07 19:59:11 move_to_click
+2025-01-07 19:59:14 move_to_click
+2025-01-07 19:59:17 move_to_click
+2025-01-07 19:59:20 move_to_click
+2025-01-07 19:59:23 move_to_click
+2025-01-07 19:59:26 move_to_click
+2025-01-07 19:59:29 move_to_click
+2025-01-07 19:59:33 move_to_click
+2025-01-07 19:59:36 move_to_click
+2025-01-07 19:59:39 move_to_click
+2025-01-07 19:59:42 move_to_click
+2025-01-07 19:59:45 move_to_click
+2025-01-07 19:59:48 move_to_click
+2025-01-07 19:59:51 move_to_click
+2025-01-07 19:59:54 move_to_click
+2025-01-07 19:59:57  it = 17
+2025-01-07 19:59:58 attack = Point(x=np.int64(638), y=np.int64(307))
+2025-01-07 19:59:58 move_to_click
+2025-01-07 19:59:59 link_arena = None
+2025-01-07 20:00:01 link_arena = Point(x=np.int64(383), y=np.int64(171))
+2025-01-07 20:00:01 безоружен
+2025-01-07 20:00:02 ожидание боя
+2025-01-07 20:03:19 arena.battle_in_arena
+2025-01-07 20:03:19 quantity_battles = 0
+2025-01-07 20:03:19 go_in_hall_glory
+2025-01-07 20:03:20 link_in_hall_glory = None
+2025-01-07 20:03:21 hall_glory = Point(x=np.int64(723), y=np.int64(117))
+2025-01-07 20:03:21 close = None
+2025-01-07 20:03:21 hall_glory = Point(x=np.int64(723), y=np.int64(117))
+2025-01-07 20:03:21 move_to_click
+2025-01-07 20:03:27 link_in_hall_glory = , Point(x=np.int64(379), y=np.int64(164))
+2025-01-07 20:03:27 hero_arena = , None
+2025-01-07 20:03:27 поиск противника
+2025-01-07 20:03:28 move_to_click
+2025-01-07 20:03:37 move_to_click
+2025-01-07 20:03:40 move_to_click
+2025-01-07 20:03:43  it = 3
+2025-01-07 20:03:43 attack = Point(x=np.int64(638), y=np.int64(307))
+2025-01-07 20:03:43 move_to_click
+2025-01-07 20:03:45 link_arena = None
+2025-01-07 20:03:46 link_arena = Point(x=np.int64(383), y=np.int64(163))
+2025-01-07 20:03:47 безоружен
+2025-01-07 20:03:48 in_battl = Point(x=np.int64(267), y=np.int64(594))
+2025-01-07 20:03:48 move_to_click
+2025-01-07 20:03:50 ожидание пропустить бой
+2025-01-07 20:03:53 in_battle
+2025-01-07 20:03:53 skip_battle = Point(x=np.int64(381), y=np.int64(117))
+2025-01-07 20:03:55 пропускаем бой
+2025-01-07 20:03:55 move_to_click
+2025-01-07 20:03:57 ожидание close
+2025-01-07 20:03:58 ожидание close
+2025-01-07 20:03:58 ожидание close
+2025-01-07 20:03:59 ожидание close
+2025-01-07 20:04:00 ожидание close
+2025-01-07 20:04:01 закрыть результат боя
+2025-01-07 20:04:01 move_to_click
+2025-01-07 20:04:03 arena.battle_in_arena
+2025-01-07 20:04:03 quantity_battles = 1
+2025-01-07 20:04:04 go_in_hall_glory
+2025-01-07 20:04:05 link_in_hall_glory = None
+2025-01-07 20:04:05 hall_glory = Point(x=np.int64(723), y=np.int64(117))
+2025-01-07 20:04:05 close = None
+2025-01-07 20:04:05 hall_glory = Point(x=np.int64(723), y=np.int64(117))
+2025-01-07 20:04:05 move_to_click
+2025-01-07 20:04:11 link_in_hall_glory = , Point(x=np.int64(379), y=np.int64(164))
+2025-01-07 20:04:11 hero_arena = , None
+2025-01-07 20:04:11 поиск противника
+2025-01-07 20:04:11 move_to_click
+2025-01-07 20:04:14 move_to_click
+2025-01-07 20:04:17 move_to_click
+2025-01-07 20:04:23 move_to_click
+2025-01-07 20:04:27 move_to_click
+2025-01-07 20:04:29  it = 5
+2025-01-07 20:04:30 attack = Point(x=np.int64(638), y=np.int64(307))
+2025-01-07 20:04:30 move_to_click
+2025-01-07 20:04:32 link_arena = None
+2025-01-07 20:04:34 link_arena = Point(x=np.int64(383), y=np.int64(172))
+2025-01-07 20:04:35 безоружен
+2025-01-07 20:04:36 ожидание боя
+2025-01-07 20:08:51 in_battl = Point(x=np.int64(267), y=np.int64(594))
+2025-01-07 20:08:51 move_to_click
+2025-01-07 20:08:53 ожидание пропустить бой
+2025-01-07 20:08:56 in_battle
+2025-01-07 20:08:56 skip_battle = Point(x=np.int64(381), y=np.int64(117))
+2025-01-07 20:08:58 пропускаем бой
+2025-01-07 20:08:58 move_to_click
+2025-01-07 20:09:00 ожидание close
+2025-01-07 20:09:00 ожидание close
+2025-01-07 20:09:01 ожидание close
+2025-01-07 20:09:01 ожидание close
+2025-01-07 20:09:02 ожидание close
+2025-01-07 20:09:03 закрыть результат боя
+2025-01-07 20:09:03 move_to_click
+2025-01-07 20:09:05 arena.battle_in_arena
+2025-01-07 20:09:05 quantity_battles = 2
+2025-01-07 20:09:06 go_in_hall_glory
+2025-01-07 20:09:07 link_in_hall_glory = None
+2025-01-07 20:09:07 hall_glory = Point(x=np.int64(723), y=np.int64(117))
+2025-01-07 20:09:07 close = None
+2025-01-07 20:09:07 hall_glory = Point(x=np.int64(723), y=np.int64(117))
+2025-01-07 20:09:07 move_to_click
+2025-01-07 20:09:13 link_in_hall_glory = , Point(x=np.int64(379), y=np.int64(164))
+2025-01-07 20:09:13 hero_arena = , None
+2025-01-07 20:09:13 поиск противника
+2025-01-07 20:09:13 move_to_click
+2025-01-07 20:09:17 move_to_click
+2025-01-07 20:09:20 move_to_click
+2025-01-07 20:09:23 move_to_click
+2025-01-07 20:09:26 move_to_click
+2025-01-07 20:09:29 move_to_click
+2025-01-07 20:09:32 move_to_click
+2025-01-07 20:09:35 move_to_click
+2025-01-07 20:09:38 move_to_click
+2025-01-07 20:09:41 move_to_click
+2025-01-07 20:09:44 move_to_click
+2025-01-07 20:09:48 move_to_click
+2025-01-07 20:09:51 move_to_click
+2025-01-07 20:09:54 move_to_click
+2025-01-07 20:09:57 move_to_click
+2025-01-07 20:10:00 move_to_click
+2025-01-07 20:10:03 move_to_click
+2025-01-07 20:10:06  it = 17
+2025-01-07 20:10:06 attack = Point(x=np.int64(638), y=np.int64(307))
+2025-01-07 20:10:07 move_to_click
+2025-01-07 20:10:08 link_arena = None
+2025-01-07 20:10:11 link_arena = Point(x=np.int64(383), y=np.int64(172))
+2025-01-07 20:10:11 безоружен
+2025-01-07 20:10:13 ожидание боя
+2025-01-07 20:13:54 in_battl = Point(x=np.int64(267), y=np.int64(594))
+2025-01-07 20:13:54 move_to_click
+2025-01-07 20:13:56 ожидание пропустить бой
+2025-01-07 20:13:59 in_battle
+2025-01-07 20:13:59 skip_battle = Point(x=np.int64(381), y=np.int64(117))
+2025-01-07 20:14:01 пропускаем бой
+2025-01-07 20:14:01 move_to_click
+2025-01-07 20:14:03 ожидание close
+2025-01-07 20:14:03 ожидание close
+2025-01-07 20:14:04 ожидание close
+2025-01-07 20:14:04 ожидание close
+2025-01-07 20:14:05 ожидание close
+2025-01-07 20:14:06 закрыть результат боя
+2025-01-07 20:14:06 move_to_click
+2025-01-07 20:14:08 arena.battle_in_arena
+2025-01-07 20:14:09 quantity_battles = 3
+2025-01-07 20:14:09 go_in_hall_glory
+2025-01-07 20:14:10 link_in_hall_glory = None
+2025-01-07 20:14:10 hall_glory = Point(x=np.int64(723), y=np.int64(117))
+2025-01-07 20:14:10 close = None
+2025-01-07 20:14:10 hall_glory = Point(x=np.int64(723), y=np.int64(117))
+2025-01-07 20:14:10 move_to_click
+2025-01-07 20:14:16 link_in_hall_glory = , Point(x=np.int64(379), y=np.int64(164))
+2025-01-07 20:14:17 hero_arena = , None
+2025-01-07 20:14:17 поиск противника
+2025-01-07 20:14:17 move_to_click
+2025-01-07 20:14:20 move_to_click
+2025-01-07 20:14:23 move_to_click
+2025-01-07 20:14:26 move_to_click
+2025-01-07 20:14:29 move_to_click
+2025-01-07 20:14:32 move_to_click
+2025-01-07 20:14:35 move_to_click
+2025-01-07 20:14:39 move_to_click
+2025-01-07 20:14:42 move_to_click
+2025-01-07 20:14:45 move_to_click
+2025-01-07 20:14:48 move_to_click
+2025-01-07 20:14:51 move_to_click
+2025-01-07 20:14:54 move_to_click
+2025-01-07 20:14:57 move_to_click
+2025-01-07 20:15:01 move_to_click
+2025-01-07 20:15:04 move_to_click
+2025-01-07 20:15:07 move_to_click
+2025-01-07 20:15:10  it = 17
+2025-01-07 20:15:10 attack = Point(x=np.int64(638), y=np.int64(307))
+2025-01-07 20:15:10 move_to_click
+2025-01-07 20:15:12 link_arena = None
+2025-01-07 20:15:15 link_arena = Point(x=np.int64(383), y=np.int64(172))
+2025-01-07 20:15:15 безоружен
+2025-01-07 20:15:17 ожидание боя
+2025-01-07 20:18:57 in_battl = Point(x=np.int64(267), y=np.int64(594))
+2025-01-07 20:18:57 move_to_click
+2025-01-07 20:18:59 ожидание пропустить бой
+2025-01-07 20:19:02 in_battle
+2025-01-07 20:19:02 skip_battle = Point(x=np.int64(381), y=np.int64(117))
+2025-01-07 20:19:04 пропускаем бой
+2025-01-07 20:19:04 move_to_click
+2025-01-07 20:19:06 ожидание close
+2025-01-07 20:19:07 ожидание close
+2025-01-07 20:19:07 ожидание close
+2025-01-07 20:19:08 ожидание close
+2025-01-07 20:19:08 ожидание close
+2025-01-07 20:19:09 закрыть результат боя
+2025-01-07 20:19:09 move_to_click
+2025-01-07 20:19:12 arena.battle_in_arena
+2025-01-07 20:19:12 quantity_battles = 4
+2025-01-07 20:19:12 go_in_hall_glory
+2025-01-07 20:19:13 link_in_hall_glory = None
+2025-01-07 20:19:13 hall_glory = Point(x=np.int64(723), y=np.int64(117))
+2025-01-07 20:19:13 close = None
+2025-01-07 20:19:13 hall_glory = Point(x=np.int64(723), y=np.int64(117))
+2025-01-07 20:19:14 move_to_click
+2025-01-07 20:19:19 link_in_hall_glory = , Point(x=np.int64(379), y=np.int64(164))
+2025-01-07 20:19:19 hero_arena = , None
+2025-01-07 20:19:19 поиск противника
+2025-01-07 20:19:20 move_to_click
+2025-01-07 20:19:22 move_to_click
+2025-01-07 20:19:25 move_to_click
+2025-01-07 20:19:28 move_to_click
+2025-01-07 20:19:31 move_to_click
+2025-01-07 20:19:35 move_to_click
+2025-01-07 20:19:38 move_to_click
+2025-01-07 20:19:41 move_to_click
+2025-01-07 20:19:44 move_to_click
+2025-01-07 20:19:47 move_to_click
+2025-01-07 20:19:50 move_to_click
+2025-01-07 20:19:53 move_to_click
+2025-01-07 20:19:56 move_to_click
+2025-01-07 20:19:59 move_to_click
+2025-01-07 20:20:03 move_to_click
+2025-01-07 20:20:06 move_to_click
+2025-01-07 20:20:09 move_to_click
+2025-01-07 20:20:11  it = 17
+2025-01-07 20:20:12 attack = Point(x=np.int64(638), y=np.int64(307))
+2025-01-07 20:20:12 move_to_click
+2025-01-07 20:20:14 link_arena = None
+2025-01-07 20:20:17 link_arena = Point(x=np.int64(383), y=np.int64(172))
+2025-01-07 20:20:17 безоружен
+2025-01-07 20:20:18 ожидание боя
+2025-01-07 20:24:01 in_battl = Point(x=np.int64(267), y=np.int64(594))
+2025-01-07 20:24:01 move_to_click
+2025-01-07 20:24:03 ожидание пропустить бой
+2025-01-07 20:24:05 in_battle
+2025-01-07 20:24:06 skip_battle = Point(x=np.int64(381), y=np.int64(117))
+2025-01-07 20:24:07 пропускаем бой
+2025-01-07 20:24:07 move_to_click
+2025-01-07 20:24:09 ожидание close
+2025-01-07 20:24:10 ожидание close
+2025-01-07 20:24:10 ожидание close
+2025-01-07 20:24:11 ожидание close
+2025-01-07 20:24:11 ожидание close
+2025-01-07 20:24:13 закрыть результат боя
+2025-01-07 20:24:13 move_to_click
+2025-01-07 20:24:15 arena.battle_in_arena
+2025-01-07 20:24:15 quantity_battles = 5
+2025-01-07 20:24:16 go_in_hall_glory
+2025-01-07 20:24:17 link_in_hall_glory = None
+2025-01-07 20:24:17 hall_glory = Point(x=np.int64(723), y=np.int64(117))
+2025-01-07 20:24:17 close = None
+2025-01-07 20:24:17 hall_glory = Point(x=np.int64(723), y=np.int64(117))
+2025-01-07 20:24:17 move_to_click
+2025-01-07 20:24:23 link_in_hall_glory = , Point(x=np.int64(379), y=np.int64(164))
+2025-01-07 20:24:23 hero_arena = , None
+2025-01-07 20:24:23 поиск противника
+2025-01-07 20:24:23 move_to_click
+2025-01-07 20:24:45 move_to_click
+2025-01-07 20:24:49 move_to_click
+2025-01-07 20:24:52 move_to_click
+2025-01-07 20:26:49 move_to_click
+2025-01-07 20:26:56 fun.push_close
+2025-01-07 20:26:56 close = Point(x=np.int64(384), y=np.int64(597))
+2025-01-07 20:26:56 move_to_click
+2025-01-07 20:27:01 move_to_click
+2025-01-07 20:31:52 move_to_click
+2025-01-07 20:32:04 fun.push_close
+2025-01-07 20:32:04 close = Point(x=np.int64(384), y=np.int64(597))
+2025-01-07 20:32:04 move_to_click
+2025-01-07 20:32:09 move_to_click
+2025-01-07 20:36:54 move_to_click
+2025-01-07 20:37:07 fun.push_close
+2025-01-07 20:37:07 close = Point(x=np.int64(384), y=np.int64(597))
+2025-01-07 20:37:07 move_to_click
+2025-01-07 20:37:12 move_to_click
+2025-01-07 20:41:57 move_to_click
+2025-01-07 20:42:04 fun.push_close
+2025-01-07 20:42:05 close = Point(x=np.int64(384), y=np.int64(597))
+2025-01-07 20:42:05 move_to_click
+2025-01-07 20:42:10 move_to_click
+2025-01-07 20:47:01 move_to_click
+2025-01-07 20:47:08 fun.push_close
+2025-01-07 20:47:08 close = Point(x=np.int64(384), y=np.int64(597))
+2025-01-07 20:47:08 move_to_click
+2025-01-07 20:47:13 move_to_click
+2025-01-07 20:52:04 move_to_click
+2025-01-07 20:52:14 fun.push_close
+2025-01-07 20:52:14 close = Point(x=np.int64(384), y=np.int64(597))
+2025-01-07 20:52:14 move_to_click
+2025-01-07 20:52:19 move_to_click
+2025-01-07 20:57:07 move_to_click
+2025-01-07 20:57:14 fun.push_close
+2025-01-07 20:57:15 close = Point(x=np.int64(384), y=np.int64(597))
+2025-01-07 20:57:15 move_to_click
+2025-01-07 20:57:20 move_to_click
+2025-01-07 21:02:11 move_to_click
+2025-01-07 21:02:23 fun.push_close
+2025-01-07 21:02:24 close = Point(x=np.int64(384), y=np.int64(597))
+2025-01-07 21:02:24 move_to_click
+2025-01-07 21:02:29 move_to_click
+2025-01-07 21:07:13 move_to_click
+2025-01-07 21:07:21 fun.push_close
+2025-01-07 21:07:21 close = Point(x=np.int64(384), y=np.int64(597))
+2025-01-07 21:07:21 move_to_click
+2025-01-07 21:07:26 move_to_click
+2025-01-07 21:12:16 move_to_click
+2025-01-07 21:12:24 fun.push_close
+2025-01-07 21:12:25 close = Point(x=np.int64(384), y=np.int64(597))
+2025-01-07 21:12:25 move_to_click
+2025-01-07 21:12:29 move_to_click
+2025-01-07 21:17:19 move_to_click
+2025-01-07 21:17:33 fun.push_close
+2025-01-07 21:17:33 close = Point(x=np.int64(384), y=np.int64(597))
+2025-01-07 21:17:33 move_to_click
+2025-01-07 21:17:38 move_to_click
+2025-01-07 21:22:22 move_to_click
+2025-01-07 21:22:33 fun.push_close
+2025-01-07 21:22:34 close = Point(x=np.int64(384), y=np.int64(597))
+2025-01-07 21:22:34 move_to_click
+2025-01-07 21:22:39 move_to_click
+2025-01-07 21:27:25 move_to_click
+2025-01-07 21:27:33 fun.push_close
+2025-01-07 21:27:33 close = Point(x=np.int64(384), y=np.int64(597))
+2025-01-07 21:27:33 move_to_click
+2025-01-07 21:27:38 move_to_click
+2025-01-07 21:32:27 move_to_click
+2025-01-07 21:32:35 fun.push_close
+2025-01-07 21:32:35 close = Point(x=np.int64(384), y=np.int64(597))
+2025-01-07 21:32:35 move_to_click
+2025-01-07 21:32:40 move_to_click
+2025-01-07 21:37:30 move_to_click
+2025-01-07 21:37:39 fun.push_close
+2025-01-07 21:37:39 close = Point(x=np.int64(384), y=np.int64(597))
+2025-01-07 21:37:39 move_to_click
+2025-01-07 21:37:44 move_to_click
+2025-01-07 21:42:33 move_to_click
+2025-01-07 21:42:45 fun.push_close
+2025-01-07 21:42:46 close = Point(x=np.int64(384), y=np.int64(597))
+2025-01-07 21:42:46 move_to_click
+2025-01-07 21:42:51 move_to_click
+2025-01-07 21:45:00 move_to_click
+2025-01-07 21:45:03 move_to_click
+2025-01-07 21:45:24 move_to_click
+2025-01-07 21:45:53 move_to_click
+2025-01-07 21:45:55 move_to_click
+2025-01-07 21:46:12 fun.push_close
+2025-01-07 21:46:13 close = Point(x=np.int64(384), y=np.int64(547))
+2025-01-07 21:46:13 move_to_click
+2025-01-07 21:46:17 move_to_click
+2025-01-07 21:46:18 move_to_click
+2025-01-07 21:46:22 move_to_click
+2025-01-07 21:47:37 move_to_click
+2025-01-07 21:47:45 fun.push_close
+2025-01-07 21:47:45 close = Point(x=np.int64(384), y=np.int64(597))
+2025-01-07 21:47:45 move_to_click
+2025-01-07 21:47:50 move_to_click
+2025-01-07 21:47:52 move_to_click
+2025-01-07 21:50:28 move_to_click
+2025-01-07 21:50:57 move_to_click
+2025-01-07 21:50:59 move_to_click
+2025-01-07 21:51:17 fun.push_close
+2025-01-07 21:51:18 close = Point(x=np.int64(384), y=np.int64(547))
+2025-01-07 21:51:18 move_to_click
+2025-01-07 21:51:23 move_to_click
+2025-01-07 21:51:24 move_to_click
+2025-01-07 21:51:28 move_to_click
+2025-01-07 21:52:38 move_to_click
+2025-01-07 21:52:50 fun.push_close
+2025-01-07 21:52:50 close = Point(x=np.int64(384), y=np.int64(597))
+2025-01-07 21:52:50 move_to_click
+2025-01-07 21:52:55 move_to_click
+2025-01-07 21:52:58 move_to_click
+2025-01-07 21:55:30 move_to_click
+2025-01-07 21:56:00 move_to_click
+2025-01-07 21:56:01 move_to_click
+2025-01-07 21:56:13 fun.push_close
+2025-01-07 21:56:14 close = Point(x=np.int64(384), y=np.int64(547))
+2025-01-07 21:56:14 move_to_click
+2025-01-07 21:56:19 move_to_click
+2025-01-07 21:56:20 move_to_click
+2025-01-07 21:56:24 move_to_click
+2025-01-07 21:57:42 move_to_click
+2025-01-07 21:57:50 fun.push_close
+2025-01-07 21:57:50 close = Point(x=np.int64(384), y=np.int64(597))
+2025-01-07 21:57:50 move_to_click
+2025-01-07 21:57:55 move_to_click
+2025-01-07 21:57:58 move_to_click
+2025-01-07 22:00:33 move_to_click
+2025-01-07 22:01:03 move_to_click
+2025-01-07 22:01:04 move_to_click
+2025-01-07 22:01:16 fun.push_close
+2025-01-07 22:01:17 close = Point(x=np.int64(384), y=np.int64(547))
+2025-01-07 22:01:17 move_to_click
+2025-01-07 22:01:21 move_to_click
+2025-01-07 22:01:23 move_to_click
+2025-01-07 22:01:26 move_to_click
+2025-01-07 22:02:46 move_to_click
+2025-01-07 22:02:54 fun.push_close
+2025-01-07 22:02:55 close = Point(x=np.int64(384), y=np.int64(597))
+2025-01-07 22:02:55 move_to_click
+2025-01-07 22:02:59 move_to_click
+2025-01-07 22:03:02 move_to_click
+2025-01-07 22:05:36 move_to_click
+2025-01-07 22:06:06 move_to_click
+2025-01-07 22:06:08 move_to_click
+2025-01-07 22:06:23 fun.push_close
+2025-01-07 22:06:24 close = Point(x=np.int64(384), y=np.int64(547))
+2025-01-07 22:06:24 move_to_click
+2025-01-07 22:06:29 move_to_click
+2025-01-07 22:06:30 move_to_click
+2025-01-07 22:06:34 move_to_click
+2025-01-07 22:07:47 move_to_click
+2025-01-07 22:07:59 fun.push_close
+2025-01-07 22:07:59 close = Point(x=np.int64(384), y=np.int64(597))
+2025-01-07 22:07:59 move_to_click
+2025-01-07 22:08:04 move_to_click
+2025-01-07 22:08:07 move_to_click
+2025-01-07 22:10:40 move_to_click
+2025-01-07 22:11:10 move_to_click
+2025-01-07 22:11:11 move_to_click
+2025-01-07 22:11:21 fun.push_close
+2025-01-07 22:11:22 close = Point(x=np.int64(384), y=np.int64(547))
+2025-01-07 22:11:22 move_to_click
+2025-01-07 22:11:26 move_to_click
+2025-01-07 22:11:28 move_to_click
+2025-01-07 22:11:31 move_to_click
+2025-01-07 22:12:50 move_to_click
+2025-01-07 22:13:02 fun.push_close
+2025-01-07 22:13:02 close = Point(x=np.int64(384), y=np.int64(597))
+2025-01-07 22:13:02 move_to_click
+2025-01-07 22:13:07 move_to_click
+2025-01-07 22:13:10 move_to_click
+2025-01-07 22:15:43 move_to_click
+2025-01-07 22:16:12 move_to_click
+2025-01-07 22:16:14 move_to_click
+2025-01-07 22:16:31 fun.push_close
+2025-01-07 22:16:32 close = Point(x=np.int64(384), y=np.int64(547))
+2025-01-07 22:16:32 move_to_click
+2025-01-07 22:16:36 move_to_click
+2025-01-07 22:16:37 move_to_click
+2025-01-07 22:16:41 move_to_click
+2025-01-07 22:17:53 move_to_click
+2025-01-07 22:18:01 fun.push_close
+2025-01-07 22:18:01 close = Point(x=np.int64(384), y=np.int64(597))
+2025-01-07 22:18:01 move_to_click
+2025-01-07 22:18:06 move_to_click
+2025-01-07 22:18:08 move_to_click
+2025-01-07 22:20:46 move_to_click
+2025-01-07 22:21:15 move_to_click
+2025-01-07 22:21:17 move_to_click
+2025-01-07 22:21:27 fun.push_close
+2025-01-07 22:21:27 close = Point(x=np.int64(384), y=np.int64(547))
+2025-01-07 22:21:27 move_to_click
+2025-01-07 22:21:32 move_to_click
+2025-01-07 22:21:34 move_to_click
+2025-01-07 22:21:37 move_to_click
+2025-01-07 22:22:56 move_to_click
+2025-01-07 22:23:08 fun.push_close
+2025-01-07 22:23:08 close = Point(x=np.int64(384), y=np.int64(597))
+2025-01-07 22:23:08 move_to_click
+2025-01-07 22:23:13 move_to_click
+2025-01-07 22:23:16 move_to_click
+2025-01-07 22:25:50 move_to_click
+2025-01-07 22:26:20 move_to_click
+2025-01-07 22:26:21 move_to_click
+2025-01-07 22:26:32 fun.push_close
+2025-01-07 22:26:32 close = Point(x=np.int64(384), y=np.int64(547))
+2025-01-07 22:26:33 move_to_click
+2025-01-07 22:26:37 move_to_click
+2025-01-07 22:26:39 move_to_click
+2025-01-07 22:26:42 move_to_click
+2025-01-07 22:33:47 move_to_click
+2025-01-07 22:34:16 move_to_click
+2025-01-07 22:34:18 move_to_click
+2025-01-07 22:34:36 fun.push_close
+2025-01-07 22:34:37 close = Point(x=np.int64(384), y=np.int64(547))
+2025-01-07 22:34:37 move_to_click
+2025-01-07 22:34:41 move_to_click
+2025-01-07 22:34:43 move_to_click
+2025-01-07 22:34:46 move_to_click
+2025-01-07 22:34:49 move_to_click
+2025-01-07 22:38:49 move_to_click
+2025-01-07 22:39:18 move_to_click
+2025-01-07 22:39:19 move_to_click
+2025-01-07 22:39:34 fun.push_close
+2025-01-07 22:39:35 close = Point(x=np.int64(384), y=np.int64(547))
+2025-01-07 22:39:35 move_to_click
+2025-01-07 22:39:39 move_to_click
+2025-01-07 22:39:41 move_to_click
+2025-01-07 22:39:44 move_to_click
+2025-01-07 22:39:47 move_to_click
+2025-01-07 22:43:52 move_to_click
+2025-01-07 23:01:21 arena.battle_in_arena
+2025-01-07 23:01:21 quantity_battles = 0
+2025-01-07 23:01:22 go_in_hall_glory
+2025-01-07 23:01:23 link_in_hall_glory = None
+2025-01-07 23:01:23 hall_glory = Point(x=np.int64(723), y=np.int64(117))
+2025-01-07 23:01:23 close = None
+2025-01-07 23:01:23 hall_glory = Point(x=np.int64(723), y=np.int64(117))
+2025-01-07 23:01:23 move_to_click
+2025-01-07 23:01:31 link_in_hall_glory = , Point(x=np.int64(379), y=np.int64(164))
+2025-01-07 23:01:31 hero_arena = , None
+2025-01-07 23:01:31 поиск противника
+2025-01-07 23:01:31 move_to_click
+2025-01-07 23:01:46 arena.battle_in_arena
+2025-01-07 23:01:46 quantity_battles = 0
+2025-01-07 23:01:47 go_in_hall_glory
+2025-01-07 23:01:48 link_in_hall_glory = None
+2025-01-07 23:01:48 hall_glory = Point(x=np.int64(723), y=np.int64(117))
+2025-01-07 23:01:48 close = None
+2025-01-07 23:01:48 hall_glory = Point(x=np.int64(723), y=np.int64(117))
+2025-01-07 23:01:48 move_to_click
+2025-01-07 23:01:54 link_in_hall_glory = , Point(x=np.int64(379), y=np.int64(164))
+2025-01-07 23:01:54 hero_arena = , None
+2025-01-07 23:01:54 поиск противника
+2025-01-07 23:01:54 move_to_click
+2025-01-07 23:01:57 move_to_click
+2025-01-07 23:02:00 move_to_click
+2025-01-07 23:02:03 move_to_click
+2025-01-07 23:02:06 move_to_click
+2025-01-07 23:02:09 move_to_click
+2025-01-07 23:02:13 move_to_click
+2025-01-07 23:02:16 move_to_click
+2025-01-07 23:02:19 move_to_click
+2025-01-07 23:02:22 move_to_click
+2025-01-07 23:02:25 move_to_click
+2025-01-07 23:02:29 move_to_click
+2025-01-07 23:02:32 move_to_click
+2025-01-07 23:02:35 move_to_click
+2025-01-07 23:02:38 move_to_click
+2025-01-07 23:02:41 move_to_click
+2025-01-07 23:02:44 move_to_click
+2025-01-07 23:02:47  it = 17
+2025-01-07 23:02:47 attack = Point(x=np.int64(638), y=np.int64(307))
+2025-01-07 23:02:47 move_to_click
+2025-01-07 23:02:49 link_arena = None
+2025-01-07 23:02:52 link_arena = Point(x=np.int64(383), y=np.int64(172))
+2025-01-07 23:02:52 безоружен
+2025-01-07 23:02:54 in_battl = Point(x=np.int64(267), y=np.int64(594))
+2025-01-07 23:02:54 move_to_click
+2025-01-07 23:02:55 ожидание пропустить бой
+2025-01-07 23:02:58 in_battle
+2025-01-07 23:02:58 skip_battle = Point(x=np.int64(381), y=np.int64(117))
+2025-01-07 23:03:01 пропускаем бой
+2025-01-07 23:03:01 move_to_click
+2025-01-07 23:03:03 ожидание close
+2025-01-07 23:03:03 ожидание close
+2025-01-07 23:03:04 ожидание close
+2025-01-07 23:03:04 ожидание close
+2025-01-07 23:03:05 ожидание close
+2025-01-07 23:03:06 закрыть результат боя
+2025-01-07 23:03:06 move_to_click
+2025-01-07 23:03:09 arena.battle_in_arena
+2025-01-07 23:03:09 quantity_battles = 1
+2025-01-07 23:03:09 go_in_hall_glory
+2025-01-07 23:03:10 link_in_hall_glory = None
+2025-01-07 23:03:10 hall_glory = Point(x=np.int64(723), y=np.int64(117))
+2025-01-07 23:03:10 close = None
+2025-01-07 23:03:10 hall_glory = Point(x=np.int64(723), y=np.int64(117))
+2025-01-07 23:03:10 move_to_click
+2025-01-07 23:03:17 link_in_hall_glory = , Point(x=np.int64(379), y=np.int64(164))
+2025-01-07 23:03:17 hero_arena = , None
+2025-01-07 23:03:17 поиск противника
+2025-01-07 23:03:18 move_to_click
+2025-01-07 23:03:21 move_to_click
+2025-01-07 23:03:24 move_to_click
+2025-01-07 23:03:26 move_to_click
+2025-01-07 23:03:30 move_to_click
+2025-01-07 23:03:33 move_to_click
+2025-01-07 23:03:36 move_to_click
+2025-01-07 23:03:39 move_to_click
+2025-01-07 23:03:42 move_to_click
+2025-01-07 23:03:45 move_to_click
+2025-01-07 23:03:49 move_to_click
+2025-01-07 23:03:52 move_to_click
+2025-01-07 23:03:55 move_to_click
+2025-01-07 23:03:58 move_to_click
+2025-01-07 23:04:01 move_to_click
+2025-01-07 23:04:03 move_to_click
+2025-01-07 23:04:07 move_to_click
+2025-01-07 23:04:09  it = 17
+2025-01-07 23:04:10 attack = Point(x=np.int64(638), y=np.int64(307))
+2025-01-07 23:04:10 move_to_click
+2025-01-07 23:04:12 link_arena = None
+2025-01-07 23:04:14 link_arena = Point(x=np.int64(383), y=np.int64(172))
+2025-01-07 23:04:15 безоружен
+2025-01-07 23:04:16 ожидание боя
+2025-01-07 23:07:57 in_battl = Point(x=np.int64(267), y=np.int64(594))
+2025-01-07 23:07:57 move_to_click
+2025-01-07 23:07:59 ожидание пропустить бой
+2025-01-07 23:08:01 in_battle
+2025-01-07 23:08:02 skip_battle = Point(x=np.int64(381), y=np.int64(117))
+2025-01-07 23:08:03 пропускаем бой
+2025-01-07 23:08:03 move_to_click
+2025-01-07 23:08:05 ожидание close
+2025-01-07 23:08:06 ожидание close
+2025-01-07 23:08:06 ожидание close
+2025-01-07 23:08:07 ожидание close
+2025-01-07 23:08:08 ожидание close
+2025-01-07 23:08:08 ожидание close
+2025-01-07 23:08:09 закрыть результат боя
+2025-01-07 23:08:09 move_to_click
+2025-01-07 23:08:12 arena.battle_in_arena
+2025-01-07 23:08:12 quantity_battles = 2
+2025-01-07 23:08:13 go_in_hall_glory
+2025-01-07 23:08:14 link_in_hall_glory = None
+2025-01-07 23:08:14 hall_glory = Point(x=np.int64(723), y=np.int64(117))
+2025-01-07 23:08:14 close = None
+2025-01-07 23:08:14 hall_glory = Point(x=np.int64(723), y=np.int64(117))
+2025-01-07 23:08:14 move_to_click
+2025-01-07 23:08:20 link_in_hall_glory = , Point(x=np.int64(379), y=np.int64(164))
+2025-01-07 23:08:20 hero_arena = , None
+2025-01-07 23:08:20 поиск противника
+2025-01-07 23:08:20 move_to_click
+2025-01-07 23:08:23 move_to_click
+2025-01-07 23:08:26 move_to_click
+2025-01-07 23:08:29 move_to_click
+2025-01-07 23:08:32 move_to_click
+2025-01-07 23:08:35 move_to_click
+2025-01-07 23:08:39 move_to_click
+2025-01-07 23:08:42 move_to_click
+2025-01-07 23:08:45 move_to_click
+2025-01-07 23:08:48 move_to_click
+2025-01-07 23:08:51 move_to_click
+2025-01-07 23:08:54 move_to_click
+2025-01-07 23:08:57 move_to_click
+2025-01-07 23:09:01 move_to_click
+2025-01-07 23:09:04 move_to_click
+2025-01-07 23:09:07 move_to_click
+2025-01-07 23:09:10 move_to_click
+2025-01-07 23:09:13  it = 17
+2025-01-07 23:09:13 attack = Point(x=np.int64(638), y=np.int64(307))
+2025-01-07 23:09:13 move_to_click
+2025-01-07 23:09:15 link_arena = None
+2025-01-07 23:09:18 link_arena = Point(x=np.int64(383), y=np.int64(172))
+2025-01-07 23:09:18 безоружен
+2025-01-07 23:09:19 ожидание боя
+2025-01-07 23:13:01 in_battl = Point(x=np.int64(267), y=np.int64(594))
+2025-01-07 23:13:01 move_to_click
+2025-01-07 23:13:03 ожидание пропустить бой
+2025-01-07 23:13:06 in_battle
+2025-01-07 23:13:06 skip_battle = Point(x=np.int64(381), y=np.int64(117))
+2025-01-07 23:13:08 пропускаем бой
+2025-01-07 23:13:08 move_to_click
+2025-01-07 23:13:10 ожидание close
+2025-01-07 23:13:10 ожидание close
+2025-01-07 23:13:11 ожидание close
+2025-01-07 23:13:11 ожидание close
+2025-01-07 23:13:12 ожидание close
+2025-01-07 23:13:12 ожидание close
+2025-01-07 23:13:14 закрыть результат боя
+2025-01-07 23:13:14 move_to_click
+2025-01-07 23:13:16 arena.battle_in_arena
+2025-01-07 23:13:16 quantity_battles = 3
+2025-01-07 23:13:17 go_in_hall_glory
+2025-01-07 23:13:18 link_in_hall_glory = None
+2025-01-07 23:13:18 hall_glory = Point(x=np.int64(723), y=np.int64(117))
+2025-01-07 23:13:18 close = None
+2025-01-07 23:13:18 hall_glory = Point(x=np.int64(723), y=np.int64(117))
+2025-01-07 23:13:18 move_to_click
+2025-01-07 23:13:24 link_in_hall_glory = , Point(x=np.int64(379), y=np.int64(164))
+2025-01-07 23:13:24 hero_arena = , None
+2025-01-07 23:13:24 поиск противника
+2025-01-07 23:13:24 move_to_click
+2025-01-07 23:13:27 move_to_click
+2025-01-07 23:13:30 move_to_click
+2025-01-07 23:13:34 move_to_click
+2025-01-07 23:13:37 move_to_click
+2025-01-07 23:13:40 move_to_click
+2025-01-07 23:13:43 move_to_click
+2025-01-07 23:13:46 move_to_click
+2025-01-07 23:13:49 move_to_click
+2025-01-07 23:13:52 move_to_click
+2025-01-07 23:13:56 move_to_click
+2025-01-07 23:13:59 move_to_click
+2025-01-07 23:14:02 move_to_click
+2025-01-07 23:14:05 move_to_click
+2025-01-07 23:14:08 move_to_click
+2025-01-07 23:14:11 move_to_click
+2025-01-07 23:14:14 move_to_click
+2025-01-07 23:14:17  it = 17
+2025-01-07 23:14:17 attack = Point(x=np.int64(638), y=np.int64(307))
+2025-01-07 23:14:17 move_to_click
+2025-01-07 23:14:19 link_arena = None
+2025-01-07 23:14:22 link_arena = Point(x=np.int64(383), y=np.int64(172))
+2025-01-07 23:14:22 безоружен
+2025-01-07 23:14:24 ожидание боя
+2025-01-07 23:18:05 in_battl = Point(x=np.int64(267), y=np.int64(594))
+2025-01-07 23:18:05 move_to_click
+2025-01-07 23:18:07 ожидание пропустить бой
+2025-01-07 23:18:09 in_battle
+2025-01-07 23:18:10 skip_battle = Point(x=np.int64(381), y=np.int64(117))
+2025-01-07 23:18:12 пропускаем бой
+2025-01-07 23:18:12 move_to_click
+2025-01-07 23:18:14 ожидание close
+2025-01-07 23:18:14 ожидание close
+2025-01-07 23:18:15 ожидание close
+2025-01-07 23:18:15 ожидание close
+2025-01-07 23:18:16 ожидание close
+2025-01-07 23:18:17 закрыть результат боя
+2025-01-07 23:18:17 move_to_click
+2025-01-07 23:18:19 arena.battle_in_arena
+2025-01-07 23:18:20 quantity_battles = 4
+2025-01-07 23:18:20 go_in_hall_glory
+2025-01-07 23:18:21 link_in_hall_glory = None
+2025-01-07 23:18:21 hall_glory = Point(x=np.int64(723), y=np.int64(117))
+2025-01-07 23:18:21 close = None
+2025-01-07 23:18:21 hall_glory = Point(x=np.int64(723), y=np.int64(117))
+2025-01-07 23:18:21 move_to_click
+2025-01-07 23:18:28 link_in_hall_glory = , Point(x=np.int64(379), y=np.int64(164))
+2025-01-07 23:18:28 hero_arena = , None
+2025-01-07 23:18:28 поиск противника
+2025-01-07 23:18:28 move_to_click
+2025-01-07 23:18:32 move_to_click
+2025-01-07 23:18:35 move_to_click
+2025-01-07 23:18:38 move_to_click
+2025-01-07 23:18:40 move_to_click
+2025-01-07 23:18:43 move_to_click
+2025-01-07 23:18:47 move_to_click
+2025-01-07 23:18:50 move_to_click
+2025-01-07 23:18:53 move_to_click
+2025-01-07 23:18:56 move_to_click
+2025-01-07 23:18:59 move_to_click
+2025-01-07 23:19:02 move_to_click
+2025-01-07 23:19:05 move_to_click
+2025-01-07 23:19:08 move_to_click
+2025-01-07 23:19:12 move_to_click
+2025-01-07 23:19:15 move_to_click
+2025-01-07 23:19:18 move_to_click
+2025-01-07 23:19:21  it = 17
+2025-01-07 23:19:21 attack = Point(x=np.int64(638), y=np.int64(307))
+2025-01-07 23:19:21 move_to_click
+2025-01-07 23:19:23 link_arena = None
+2025-01-07 23:19:26 link_arena = Point(x=np.int64(383), y=np.int64(172))
+2025-01-07 23:19:26 безоружен
+2025-01-07 23:19:27 ожидание боя
+2025-01-07 23:23:08 in_battl = Point(x=np.int64(267), y=np.int64(594))
+2025-01-07 23:23:08 move_to_click
+2025-01-07 23:23:10 ожидание пропустить бой
+2025-01-07 23:23:13 in_battle
+2025-01-07 23:23:13 skip_battle = Point(x=np.int64(381), y=np.int64(117))
+2025-01-07 23:23:15 пропускаем бой
+2025-01-07 23:23:15 move_to_click
+2025-01-07 23:23:17 ожидание close
+2025-01-07 23:23:17 ожидание close
+2025-01-07 23:23:18 ожидание close
+2025-01-07 23:23:18 ожидание close
+2025-01-07 23:23:19 ожидание close
+2025-01-07 23:23:20 закрыть результат боя
+2025-01-07 23:23:20 move_to_click
+2025-01-07 23:23:23 arena.battle_in_arena
+2025-01-07 23:23:23 quantity_battles = 5
+2025-01-07 23:23:23 go_in_hall_glory
+2025-01-07 23:23:24 link_in_hall_glory = None
+2025-01-07 23:23:24 hall_glory = Point(x=np.int64(723), y=np.int64(117))
+2025-01-07 23:23:24 close = None
+2025-01-07 23:23:24 hall_glory = Point(x=np.int64(723), y=np.int64(117))
+2025-01-07 23:23:24 move_to_click
+2025-01-07 23:23:30 link_in_hall_glory = , Point(x=np.int64(379), y=np.int64(164))
+2025-01-07 23:23:30 hero_arena = , None
+2025-01-07 23:23:30 поиск противника
+2025-01-07 23:23:31 move_to_click
+2025-01-07 23:23:34 move_to_click
+2025-01-07 23:23:37 move_to_click
+2025-01-07 23:23:40 move_to_click
+2025-01-07 23:23:43 move_to_click
+2025-01-07 23:23:46 move_to_click
+2025-01-07 23:23:49 move_to_click
+2025-01-07 23:23:52 move_to_click
+2025-01-07 23:23:55 move_to_click
+2025-01-07 23:23:58 move_to_click
+2025-01-07 23:24:01 move_to_click
+2025-01-07 23:24:04 move_to_click
+2025-01-07 23:24:08 move_to_click
+2025-01-07 23:24:11 move_to_click
+2025-01-07 23:24:14 move_to_click
+2025-01-07 23:24:17 move_to_click
+2025-01-07 23:24:20 move_to_click
+2025-01-07 23:24:23  it = 17
+2025-01-07 23:24:24 attack = Point(x=np.int64(638), y=np.int64(307))
+2025-01-07 23:24:24 move_to_click
+2025-01-07 23:24:25 link_arena = None
+2025-01-07 23:24:28 link_arena = Point(x=np.int64(383), y=np.int64(172))
+2025-01-07 23:24:28 безоружен
+2025-01-07 23:24:30 ожидание боя
+2025-01-07 23:28:11 in_battl = Point(x=np.int64(267), y=np.int64(594))
+2025-01-07 23:28:11 move_to_click
+2025-01-07 23:28:13 ожидание пропустить бой
+2025-01-07 23:28:16 in_battle
+2025-01-07 23:28:16 skip_battle = Point(x=np.int64(381), y=np.int64(117))
+2025-01-07 23:28:18 пропускаем бой
+2025-01-07 23:28:18 move_to_click
+2025-01-07 23:28:20 ожидание close
+2025-01-07 23:28:20 ожидание close
+2025-01-07 23:28:21 ожидание close
+2025-01-07 23:28:22 ожидание close
+2025-01-07 23:28:22 ожидание close
+2025-01-07 23:28:23 закрыть результат боя
+2025-01-07 23:28:23 move_to_click
+2025-01-07 23:28:26 arena.battle_in_arena
+2025-01-07 23:28:26 quantity_battles = 6
+2025-01-07 23:28:26 go_in_hall_glory
+2025-01-07 23:28:27 link_in_hall_glory = None
+2025-01-07 23:28:27 hall_glory = Point(x=np.int64(723), y=np.int64(117))
+2025-01-07 23:28:27 close = None
+2025-01-07 23:28:28 hall_glory = Point(x=np.int64(723), y=np.int64(117))
+2025-01-07 23:28:28 move_to_click
+2025-01-07 23:28:33 link_in_hall_glory = , Point(x=np.int64(379), y=np.int64(164))
+2025-01-07 23:28:33 hero_arena = , None
+2025-01-07 23:28:33 поиск противника
+2025-01-07 23:28:34 move_to_click
+2025-01-07 23:28:37 move_to_click
+2025-01-07 23:28:40 move_to_click
+2025-01-07 23:28:43 move_to_click
+2025-01-07 23:28:46 move_to_click
+2025-01-07 23:28:49 move_to_click
+2025-01-07 23:28:52 move_to_click
+2025-01-07 23:28:55 move_to_click
+2025-01-07 23:28:58 move_to_click
+2025-01-07 23:29:02 move_to_click
+2025-01-07 23:29:05 move_to_click
+2025-01-07 23:29:08 move_to_click
+2025-01-07 23:29:11 move_to_click
+2025-01-07 23:29:14 move_to_click
+2025-01-07 23:29:17 move_to_click
+2025-01-07 23:29:20 move_to_click
+2025-01-07 23:29:23 move_to_click
+2025-01-07 23:29:26  it = 17
+2025-01-07 23:29:27 attack = Point(x=np.int64(638), y=np.int64(307))
+2025-01-07 23:29:27 move_to_click
+2025-01-07 23:29:29 link_arena = None
+2025-01-07 23:29:31 link_arena = Point(x=np.int64(383), y=np.int64(172))
+2025-01-07 23:29:32 безоружен
+2025-01-07 23:29:33 ожидание боя
+2025-01-07 23:33:14 in_battl = Point(x=np.int64(267), y=np.int64(594))
+2025-01-07 23:33:14 move_to_click
+2025-01-07 23:33:16 ожидание пропустить бой
+2025-01-07 23:33:18 in_battle
+2025-01-07 23:33:19 skip_battle = Point(x=np.int64(381), y=np.int64(117))
+2025-01-07 23:33:20 пропускаем бой
+2025-01-07 23:33:20 move_to_click
+2025-01-07 23:33:22 ожидание close
+2025-01-07 23:33:23 ожидание close
+2025-01-07 23:33:23 ожидание close
+2025-01-07 23:33:24 ожидание close
+2025-01-07 23:33:25 ожидание close
+2025-01-07 23:33:26 закрыть результат боя
+2025-01-07 23:33:26 move_to_click
+2025-01-07 23:33:28 arena.battle_in_arena
+2025-01-07 23:33:28 quantity_battles = 7
+2025-01-07 23:33:29 go_in_hall_glory
+2025-01-07 23:33:30 link_in_hall_glory = None
+2025-01-07 23:33:30 hall_glory = Point(x=np.int64(723), y=np.int64(117))
+2025-01-07 23:33:30 close = None
+2025-01-07 23:33:30 hall_glory = Point(x=np.int64(723), y=np.int64(117))
+2025-01-07 23:33:30 move_to_click
+2025-01-07 23:33:36 link_in_hall_glory = , Point(x=np.int64(379), y=np.int64(164))
+2025-01-07 23:33:36 hero_arena = , None
+2025-01-07 23:33:36 поиск противника
+2025-01-07 23:33:37 move_to_click
+2025-01-07 23:33:40 move_to_click
+2025-01-07 23:33:43 move_to_click
+2025-01-07 23:33:46 move_to_click
+2025-01-07 23:33:49 move_to_click
+2025-01-07 23:33:52 move_to_click
+2025-01-07 23:33:55 move_to_click
+2025-01-07 23:33:59 move_to_click
+2025-01-07 23:34:02 move_to_click
+2025-01-07 23:34:05 move_to_click
+2025-01-07 23:34:08 move_to_click
+2025-01-07 23:34:11 move_to_click
+2025-01-07 23:34:14 move_to_click
+2025-01-07 23:34:17 move_to_click
+2025-01-07 23:34:20 move_to_click
+2025-01-07 23:34:24 move_to_click
+2025-01-07 23:34:27 move_to_click
+2025-01-07 23:34:29  it = 17
+2025-01-07 23:34:30 attack = Point(x=np.int64(638), y=np.int64(307))
+2025-01-07 23:34:30 move_to_click
+2025-01-07 23:34:32 link_arena = None
+2025-01-07 23:34:35 link_arena = Point(x=np.int64(383), y=np.int64(172))
+2025-01-07 23:34:35 безоружен
+2025-01-07 23:34:36 ожидание боя
+2025-01-07 23:38:17 in_battl = Point(x=np.int64(267), y=np.int64(594))
+2025-01-07 23:38:17 move_to_click
+2025-01-07 23:38:19 ожидание пропустить бой
+2025-01-07 23:38:22 in_battle
+2025-01-07 23:38:22 skip_battle = Point(x=np.int64(381), y=np.int64(117))
+2025-01-07 23:38:24 пропускаем бой
+2025-01-07 23:38:24 move_to_click
+2025-01-07 23:38:26 ожидание close
+2025-01-07 23:38:27 ожидание close
+2025-01-07 23:38:27 ожидание close
+2025-01-07 23:38:28 ожидание close
+2025-01-07 23:38:28 ожидание close
+2025-01-07 23:38:29 закрыть результат боя
+2025-01-07 23:38:29 move_to_click
+2025-01-07 23:38:32 arena.battle_in_arena
+2025-01-07 23:38:32 quantity_battles = 8
+2025-01-07 23:38:33 go_in_hall_glory
+2025-01-07 23:38:34 link_in_hall_glory = None
+2025-01-07 23:38:34 hall_glory = Point(x=np.int64(723), y=np.int64(117))
+2025-01-07 23:38:34 close = None
+2025-01-07 23:38:34 hall_glory = Point(x=np.int64(723), y=np.int64(117))
+2025-01-07 23:38:34 move_to_click
+2025-01-07 23:38:40 link_in_hall_glory = , Point(x=np.int64(379), y=np.int64(164))
+2025-01-07 23:38:40 hero_arena = , None
+2025-01-07 23:38:40 поиск противника
+2025-01-07 23:38:40 move_to_click
+2025-01-07 23:38:43 move_to_click
+2025-01-07 23:38:47 move_to_click
+2025-01-07 23:38:50 move_to_click
+2025-01-07 23:38:53 move_to_click
+2025-01-07 23:38:56 move_to_click
+2025-01-07 23:38:59 move_to_click
+2025-01-07 23:39:02 move_to_click
+2025-01-07 23:39:05 move_to_click
+2025-01-07 23:39:08 move_to_click
+2025-01-07 23:39:12 move_to_click
+2025-01-07 23:39:15 move_to_click
+2025-01-07 23:39:18 move_to_click
+2025-01-07 23:39:21 move_to_click
+2025-01-07 23:39:24 move_to_click
+2025-01-07 23:39:27 move_to_click
+2025-01-07 23:39:30 move_to_click
+2025-01-07 23:39:33  it = 17
+2025-01-07 23:39:34 attack = Point(x=np.int64(638), y=np.int64(307))
+2025-01-07 23:39:34 move_to_click
+2025-01-07 23:39:36 link_arena = None
+2025-01-07 23:39:38 link_arena = Point(x=np.int64(383), y=np.int64(172))
+2025-01-07 23:39:39 безоружен
+2025-01-07 23:39:40 ожидание боя
+2025-01-07 23:43:21 in_battl = Point(x=np.int64(267), y=np.int64(594))
+2025-01-07 23:43:21 move_to_click
+2025-01-07 23:43:23 ожидание пропустить бой
+2025-01-07 23:43:25 in_battle
+2025-01-07 23:43:26 skip_battle = Point(x=np.int64(381), y=np.int64(117))
+2025-01-07 23:43:28 пропускаем бой
+2025-01-07 23:43:28 move_to_click
+2025-01-07 23:43:30 ожидание close
+2025-01-07 23:43:30 ожидание close
+2025-01-07 23:43:31 ожидание close
+2025-01-07 23:43:31 ожидание close
+2025-01-07 23:43:32 ожидание close
+2025-01-07 23:43:32 ожидание close
+2025-01-07 23:43:33 закрыть результат боя
+2025-01-07 23:43:33 move_to_click
+2025-01-07 23:43:36 arena.battle_in_arena
+2025-01-07 23:43:36 quantity_battles = 9
+2025-01-07 23:43:37 go_in_hall_glory
+2025-01-07 23:43:38 link_in_hall_glory = None
+2025-01-07 23:43:38 hall_glory = Point(x=np.int64(723), y=np.int64(117))
+2025-01-07 23:43:38 close = None
+2025-01-07 23:43:38 hall_glory = Point(x=np.int64(723), y=np.int64(117))
+2025-01-07 23:43:38 move_to_click
+2025-01-07 23:43:44 link_in_hall_glory = , Point(x=np.int64(379), y=np.int64(164))
+2025-01-07 23:43:44 hero_arena = , None
+2025-01-07 23:43:44 поиск противника
+2025-01-07 23:43:44 move_to_click
+2025-01-07 23:43:47 move_to_click
+2025-01-07 23:43:50 move_to_click
+2025-01-07 23:43:53 move_to_click
+2025-01-07 23:43:56 move_to_click
+2025-01-07 23:43:59 move_to_click
+2025-01-07 23:44:02 move_to_click
+2025-01-07 23:44:05 move_to_click
+2025-01-07 23:44:08 move_to_click
+2025-01-07 23:44:11 move_to_click
+2025-01-07 23:44:15 move_to_click
+2025-01-07 23:44:18 move_to_click
+2025-01-07 23:44:21 move_to_click
+2025-01-07 23:44:24 move_to_click
+2025-01-07 23:44:27 move_to_click
+2025-01-07 23:44:30 move_to_click
+2025-01-07 23:44:33 move_to_click
+2025-01-07 23:44:36  it = 17
+2025-01-07 23:44:37 attack = Point(x=np.int64(638), y=np.int64(307))
+2025-01-07 23:44:37 move_to_click
+2025-01-07 23:44:39 link_arena = None
+2025-01-07 23:44:41 link_arena = Point(x=np.int64(383), y=np.int64(172))
+2025-01-07 23:44:42 безоружен
+2025-01-07 23:44:43 ожидание боя
+2025-01-07 23:48:24 in_battl = Point(x=np.int64(267), y=np.int64(594))
+2025-01-07 23:48:24 move_to_click
+2025-01-07 23:48:26 ожидание пропустить бой
+2025-01-07 23:48:28 in_battle
+2025-01-07 23:48:29 skip_battle = Point(x=np.int64(381), y=np.int64(117))
+2025-01-07 23:48:31 пропускаем бой
+2025-01-07 23:48:31 move_to_click
+2025-01-07 23:48:33 ожидание close
+2025-01-07 23:48:33 ожидание close
+2025-01-07 23:48:34 ожидание close
+2025-01-07 23:48:34 ожидание close
+2025-01-07 23:48:35 ожидание close
+2025-01-07 23:48:36 закрыть результат боя
+2025-01-07 23:48:36 move_to_click
+2025-01-07 23:48:38 arena.battle_in_arena
+2025-01-07 23:48:38 quantity_battles = 10
+2025-01-07 23:48:39 go_in_hall_glory
+2025-01-07 23:48:40 link_in_hall_glory = None
+2025-01-07 23:48:40 hall_glory = Point(x=np.int64(723), y=np.int64(117))
+2025-01-07 23:48:40 close = None
+2025-01-07 23:48:40 hall_glory = Point(x=np.int64(723), y=np.int64(117))
+2025-01-07 23:48:40 move_to_click
+2025-01-07 23:48:47 link_in_hall_glory = , Point(x=np.int64(379), y=np.int64(164))
+2025-01-07 23:48:47 hero_arena = , None
+2025-01-07 23:48:47 поиск противника
+2025-01-07 23:48:47 move_to_click
+2025-01-07 23:48:50 move_to_click
+2025-01-07 23:48:53 move_to_click
+2025-01-07 23:48:57 move_to_click
+2025-01-07 23:49:00 move_to_click
+2025-01-07 23:49:03 move_to_click
+2025-01-07 23:49:06 move_to_click
+2025-01-07 23:49:09 move_to_click
+2025-01-07 23:49:12 move_to_click
+2025-01-07 23:49:15 move_to_click
+2025-01-07 23:49:18 move_to_click
+2025-01-07 23:49:21 move_to_click
+2025-01-07 23:49:24 move_to_click
+2025-01-07 23:49:28 move_to_click
+2025-01-07 23:49:31 move_to_click
+2025-01-07 23:49:34 move_to_click
+2025-01-07 23:49:37 move_to_click
+2025-01-07 23:49:40  it = 17
+2025-01-07 23:49:40 attack = Point(x=np.int64(638), y=np.int64(307))
+2025-01-07 23:49:40 move_to_click
+2025-01-07 23:49:42 link_arena = None
+2025-01-07 23:49:45 link_arena = Point(x=np.int64(383), y=np.int64(172))
+2025-01-07 23:49:45 безоружен
+2025-01-07 23:49:46 ожидание боя
+2025-01-07 23:53:27 in_battl = Point(x=np.int64(267), y=np.int64(594))
+2025-01-07 23:53:27 move_to_click
+2025-01-07 23:53:29 ожидание пропустить бой
+2025-01-07 23:53:32 in_battle
+2025-01-07 23:53:32 skip_battle = Point(x=np.int64(381), y=np.int64(117))
+2025-01-07 23:53:34 пропускаем бой
+2025-01-07 23:53:34 move_to_click
+2025-01-07 23:53:36 ожидание close
+2025-01-07 23:53:36 ожидание close
+2025-01-07 23:53:37 ожидание close
+2025-01-07 23:53:37 ожидание close
+2025-01-07 23:53:38 ожидание close
+2025-01-07 23:53:39 ожидание close
+2025-01-07 23:53:40 закрыть результат боя
+2025-01-07 23:53:40 move_to_click
+2025-01-07 23:53:42 arena.battle_in_arena
+2025-01-07 23:53:42 quantity_battles = 11
+2025-01-07 23:53:43 go_in_hall_glory
+2025-01-07 23:53:44 link_in_hall_glory = None
+2025-01-07 23:53:44 hall_glory = Point(x=np.int64(723), y=np.int64(117))
+2025-01-07 23:53:44 close = None
+2025-01-07 23:53:44 hall_glory = Point(x=np.int64(723), y=np.int64(117))
+2025-01-07 23:53:44 move_to_click
+2025-01-07 23:53:50 link_in_hall_glory = , Point(x=np.int64(379), y=np.int64(164))
+2025-01-07 23:53:50 hero_arena = , None
+2025-01-07 23:53:50 поиск противника
+2025-01-07 23:53:51 move_to_click
+2025-01-07 23:53:54 move_to_click
+2025-01-07 23:53:57 move_to_click
+2025-01-07 23:54:00 move_to_click
+2025-01-07 23:54:03 move_to_click
+2025-01-07 23:54:06 move_to_click
+2025-01-07 23:54:09 move_to_click
+2025-01-07 23:54:13 move_to_click
+2025-01-07 23:54:16 move_to_click
+2025-01-07 23:54:19 move_to_click
+2025-01-07 23:54:22 move_to_click
+2025-01-07 23:54:25 move_to_click
+2025-01-07 23:54:28 move_to_click
+2025-01-07 23:54:31 move_to_click
+2025-01-07 23:54:34 move_to_click
+2025-01-07 23:54:37 move_to_click
+2025-01-07 23:54:40 move_to_click
+2025-01-07 23:54:43  it = 17
+2025-01-07 23:54:44 attack = Point(x=np.int64(638), y=np.int64(307))
+2025-01-07 23:54:44 move_to_click
+2025-01-07 23:54:45 link_arena = None
+2025-01-07 23:54:48 link_arena = Point(x=np.int64(383), y=np.int64(172))
+2025-01-07 23:54:48 безоружен
+2025-01-07 23:54:50 ожидание боя
+2025-01-07 23:58:30 in_battl = Point(x=np.int64(267), y=np.int64(594))
+2025-01-07 23:58:30 move_to_click
+2025-01-07 23:58:32 ожидание пропустить бой
+2025-01-07 23:58:35 in_battle
+2025-01-07 23:58:35 skip_battle = Point(x=np.int64(381), y=np.int64(117))
+2025-01-07 23:58:37 пропускаем бой
+2025-01-07 23:58:37 move_to_click
+2025-01-07 23:58:39 ожидание close
+2025-01-07 23:58:40 ожидание close
+2025-01-07 23:58:40 ожидание close
+2025-01-07 23:58:41 ожидание close
+2025-01-07 23:58:41 ожидание close
+2025-01-07 23:58:42 ожидание close
+2025-01-07 23:58:43 закрыть результат боя
+2025-01-07 23:58:43 move_to_click
+2025-01-07 23:58:45 arena.battle_in_arena
+2025-01-07 23:58:45 quantity_battles = 12
+2025-01-07 23:58:46 go_in_hall_glory
+2025-01-07 23:58:47 link_in_hall_glory = None
+2025-01-07 23:58:47 hall_glory = Point(x=np.int64(723), y=np.int64(117))
+2025-01-07 23:58:47 close = None
+2025-01-07 23:58:47 hall_glory = Point(x=np.int64(723), y=np.int64(117))
+2025-01-07 23:58:47 move_to_click
+2025-01-07 23:58:53 link_in_hall_glory = , Point(x=np.int64(379), y=np.int64(164))
+2025-01-07 23:58:53 hero_arena = , None
+2025-01-07 23:58:53 поиск противника
+2025-01-07 23:58:54 move_to_click
+2025-01-07 23:58:57 move_to_click
+2025-01-07 23:59:00 move_to_click
+2025-01-07 23:59:03 move_to_click
+2025-01-07 23:59:05 move_to_click
+2025-01-07 23:59:08 move_to_click
+2025-01-07 23:59:12 move_to_click
+2025-01-07 23:59:15 move_to_click
+2025-01-07 23:59:18 move_to_click
+2025-01-07 23:59:21 move_to_click
+2025-01-07 23:59:24 move_to_click
+2025-01-07 23:59:27 move_to_click
+2025-01-07 23:59:30 move_to_click
+2025-01-07 23:59:33 move_to_click
+2025-01-07 23:59:36 move_to_click
+2025-01-07 23:59:40 move_to_click
+2025-01-07 23:59:43 move_to_click
+2025-01-07 23:59:45  it = 17
+2025-01-07 23:59:46 attack = Point(x=np.int64(638), y=np.int64(307))
+2025-01-07 23:59:46 move_to_click
+2025-01-07 23:59:48 link_arena = None
+2025-01-07 23:59:51 link_arena = Point(x=np.int64(383), y=np.int64(172))
+2025-01-07 23:59:51 безоружен
+2025-01-07 23:59:52 ожидание боя

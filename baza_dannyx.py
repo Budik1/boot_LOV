@@ -7,7 +7,7 @@ tasks_gold_v = {'t1_1': 'img/tasks_v/t1g.png',
                 }
 
 tasks_xp_v = {'t1_1': 'img/tasks_v/t1x.png',
-
+              't5': 'img/tasks_v/t5x.png',
               }
 
 tasks_gold_gavr = {
@@ -16,7 +16,7 @@ tasks_gold_gavr = {
     't3': 'img/tasks_gavr/t3g.png',
     # 't4': 'img/tasks_gavr/t4g.png',
     't5': 'img/tasks_gavr/t5g.png',
-    # 't6': 'img/tasks_gavr/t6g.png',
+    't6': 'img/tasks_gavr/t6g.png',
 }
 tasks_xp_gavr = {
     't1': 'img/tasks_gavr/t1x.png',
@@ -59,7 +59,7 @@ lvl_dict = {
     'lvl_30': 'img/energy/lvl/30lvl.png',
 }
 
-lvl_list = [18, 19, 20, 21, 22, 30]
+lvl_list = [18, 19, 20, 21, 22, 23, 30]
 
 quantity_battles = 0
 gady_energy_status, gady_case_status = 0, 0
