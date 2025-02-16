@@ -28,7 +28,7 @@ class Hero:
 
         # дата старта кв
         self.date_start_kv = 0
-
+        # #
         self.isolation_end_date = 0
 
         # print('установлена старт дата')

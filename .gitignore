@@ -1,6 +1,6 @@
 .gitignore
+.venv
+.idea
 /log
 config.txt
 tes_item.py
-.venv
-.idea
