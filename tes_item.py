@@ -1,21 +1,8 @@
-kv = 0
-raid = 1
-if kv or raid:
-    if kv:
-        if raid:
-            print('test ok,kv and raid')
-        else:
-            print('test ok, kv')
-    elif raid:
-        print('test ok, raid')
+import heroes as her
+import fun
 
-else:
-    if kv:
-        print('kv')
-    elif raid:
-        print('raid')
-    else:
-        print('Test No')
+fun.selection_hero(True)
+her.Hero.introduce(her.Active.hero_activ)
+print(f'моя переменная {her.Active.hero_activ}')
 
-veles_collect = 250 * 8 + 200 * 11 + 100 * 16 + 50 * 19
-print(veles_collect)
+

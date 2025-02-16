@@ -3,6 +3,7 @@ import pyautogui
 from time import sleep
 import datetime
 import my_text as m_t
+import heroes as her
 
 # init()
 log = 1
@@ -76,7 +77,7 @@ def attack_guru():
         pass
 
 
-def click_update():
+def click_update(info=None):
     update = locCenterImg('img/kv/update.png', 0.9)
     sleep(0.2)
     update_1 = locCenterImg('img/kv/update.png', 0.9)
@@ -85,11 +86,14 @@ def click_update():
         sleep(0.2)
         update_1 = locCenterImg('img/kv/update.png', 0.9)
     # print("обновить", update)
-    move_to_click(update, 0.1)
-    x, y = update
-    x -= 25
-    y += 25
-    pyautogui.moveTo(x, y)
+    if info:
+        return update
+    else:
+        move_to_click(update, 0.1)
+        x, y = update
+        x -= 25
+        y += 25
+        pyautogui.moveTo(x, y)
 
 
 def my_print_to_file(text):
@@ -102,12 +106,19 @@ def my_print_to_file(text):
         file.close()  # закрыть файл после работы с ним.
 
 
-def time_now():
+def time_now(date_class=False):
+    """Если True:
+            вщзвращает объект datetime.datetime
+        Иначе
+            возвращает объект str"""
     now = datetime.datetime.now()
     # '%Y-%m-%d_%H:%M:%S' '%Y-%m-%d %H°%M\'\'%S\''
     time_now_ = (now.strftime('%Y-%m-%d %H:%M:%S'))
     # date = (now.strftime('%Y-%m-%d'))
-    return time_now_
+    if date_class:
+        return now
+    else:
+        return time_now_
 
 
 def time_utc_now():
@@ -280,7 +291,8 @@ def cancel_or_knob():
     return close
 
 
-def selection_hero():
+def selection_hero(variable_class_hero=False):
+
     gavril = locCenterImg('img/hero/h_gavril.png')
     gadya = locCenterImg('img/hero/h_gadya.png')
     veles = locCenterImg('img/hero/h_veles.png')
@@ -288,18 +300,26 @@ def selection_hero():
     if gavril:
         print(m_t.text_yellow('         Гаврил'))
         hero = 'Gavr'
+        # her.Active = 'Gavr'
+        her.Active.hero_activ = her.Gavr
     elif gadya:
         print(m_t.text_yellow('         Гадя'))
         hero = 'Gadya'
+        # her.Active = 'Gadya'
+        her.Active.hero_activ = her.Gady
     elif veles:
         print(m_t.text_yellow('         Велес'))
         hero = 'Veles'
+        # her.Active = 'Veles'
+        her.Active.hero_activ = her.Veles
     elif mara:
         print(m_t.text_yellow('         Марьяна'))
         hero = 'Mara'
+        her.Active.hero_activ = her.Mara
     else:
         print(m_t.text_red('Невозможно опознать героя(('))
         hero = None
+        her.Active.hero_activ = None
 
     return hero
 
@@ -337,7 +357,7 @@ def call_pet(pos_i):
         y += 410
         pos_pet = x, y  # позиция пета
         pyautogui.click(pos_pet)  # нажать на пета
-        melodi_pet()
+        # melodi_pet()
 
 
 def scroll_down():
@@ -377,11 +397,45 @@ def go_in_hall_glory():
         close = locCenterImg('img/everything/close.png', 0.89)
 
 
-def to_clan():
+def pos_clan():
     pos = find_link_i()
     pyautogui.moveTo(pos, duration=1)
     x, y = pos
     y -= 25
     x += 45
     pos_click = x, y
-    move_to_click(pos_click, 0)
+    # move_to_click(pos_click, 0)
+    return x, y
+
+
+def get_isolation_end_date():
+    day_now = datetime.datetime.now()
+    quarantine = day_now + datetime.timedelta(days=10)
+    print(quarantine)
+    return quarantine
+
+
+def verifi_isolation(date_end_isolation):
+    """
+    return: int
+    """
+    day_now = datetime.datetime.now()
+    time_diff = date_end_isolation - day_now
+    days_left = time_diff.days
+    if days_left < 0:
+        days_left = 0
+    return days_left
+
+
+def return_days_transformation(days):
+    sub_days_poc = days % 10
+    sub_days_col = days // 10
+
+    if sub_days_poc == 1 and sub_days_col != 1:
+        return f'{days} день'
+    elif sub_days_poc in [2, 3, 4] and sub_days_col != 1:
+        return f'{days} дня'
+    elif sub_days_col == 1:
+        return f'{days} дней'
+    elif sub_days_poc in [0, 5, 6, 7, 8, 9] and sub_days_col != 1:
+        return f'{days} дней'

@@ -5,6 +5,7 @@ import fun
 import creating_photo
 import baza_dannyx as b_d
 import my_text as m_t
+import heroes as her
 
 region_events = 504, 389, 300, 200
 par_conf = 0.88
@@ -29,14 +30,16 @@ def task_selection(tasks):
     conf = 0.99
     while not variant_:
         for img in tasks:
-            task_ = fun.locCenterImg(tasks[img], confidence=conf)
-            if task_:
-                print(f"{tasks[img]}, conf={conf}")
+            task_pos = fun.locCenterImg(tasks[img], confidence=conf)
+            if task_pos:
+                vers_in_print = '' if conf == 0.99 else m_t.text_red(f', conf={conf}')
+                # print(f"{tasks[img]}, conf={conf}")
+                print(f"{tasks[img]}{vers_in_print}")
                 # print('проверь наличие и место')
-                x, y = task_
+                x, y = task_pos
                 y -= 40
                 click_task = x, y
-                # fun.move_to_click(task_, 2)
+                # fun.move_to_click(task_pos, 2)
                 pyautogui.moveTo(click_task)
                 return click_task
         conf -= 0.001
@@ -56,7 +59,13 @@ def energy_gold():
         fun.move_to_click(close, 0)
     # опознать героя
     hero = fun.selection_hero()
+    while not hero:
+        close = fun.locCenterImg('img/everything/close.png', confidence=0.89)
+        if close:
+            fun.move_to_click(close, 0)
+        hero = fun.selection_hero()
     # получение списка заданий
+    print(hero, 'hero')
     if hero == 'Gavr':
         tasks_ = b_d.tasks_gold_gavr
     elif hero == 'Gadya':
@@ -67,7 +76,7 @@ def energy_gold():
         tasks_ = b_d.tasks_gold_mar
     else:
         tasks_ = None
-
+    print(f'список заданий для {her.Hero.introduce(her.Active.hero_activ)}')
     energy_ = True
     while energy_:
         q_call_pet = 0
@@ -168,7 +177,6 @@ def energy_gold():
                     else:
                         print("Неудача")
                         fun.melodi_feil()
-                        return
 
                 close_img = fun.wait_and_stop_img('img/everything/close.png', 0.85)
                 # закрыть сражение
@@ -208,7 +216,7 @@ def energy_xp():
         fun.move_to_click(close, 0)
     # опознать героя
     hero = fun.selection_hero()
-    if not hero:
+    while not hero:
         close = fun.locCenterImg('img/everything/close.png', confidence=0.89)
         if close:
             fun.move_to_click(close, 0)
@@ -216,15 +224,23 @@ def energy_xp():
     # получить список его заданий
     if hero == 'Gavr':
         tasks_ = b_d.tasks_xp_gavr
+        wilt = fun.verifi_isolation(her.Gavr.isolation_end_date)
     elif hero == 'Gadya':
         tasks_ = b_d.tasks_xp_v
+        wilt = fun.verifi_isolation(her.Gady.isolation_end_date)
     elif hero == 'Veles':
         tasks_ = b_d.tasks_xp_vel
+        wilt = fun.verifi_isolation(her.Veles.isolation_end_date)
     elif hero == 'Mara':
         tasks_ = b_d.tasks_xp_mar
-    else:
-        tasks_ = None
-
+        wilt = fun.verifi_isolation(her.Mara.isolation_end_date)
+    # else:
+    #     tasks_ = None
+    #     wilt = None
+    if wilt > 0:
+        print(f'Ты слишком слаб, что-бы набирать опыт. Попробуй через {fun.return_days_transformation(wilt)}')
+        print(' Перевод energy_gold')
+        energy_gold()
     energy_ = True
     while energy_:
         review = 0
@@ -320,7 +336,16 @@ def energy_xp():
                 else:
                     print("Неудача")
                     fun.melodi_feil()
-                    return
+                    if her.Active == 'Gadya':
+                        her.Gady.isolation_end_date = fun.get_isolation_end_date()
+                    if her.Active == 'Gavr':
+                        her.Gavr.isolation_end_date = fun.get_isolation_end_date()
+                    if her.Active == 'Veles':
+                        her.Veles.isolation_end_date = fun.get_isolation_end_date()
+                    if her.Active == 'Mara':
+                        her.Mara.isolation_end_date = fun.get_isolation_end_date()
+                    energy_gold()
+
             close_img = fun.wait_and_stop_img('img/everything/close.png', 0.85)
             # закрыть сражение
             fun.move_to_click(close_img, 0)

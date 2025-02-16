@@ -37,7 +37,7 @@ def creating_photo_hero_ver_in_hall_glory():
     pyautogui.moveTo(link_arena, duration=1)
     x, y = link_arena
     rep = 53
-    y += 22 + rep# 22
+    y += 22 + rep  # 22
     x += 15
     pos = x, y
     pyautogui.moveTo(pos, duration=1)
@@ -175,10 +175,6 @@ def creating_photo_clan():
     fun.foto('img/kv/clan_gadya2.png', (x, y, change, change))
 
 
-
-# to_clan()
-# creating_photo_clan()
-
 def creating_result():
     """Результат задания"""
     pos = fun.find_link_i()
@@ -187,14 +183,65 @@ def creating_result():
     y += 54 - 1
     x += 370 + 1 + 2
     pyautogui.moveTo(x, y, duration=2)
-    x_k, y_k = x, y
+    x_demo, y_demo = x, y
     change_x = 100 - 6
     change_y = 36 - 5
-    x_k += change_x
-    y_k += change_y
-    pyautogui.moveTo(x_k, y_k, duration=1)
+    x_demo += change_x
+    y_demo += change_y
+    pyautogui.moveTo(x_demo, y_demo, duration=1)
     fun.foto('img/tests/test_result_.png', (x, y, change_x, change_y))
 
+
+def state_kv():
+    pos = fun.click_update(1)
+    x, y = pos
+    x -= 390 - 5
+    y -= 20
+    pyautogui.moveTo(x, y, duration=1)
+    x_demo, y_demo = x, y
+    change_x = 180
+    change_y = 100
+    x_demo += change_x
+    y_demo += change_y
+    pyautogui.moveTo(x_demo, y_demo, duration=1)
+    fun.foto('img/tests/state_kv_defeat.png', (x, y, change_x, change_y))
+    print('foto ok')
+
+
+def drop_in_raid2():
+    pos = fun.click_update(1)
+    x, y = pos
+    x -= 419
+    y += 241
+    pyautogui.moveTo(x, y, duration=1)
+    x_demo, y_demo = x, y
+    change_x = 244
+    change_y = 44
+    x_demo += change_x
+    y_demo += change_y
+    pyautogui.moveTo(x_demo, y_demo, duration=1)
+    fun.foto('img/tests/drop_in_raid.png', (x, y, change_x, change_y))
+    print('foto ok')
+
+
+def drop_in_raid():
+    pos = fun.click_update(1)
+    x, y = pos
+    x -= 450 - 25
+    y += 141 + 2
+    pyautogui.moveTo(x, y, duration=1)
+    x_demo, y_demo = x, y
+    change_x = 200 - 25 - 9
+    change_y = 270 - 8
+    x_demo += change_x
+    y_demo += change_y
+    pyautogui.moveTo(x_demo, y_demo, duration=1)
+    fun.foto('img/tests/drop_in_raid.png', (x, y, change_x, change_y))
+    print('foto ok')
+
+
+# drop_in_raid()
+# state_kv()
 # creating_result()
 # creating_photo_lvl()
 # link_backpack()

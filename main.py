@@ -10,6 +10,7 @@ import kv_and_raid
 import pickle
 import creating_photo as c_photo
 import baza_dannyx as b_d
+import heroes as her
 
 # from PIL import ImageTk
 
@@ -18,102 +19,97 @@ mark_start = '.'
 date_start_prog = fun.date_utc_now()
 
 
-state_of_play = {
-    'дата': date_start_prog,
-    'Гавр-энергия': b_d.gavr_energy_status,
-    'Гадя-энергия': b_d.gady_energy_status,
-    'Велес-энергия': b_d.veles_energy_status,
-    'Мара-энергия': b_d.mara_energy_status,
-
-    'Гавр-кейс': b_d.gavr_case_status,
-    'Гадя-кейс': b_d.gady_case_status,
-    'Велес-кейс': b_d.veles_case_status,
-    'Мара-кейс': b_d.mara_case_status,
-
-    'Гадя-гуру': b_d.gady_guru_status,
-    'Гавр-гуру': b_d.gavr_guru_status,
-    'Велес-гуру': b_d.veles_guru_status,
-    'Мара-гуру': b_d.mara_guru_status,
-
-    'Гадя-gift': b_d.gady_gift_status,
-    'Гадя-кости': b_d.gady_game_status,
-    'Гавр-gift': b_d.gavr_gift_status,
-    'Гавр-кости': b_d.gavr_game_status,
-    'Велес-gift': b_d.veles_gift_status,
-    'Велес-кости': b_d.veles_game_status,
-    'Мара-gift': b_d.mara_gift_status,
-    'Мара-кости': b_d.mara_game_status,
-}
-
-
-# my_print_to_file('')
-# my_print_to_file('*******                      *******')
-# my_print_to_file("******* перезапуск программы *******")
-# my_print_to_file('*******                      *******')
-# my_print_to_file('')
-
-
 def verifi_and_change_data(data_to_load):
     """
     Получает словарь
     """
-    b_d.gavr_energy_status, b_d.gavr_case_status = data_to_load['Гавр-энергия'], data_to_load['Гавр-кейс']
-    b_d.gady_energy_status, b_d.gady_case_status = data_to_load['Гадя-энергия'], data_to_load['Гадя-кейс']
-    b_d.veles_energy_status, b_d.veles_case_status = data_to_load['Велес-энергия'], data_to_load['Велес-кейс']
-    b_d.mara_energy_status, b_d.mara_case_status = data_to_load['Мара-энергия'], data_to_load['Мара-кейс']
+    her.Gavr.energy_status = data_to_load['Гавр-энергия']
+    her.Gady.energy_status = data_to_load['Гадя-энергия']
+    her.Veles.energy_status = data_to_load['Велес-энергия']
+    her.Mara.energy_status = data_to_load['Мара-энергия']
 
-    b_d.gady_guru_status = data_to_load['Гадя-гуру']
-    b_d.gavr_guru_status = data_to_load['Гавр-гуру']
-    b_d.veles_guru_status = data_to_load['Велес-гуру']
-    b_d.mara_guru_status = data_to_load['Мара-гуру']
+    her.Gavr.case_status = data_to_load['Гавр-кейс']
+    her.Gady.case_status = data_to_load['Гадя-кейс']
+    her.Veles.case_status = data_to_load['Велес-кейс']
+    her.Mara.case_status = data_to_load['Мара-кейс']
 
-    b_d.gady_gift_status = data_to_load['Гадя-gift']
-    b_d.gavr_gift_status = data_to_load['Гавр-gift']
-    b_d.veles_gift_status = data_to_load['Велес-gift']
-    b_d.mara_gift_status = data_to_load['Мара-gift']
+    her.Gady.guru_status = data_to_load['Гадя-гуру']
+    her.Gavr.guru_status = data_to_load['Гавр-гуру']
+    her.Veles.guru_status = data_to_load['Велес-гуру']
+    her.Mara.guru_status = data_to_load['Мара-гуру']
 
-    b_d.gady_game_status = data_to_load['Гадя-кости']
-    b_d.gavr_game_status = data_to_load['Гавр-кости']
-    b_d.veles_game_status = data_to_load['Велес-кости']
-    b_d.mara_game_status = data_to_load['Мара-кости']
+    her.Gady.gift_status = data_to_load['Гадя-gift']
+    her.Gavr.gift_status = data_to_load['Гавр-gift']
+    her.Veles.gift_status = data_to_load['Велес-gift']
+    her.Mara.gift_status = data_to_load['Мара-gift']
+
+    her.Gady.game_status = data_to_load['Гадя-кости']
+    her.Gavr.game_status = data_to_load['Гавр-кости']
+    her.Veles.game_status = data_to_load['Велес-кости']
+    her.Mara.game_status = data_to_load['Мара-кости']
+
+    her.Gady.isolation_end_date = data_to_load['Гадя-дата-конца карантина']
+    her.Gavr.isolation_end_date = data_to_load['Гавр-дата-конца карантина']
+    her.Veles.isolation_end_date = data_to_load['Велес-дата-конца карантина']
+    her.Mara.isolation_end_date = data_to_load['Мара-дата-конца карантина']
+
+    # print('установлена дата из файла')
 
     date_ver = data_to_load['дата']
     # если даты совпадают ставим соответствующий маркер в зависимости от значения состояния события в файле
     if date_ver == date_start_prog:
-        gady_energy.set(mark_result) if b_d.gady_energy_status else gady_energy.set(mark_start)
-        gavr_energy.set(mark_result) if b_d.gavr_energy_status else gavr_energy.set(mark_start)
-        veles_energy.set(mark_result) if b_d.veles_energy_status else veles_energy.set(mark_start)
-        mara_energy.set(mark_result) if b_d.mara_energy_status else mara_energy.set(mark_start)
+        gady_energy.set(mark_result) if her.Gady.energy_status else gady_energy.set(mark_start)
+        gavr_energy.set(mark_result) if her.Gavr.energy_status else gavr_energy.set(mark_start)
+        veles_energy.set(mark_result) if her.Veles.energy_status else veles_energy.set(mark_start)
+        mara_energy.set(mark_result) if her.Mara.energy_status else mara_energy.set(mark_start)
 
-        gady_case.set(mark_result) if b_d.gady_case_status else gady_case.set(mark_start)
-        gavr_case.set(mark_result) if b_d.gavr_case_status else gavr_case.set(mark_start)
-        veles_case.set(mark_result) if b_d.veles_case_status else veles_case.set(mark_start)
-        mara_case.set(mark_result) if b_d.mara_case_status else mara_case.set(mark_start)
+        gady_case.set(mark_result) if her.Gady.case_status else gady_case.set(mark_start)
+        gavr_case.set(mark_result) if her.Gavr.case_status else gavr_case.set(mark_start)
+        veles_case.set(mark_result) if her.Veles.case_status else veles_case.set(mark_start)
+        mara_case.set(mark_result) if her.Mara.case_status else mara_case.set(mark_start)
 
-        gady_guru.set(mark_result) if b_d.gady_guru_status else gady_guru.set(mark_start)
-        gavr_guru.set(mark_result) if b_d.gavr_guru_status else gavr_guru.set(mark_start)
-        veles_guru.set(mark_result) if b_d.veles_guru_status else veles_guru.set(mark_start)
-        mara_guru.set(mark_result) if b_d.mara_guru_status else mara_guru.set(mark_start)
+        gady_guru.set(mark_result) if her.Gady.guru_status else gady_guru.set(mark_start)
+        gavr_guru.set(mark_result) if her.Gavr.guru_status else gavr_guru.set(mark_start)
+        veles_guru.set(mark_result) if her.Veles.guru_status else veles_guru.set(mark_start)
+        mara_guru.set(mark_result) if her.Mara.guru_status else mara_guru.set(mark_start)
 
-        gady_gift.set(mark_result) if b_d.gady_gift_status else gady_gift.set(mark_start)
-        gavr_gift.set(mark_result) if b_d.gavr_gift_status else gavr_gift.set(mark_start)
-        veles_gift.set(mark_result) if b_d.veles_gift_status else veles_gift.set(mark_start)
-        mara_gift.set(mark_result) if b_d.mara_gift_status else mara_gift.set(mark_start)
+        gady_gift.set(mark_result) if her.Gady.gift_status else gady_gift.set(mark_start)
+        gavr_gift.set(mark_result) if her.Gavr.gift_status else gavr_gift.set(mark_start)
+        veles_gift.set(mark_result) if her.Veles.gift_status else veles_gift.set(mark_start)
+        mara_gift.set(mark_result) if her.Mara.gift_status else mara_gift.set(mark_start)
 
-        gady_game.set(mark_result) if b_d.gady_game_status else gady_game.set(mark_start)
-        gavr_game.set(mark_result) if b_d.gavr_game_status else gavr_game.set(mark_start)
-        veles_game.set(mark_result) if b_d.veles_game_status else veles_game.set(mark_start)
-        mara_game.set(mark_result) if b_d.mara_game_status else mara_game.set(mark_start)
+        gady_game.set(mark_result) if her.Gady.game_status else gady_game.set(mark_start)
+        gavr_game.set(mark_result) if her.Gavr.game_status else gavr_game.set(mark_start)
+        veles_game.set(mark_result) if her.Veles.game_status else veles_game.set(mark_start)
+        mara_game.set(mark_result) if her.Mara.game_status else mara_game.set(mark_start)
 
     # иначе обнуляем значения и ставим стартовый маркер
     else:
-        b_d.gady_energy_status, b_d.gady_case_status = 0, 0
-        b_d.gavr_energy_status, b_d.gavr_case_status = 0, 0
-        b_d.veles_energy_status, b_d.veles_case_status = 0, 0
-        b_d.mara_energy_status, b_d.mara_case_status = 0, 0
-        b_d.gady_guru_status, b_d.gavr_guru_status, b_d.veles_guru_status, b_d.mara_guru_status = 0, 0, 0, 0
-        b_d.gady_gift_status, b_d.gavr_gift_status, b_d.veles_gift_status, b_d.mara_gift_status = 0, 0, 0, 0
-        b_d.gady_game_status, b_d.gavr_game_status, b_d.veles_game_status, b_d.mara_game_status = 0, 0, 0, 0
+        her.Gady.energy_status = 0
+        her.Gavr.energy_status = 0
+        her.Veles.energy_status = 0
+        her.Mara.energy_status = 0
+
+        her.Gady.case_status = 0
+        her.Gavr.case_status = 0
+        her.Veles.case_status = 0
+        her.Mara.case_status = 0
+
+        her.Gady.guru_status = 0
+        her.Gavr.guru_status = 0
+        her.Veles.guru_status = 0
+        her.Mara.guru_status = 0
+
+        her.Gady.gift_status = 0
+        her.Gavr.gift_status = 0
+        her.Veles.gift_status = 0
+        her.Mara.gift_status = 0
+
+        her.Gady.game_status = 0
+        her.Gavr.game_status = 0
+        her.Veles.game_status = 0
+        her.Mara.game_status = 0
+
         # установка маркера
         gady_energy.set(mark_start)
         gavr_energy.set(mark_start)
@@ -131,12 +127,13 @@ def verifi_and_change_data(data_to_load):
         mara_guru.set(mark_start)
 
         gady_gift.set(mark_start)
-        gady_game.set(mark_start)
         gavr_gift.set(mark_start)
-        gavr_game.set(mark_start)
         veles_gift.set(mark_start)
-        veles_game.set(mark_start)
         mara_gift.set(mark_start)
+
+        gady_game.set(mark_start)
+        gavr_game.set(mark_start)
+        veles_game.set(mark_start)
         mara_game.set(mark_start)
 
         print(m_t.text_magenta("смена дат"))
@@ -144,54 +141,51 @@ def verifi_and_change_data(data_to_load):
 
 
 def save_to_file():
-    # global gady_game_status, gavr_game_status, veles_game_status, mara_game_status
-    # global gady_gift_status, gavr_gift_status, veles_gift_status, mara_gift_status
-    # global gady_guru_status, gavr_guru_status, veles_guru_status, mara_guru_status
-    # global gady_energy_status, gavr_energy_status, veles_energy_status, mara_energy_status
-    # global gady_case_status, gavr_case_status, veles_case_status, mara_case_status
-    # global date_start_prog
     # создаётся библиотека содержащая значения состояние событий
     data_to_save = {
         'дата': date_start_prog,
-        'Гавр-энергия': b_d.gavr_energy_status,
-        'Гадя-энергия': b_d.gady_energy_status,
-        'Велес-энергия': b_d.veles_energy_status,
-        'Мара-энергия': b_d.mara_energy_status,
 
-        'Гавр-кейс': b_d.gavr_case_status,
-        'Гадя-кейс': b_d.gady_case_status,
-        'Велес-кейс': b_d.veles_case_status,
-        'Мара-кейс': b_d.mara_case_status,
+        'Гадя-энергия': her.Gady.energy_status,
+        'Гавр-энергия': her.Gavr.energy_status,
+        'Велес-энергия': her.Veles.energy_status,
+        'Мара-энергия': her.Mara.energy_status,
 
-        'Гадя-гуру': b_d.gady_guru_status,
-        'Гавр-гуру': b_d.gavr_guru_status,
-        'Велес-гуру': b_d.veles_guru_status,
-        'Мара-гуру': b_d.mara_guru_status,
+        'Гадя-кейс': her.Gady.case_status,
+        'Гавр-кейс': her.Gavr.case_status,
+        'Велес-кейс': her.Veles.case_status,
+        'Мара-кейс': her.Mara.case_status,
 
-        'Гадя-gift': b_d.gady_gift_status,
-        'Гадя-кости': b_d.gady_game_status,
-        'Гавр-gift': b_d.gavr_gift_status,
-        'Гавр-кости': b_d.gavr_game_status,
-        'Велес-gift': b_d.veles_gift_status,
-        'Велес-кости': b_d.veles_game_status,
-        'Мара-gift': b_d.mara_gift_status,
-        'Мара-кости': b_d.mara_game_status,
+        'Гадя-гуру': her.Gady.guru_status,
+        'Гавр-гуру': her.Gavr.guru_status,
+        'Велес-гуру': her.Veles.guru_status,
+        'Мара-гуру': her.Mara.guru_status,
+
+        'Гадя-gift': her.Gady.gift_status,
+        'Гавр-gift': her.Gavr.gift_status,
+        'Велес-gift': her.Veles.gift_status,
+        'Мара-gift': her.Mara.gift_status,
+
+        'Гадя-кости': her.Gady.game_status,
+        'Гавр-кости': her.Gavr.game_status,
+        'Велес-кости': her.Veles.game_status,
+        'Мара-кости': her.Mara.game_status,
+
+        'Гадя-дата-конца карантина': her.Gady.isolation_end_date,
+        'Гавр-дата-конца карантина': her.Gavr.isolation_end_date,
+        'Велес-дата-конца карантина': her.Veles.isolation_end_date,
+        'Мара-дата-конца карантина': her.Mara.isolation_end_date,
     }
-    # verifi_and_change_data(data_to_load)
     print('запись')
+    # print(f'{her.Gady.isolation_end_date} для Гади')
+    # print(f'{her.Gavr.isolation_end_date} для Гавра')
+    # print(f'{her.Veles.isolation_end_date} для Велеса')
+    # print(f'{her.Mara.isolation_end_date} для Мары')
     file1 = open('config.txt', 'wb')
     pickle.dump(data_to_save, file1)
     file1.close()
 
 
 def read_from_file():
-    # global gady_game_status, gavr_game_status, veles_game_status, mara_game_status
-    # global gady_gift_status, gavr_gift_status, veles_gift_status, mara_gift_status
-    # global gady_guru_status, gavr_guru_status, veles_guru_status, mara_guru_status
-    # global gady_energy_status, gavr_energy_status, veles_energy_status, mara_energy_status
-    # global gady_case_status, gavr_case_status, veles_case_status, mara_case_status
-    # global date_start_prog
-
     try:
         file1 = open('config.txt', 'rb')
         data_to_load = pickle.load(file1)
@@ -206,6 +200,10 @@ def read_from_file():
 
 
 def arena_battles():
+    value = gady_var_time.get()
+    if value:
+        print(value)
+        print(type(value))
     attempts = 0
     while True:
         arena.battle_in_arena()
@@ -214,125 +212,115 @@ def arena_battles():
 
 
 def revision():
-    # global gady_case_status, gavr_case_status, veles_case_status, mara_case_status
-
     hero = r_h.revision_of_house()
     if hero == 'Gavr':
         gavr_case.set(mark_result)
-        b_d.gavr_case_status = 1
+        her.Gavr.case_status = 1
     elif hero == 'Gadya':
         gady_case.set(mark_result)
-        b_d.gady_case_status = 1
+        her.Gady.case_status = 1
     elif hero == 'Veles':
         veles_case.set(mark_result)
-        b_d.veles_case_status = 1
+        her.Veles.case_status = 1
     elif hero == 'Mara':
         mara_case.set(mark_result)
-        b_d.mara_case_status = 1
+        her.Mara.case_status = 1
     print(m_t.text_green('запись состояния'))
     save_to_file()
 
 
 def en_gold():
-    # global gady_energy_status, gavr_energy_status, veles_energy_status, mara_energy_status
-
-    name_hero = energy.energy_gold()
-    if name_hero == 'Gavr':
-        if b_d.gavr_energy_status != 1:
+    hero = energy.energy_gold()
+    if hero == 'Gavr':
+        if her.Gavr.energy_status != 1:
             gavr_energy.set(mark_result)
-            b_d.gavr_energy_status = 1
-    elif name_hero == 'Gadya':
-        if b_d.gady_energy_status != 1:
+            her.Gavr.energy_status = 1
+    elif hero == 'Gadya':
+        if her.Gady.energy_status != 1:
             gady_energy.set(mark_result)
-            b_d.gady_energy_status = 1
-    elif name_hero == 'Veles':
-        if b_d.veles_energy_status != 1:
+            her.Gady.energy_status = 1
+    elif hero == 'Veles':
+        if her.Veles.energy_status != 1:
             veles_energy.set(mark_result)
-            b_d.veles_energy_status = 1
-    elif name_hero == 'Mara':
-        print('mara_energy_status = ', b_d.mara_energy_status)
-        if b_d.mara_energy_status != 1:
+            her.Veles.energy_status = 1
+    elif hero == 'Mara':
+        if her.Mara.energy_status != 1:
             mara_energy.set(mark_result)
-            b_d.mara_energy_status = 1
+            her.Mara.energy_status = 1
 
     # print(text_green('запись состояния'))
     save_to_file()
 
 
 def en_xp():
-    # global gady_energy_status, gavr_energy_status, veles_energy_status, mara_energy_status
-
-    name_hero = energy.energy_xp()
-    if name_hero == 'Gavr':
-        if b_d.gavr_energy_status != 1:
+    hero = energy.energy_xp()
+    if hero == 'Gavr':
+        if her.Gavr.energy_status != 1:
             gavr_energy.set(mark_result)
-            b_d.gavr_energy_status = 1
-    elif name_hero == 'Gadya':
-        if b_d.gady_energy_status != 1:
+            her.Gavr.energy_status = 1
+    elif hero == 'Gadya':
+        if her.Gady.energy_status != 1:
             gady_energy.set(mark_result)
-            b_d.gady_energy_status = 1
-    elif name_hero == 'Veles':
-        if b_d.veles_energy_status != 1:
+            her.Gady.energy_status = 1
+    elif hero == 'Veles':
+        if her.Veles.energy_status != 1:
             veles_energy.set(mark_result)
-            b_d.veles_energy_status = 1
-    elif name_hero == 'Mara':
-        if b_d.mara_energy_status != 1:
+            her.Veles.energy_status = 1
+    elif hero == 'Mara':
+        if her.Mara.energy_status != 1:
             mara_energy.set(mark_result)
-            b_d.mara_energy_status = 1
+            her.Mara.energy_status = 1
     save_to_file()
 
 
 def guru():
-    # global gady_guru_status, gavr_guru_status, veles_guru_status, mara_guru_status
     hero = fun.attack_guru()
     if hero == 'Gadya':
         gady_guru.set(mark_result)
-        b_d.gady_guru_status = 1
+        her.Gady.guru_status = 1
     if hero == 'Gavr':
         gavr_guru.set(mark_result)
-        b_d.gavr_guru_status = 1
+        her.Gavr.guru_status = 1
     if hero == 'Veles':
         veles_guru.set(mark_result)
-        b_d.veles_guru_status = 1
+        her.Veles.guru_status = 1
     elif hero == 'Mara':
         mara_guru.set(mark_result)
-        b_d.mara_guru_status = 1
+        her.Mara.guru_status = 1
     save_to_file()
 
 
 def mark_gift():
-    # global gady_gift_status, gavr_gift_status, veles_gift_status, mara_gift_status
     hero = fun.selection_hero()
     if hero == 'Gadya':
         gady_gift.set(mark_result)
-        b_d.gady_gift_status = 1
+        her.Gady.gift_status = 1
     if hero == 'Gavr':
         gavr_gift.set(mark_result)
-        b_d.gavr_gift_status = 1
+        her.Gavr.gift_status = 1
     if hero == 'Veles':
         veles_gift.set(mark_result)
-        b_d.veles_gift_status = 1
+        her.Veles.gift_status = 1
     elif hero == 'Mara':
         mara_gift.set(mark_result)
-        b_d.mara_gift_status = 1
+        her.Mara.gift_status = 1
     save_to_file()
 
 
 def marks_k():
-    # global gady_game_status, gavr_game_status, veles_game_status, mara_game_status
     hero = fun.selection_hero()
     if hero == 'Gadya':
         gady_game.set(mark_result)
-        b_d.gady_game_status = 1
+        her.Gady.game_status = 1
     if hero == 'Gavr':
         gavr_game.set(mark_result)
-        b_d.gavr_game_status = 1
+        her.Gavr.game_status = 1
     if hero == 'Veles':
         veles_game.set(mark_result)
-        b_d.veles_game_status = 1
+        her.Veles.game_status = 1
     elif hero == 'Mara':
         mara_game.set(mark_result)
-        b_d.mara_game_status = 1
+        her.Mara.game_status = 1
     save_to_file()
 
 
@@ -361,12 +349,13 @@ veles_energy = StringVar()
 mara_energy = StringVar()
 
 gady_gift = StringVar()
-gady_game = StringVar()
 gavr_gift = StringVar()
-gavr_game = StringVar()
 veles_gift = StringVar()
-veles_game = StringVar()
 mara_gift = StringVar()
+
+gady_game = StringVar()
+gavr_game = StringVar()
+veles_game = StringVar()
 mara_game = StringVar()
 
 read_from_file()
@@ -374,20 +363,22 @@ step_line = 25
 line0, line1, line2, line3, line4 = step_line * 0, step_line * 1, step_line * 2, step_line * 3, step_line * 4
 line5, line6, line7, line8, line9 = step_line * 5, step_line * 6, step_line * 7, step_line * 8, step_line * 9
 
-ttk.Label(text='(С)').place(x=0, y=line0 + 2)
+# ttk.Label(text='(С)').place(x=0, y=line0 + 2)
 ttk.Label(text='(E)').place(x=0, y=line1 + 2)
 
-ttk.Button(text="сбор сундуков", width=14, command=revision).place(x=17, y=line0)
+# ttk.Button(text="сбор сундуков", width=14, command=revision).place(x=17, y=line0)
 
 ttk.Button(text="энергия в золото", width=16, command=en_gold).place(x=17, y=line1)
 ttk.Button(text="фото уровня", width=16, command=c_photo.creating_photo_lvl).place(x=17, y=line8)
+ttk.Button(text="фото", width=16, command=c_photo.state_kv).place(x=150, y=line8)
+ttk.Button(text="дроп рейда", width=16, command=c_photo.drop_in_raid).place(x=150, y=line7)
 
 ttk.Button(text="энергия в опыт", width=16, command=en_xp).place(x=190, y=line1)
 
-ttk.Button(text="арена", width=14, command=arena_battles).place(x=202, y=line0)
+ttk.Button(text="арена", command=arena_battles).place(x=119, y=line0)
 
 ttk.Button(text="КВ", command=kv_and_raid.kv).place(x=119, y=line2)
-ttk.Button(text="ГУРУ", command=guru).place(x=119, y=line0)
+# ttk.Button(text="ГУРУ", command=guru).place(x=119, y=line0)
 
 step_other = -4
 column_C = 110  # 50
@@ -397,11 +388,11 @@ column_P = 50  # 110
 column_K = 130
 column_name = 0
 
-ttk.Label(text='C').place(x=column_C, y=line3)  # сундуки
+ttk.Button(text='C', width=1.3, command=revision).place(x=column_C, y=line3)  # сундуки
 ttk.Label(text='E').place(x=column_E, y=line3)  # энергия
-ttk.Label(text='G').place(x=column_G, y=line3)  # бой с гуру
-ttk.Button(text='P', width=1, command=mark_gift).place(x=column_P, y=line3)  # подарки
-ttk.Button(text='K', width=1, command=marks_k).place(x=column_K, y=line3)  # кости
+ttk.Button(text='G', width=1.3, command=guru).place(x=column_G, y=line3)  # бой с гуру
+ttk.Button(text='P', width=1.3, command=mark_gift).place(x=column_P, y=line3)  # подарки
+ttk.Button(text='K', width=1.3, command=marks_k).place(x=column_K, y=line3)  # кости
 
 n_line = 3
 " Gadya"
