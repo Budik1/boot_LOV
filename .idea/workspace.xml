@@ -5,9 +5,252 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="add9b86c-8696-440c-ad3b-390278a7b7e6" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kv_and_raid_new.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arena.py" beforeDir="false" afterPath="$PROJECT_DIR$/arena.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/baza_dannyx.py" beforeDir="false" afterPath="$PROJECT_DIR$/baza_dannyx.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config.txt" beforeDir="false" afterPath="$PROJECT_DIR$/config.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config_kv.txt" beforeDir="false" afterPath="$PROJECT_DIR$/config_kv.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/creating_photo.py" beforeDir="false" afterPath="$PROJECT_DIR$/creating_photo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/energy.py" beforeDir="false" afterPath="$PROJECT_DIR$/energy.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fun.py" beforeDir="false" afterPath="$PROJECT_DIR$/fun.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/heroes.py" beforeDir="false" afterPath="$PROJECT_DIR$/heroes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/arena/hero_arena.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/arena/hero_arena.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/arena/hero_arena_ver.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/arena/hero_arena_ver.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/full_t/line_1.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/full_t/line_1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/full_t/line_2.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/full_t/line_2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/full_t/line_3.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/full_t/line_3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/tasks_gavr/25lvl.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/tasks_gavr/t1g.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/tasks_gavr/t1g.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/tasks_gavr/t1x.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/tasks_gavr/t1x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/tasks_gavr/t2g.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/tasks_gavr/t2g.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/tasks_gavr/t2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/tasks_gavr/t2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/tasks_gavr/t3g.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/tasks_gavr/t3g.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/tasks_gavr/t3x.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/tasks_gavr/t3x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/tasks_gavr/t4g.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/tasks_gavr/t4g.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/tasks_gavr/t4x.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/tasks_gavr/t4x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/tasks_gavr/t5g.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/tasks_gavr/t5g.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/tasks_gavr/t5x.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/tasks_gavr/t5x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/tasks_gavr/t6g.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/tasks_gavr/t6g.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/tasks_gavr/t6x.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/tasks_gavr/t6x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/tasks_mara/22lvl.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/tasks_mara/t1g.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/tasks_mara/t1g.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/tasks_mara/t1x.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/tasks_mara/t1x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/tasks_mara/t2g.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/tasks_mara/t2g.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/tasks_mara/t2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/tasks_mara/t2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/tasks_mara/t3g.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/tasks_mara/t3g.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/tasks_mara/t3x.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/tasks_mara/t3x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/tasks_mara/t4g.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/tasks_mara/t4g.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/tasks_mara/t4x.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/tasks_mara/t4x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/tasks_mara/t5g.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/tasks_mara/t5g.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/tasks_mara/t5x.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/tasks_mara/t5x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/tasks_mara/t6g.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/tasks_mara/t6g.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/tasks_mara/t6x.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/tasks_mara/t6x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/tasks_veles/21lvl.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/tasks_veles/t1g.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/tasks_veles/t1g.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/tasks_veles/t1x.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/tasks_veles/t1x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/tasks_veles/t2g.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/tasks_veles/t2g.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/tasks_veles/t2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/tasks_veles/t2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/tasks_veles/t3g.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/tasks_veles/t3g.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/tasks_veles/t3x.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/tasks_veles/t3x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/tasks_veles/t4g.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/tasks_veles/t4g.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/tasks_veles/t4x.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/tasks_veles/t4x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/tasks_veles/t5g.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/tasks_veles/t5g.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/tasks_veles/t5x.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/tasks_veles/t5x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/tasks_veles/t6g.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/tasks_veles/t6g.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/tasks_veles/t6x.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/tasks_veles/t6x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/tests/drop_in_raid.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/tests/drop_in_raid.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/tests/state_kv_defeat.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/tests/state_kv_no.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/tests/state_kv_victory.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/tests/state_raid.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/tests/state_raid_victory.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/tests/state_raid_vs.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/архив/f 10/t1g.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/lvl_archive/f 10/t1g.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/архив/f 10/t2g.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/lvl_archive/f 10/t2g.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/архив/f 10/t3g.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/lvl_archive/f 10/t3g.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/архив/f 10/t4g.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/lvl_archive/f 10/t4g.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/архив/f 10/t5g.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/lvl_archive/f 10/t5g.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/архив/f 10/t6g.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/lvl_archive/f 10/t6g.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/архив/f 11/t1g.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/lvl_archive/f 11/t1g.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/архив/f 11/t1x.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/lvl_archive/f 11/t1x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/архив/f 11/t2g.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/lvl_archive/f 11/t2g.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/архив/f 11/t2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/lvl_archive/f 11/t2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/архив/f 11/t3g.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/lvl_archive/f 11/t3g.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/архив/f 11/t3x.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/lvl_archive/f 11/t3x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/архив/f 11/t4g.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/lvl_archive/f 11/t4g.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/архив/f 11/t4x.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/lvl_archive/f 11/t4x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/архив/f 11/t5g.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/lvl_archive/f 11/t5g.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/архив/f 11/t5x.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/lvl_archive/f 11/t5x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/архив/f 11/t6g.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/lvl_archive/f 11/t6g.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/архив/f 11/t6x.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/lvl_archive/f 11/t6x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/архив/f 11/Новый текстовый документ.txt" beforeDir="false" afterPath="$PROJECT_DIR$/img/lvl_archive/f 11/Новый текстовый документ.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/архив/f 12/t1g.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/lvl_archive/f 12/t1g.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/архив/f 12/t1x.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/lvl_archive/f 12/t1x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/архив/f 12/t2g.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/lvl_archive/f 12/t2g.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/архив/f 12/t2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/lvl_archive/f 12/t2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/архив/f 12/t3g.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/lvl_archive/f 12/t3g.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/архив/f 12/t3x.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/lvl_archive/f 12/t3x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/архив/f 12/t4g.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/lvl_archive/f 12/t4g.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/архив/f 12/t4x.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/lvl_archive/f 12/t4x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/архив/f 12/t5g.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/lvl_archive/f 12/t5g.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/архив/f 12/t5x.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/lvl_archive/f 12/t5x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/архив/f 12/t6g.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/lvl_archive/f 12/t6g.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/архив/f 13/t1g.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/lvl_archive/f 13/t1g.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/архив/f 13/t1x.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/lvl_archive/f 13/t1x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/архив/f 13/t2g.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/lvl_archive/f 13/t2g.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/архив/f 13/t2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/lvl_archive/f 13/t2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/архив/f 13/t3g.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/lvl_archive/f 13/t3g.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/архив/f 13/t3x.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/lvl_archive/f 13/t3x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/архив/f 13/t4g.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/lvl_archive/f 13/t4g.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/архив/f 13/t4x.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/lvl_archive/f 13/t4x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/архив/f 13/t5g.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/lvl_archive/f 13/t5g.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/архив/f 13/t5x.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/lvl_archive/f 13/t5x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/архив/f 13/t6g.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/lvl_archive/f 13/t6g.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/архив/f 13/t6x.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/lvl_archive/f 13/t6x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/архив/f 14/t1g.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/lvl_archive/f 14/t1g.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/архив/f 14/t2g.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/lvl_archive/f 14/t2g.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/архив/f 14/t2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/lvl_archive/f 14/t2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/архив/f 14/t3g.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/lvl_archive/f 14/t3g.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/архив/f 14/t3x.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/lvl_archive/f 14/t3x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/архив/f 14/t4g.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/lvl_archive/f 14/t4g.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/архив/f 14/t4x.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/lvl_archive/f 14/t4x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/архив/f 14/t5g.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/lvl_archive/f 14/t5g.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/архив/f 14/t5x.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/lvl_archive/f 14/t5x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/архив/f 14/t6g.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/lvl_archive/f 14/t6g.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/архив/f 15/t1x.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/lvl_archive/f 15/t1x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/архив/f 15/t2g.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/lvl_archive/f 15/t2g.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/архив/f 15/t2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/lvl_archive/f 15/t2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/архив/f 15/t3g.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/lvl_archive/f 15/t3g.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/архив/f 15/t3x.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/lvl_archive/f 15/t3x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/архив/f 15/t4g.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/lvl_archive/f 15/t4g.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/архив/f 15/t5g.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/lvl_archive/f 15/t5g.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/архив/f 15/t5x.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/lvl_archive/f 15/t5x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/архив/f 15/t6g.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/lvl_archive/f 15/t6g.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/архив/f 15/t6x.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/lvl_archive/f 15/t6x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/архив/f 16/t1g.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/lvl_archive/f 16/t1g.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/архив/f 16/t1x.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/lvl_archive/f 16/t1x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/архив/f 16/t2g.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/lvl_archive/f 16/t2g.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/архив/f 16/t2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/lvl_archive/f 16/t2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/архив/f 16/t3g.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/lvl_archive/f 16/t3g.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/архив/f 16/t3x.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/lvl_archive/f 16/t3x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/архив/f 16/t4g.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/lvl_archive/f 16/t4g.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/архив/f 16/t4x.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/lvl_archive/f 16/t4x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/архив/f 16/t5g.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/lvl_archive/f 16/t5g.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/архив/f 16/t5x.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/lvl_archive/f 16/t5x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/архив/f 16/t6g.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/lvl_archive/f 16/t6g.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/архив/f 16/t6x.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/lvl_archive/f 16/t6x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/архив/f 17/t1g.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/lvl_archive/f 17/t1g.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/архив/f 17/t1x.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/lvl_archive/f 17/t1x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/архив/f 17/t2g.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/lvl_archive/f 17/t2g.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/архив/f 17/t2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/lvl_archive/f 17/t2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/архив/f 17/t3g.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/lvl_archive/f 17/t3g.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/архив/f 17/t3x.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/lvl_archive/f 17/t3x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/архив/f 17/t4g.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/lvl_archive/f 17/t4g.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/архив/f 17/t4x.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/lvl_archive/f 17/t4x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/архив/f 17/t5g.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/lvl_archive/f 17/t5g.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/архив/f 17/t6g.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/lvl_archive/f 17/t6g.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/архив/f 17/t6x.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/lvl_archive/f 17/t6x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/архив/f 9/t1g.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/lvl_archive/f 9/t1g.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/архив/f 9/t2g.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/lvl_archive/f 9/t2g.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/архив/f 9/t3g.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/lvl_archive/f 9/t3g.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/архив/f 9/t4g.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/lvl_archive/f 9/t4g.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/архив/f 9/t5g.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/lvl_archive/f 9/t5g.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/архив/f 9/t6g.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/lvl_archive/f 9/t6g.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/архив/f18/18lvl.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/архив/f18/t1g.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/архив/f18/t1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/архив/f18/t2g.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/архив/f18/t2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/архив/f18/t3g.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/архив/f18/t3x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/архив/f18/t4g.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/архив/f18/t5g.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/архив/f18/t5x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/архив/f18/t6g.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/архив/f19/19lvl.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/архив/f19/t1g.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/архив/f19/t1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/архив/f19/t2g.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/архив/f19/t2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/архив/f19/t3g.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/архив/f19/t3x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/архив/f19/t4g.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/архив/f19/t4x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/архив/f19/t5g.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/архив/f19/t5x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/архив/f19/t6g.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/архив/f19/t6x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/архив/f20/20lvl.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/архив/f20/t1g.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/архив/f20/t1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/архив/f20/t2g.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/архив/f20/t2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/архив/f20/t3g.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/архив/f20/t3x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/архив/f20/t4g.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/архив/f20/t4x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/архив/f20/t5g.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/архив/f20/t5x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/архив/f20/t6g.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/архив/f20/t6x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/архив/f21/21lvl.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/архив/f21/t1g.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/архив/f21/t1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/архив/f21/t2g.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/архив/f21/t2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/архив/f21/t3g.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/архив/f21/t3x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/архив/f21/t4g.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/архив/f21/t4x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/архив/f21/t5g.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/архив/f21/t5x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/архив/f21/t6g.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/архив/f21/t6x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/архив/f22/22lvl.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/архив/f22/t1g.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/архив/f22/t1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/архив/f22/t2g.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/архив/f22/t2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/архив/f22/t3g.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/архив/f22/t3x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/архив/f22/t4g.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/архив/f22/t4x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/архив/f22/t5g.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/архив/f22/t5x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/архив/f22/t6g.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/архив/f22/t6x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/архив/f23/23lvl.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/архив/f23/t1g.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/архив/f23/t1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/архив/f23/t2g.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/архив/f23/t2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/архив/f23/t3g.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/архив/f23/t3x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/архив/f23/t4g.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/архив/f23/t4x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/архив/f23/t5g.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/архив/f23/t5x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/архив/f23/t6g.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/архив/f23/t6x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/архив/f24/24lvl.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/архив/f24/t1g.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/архив/f24/t1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/архив/f24/t2g.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/архив/f24/t2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/архив/f24/t3g.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/архив/f24/t3x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/архив/f24/t4g.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/архив/f24/t4x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/архив/f24/t5g.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/архив/f24/t5x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/архив/f24/t6g.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/архив/f24/t6x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kv_and_raid.py" beforeDir="false" afterPath="$PROJECT_DIR$/kv_and_raid.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/muz/feil.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/muz/fail.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tes_item.py" beforeDir="false" afterPath="$PROJECT_DIR$/tes_item.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/txt.txt" beforeDir="false" afterPath="$PROJECT_DIR$/txt.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,14 +272,20 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/Budik1/boot_LOV.git",
-    "accountId": "f4cb2e8d-b460-4a2f-ae3a-c1daeedcfde4"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Budik1&quot;
   }
-}]]></component>
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Budik1/boot_LOV.git&quot;,
+    &quot;accountId&quot;: &quot;f4cb2e8d-b460-4a2f-ae3a-c1daeedcfde4&quot;
+  }
+}</component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="ProjectErrors" />
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
@@ -50,27 +299,56 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "Python tests.pytest in test_item.py.executor": "Run",
-    "Python.creating_photo.executor": "Run",
-    "Python.main.executor": "Run",
-    "Python.tes_item (1).executor": "Run",
-    "Python.test_item.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main__ref",
-    "last_opened_file_path": "C:/py_bot/boot_LOV_2",
-    "run.code.analysis.last.selected.profile": "pProject Default"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_MARK_IGNORED_FILES_AS_EXCLUDED&quot;: &quot;true&quot;,
+    &quot;Python tests.pytest in test_item.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python.baza_dannyx.executor&quot;: &quot;Run&quot;,
+    &quot;Python.creating_photo.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.tes_item (1).executor&quot;: &quot;Run&quot;,
+    &quot;Python.test_item.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main__ref&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/py_bot/boot_LOV_2&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.language&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\py_bot\boot_LOV_2\img\tests" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\py_bot\boot_LOV_2\img\city" />
+    </key>
   </component>
   <component name="RunManager" selected="Python.main">
+    <configuration name="baza_dannyx" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="boot_LOV_2" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/baza_dannyx.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="creating_photo" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="boot_LOV_2" />
       <option name="ENV_FILES" value="" />
@@ -159,37 +437,20 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest in tes_item.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <module name="boot_LOV_2" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_parameters" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/tes_item.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Python.main" />
-        <item itemvalue="Python.tes_item (1)" />
         <item itemvalue="Python.creating_photo" />
+        <item itemvalue="Python.tes_item (1)" />
+        <item itemvalue="Python.baza_dannyx" />
         <item itemvalue="Python.tes_item" />
-        <item itemvalue="Python tests.pytest in tes_item.py" />
       </list>
     </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-5a2391486177-d3b881c8e49f-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-233.13763.11" />
+        <option value="bundled-python-sdk-fc1d50d2d915-aa17d162503b-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-243.24978.54" />
       </set>
     </attachedChunks>
   </component>
@@ -223,18 +484,18 @@
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/kv_and_raid.py</url>
-          <line>260</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/kv_and_raid.py</url>
-          <line>107</line>
+          <line>105</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/energy.py</url>
-          <line>75</line>
+          <line>89</line>
           <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/kv_and_raid.py</url>
+          <line>325</line>
+          <option name="timeStamp" value="8" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

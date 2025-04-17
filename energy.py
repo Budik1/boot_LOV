@@ -2,13 +2,27 @@ import pyautogui
 from playsound3 import playsound
 from time import sleep
 import fun
-import creating_photo
 import baza_dannyx as b_d
+import creating_photo
 import my_text as m_t
-import heroes as her
+from heroes import Hero, Active
 
 region_events = 504, 389, 300, 200
 par_conf = 0.88
+
+
+def define_lvl():
+    lvl_list = b_d.lvl_list
+
+    for value in lvl_list:
+        fail_name = f'img/energy/lvl/{value}lvl.png'
+        lvl = fun.locCenterImg(fail_name, confidence=0.92)
+        if lvl:
+            print(f'уровень героя {value}')
+            return value
+    else:
+        print("уровень не определен")
+        return None
 
 
 def foto_pos():
@@ -25,7 +39,7 @@ def verify_energy(q_it):
     return not_energy
 
 
-def task_selection(tasks):
+def task_selection_dict(tasks):
     variant_ = None
     conf = 0.99
     while not variant_:
@@ -65,24 +79,25 @@ def energy_gold():
             fun.move_to_click(close, 0)
         hero = fun.selection_hero()
     # получение списка заданий
-    print(hero, 'hero')
-    if hero == 'Gavr':
-        tasks_ = b_d.tasks_gold_gavr
-    elif hero == 'Gadya':
-        tasks_ = b_d.tasks_gold_v
-    elif hero == 'Veles':
-        tasks_ = b_d.tasks_gold_vel
-    elif hero == 'Mara':
-        tasks_ = b_d.tasks_gold_mar
-    else:
-        tasks_ = None
-    print(f'список заданий для {her.Hero.introduce(her.Active.hero_activ)}')
+    # # print(hero, 'hero')
+    # if hero == 'Gavr':
+    #     tasks_ = b_d.tasks_gold_gavr
+    # elif hero == 'Gadya':
+    #     tasks_ = b_d.tasks_gold_v
+    # elif hero == 'Veles':
+    #     tasks_ = b_d.tasks_gold_vel
+    # elif hero == 'Mara':
+    #     tasks_ = b_d.tasks_gold_mar
+    # else:
+    #     tasks_ = None
+    tasks_ = Hero.get_task_gold(Active.hero_activ)
+    # print(Hero.get_task_gold(Active.hero_activ))
     energy_ = True
     while energy_:
         q_call_pet = 0
         review = 0
         fun.open_taverna()
-        variant = task_selection(tasks_)
+        variant = task_selection_dict(tasks_)
         if not variant:
             return
         else:
@@ -111,7 +126,8 @@ def energy_gold():
                                                                   region=region_events)
                     popup_xp = pyautogui.locateCenterOnScreen('img/energy/_popup_xp.png', confidence=par_conf,
                                                               region=region_events)
-                    invite_friends = pyautogui.locateCenterOnScreen('img/energy/_invite_friends.png', confidence=par_conf,
+                    invite_friends = pyautogui.locateCenterOnScreen('img/energy/_invite_friends.png',
+                                                                    confidence=par_conf,
                                                                     region=region_events)
                     treasure = pyautogui.locateCenterOnScreen('img/energy/_treasure.png', confidence=par_conf,
                                                               region=region_events)
@@ -176,7 +192,7 @@ def energy_gold():
                         fun.melodi_vic()
                     else:
                         print("Неудача")
-                        fun.melodi_feil()
+                        fun.melodi_fail()
 
                 close_img = fun.wait_and_stop_img('img/everything/close.png', 0.85)
                 # закрыть сражение
@@ -222,22 +238,36 @@ def energy_xp():
             fun.move_to_click(close, 0)
         hero = fun.selection_hero()
     # получить список его заданий
-    if hero == 'Gavr':
-        tasks_ = b_d.tasks_xp_gavr
-        wilt = fun.verifi_isolation(her.Gavr.isolation_end_date)
-    elif hero == 'Gadya':
-        tasks_ = b_d.tasks_xp_v
-        wilt = fun.verifi_isolation(her.Gady.isolation_end_date)
-    elif hero == 'Veles':
-        tasks_ = b_d.tasks_xp_vel
-        wilt = fun.verifi_isolation(her.Veles.isolation_end_date)
-    elif hero == 'Mara':
-        tasks_ = b_d.tasks_xp_mar
-        wilt = fun.verifi_isolation(her.Mara.isolation_end_date)
+
+    # if hero == 'Gavr':
+    #     tasks_ = b_d.tasks_xp_gavr
+    #     wilt = fun.verifi_isolation(her.Gavr.isolation_end_date)
+    # elif hero == 'Gadya':
+    #     tasks_ = b_d.tasks_xp_v
+    #     wilt = fun.verifi_isolation(her.Gady.isolation_end_date)
+    # elif hero == 'Veles':
+    #     tasks_ = b_d.tasks_xp_vel
+    #     wilt = fun.verifi_isolation(her.Veles.isolation_end_date)
+    # elif hero == 'Mara':
+    #     tasks_ = b_d.tasks_xp_mar
+    #     wilt = fun.verifi_isolation(her.Mara.isolation_end_date)
     # else:
     #     tasks_ = None
     #     wilt = None
-    if wilt > 0:
+    #     print('сделай что нибуть, герой не опознан!!')
+    #     if not tasks_:
+    #         return
+
+    if hero:
+        print(f"имя {Hero.get_name(Active.hero_activ)}")
+        tasks_ = Hero.get_task_xp(Active.hero_activ)
+        wilt = fun.verifi_isolation(Hero.get_isolation_end_date(Active.hero_activ))
+    else:
+        tasks_ = None
+        wilt = None
+        print('сделай что нибудь, герой не опознан!!')
+        return
+    if wilt:
         print(f'Ты слишком слаб, что-бы набирать опыт. Попробуй через {fun.return_days_transformation(wilt)}')
         print(' Перевод energy_gold')
         energy_gold()
@@ -246,7 +276,7 @@ def energy_xp():
         review = 0
         q_call_pet = 0
         fun.open_taverna()
-        variant = task_selection(tasks_)
+        variant = task_selection_dict(tasks_)
         fun.move_to_click(variant, 0.5)  # автомат
         x, y = variant
         x -= 200
@@ -335,15 +365,8 @@ def energy_xp():
                     fun.melodi_vic()
                 else:
                     print("Неудача")
-                    fun.melodi_feil()
-                    if her.Active == 'Gadya':
-                        her.Gady.isolation_end_date = fun.get_isolation_end_date()
-                    if her.Active == 'Gavr':
-                        her.Gavr.isolation_end_date = fun.get_isolation_end_date()
-                    if her.Active == 'Veles':
-                        her.Veles.isolation_end_date = fun.get_isolation_end_date()
-                    if her.Active == 'Mara':
-                        her.Mara.isolation_end_date = fun.get_isolation_end_date()
+                    fun.melodi_fail()
+                    Hero.set_isolation_end_date(Active.hero_activ)
                     energy_gold()
 
             close_img = fun.wait_and_stop_img('img/everything/close.png', 0.85)

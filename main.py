@@ -190,10 +190,7 @@ def read_from_file():
         file1 = open('config.txt', 'rb')
         data_to_load = pickle.load(file1)
         file1.close()
-
         verifi_and_change_data(data_to_load)
-
-
     except:
         print(m_t.text_red('Config поврежден или не создан)))'))
         save_to_file()
@@ -203,7 +200,7 @@ def arena_battles():
     value = gady_var_time.get()
     if value:
         print(value)
-        print(type(value))
+        # print(type(value))
     attempts = 0
     while True:
         arena.battle_in_arena()

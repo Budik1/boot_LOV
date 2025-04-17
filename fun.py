@@ -2,10 +2,10 @@ from playsound3 import playsound
 import pyautogui
 from time import sleep
 import datetime
+
 import my_text as m_t
 import heroes as her
 
-# init()
 log = 1
 
 
@@ -13,8 +13,8 @@ def melodi_vic():
     playsound("muz/success.mp3")
 
 
-def melodi_feil():
-    playsound('muz/feil.mp3')
+def melodi_fail():
+    playsound('muz/fail.mp3')
 
 
 def melodi_pet():
@@ -28,8 +28,10 @@ def o_in_oo(symbol):
         return str(symbol)
 
 
-def locCenterImg(name_img, confidence=0.9):
-    pos_img = pyautogui.locateCenterOnScreen(name_img, confidence=confidence)
+def locCenterImg(name_img, confidence=0.9,  region: tuple[int, int, int, int] | None = None):
+    pos_img = pyautogui.locateCenterOnScreen(image=name_img,
+                                             confidence=confidence,
+                                             region=region)
     return pos_img
 
 
@@ -55,7 +57,7 @@ def wait_and_stop_img(name_img, param_confidence=0.85):
 
 def attack_guru():
     name = selection_hero()
-    if name == 'Gavr' or name == 'Gadya' or name == 'Veles' or name == 'Mara':
+    if name == 'Gavr' or name == 'Gadya' or name == 'Veles':
         # переход на экран 'ученики и наставники'
         # guru = pyautogui.locateCenterOnScreen('img/city/guru.png', confidence=0.9)
         guru = locCenterImg('img/city/guru.png', 0.9)
@@ -67,6 +69,38 @@ def attack_guru():
         attack_guru_img1 = wait_and_stop_img("img/city/attak_guru.png")
         move_to_click(attack_guru_img1, 0.2)
         # нажать кнопку "атаковать"
+        in_battle_img = wait_and_stop_img('img/arena/in_battle.png')
+        move_to_click(in_battle_img, 0.2)
+        # нажать кнопку "закрыть"
+        close_img = wait_and_stop_img('img/everything/close.png', 0.85)
+        move_to_click(close_img, 0.1)
+        return name
+    elif  name == 'Mara':
+        con = 0.87
+        guru = locCenterImg('img/city/i_am_guru.png', confidence=con)
+        while not guru:
+            arr = locCenterImg('img/city/arrow_right.png')
+            move_to_click(arr, 0)
+            x, y = arr
+            y -= 30
+            pos = x, y
+            move_mause(pos=pos)
+            guru = locCenterImg('img/city/test_guru.png', confidence=con)
+        move_mause(pos=guru)
+        move_to_click(pos_click=guru, z_p_k=0)
+        x, y = guru
+        x -= 26
+        y -= 46
+        move_mause(pos=(x, y), speed=0.5)
+        x_demo, y_demo = x, y
+        change_x = 20
+        change_y = 20
+        x_demo += change_x
+        y_demo += change_y
+        move_mause(pos=(x_demo, y_demo), speed=0.5)
+        foto('img/city/button_at.png', (x, y, change_x, change_y))
+        attack = locCenterImg('img/city/button_at.png')
+        move_to_click(pos_click=attack, z_p_k=0.5)
         in_battle_img = wait_and_stop_img('img/arena/in_battle.png')
         move_to_click(in_battle_img, 0.2)
         # нажать кнопку "закрыть"
@@ -108,7 +142,7 @@ def my_print_to_file(text):
 
 def time_now(date_class=False):
     """Если True:
-            вщзвращает объект datetime.datetime
+            возвращает объект datetime.datetime
         Иначе
             возвращает объект str"""
     now = datetime.datetime.now()
@@ -142,6 +176,16 @@ def date_utc_now():
 date_start_prog = date_utc_now()
 
 
+def mouse_left_click(*, pos):
+    pyautogui.hotkey('Ctrl')
+    # playsound('sound/mouse-click.wav')
+    pyautogui.click(pos)
+
+
+def move_mause(*, pos:tuple, speed=0.2):
+    pyautogui.moveTo(pos, duration=speed)
+
+
 def move_to_click(pos_click: tuple, z_p_k: float):
     """
     Поместить указатель мыши по координатам и кликнуть, учитывая задержку.
@@ -149,15 +193,13 @@ def move_to_click(pos_click: tuple, z_p_k: float):
     :param z_p_k: задержка перед кликом(float)
     :return: None
     """
-
     my_print_to_file('move_to_click')
     sleep(0.3)
-    pyautogui.moveTo(pos_click, duration=0.5)  # , tween=pyautogui.easeInOutQuad
+    move_mause(pos=pos_click, speed=0.5)  # , tween=pyautogui.easeInOutQuad
     # print('должен быть клик')
     sleep(z_p_k)
-    pyautogui.hotkey('Ctrl')
     if pos_click:
-        pyautogui.click(pos_click)
+        mouse_left_click(pos=pos_click)
     else:
         print("некуда кликать")
     sleep(0.18)
@@ -291,7 +333,7 @@ def cancel_or_knob():
     return close
 
 
-def selection_hero(variable_class_hero=False):
+def selection_hero():
 
     gavril = locCenterImg('img/hero/h_gavril.png')
     gadya = locCenterImg('img/hero/h_gadya.png')
@@ -300,17 +342,14 @@ def selection_hero(variable_class_hero=False):
     if gavril:
         print(m_t.text_yellow('         Гаврил'))
         hero = 'Gavr'
-        # her.Active = 'Gavr'
         her.Active.hero_activ = her.Gavr
     elif gadya:
         print(m_t.text_yellow('         Гадя'))
         hero = 'Gadya'
-        # her.Active = 'Gadya'
         her.Active.hero_activ = her.Gady
     elif veles:
         print(m_t.text_yellow('         Велес'))
         hero = 'Veles'
-        # her.Active = 'Veles'
         her.Active.hero_activ = her.Veles
     elif mara:
         print(m_t.text_yellow('         Марьяна'))
@@ -339,7 +378,7 @@ def to_fountain():
 
 def in_battle(par_conf, pos_i):
     my_print_to_file('in_battle')
-    print('fun.in_battle')
+    # print('fun.in_battle')
     skip_battle = locCenterImg('img/everything/skip_battle.png', par_conf)
     my_print_to_file(f'skip_battle = {skip_battle}')
     if skip_battle:
@@ -351,7 +390,7 @@ def in_battle(par_conf, pos_i):
 
 
 def call_pet(pos_i):
-    print('call_pet')
+    # print('call_pet')
     if pos_i:
         x, y = pos_i
         y += 410
@@ -428,14 +467,21 @@ def verifi_isolation(date_end_isolation):
 
 
 def return_days_transformation(days):
-    sub_days_poc = days % 10
-    sub_days_col = days // 10
+    days_des = days // 10           # остается десятков
+    days_ed = days % 10            # остается единиц
 
-    if sub_days_poc == 1 and sub_days_col != 1:
+    if days_ed == 1 and days_des != 1:                      #
         return f'{days} день'
-    elif sub_days_poc in [2, 3, 4] and sub_days_col != 1:
+    elif days_ed in [2, 3, 4] and days_des != 1:            #
         return f'{days} дня'
-    elif sub_days_col == 1:
+    elif days_des == 1:                                     #
         return f'{days} дней'
-    elif sub_days_poc in [0, 5, 6, 7, 8, 9] and sub_days_col != 1:
+    elif days_ed in [0, 5, 6, 7, 8, 9] and days_des != 1:   #
         return f'{days} дней'
+
+
+def check_work_completed():
+    work_completed = locCenterImg('img/everything/work_completed.png')
+    close = locCenterImg('img/everything/close.png')
+    if work_completed:
+        move_to_click(pos_click=close, z_p_k=1)

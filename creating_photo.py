@@ -29,7 +29,7 @@ def creating_photo_hero_in_hall_glory():
     x -= 250
     pos = x, y
     # pyautogui.moveTo(pos, duration=1)
-    fun.foto('img/tests/hero_arena.png', (x, y, 140, 55))
+    fun.foto('img/tests/hero_arena-5.png', (x, y, 140, 55))
 
 
 def creating_photo_hero_ver_in_hall_glory():
@@ -41,7 +41,7 @@ def creating_photo_hero_ver_in_hall_glory():
     x += 15
     pos = x, y
     pyautogui.moveTo(pos, duration=1)
-    fun.foto('img/tests/test_ver.png', (x, y, 214, 421 - rep))
+    fun.foto('img/tests/test_ver-5.png', (x, y, 214, 421 - rep))
 
 
 def creating_photo_hero():
@@ -155,8 +155,8 @@ def creating_photo_lvl():
     x_k += change
     y_k += change
     pyautogui.moveTo(x_k, y_k, duration=1)
-    fun.foto('img/energy/lvl/25lvl.png', (x, y, change, change))
-    print('25lvl.png create')
+    fun.foto('img/energy/lvl/27lvl.png', (x, y, change, change))
+    print('27lvl.png create')
 
 
 def creating_photo_clan():
@@ -237,9 +237,94 @@ def drop_in_raid():
     y_demo += change_y
     pyautogui.moveTo(x_demo, y_demo, duration=1)
     fun.foto('img/tests/drop_in_raid.png', (x, y, change_x, change_y))
+    cnob = fun.cancel_or_knob()
+    if cnob:
+        fun.move_to_click(pos_click=cnob, z_p_k=0.5)
     print('foto ok')
 
 
+def i_am_guru():
+    pos = fun.find_link_i()
+    pyautogui.moveTo(pos, duration=2)
+    x, y = pos
+    # x += 2
+    y += 450
+    pyautogui.moveTo(x,y, duration=2)
+    x_demo, y_demo = x, y
+    change_x = 70
+    change_y = 60
+    x_demo += change_x
+    y_demo += change_y
+    pyautogui.moveTo(x_demo, y_demo, duration=1)
+    fun.foto('img/city/test_guru.png', (x, y, change_x, change_y))
+    print('foto ok')
+
+
+def img_atack_guru():
+    pos = fun.locCenterImg('img/kv/update.png')
+    if pos:
+        fun.move_mause(pos=pos)
+        guru = fun.locCenterImg('img/city/test_guru.png')
+        fun.move_to_click(guru, 0)
+        x, y = guru
+        x -= 30
+        y -= 50
+        fun.move_mause(pos=(x, y))
+        x_demo, y_demo = x, y
+        change_x = 70
+        change_y = 60
+        x_demo += change_x
+        y_demo += change_y
+
+        # fun.foto('img/city/test_guru.png', (x, y, change_x, change_y))
+        print('foto ok')
+
+    else:
+        print('невидно обновить')
+
+
+
+def arrow_right():
+    pos = fun.find_link_i()
+    pyautogui.moveTo(pos, duration=2)
+    x, y = pos
+    x += 577 + 6
+    y += 450
+    pyautogui.moveTo(x, y, duration=2)
+    x_demo, y_demo = x, y
+    change_x = 30
+    change_y = 40
+    x_demo += change_x
+    y_demo += change_y
+    pyautogui.moveTo(x_demo, y_demo, duration=1)
+    fun.foto('img/city/arrow_right.png', (x, y, change_x, change_y))
+    print('foto ok')
+
+
+def pos_work_completed():
+    pos_item = fun.locCenterImg('img/everything/close.png')
+    if pos_item:
+        fun.move_mause(pos=pos_item, speed=1)
+        x, y = pos_item
+        x -= 78
+        y -= 178
+        fun.move_mause(pos=(x, y), speed=1)
+        x_demo, y_demo = x, y
+        change_x = 153
+        change_y = 27
+        x_demo += change_x
+        y_demo += change_y
+        fun.move_mause(pos=(x_demo, y_demo), speed=1)
+        fun.foto('img/everything/work_completed.png', (x, y, change_x, change_y))
+        print('foto ok')
+    else:
+        print('no vision')
+
+
+# pos_work_completed()
+# img_atack_guru()
+# arrow_right()
+# i_am_guru()
 # drop_in_raid()
 # state_kv()
 # creating_result()

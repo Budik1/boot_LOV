@@ -27,7 +27,7 @@ def wait_and_stop_img(name_img, reg, param_confidence=0.85):
 
 
 def battle_in_arena():
-    print('battle_in_arena')
+    # print('battle_in_arena')
 
     fun.my_print_to_file('arena.battle_in_arena')
     fun.my_print_to_file(f'quantity_battles = {b_d.quantity_battles}')
@@ -36,14 +36,14 @@ def battle_in_arena():
     close = fun.locCenterImg('img/everything/close.png', confidence=0.89)
 
     if link_in_hall_glory:
-        print("в зале славы")
+        # print("в зале славы")
         x, y = link_in_hall_glory
         x -= 255
         y += 110
         region_search = x, y, 545, 65
 
     elif close:
-        print("видно закрыть")
+        # print("видно закрыть")
         fun.push_close()
         fun.go_in_hall_glory()
         link_in_hall_glory = fun.locCenterImg('img/arena/link_in_hall_glory.png', confidence=0.98)
@@ -94,7 +94,8 @@ def battle_in_arena():
             hero_arena = pyautogui.locateCenterOnScreen('img/arena/hero_arena.png', confidence=0.95,
                                                         region=region_search)
         else:
-            print('найден')
+            pass
+            # print('найден')
 
     fun.my_print_to_file(f' it = {it}')
     # attack = pyautogui.locateCenterOnScreen('img/arena/attack.png', confidence=0.95, region=region_search)
