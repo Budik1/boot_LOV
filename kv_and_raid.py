@@ -6,6 +6,7 @@ import my_text as m_t
 import time
 import pickle
 import heroes as her
+import creating_photo
 from heroes import Hero, Active
 
 her.Gavr.hour_start_kv_ver = int(time.strftime('%H'))
@@ -34,9 +35,9 @@ def verifi_time_raid():
         minutes_oo = fun.o_in_oo(minutes_now)
         # print(hour_oo, ':', minutes_oo)
         minutes_verifi = int(time.strftime('%M'))
-    if hour_now == 21 and minutes_now >= 45:
+    if hour_now == 21 and minutes_now >= 20:
         return True
-    elif hour_now == 22 and minutes_now <= 45:
+    elif hour_now == 22 and minutes_now <= 20:
         return True
     else:
         return False
@@ -167,6 +168,7 @@ def kv():
     fun.click_update()
 
     q_duel_start = True  # Флаг входа в дуэль, имеет состояния True/False. Если True - вход возможен
+    pos = fun.locCenterImg('img/everything/skip_battle.png')
     clan_var_img = fun.locCenterImg('img/kv/clan_var.png', 0.9)
     duel_start = fun.locCenterImg('img/kv/duel_start.png', 0.9)
     duel_over = fun.locCenterImg('img/kv/duel_over.png', 0.8)
@@ -176,6 +178,7 @@ def kv():
     # check_kv
     # check_raid
     # while check_kv and check_raid:
+    cow = True
     while clan_var_img or clan_raid_img:
         if not time_raid:
             time_raid = verifi_time_raid()
@@ -190,6 +193,10 @@ def kv():
         #     img_raids = fun.locCenterImg('img/kv/raids.png')
         #     fun.move_to_click(img_raids, 0)
         #     fun.wait_and_stop_img('img/kv/update.png')
+        # if pos and cow:
+        #     cow = False
+        #     creating_photo.her_war_thg({her.Gady.qty_all})
+        #     print('можно фоткать')
         if duel_start and q_duel_start:  # загорелась кнопка атаковать в войне
             q_it_print = True
             clan_var_img = fun.locCenterImg('img/kv/clan_var.png', 0.9)
@@ -341,6 +348,7 @@ def kv():
         check_vs = fun.locCenterImg('img/kv/_VS.png')
         # print('проверка статуса кв или рейда')
         if not check_vs and q_duel_start:
+            pass
             print('КВ закончилось')
             # img_raids = fun.locCenterImg('img/kv/raids.png')
             # fun.move_to_click(img_raids, 0)
@@ -351,6 +359,7 @@ def kv():
 
         duel_start = fun.locCenterImg('img/kv/duel_start.png', 0.9)
         duel_over = fun.locCenterImg('img/kv/duel_over.png', 0.8)
+        pos = fun.locCenterImg('img/everything/skip_battle.png')
         # bomba_img = loc_center_img('img/kv/bomba.png')
         state_kv_vs_img = fun.locCenterImg('img/tests/state_kv_vs.png')
 

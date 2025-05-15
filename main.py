@@ -356,6 +356,7 @@ veles_game = StringVar()
 mara_game = StringVar()
 
 read_from_file()
+
 step_line = 25
 line0, line1, line2, line3, line4 = step_line * 0, step_line * 1, step_line * 2, step_line * 3, step_line * 4
 line5, line6, line7, line8, line9 = step_line * 5, step_line * 6, step_line * 7, step_line * 8, step_line * 9

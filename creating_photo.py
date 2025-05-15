@@ -249,7 +249,7 @@ def i_am_guru():
     x, y = pos
     # x += 2
     y += 450
-    pyautogui.moveTo(x,y, duration=2)
+    pyautogui.moveTo(x, y, duration=2)
     x_demo, y_demo = x, y
     change_x = 70
     change_y = 60
@@ -281,7 +281,6 @@ def img_atack_guru():
 
     else:
         print('невидно обновить')
-
 
 
 def arrow_right():
@@ -321,6 +320,47 @@ def pos_work_completed():
         print('no vision')
 
 
+def her_war_thg(nam):
+    pos = fun.locCenterImg('img/everything/skip_battle.png')
+    if pos:
+        print('бой идет')
+        x, y = pos
+        x += 0
+        y -= 41
+        # pyautogui.moveTo(x, y, duration=1)
+        x_demo, y_demo = x, y
+        change_x = 400
+        change_y = 500
+        x_demo += change_x
+        y_demo += change_y
+        # pyautogui.moveTo(x_demo, y_demo, duration=1)
+        fun.foto(f'img/tests/{nam}.png', (x, y, change_x, change_y))
+        print(f'foto {nam}. png ok')
+
+def raid_opponent_img():
+    pos = fun.locCenterImg('img/kv/update.png')
+    # fun.move_mause(pos=pos)
+    if pos:
+        x, y = pos
+        x -= 192
+        y += 33
+        # fun.move_mause(pos=(x, y), speed=1)
+        x_demo, y_demo = x, y
+        change_x = 195 + 5
+        change_y = 156
+        x_demo += change_x
+        y_demo += change_y
+        # fun.move_mause(pos=(x_demo, y_demo))
+        name_foto = 'img/tests/raid_opponent/lich.png'
+        fun.foto(name_foto, (x, y, change_x, change_y))
+        print(f'foto ok {name_foto}')
+
+    else:
+        print('no vision')
+
+
+# raid_opponent_img()
+# her_war_thg()
 # pos_work_completed()
 # img_atack_guru()
 # arrow_right()

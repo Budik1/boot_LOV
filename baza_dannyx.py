@@ -7,6 +7,7 @@ tasks_gold_v = {'t1_1': 'img/tasks_v/t1g.png',
                 }
 
 tasks_xp_v = {'t1_1': 'img/tasks_v/t1x.png',
+              't2': 'img/tasks_v/t2x.png',
               't5': 'img/tasks_v/t5x.png',
               }
 
