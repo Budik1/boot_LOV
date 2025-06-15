@@ -4,7 +4,7 @@ import baza_dannyx as b_d
 
 class Hero:
 
-    def __init__(self, name, task_gold, task_xp):
+    def __init__(self, name, task_gold, task_xp, energy_sum, name_in_file=None):
         self.name = name
         self.energy_status = 0
         self.case_status = 0
@@ -14,6 +14,11 @@ class Hero:
         self.task_gold = task_gold
         self.task_xp = task_xp
         self.is_raid_today = False
+        self.name_in_file = name_in_file
+
+        self.energy_sum = energy_sum # общее значение энергии при старте суток
+        self.energy_count_used_now = 0 # потрачено сегодня
+        self.energy_task_value = 0 # потрачено на задание
 
         # к-в боёв общее
         self.qty_all = 0
@@ -53,6 +58,18 @@ class Hero:
     def get_isolation_end_date(self):
         return self.isolation_end_date
 
+    def get_en_sum(self):
+        return self.energy_sum
+
+    def get_en_now(self):
+        return self.energy_count_used_now
+
+    def get_hero_name_in_file(self):
+        return self.name_in_file
+
+    def set_en_now(self, value):
+        self.energy_count_used_now += value
+
     def set_duel_qty(self):
         self.qty_all += 1
         self.qty_kv_all += 1
@@ -64,13 +81,17 @@ class Hero:
 
 
 
-Gady = Hero('Гадя', b_d.tasks_gold_v, b_d.tasks_xp_v)
-Gavr = Hero('Гавр', b_d.tasks_gold_gavr, b_d.tasks_xp_gavr)
-Veles = Hero('Велес', b_d.tasks_gold_vel, b_d.tasks_xp_vel)
-Mara = Hero('Мара', b_d.tasks_gold_mar, b_d.tasks_xp_mar)
+Gady = Hero('Гадя', b_d.tasks_gold_v, b_d.tasks_xp_v, energy_sum=b_d.gady_energy_sum, name_in_file='gady')
+Gavr = Hero('Гавр', b_d.tasks_gold_gavr, b_d.tasks_xp_gavr, energy_sum=b_d.gavr_energy_sum, name_in_file='gavr')
+Veles = Hero('Велес', b_d.tasks_gold_vel, b_d.tasks_xp_vel, energy_sum=b_d.veles_energy_sum, name_in_file='veles')
+Mara = Hero('Мара', b_d.tasks_gold_mar, b_d.tasks_xp_mar, energy_sum=b_d.mara_energy_sum, name_in_file='mara')
 
 
 class Active:
     hero_activ = None
+    check_date = ''
+    date_now = ''
+    max_time_wait_load = 0
+    max_time_wait_id = 0
 
 # Hero.get_qty_all_victory(Active.hero_activ)

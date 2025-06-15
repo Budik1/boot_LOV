@@ -1,3 +1,5 @@
+# from heroes import Veles
+
 tasks_gold_v = {'t1_1': 'img/tasks_v/t1g.png',
                 't2_1': 'img/tasks_v/t2g.png',
                 't3_1': 'img/tasks_v/t3g.png',
@@ -8,6 +10,7 @@ tasks_gold_v = {'t1_1': 'img/tasks_v/t1g.png',
 
 tasks_xp_v = {'t1_1': 'img/tasks_v/t1x.png',
               't2': 'img/tasks_v/t2x.png',
+              't3': 'img/tasks_v/t3x.png',
               't5': 'img/tasks_v/t5x.png',
               }
 
@@ -63,3 +66,8 @@ lvl_dict = {
 lvl_list = [18, 19, 20, 21, 22, 23, 24, 25, 26, 30]
 
 quantity_battles = 0
+
+gady_energy_sum = 50
+gavr_energy_sum = 43
+veles_energy_sum = 38
+mara_energy_sum = 34

@@ -83,7 +83,7 @@ def battle_in_arena():
             print(scroll_down, 'scroll_down в цикле поиска')
         scroll_down = pyautogui.locateCenterOnScreen('img/arena/scroll_down.png', region=(550, 550, 750, 750), confidence=0.98)
         # print(scroll_down, 'scroll_down нажимаем')
-        fun.move_to_click(scroll_down, 0.1)
+        fun.mouse_move_to_click(scroll_down, 0.1)
         attack = wait_and_stop_img('img/arena/attack.png', region_search, 0.95)
 
         hero_arena = pyautogui.locateCenterOnScreen('img/arena/hero_arena.png', confidence=0.95, region=region_search)
@@ -101,7 +101,7 @@ def battle_in_arena():
     # attack = pyautogui.locateCenterOnScreen('img/arena/attack.png', confidence=0.95, region=region_search)
     attack = wait_and_stop_img('img/arena/attack.png', region_search, 0.95)
     fun.my_print_to_file(f'attack = {attack}')
-    fun.move_to_click(attack, 0.2)
+    fun.mouse_move_to_click(attack, 0.2)
     link_arena = pyautogui.locateCenterOnScreen('img/arena/link_arena.png')
     fun.my_print_to_file(f'link_arena = {link_arena}')
     while not link_arena:
@@ -123,7 +123,7 @@ def battle_in_arena():
             sleep(1)
             in_battl = pyautogui.locateCenterOnScreen('img/arena/in_battle.png')
         fun.my_print_to_file(f'in_battl = {in_battl}')
-        fun.move_to_click(in_battl, 0.2)
+        fun.mouse_move_to_click(in_battl, 0.2)
         skip_battle = pyautogui.locateCenterOnScreen('img/everything/skip_battle.png', confidence=par_conf)
         it_skip_battle = 0
         while not skip_battle:
@@ -144,7 +144,7 @@ def battle_in_arena():
         sleep(0.2)
         close = pyautogui.locateCenterOnScreen('img/everything/close.png', confidence=0.89)
         fun.my_print_to_file("закрыть результат боя")
-        fun.move_to_click(close, 0.1)
+        fun.mouse_move_to_click(close, 0.1)
         sleep(1)
     else:
         print('вооружён')
@@ -167,7 +167,7 @@ def search_unarmed():
 
     no_arms = pyautogui.locateCenterOnScreen('img/no_arm.png', confidence=0.98)
     while not no_arms:
-        fun.move_to_click(inspection_hero(), 0.05)
+        fun.mouse_move_to_click(inspection_hero(), 0.05)
 
         ver_her_arms = pyautogui.locateCenterOnScreen('img/ver_her_arms.png', confidence=0.98)
         while not ver_her_arms:
@@ -179,7 +179,7 @@ def search_unarmed():
             print('no_arms')
         else:
             fun.push_close()
-            fun.move_to_click(fun.scroll_down(), 0.05)
+            fun.mouse_move_to_click(fun.scroll_down(), 0.05)
 
     finish_time = float(time() - start_time)  # общее количество секунд
     minutes = int(finish_time // 60)  # количество минут

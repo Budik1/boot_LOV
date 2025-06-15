@@ -1,6 +1,6 @@
 import heroes as her
 import fun
-from fun import move_to_click, locCenterImg
+from fun import mouse_move_to_click, locCenterImg
 import baza_dannyx as b_d
 import os
 
@@ -69,27 +69,26 @@ def mara_guru():
     guru = fun.locCenterImg('img/city/i_am_guru.png', confidence=con)
     while not guru:
         arr = locCenterImg('img/city/arrow_right.png')
-        move_to_click(arr, 0)
+        mouse_move_to_click(arr, 0)
         x, y = arr
         y -= 30
         pos =  x, y
-        fun.move_mause(pos=pos)
+        fun.mouse_move(pos=pos)
         guru = fun.locCenterImg('img/city/test_guru.png', confidence=con)
-    fun.move_mause(pos=guru)
-    fun.move_to_click(pos_click=guru, z_p_k=0)
+    fun.mouse_move(pos=guru)
+    fun.mouse_move_to_click(pos_click=guru, z_p_k=0)
     x, y = guru
     x -= 26
     y -= 46
-    fun.move_mause(pos=(x, y), speed=0.5)
+    fun.mouse_move(pos=(x, y), speed=0.5)
     x_demo, y_demo = x, y
     change_x = 20
     change_y = 20
     x_demo += change_x
     y_demo += change_y
-    fun.move_mause(pos=(x_demo, y_demo), speed=0.5)
+    fun.mouse_move(pos=(x_demo, y_demo), speed=0.5)
     fun.foto('img/city/button_at.png', (x, y, change_x, change_y))
     attack = fun.locCenterImg('img/city/button_at.png')
-    fun.move_to_click(pos_click=attack, z_p_k=0.5)
+    fun.mouse_move_to_click(pos_click=attack, z_p_k=0.5)
 
 
-mara_guru()

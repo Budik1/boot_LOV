@@ -1,7 +1,7 @@
 import pyautogui
 from time import sleep
-from fun import move_to_click, find_link_i, exit_to_fountain, selection_hero, wait_and_stop_img
-import my_text as m_t
+from fun import mouse_move_to_click, find_link_i, exit_to_fountain, selection_hero, wait_and_stop_img
+import my_color_text as m_t
 
 
 def next_haus():
@@ -11,7 +11,7 @@ def next_haus():
     while not n_haus:
         sleep(0.1)
         n_haus = pyautogui.locateCenterOnScreen('img/next_haus.png', confidence=0.8)
-    move_to_click(n_haus, 0)
+    mouse_move_to_click(n_haus, 0)
 
 
 def go_in_haus():
@@ -40,7 +40,7 @@ def go_in_haus():
     if path_haus:
         # print(path_haus, 'path_haus')
         while path_haus:
-            move_to_click(haus, 0)
+            mouse_move_to_click(haus, 0)
             sleep(1.5)
             path_haus = pyautogui.locateCenterOnScreen('img/path_haus.png', confidence=0.9)
         out_haus = pyautogui.locateCenterOnScreen('img/go_out_haus.png', confidence=0.9)
@@ -97,7 +97,7 @@ def go_out_haus():
     # while not out_haus_img:
     #     sleep(0.1)
     #     out_haus_img = pyautogui.locateCenterOnScreen('img/go_out_haus.png', confidence=0.9)
-    move_to_click(out_haus_img, 0)
+    mouse_move_to_click(out_haus_img, 0)
 
 
 def revision_of_house():
@@ -111,10 +111,10 @@ def revision_of_house():
         y += 470
         x += 40
         friend = x, y
-        move_to_click(friend, 0.3)
+        mouse_move_to_click(friend, 0.3)
         sleep(1)
         ik_haus = to_house()
-        move_to_click(ik_haus, 0.3)  # переход на экран домов
+        mouse_move_to_click(ik_haus, 0.3)  # переход на экран домов
         while find_su < 10:  # sum_vi < 15 and
             vizit = go_in_haus()
             if vizit:
@@ -122,7 +122,7 @@ def revision_of_house():
                 sum_vi_color = str(sum_vi)
                 sunduk = find_sunduk()
                 if sunduk:
-                    move_to_click(sunduk, 0.2)
+                    mouse_move_to_click(sunduk, 0.2)
                     find_su += 1
                     find_su_color = str(find_su)
                     close_img = wait_and_stop_img('img/everything/close.png', 0.89)
@@ -136,8 +136,8 @@ def revision_of_house():
                     #     close_1 = pyautogui.locateCenterOnScreen('img/everything/close.png', confidence=0.89)
                     # sleep(2)
                     # close = pyautogui.locateCenterOnScreen('img/everything/close.png', confidence=0.89)
-                    move_to_click(close_img, 0.3)
-                print(m_t.text_blue(sum_vi_color), "осмотрено / найдено ", m_t.text_red(find_su_color))
+                    mouse_move_to_click(close_img, 0.3)
+                print(m_t.tc_blue(sum_vi_color), "осмотрено / найдено ", m_t.tc_red(find_su_color))
 
                 go_out_haus()
                 if sum_vi < 14:
@@ -145,7 +145,7 @@ def revision_of_house():
             else:
                 sum_vi += 1
                 sum_vi_color = str(sum_vi)
-                print(m_t.text_blue(sum_vi_color), "/", m_t.text_red(find_su_color))
+                print(m_t.tc_blue(sum_vi_color), "/", m_t.tc_red(find_su_color))
                 next_haus()
         exit_to_fountain()
         return hero_v_r_h

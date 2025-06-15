@@ -1,5 +1,6 @@
 import pyautogui
 import fun
+import find_img as find
 
 
 def creating_photo_tasks():
@@ -70,7 +71,7 @@ def creating_photo_guru():
 
 
 def attak_guru():
-    pos = fun.locCenterImg('img/city/guru.png', confidence=0.9)
+    pos = find.find_guru()
     pyautogui.moveTo(pos, duration=1)
     x, y = pos
     y += 150
@@ -155,8 +156,8 @@ def creating_photo_lvl():
     x_k += change
     y_k += change
     pyautogui.moveTo(x_k, y_k, duration=1)
-    fun.foto('img/energy/lvl/27lvl.png', (x, y, change, change))
-    print('27lvl.png create')
+    fun.foto('img/energy/lvl/29lvl.png', (x, y, change, change))
+    print('29lvl.png create')
 
 
 def creating_photo_clan():
@@ -239,7 +240,7 @@ def drop_in_raid():
     fun.foto('img/tests/drop_in_raid.png', (x, y, change_x, change_y))
     cnob = fun.cancel_or_knob()
     if cnob:
-        fun.move_to_click(pos_click=cnob, z_p_k=0.5)
+        fun.mouse_move_to_click(pos_click=cnob, z_p_k=0.5)
     print('foto ok')
 
 
@@ -263,13 +264,13 @@ def i_am_guru():
 def img_atack_guru():
     pos = fun.locCenterImg('img/kv/update.png')
     if pos:
-        fun.move_mause(pos=pos)
+        fun.mouse_move(pos=pos)
         guru = fun.locCenterImg('img/city/test_guru.png')
-        fun.move_to_click(guru, 0)
+        fun.mouse_move_to_click(guru, 0)
         x, y = guru
         x -= 30
         y -= 50
-        fun.move_mause(pos=(x, y))
+        fun.mouse_move(pos=(x, y))
         x_demo, y_demo = x, y
         change_x = 70
         change_y = 60
@@ -303,17 +304,17 @@ def arrow_right():
 def pos_work_completed():
     pos_item = fun.locCenterImg('img/everything/close.png')
     if pos_item:
-        fun.move_mause(pos=pos_item, speed=1)
+        fun.mouse_move(pos=pos_item, speed=1)
         x, y = pos_item
         x -= 78
         y -= 178
-        fun.move_mause(pos=(x, y), speed=1)
+        fun.mouse_move(pos=(x, y), speed=1)
         x_demo, y_demo = x, y
         change_x = 153
         change_y = 27
         x_demo += change_x
         y_demo += change_y
-        fun.move_mause(pos=(x_demo, y_demo), speed=1)
+        fun.mouse_move(pos=(x_demo, y_demo), speed=1)
         fun.foto('img/everything/work_completed.png', (x, y, change_x, change_y))
         print('foto ok')
     else:
@@ -337,6 +338,7 @@ def her_war_thg(nam):
         fun.foto(f'img/tests/{nam}.png', (x, y, change_x, change_y))
         print(f'foto {nam}. png ok')
 
+
 def raid_opponent_img():
     pos = fun.locCenterImg('img/kv/update.png')
     # fun.move_mause(pos=pos)
@@ -359,6 +361,67 @@ def raid_opponent_img():
         print('no vision')
 
 
+def my_games_png():
+    show = True
+    pos = fun.locCenterImg('img/everything/my games.jpg')
+    fun.mouse_move(pos=pos, show=show)
+    if pos:
+        x, y = pos
+        x -= 42 - 3
+        y -= 18
+        fun.mouse_move(pos=(x, y), speed=1, show=show)
+        x_demo, y_demo = x, y
+        change_x = 84 - 4
+        change_y = 36
+        x_demo += change_x
+        y_demo += change_y
+        fun.mouse_move(pos=(x_demo, y_demo), show=show)
+        name_foto = 'img/everything/my games.png'
+        fun.foto(name_foto, (x, y, change_x, change_y))
+        print(f'foto ok {name_foto}')
+
+
+def repeat():
+    show = False
+    pos = fun.locCenterImg('img/everything/my games.png')
+    fun.mouse_move(pos=pos, show=show)
+    if pos:
+        x, y = pos
+        x -= 150
+        y += 466
+        fun.mouse_move(pos=(x, y), speed=1, show=show)
+        x_demo, y_demo = x, y
+        change_x = 140 + 4
+        change_y = 29
+        x_demo += change_x
+        y_demo += change_y
+        fun.mouse_move(pos=(x_demo, y_demo), show=show)
+        name_foto = 'img/everything/repeat.png'
+        fun.foto(name_foto, (x, y, change_x, change_y))
+        print(f'foto ok {name_foto}')
+
+
+def connection_problem():
+    show = True
+    pos = fun.locCenterImg('img/everything/my games.png')
+    fun.mouse_move(pos=pos, show=show)
+    if pos:
+        x, y = pos
+        x -= 180
+        y += 210 + 1
+        fun.mouse_move(pos=(x, y), speed=1, show=show)
+        x_demo, y_demo = x, y
+        change_x = 220 + 4 - 20
+        change_y = 29
+        x_demo += change_x
+        y_demo += change_y
+        fun.mouse_move(pos=(x_demo, y_demo), show=show)
+        name_foto = 'img/everything/connection_problem.png'
+        fun.foto(name_foto, (x, y, change_x, change_y))
+        print(f'foto ok {name_foto}')
+
+# connection_problem()
+# my_games_png()
 # raid_opponent_img()
 # her_war_thg()
 # pos_work_completed()

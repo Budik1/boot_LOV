@@ -1,8 +1,8 @@
 import pyautogui
 import fun
-from fun import move_to_click, click_update, wait_and_stop_img
-from fun import o_in_oo, date_utc_now
-import my_text as m_t
+from fun import mouse_move_to_click, click_update, wait_and_stop_img
+from fun import one_in_two, date_utc_now
+import my_color_text as m_t
 import time
 import pickle
 import heroes as her

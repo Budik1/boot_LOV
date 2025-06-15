@@ -4,7 +4,8 @@ from time import sleep
 import fun
 import baza_dannyx as b_d
 import creating_photo
-import my_text as m_t
+import heroes
+import my_color_text as m_t
 from heroes import Hero, Active
 
 region_events = 504, 389, 300, 200
@@ -46,50 +47,39 @@ def task_selection_dict(tasks):
         for img in tasks:
             task_pos = fun.locCenterImg(tasks[img], confidence=conf)
             if task_pos:
-                vers_in_print = '' if conf == 0.99 else m_t.text_red(f', conf={conf}')
+                vers_in_print = '' if conf == 0.99 else m_t.tc_red(f', conf={conf}')
                 # print(f"{tasks[img]}, conf={conf}")
-                print(f"{tasks[img]}{vers_in_print}")
+                en = fun.extraction_digit(item=tasks[img])
+                print(f"{tasks[img]}{vers_in_print} {en} потрачено")
                 # print('проверь наличие и место')
                 x, y = task_pos
                 y -= 40
                 click_task = x, y
                 # fun.move_to_click(task_pos, 2)
                 pyautogui.moveTo(click_task)
-                return click_task
+                return click_task, en
         conf -= 0.001
         print(f"поиск вариантов, conf ={conf}")
         if conf <= 0.98:
             click_task = None
             creating_photo.creating_photo_tasks()
-            print(m_t.text_magenta('задание не найдено, обнови данные'))
-            print(m_t.text_magenta('заготовки тут "img/full_t/"'))
+            print(m_t.tc_magenta('задание не найдено, обнови данные'))
+            print(m_t.tc_magenta('заготовки тут "img/full_t/"'))
             playsound("muz/fresh.mp3")
-            return click_task
+            return click_task, None
 
 
 def energy_gold():
     close = fun.locCenterImg('img/everything/close.png', confidence=0.89)
     if close:
-        fun.move_to_click(close, 0)
+        fun.mouse_move_to_click(close, 0)
     # опознать героя
     hero = fun.selection_hero()
     while not hero:
         close = fun.locCenterImg('img/everything/close.png', confidence=0.89)
         if close:
-            fun.move_to_click(close, 0)
+            fun.mouse_move_to_click(close, 0)
         hero = fun.selection_hero()
-    # получение списка заданий
-    # # print(hero, 'hero')
-    # if hero == 'Gavr':
-    #     tasks_ = b_d.tasks_gold_gavr
-    # elif hero == 'Gadya':
-    #     tasks_ = b_d.tasks_gold_v
-    # elif hero == 'Veles':
-    #     tasks_ = b_d.tasks_gold_vel
-    # elif hero == 'Mara':
-    #     tasks_ = b_d.tasks_gold_mar
-    # else:
-    #     tasks_ = None
     tasks_ = Hero.get_task_gold(Active.hero_activ)
     # print(Hero.get_task_gold(Active.hero_activ))
     energy_ = True
@@ -97,11 +87,13 @@ def energy_gold():
         q_call_pet = 0
         review = 0
         fun.open_taverna()
-        variant = task_selection_dict(tasks_)
+        variant, value_en = task_selection_dict(tasks_)
+        Hero.set_en_now(Active.hero_activ, value=value_en)
+
         if not variant:
             return
         else:
-            fun.move_to_click(variant, 0.5)
+            fun.mouse_move_to_click(variant, 0.5)
             x, y = variant
             x -= 200
             y -= 100
@@ -109,9 +101,9 @@ def energy_gold():
             pyautogui.moveTo(pos_g, duration=0.25)
             no_energy = verify_energy(4)
             if no_energy:
-                print(m_t.text_red('         NO ENERGY !!!'))
+                print(m_t.tc_red('         NO ENERGY !!!'))
                 energy_ = False
-                fun.move_to_click(fun.wait_close('NO ENERGY !!!'), 0.3)
+                fun.mouse_move_to_click(fun.wait_close('NO ENERGY !!!'), 0.3)
                 return hero
 
             else:
@@ -136,48 +128,48 @@ def energy_gold():
                     if review == 0:
                         if popup_xp:  # я учту это
                             review = 1
-                            print(m_t.text_cyan('         я учту это'))
+                            print(m_t.tc_cyan('         я учту это'))
                             sleep(0.2)
                             popup_xp = pyautogui.locateCenterOnScreen('img/energy/_popup_xp.png', confidence=par_conf,
                                                                       region=region_events)
-                            fun.move_to_click(popup_xp, 0.1)
+                            fun.mouse_move_to_click(popup_xp, 0.1)
                             close_img_ = fun.wait_close('я учту это')
                             while not close_img_:
                                 close_img_ = fun.wait_close('я учту это')
-                            fun.move_to_click(close_img_, 0)
+                            fun.mouse_move_to_click(close_img_, 0)
                         if invite_friends:  # Пригласить друга
                             review = 1
-                            print(m_t.text_cyan('         Пригласить друга'))
-                            fun.move_to_click(invite_friends, 0.1)
-                            fun.move_to_click(fun.cancel_or_knob(), 0)
+                            print(m_t.tc_cyan('         Пригласить друга'))
+                            fun.mouse_move_to_click(invite_friends, 0.1)
+                            fun.mouse_move_to_click(fun.cancel_or_knob(), 0)
                             close = fun.wait_close('Пригласить друга')
                             if close:
-                                fun.move_to_click(close, 0)
+                                fun.mouse_move_to_click(close, 0)
                         if treasure:
                             review = 1
-                            print(m_t.text_cyan('         Искать клад'))
+                            print(m_t.tc_cyan('         Искать клад'))
                             sleep(0.2)
                             treasure = pyautogui.locateCenterOnScreen('img/energy/_treasure.png', confidence=par_conf,
                                                                       region=region_events)
-                            fun.move_to_click(treasure, 0.1)
-                            fun.move_to_click(fun.cancel_or_knob(), 0)
+                            fun.mouse_move_to_click(treasure, 0.1)
+                            fun.mouse_move_to_click(fun.cancel_or_knob(), 0)
                         if yes_go:
                             review = 1
-                            print(m_t.text_cyan('         Да, поехали'))
+                            print(m_t.tc_cyan('         Да, поехали'))
                             sleep(0.2)
                             yes_go = pyautogui.locateCenterOnScreen('img/energy/_yes_go.png', confidence=par_conf,
                                                                     region=region_events)
-                            fun.move_to_click(yes_go, 0.1)
+                            fun.mouse_move_to_click(yes_go, 0.1)
                         if awake_friend:
                             review = 1
-                            print(m_t.text_cyan('         Разбудить друга'))
+                            print(m_t.tc_cyan('         Разбудить друга'))
                             awake_friend = pyautogui.locateCenterOnScreen('img/energy/_awake_friend.png',
                                                                           confidence=par_conf, region=region_events)
-                            fun.move_to_click(awake_friend, 0.1)
-                            fun.move_to_click(fun.cancel_or_knob(), 0)
+                            fun.mouse_move_to_click(awake_friend, 0.1)
+                            fun.mouse_move_to_click(fun.cancel_or_knob(), 0)
                             close = fun.wait_close('Разбудить друга')
                             if close:
-                                fun.move_to_click(close, 0)
+                                fun.mouse_move_to_click(close, 0)
                     skip_battle = fun.locCenterImg('img/everything/skip_battle.png', confidence=par_conf)
                     if skip_battle and q_call_pet == 0:
                         q_call_pet = 1
@@ -187,16 +179,18 @@ def energy_gold():
                 pyautogui.moveTo(link_battle_end, duration=0.25)
                 if link_battle_end:
                     link_victory = fun.locCenterImg('img/energy/rezult_vick.png', confidence=0.9)
+                    print(f'Сегодня потрачено {Hero.get_en_now(Active.hero_activ)} из '
+                          f'{Hero.get_en_sum(Active.hero_activ)} доступных')
                     if link_victory:
                         # print("Победа")
-                        fun.melodi_vic()
+                        fun.melody_vic()
                     else:
                         print("Неудача")
-                        fun.melodi_fail()
+                        fun.melody_fail()
 
                 close_img = fun.wait_and_stop_img('img/everything/close.png', 0.85)
                 # закрыть сражение
-                fun.move_to_click(close_img, 0)
+                fun.mouse_move_to_click(close_img, 0)
                 sleep(1)
                 # сражение закрыто.
                 close = fun.wait_close('ожидание всплывающего события')
@@ -204,18 +198,18 @@ def energy_gold():
                 if close:
                     c_or_k = fun.cancel_or_knob()  # ищем "кнопку" или "отменить" и если есть нажимаем
                     if c_or_k:  # нажимаем 'close'
-                        fun.move_to_click(c_or_k, 0)
+                        fun.mouse_move_to_click(c_or_k, 0)
                     else:  # если нет -> жмем 'close'
-                        fun.move_to_click(close, 0)
+                        fun.mouse_move_to_click(close, 0)
 
                     close = fun.wait_close('ожидание всплывающего события')
                     # если всплывает "закрыть"
                     if close:
                         c_or_k = fun.cancel_or_knob()  # ищем "кнопку" или "отменить" и если есть нажимаем
                         if c_or_k:  # нажимаем 'close'
-                            fun.move_to_click(c_or_k, 0)
+                            fun.mouse_move_to_click(c_or_k, 0)
                         else:  # если нет -> жмем 'close'
-                            fun.move_to_click(close, 0)
+                            fun.mouse_move_to_click(close, 0)
                 sleep(1)
 
             # energy_ = 0 # для выполнения одного цикла
@@ -227,37 +221,18 @@ def energy_gold():
 
 
 def energy_xp():
+
     close = fun.locCenterImg('img/everything/close.png', confidence=0.89)
     if close:
-        fun.move_to_click(close, 0)
+        fun.mouse_move_to_click(close, 0)
     # опознать героя
     hero = fun.selection_hero()
     while not hero:
         close = fun.locCenterImg('img/everything/close.png', confidence=0.89)
         if close:
-            fun.move_to_click(close, 0)
+            fun.mouse_move_to_click(close, 0)
         hero = fun.selection_hero()
     # получить список его заданий
-
-    # if hero == 'Gavr':
-    #     tasks_ = b_d.tasks_xp_gavr
-    #     wilt = fun.verifi_isolation(her.Gavr.isolation_end_date)
-    # elif hero == 'Gadya':
-    #     tasks_ = b_d.tasks_xp_v
-    #     wilt = fun.verifi_isolation(her.Gady.isolation_end_date)
-    # elif hero == 'Veles':
-    #     tasks_ = b_d.tasks_xp_vel
-    #     wilt = fun.verifi_isolation(her.Veles.isolation_end_date)
-    # elif hero == 'Mara':
-    #     tasks_ = b_d.tasks_xp_mar
-    #     wilt = fun.verifi_isolation(her.Mara.isolation_end_date)
-    # else:
-    #     tasks_ = None
-    #     wilt = None
-    #     print('сделай что нибуть, герой не опознан!!')
-    #     if not tasks_:
-    #         return
-
     if hero:
         print(f"имя {Hero.get_name(Active.hero_activ)}")
         tasks_ = Hero.get_task_xp(Active.hero_activ)
@@ -276,8 +251,9 @@ def energy_xp():
         review = 0
         q_call_pet = 0
         fun.open_taverna()
-        variant = task_selection_dict(tasks_)
-        fun.move_to_click(variant, 0.5)  # автомат
+        variant, value_en = task_selection_dict(tasks_)
+        Hero.set_en_now(Active.hero_activ, value=value_en)
+        fun.mouse_move_to_click(variant, 0.5)  # автомат
         x, y = variant
         x -= 200
         y -= 100
@@ -285,9 +261,9 @@ def energy_xp():
         pyautogui.moveTo(pos_g, duration=0.25)
         no_energy = verify_energy(4)
         if no_energy:
-            print(m_t.text_red('         NO ENERGY !!!'))
+            print(m_t.tc_red('         NO ENERGY !!!'))
             energy_ = None
-            fun.move_to_click(fun.wait_close('NO ENERGY !!!'), 0.3)
+            fun.mouse_move_to_click(fun.wait_close('NO ENERGY !!!'), 0.3)
             return hero
 
         else:
@@ -311,45 +287,45 @@ def energy_xp():
                 if review == 0:
                     if popup_xp:
                         review = 1
-                        print(m_t.text_cyan('         я учту это'))
+                        print(m_t.tc_cyan('         я учту это'))
                         sleep(0.2)
                         popup_xp = pyautogui.locateCenterOnScreen('img/energy/_popup_xp.png', confidence=par_conf,
                                                                   region=region_events)
-                        fun.move_to_click(popup_xp, 0.1)
-                        fun.move_to_click(fun.wait_close('я учту это'), 0)
+                        fun.mouse_move_to_click(popup_xp, 0.1)
+                        fun.mouse_move_to_click(fun.wait_close('я учту это'), 0)
                     if invite_friends:
                         review = 1
-                        print(m_t.text_cyan('         Пригласить друга'))
-                        fun.move_to_click(invite_friends, 0.1)
-                        fun.move_to_click(fun.cancel_or_knob(), 0)
+                        print(m_t.tc_cyan('         Пригласить друга'))
+                        fun.mouse_move_to_click(invite_friends, 0.1)
+                        fun.mouse_move_to_click(fun.cancel_or_knob(), 0)
                         close = fun.wait_close('Пригласить друга')
                         if close:
-                            fun.move_to_click(close, 0)
+                            fun.mouse_move_to_click(close, 0)
                     if treasure:
                         review = 1
-                        print(m_t.text_cyan('         Искать клад'))
+                        print(m_t.tc_cyan('         Искать клад'))
                         sleep(0.2)
                         treasure = pyautogui.locateCenterOnScreen('img/energy/_treasure.png', confidence=par_conf,
                                                                   region=region_events)
-                        fun.move_to_click(treasure, 0.1)
-                        fun.move_to_click(fun.cancel_or_knob(), 0)
+                        fun.mouse_move_to_click(treasure, 0.1)
+                        fun.mouse_move_to_click(fun.cancel_or_knob(), 0)
                     if yes_go:
                         review = 1
-                        print(m_t.text_cyan('         Да, поехали'))
+                        print(m_t.tc_cyan('         Да, поехали'))
                         sleep(0.2)
                         yes_go = pyautogui.locateCenterOnScreen('img/energy/_yes_go.png', confidence=par_conf,
                                                                 region=region_events)
-                        fun.move_to_click(yes_go, 0.1)
+                        fun.mouse_move_to_click(yes_go, 0.1)
                     if awake_friend:
                         review = 1
-                        print(m_t.text_cyan('Разбудить друга'))
+                        print(m_t.tc_cyan('Разбудить друга'))
                         awake_friend = pyautogui.locateCenterOnScreen('img/energy/_awake_friend.png',
                                                                       confidence=par_conf, region=region_events)
-                        fun.move_to_click(awake_friend, 0.1)
-                        fun.move_to_click(fun.cancel_or_knob(), 0)
+                        fun.mouse_move_to_click(awake_friend, 0.1)
+                        fun.mouse_move_to_click(fun.cancel_or_knob(), 0)
                         close = fun.wait_close('Разбудить друга')
                         if close:
-                            fun.move_to_click(close, 0)
+                            fun.mouse_move_to_click(close, 0)
                 skip_battle = fun.locCenterImg('img/everything/skip_battle.png', confidence=par_conf)
                 if skip_battle and q_call_pet == 0:
                     q_call_pet = 1
@@ -358,20 +334,23 @@ def energy_xp():
 
             link_battle_end = fun.wait_and_stop_img('img/link_battle_end.png')
             pyautogui.moveTo(link_battle_end, duration=0.25)
+
             if link_battle_end:
                 link_victory = fun.locCenterImg('img/energy/rezult_vick.png', confidence=0.9)
+                print(f'Сегодня потрачено {Hero.get_en_now(Active.hero_activ)} из '
+                      f'{Hero.get_en_sum(Active.hero_activ)} доступных')
                 if link_victory:
                     # print("Победа")
-                    fun.melodi_vic()
+                    fun.melody_vic()
                 else:
                     print("Неудача")
-                    fun.melodi_fail()
+                    fun.melody_fail()
                     Hero.set_isolation_end_date(Active.hero_activ)
                     energy_gold()
 
             close_img = fun.wait_and_stop_img('img/everything/close.png', 0.85)
             # закрыть сражение
-            fun.move_to_click(close_img, 0)
+            fun.mouse_move_to_click(close_img, 0)
             sleep(1)
             # сражение закрыто.
             close = fun.wait_close('ожидание всплывающего события')
@@ -379,18 +358,18 @@ def energy_xp():
             if close:
                 c_o_k = fun.cancel_or_knob()  # ищем "кнопку" или "отменить" и если есть нажимаем
                 if c_o_k:  # нажимаем 'close'
-                    fun.move_to_click(c_o_k, 0)
+                    fun.mouse_move_to_click(c_o_k, 0)
                 else:  # если нет -> жмем 'close'
-                    fun.move_to_click(close, 0)
+                    fun.mouse_move_to_click(close, 0)
 
                 close = fun.wait_close('ожидание всплывающего события')
                 # если всплывает "закрыть"
                 if close:
                     c_o_k = fun.cancel_or_knob()  # ищем "кнопку" или "отменить" и если есть нажимаем
                     if c_o_k:  # нажимаем 'close'
-                        fun.move_to_click(c_o_k, 0)
+                        fun.mouse_move_to_click(c_o_k, 0)
                     else:  # если нет -> жмем 'close'
-                        fun.move_to_click(close, 0)
+                        fun.mouse_move_to_click(close, 0)
             sleep(1)
 
         if energy_ == 0:
