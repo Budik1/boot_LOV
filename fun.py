@@ -37,7 +37,7 @@ def locCenterImg(name_img, confidence=0.9, region: tuple[int, int, int, int] | N
     return pos_img
 
 
-def wait_and_stop_img(name_img, param_confidence=0.85):
+def wait_and_stop_img(*, name_img, param_confidence=0.85, message=''):
     """    Ждет появление и фиксацию картинки    """
     # lookin_image = pyautogui.locateCenterOnScreen(path_and_name_img, confidence=param_confidence)
 
@@ -45,6 +45,8 @@ def wait_and_stop_img(name_img, param_confidence=0.85):
     sleep(0.3)
     img_2 = locCenterImg(name_img, param_confidence)
     while not img_1 or img_1 != img_2:
+        if message != '':
+            print(f'{message}')
         if img_1 or img_2:
             img_1 = locCenterImg(name_img, param_confidence)
             sleep(0.3)
@@ -65,15 +67,15 @@ def attack_guru():
         # print('guru', guru)
         mouse_move_to_click(guru, 0.2)
         # подтверждение открытия окна "наставник - ученик"
-        wait_and_stop_img('img/city/guru_and_students.png')
+        wait_and_stop_img(name_img='img/city/guru_and_students.png')
         # переход на экран атаки
-        attack_guru_img1 = wait_and_stop_img("img/city/attak_guru.png")
+        attack_guru_img1 = wait_and_stop_img(name_img="img/city/attak_guru.png")
         mouse_move_to_click(attack_guru_img1, 0.2)
         # нажать кнопку "атаковать"
-        in_battle_img = wait_and_stop_img('img/arena/in_battle.png')
+        in_battle_img = wait_and_stop_img(name_img='img/arena/in_battle.png')
         mouse_move_to_click(in_battle_img, 0.2)
         # нажать кнопку "закрыть"
-        close_img = wait_and_stop_img('img/everything/close.png', 0.85)
+        close_img = wait_and_stop_img(name_img='img/everything/close.png', param_confidence=0.85)
         mouse_move_to_click(close_img, 0.1)
         return name
     elif name == 'Mara':
@@ -102,10 +104,10 @@ def attack_guru():
         foto('img/city/button_at.png', (x, y, change_x, change_y))
         attack = locCenterImg('img/city/button_at.png')
         mouse_move_to_click(pos_click=attack, z_p_k=0.5)
-        in_battle_img = wait_and_stop_img('img/arena/in_battle.png')
+        in_battle_img = wait_and_stop_img(name_img='img/arena/in_battle.png')
         mouse_move_to_click(in_battle_img, 0.2)
         # нажать кнопку "закрыть"
-        close_img = wait_and_stop_img('img/everything/close.png', 0.85)
+        close_img = wait_and_stop_img(name_img='img/everything/close.png', param_confidence=0.85)
         mouse_move_to_click(close_img, 0.1)
         return name
     else:
@@ -216,6 +218,7 @@ def mouse_move_to_click(pos_click: tuple, move_time=0.5, z_p_k=0.2):
     sleep(0.18)
     return
 
+
 def mouse_take_drag_drop_y(pos_take, dist, speed=0.2):
     pyautogui.mouseDown(pos_take)
     x, y = pos_take
@@ -232,7 +235,7 @@ def foto(path_name, _region):
 
 
 def find_link_i():
-    pos_i = wait_and_stop_img('img/everything/info1.png')
+    pos_i = wait_and_stop_img(name_img='img/everything/info1.png')
     return pos_i
 
 
@@ -483,9 +486,12 @@ def verifi_isolation(date_end_isolation):
     return: int
     """
     day_now = datetime.datetime.now()
-    time_diff = date_end_isolation - day_now
-    days_left = time_diff.days
-    if days_left < 0:
+    if type(date_end_isolation) == type(day_now):
+        time_diff = date_end_isolation - day_now
+        days_left = time_diff.days
+        if days_left < 0:
+            days_left = 0
+    else:
         days_left = 0
     return days_left
 

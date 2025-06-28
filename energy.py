@@ -1,10 +1,14 @@
 import pyautogui
 from playsound3 import playsound
 from time import sleep
+
+from pyexpat.errors import messages
+
 import fun
 import baza_dannyx as b_d
 import creating_photo
 import heroes
+import solid_memory
 import my_color_text as m_t
 from heroes import Hero, Active
 
@@ -31,6 +35,10 @@ def foto_pos():
 
 
 def verify_energy(q_it):
+    """
+    :param q_it: количество циклов ожидания
+    :return: Point / False
+    """
     it = 0
     not_energy = fun.locCenterImg('img/energy/not_energy.png', confidence=0.9)  # ??
     while not not_energy and it < q_it:
@@ -50,7 +58,8 @@ def task_selection_dict(tasks):
                 vers_in_print = '' if conf == 0.99 else m_t.tc_red(f', conf={conf}')
                 # print(f"{tasks[img]}, conf={conf}")
                 en = fun.extraction_digit(item=tasks[img])
-                print(f"{tasks[img]}{vers_in_print} {en} потрачено")
+                # print(f"{tasks[img]}{vers_in_print} {en} потрачено")
+                # task_message = f"{vers_in_print} {en} потрачено"
                 # print('проверь наличие и место')
                 x, y = task_pos
                 y -= 40
@@ -88,9 +97,9 @@ def energy_gold():
         review = 0
         fun.open_taverna()
         variant, value_en = task_selection_dict(tasks_)
-        Hero.set_en_now(Active.hero_activ, value=value_en)
 
         if not variant:
+            print('нет подходящих вариантов ))')
             return
         else:
             fun.mouse_move_to_click(variant, 0.5)
@@ -105,8 +114,13 @@ def energy_gold():
                 energy_ = False
                 fun.mouse_move_to_click(fun.wait_close('NO ENERGY !!!'), 0.3)
                 return hero
-
             else:
+                Hero.set_en_now(Active.hero_activ, value=value_en)
+                Hero.set_energy_count_all(Active.hero_activ, value=value_en)
+                print(f'потрачено сейчас {value_en},'
+                      f' сегодня {Hero.get_en_now(Active.hero_activ)} из {Hero.get_en_sum(Active.hero_activ)},'
+                      f'всего {Hero.get_energy_count_all(Active.hero_activ)}')
+                solid_memory.save_to_file(info=False)
                 pos_i = fun.find_link_i()
                 taverna = fun.locCenterImg('img/energy/link_taverna.png', confidence=0.9)
                 while taverna:
@@ -175,12 +189,12 @@ def energy_gold():
                         q_call_pet = 1
                         fun.call_pet(pos_i)
                     link_battle_end = fun.locCenterImg('img/link_battle_end.png', confidence=0.9)
-                link_battle_end = fun.wait_and_stop_img('img/link_battle_end.png')
+                link_battle_end = fun.wait_and_stop_img(name_img='img/link_battle_end.png')
                 pyautogui.moveTo(link_battle_end, duration=0.25)
                 if link_battle_end:
                     link_victory = fun.locCenterImg('img/energy/rezult_vick.png', confidence=0.9)
-                    print(f'Сегодня потрачено {Hero.get_en_now(Active.hero_activ)} из '
-                          f'{Hero.get_en_sum(Active.hero_activ)} доступных')
+                    # print(f'Сегодня потрачено {Hero.get_en_now(Active.hero_activ)} из '
+                    #       f'{Hero.get_en_sum(Active.hero_activ)} доступных')
                     if link_victory:
                         # print("Победа")
                         fun.melody_vic()
@@ -188,7 +202,7 @@ def energy_gold():
                         print("Неудача")
                         fun.melody_fail()
 
-                close_img = fun.wait_and_stop_img('img/everything/close.png', 0.85)
+                close_img = fun.wait_and_stop_img(name_img='img/everything/close.png', param_confidence=0.85)
                 # закрыть сражение
                 fun.mouse_move_to_click(close_img, 0)
                 sleep(1)
@@ -252,7 +266,6 @@ def energy_xp():
         q_call_pet = 0
         fun.open_taverna()
         variant, value_en = task_selection_dict(tasks_)
-        Hero.set_en_now(Active.hero_activ, value=value_en)
         fun.mouse_move_to_click(variant, 0.5)  # автомат
         x, y = variant
         x -= 200
@@ -267,6 +280,12 @@ def energy_xp():
             return hero
 
         else:
+            Hero.set_en_now(Active.hero_activ, value=value_en)
+            Hero.set_energy_count_all(Active.hero_activ, value=value_en)
+            print(f'потрачено сейчас {value_en},'
+                  f' сегодня {Hero.get_en_now(Active.hero_activ)} из {Hero.get_en_sum(Active.hero_activ)},'
+                  f'всего {Hero.get_energy_count_all(Active.hero_activ)}')
+            solid_memory.save_to_file(info=False)
             pos_i = fun.find_link_i()
             taverna = fun.locCenterImg('img/energy/link_taverna.png', confidence=0.9)
             while taverna:
@@ -332,13 +351,13 @@ def energy_xp():
                     fun.call_pet(pos_i)
                 link_battle_end = fun.locCenterImg('img/link_battle_end.png', confidence=0.9)
 
-            link_battle_end = fun.wait_and_stop_img('img/link_battle_end.png')
+            link_battle_end = fun.wait_and_stop_img(name_img='img/link_battle_end.png')
             pyautogui.moveTo(link_battle_end, duration=0.25)
 
             if link_battle_end:
                 link_victory = fun.locCenterImg('img/energy/rezult_vick.png', confidence=0.9)
-                print(f'Сегодня потрачено {Hero.get_en_now(Active.hero_activ)} из '
-                      f'{Hero.get_en_sum(Active.hero_activ)} доступных')
+                # print(f'Сегодня потрачено {Hero.get_en_now(Active.hero_activ)} из '
+                #       f'{Hero.get_en_sum(Active.hero_activ)} доступных')
                 if link_victory:
                     # print("Победа")
                     fun.melody_vic()
@@ -348,7 +367,7 @@ def energy_xp():
                     Hero.set_isolation_end_date(Active.hero_activ)
                     energy_gold()
 
-            close_img = fun.wait_and_stop_img('img/everything/close.png', 0.85)
+            close_img = fun.wait_and_stop_img(name_img='img/everything/close.png', param_confidence=0.85)
             # закрыть сражение
             fun.mouse_move_to_click(close_img, 0)
             sleep(1)

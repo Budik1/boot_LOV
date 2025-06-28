@@ -6,7 +6,7 @@ class Hero:
 
     def __init__(self, name, task_gold, task_xp, energy_sum, name_in_file=None):
         self.name = name
-        self.energy_status = 0
+        self.energy_status = 0  # переменная
         self.case_status = 0
         self.guru_status = 0
         self.gift_status = 0
@@ -17,7 +17,8 @@ class Hero:
         self.name_in_file = name_in_file
 
         self.energy_sum = energy_sum # общее значение энергии при старте суток
-        self.energy_count_used_now = 0 # потрачено сегодня
+        self.energy_count_now = 0 # потрачено сегодня
+        self.energy_count_all = 0  # потрачено всего
         self.energy_task_value = 0 # потрачено на задание
 
         # к-в боёв общее
@@ -62,13 +63,19 @@ class Hero:
         return self.energy_sum
 
     def get_en_now(self):
-        return self.energy_count_used_now
+        return self.energy_count_now
 
     def get_hero_name_in_file(self):
         return self.name_in_file
 
+    def get_energy_count_all(self):
+        return self.energy_count_all
+
+    def set_energy_count_all(self, value):
+        self.energy_count_all += value
+
     def set_en_now(self, value):
-        self.energy_count_used_now += value
+        self.energy_count_now += value
 
     def set_duel_qty(self):
         self.qty_all += 1
@@ -91,7 +98,7 @@ class Active:
     hero_activ = None
     check_date = ''
     date_now = ''
-    max_time_wait_load = 0
-    max_time_wait_id = 0
+    max_time_wait_load = 8
+    max_time_wait_id = 9
 
 # Hero.get_qty_all_victory(Active.hero_activ)

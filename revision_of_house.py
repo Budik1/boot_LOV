@@ -55,12 +55,8 @@ def go_in_haus():
 
 def to_house():
     # print('to_house')
-    ik_haus = wait_and_stop_img('img/ik_haus.png')
-    # sleep(2)
-    # ik_haus = pyautogui.locateCenterOnScreen('img/ik_haus.png', confidence=0.9)
-    # while not ik_haus:
-    #     sleep(0.5)
-    #     ik_haus = pyautogui.locateCenterOnScreen('img/ik_haus.png', confidence=0.9)
+    ik_haus = wait_and_stop_img(name_img='img/ik_haus.png')
+
 
     return ik_haus
 
@@ -91,7 +87,7 @@ def find_sunduk():
 
 def go_out_haus():
     # print('go_out_haus')
-    out_haus_img = wait_and_stop_img('img/go_out_haus.png')
+    out_haus_img = wait_and_stop_img(name_img='img/go_out_haus.png')
     # sleep(2)
     # out_haus_img = pyautogui.locateCenterOnScreen('img/go_out_haus.png', confidence=0.9)
     # while not out_haus_img:
@@ -101,7 +97,7 @@ def go_out_haus():
 
 
 def revision_of_house():
-    hero_v_r_h = selection_hero()
+    hero_v_r_h = selection_hero(show_name=False)
     if hero_v_r_h:
         sum_vi = 0
         find_su = 0
@@ -125,7 +121,7 @@ def revision_of_house():
                     mouse_move_to_click(sunduk, 0.2)
                     find_su += 1
                     find_su_color = str(find_su)
-                    close_img = wait_and_stop_img('img/everything/close.png', 0.89)
+                    close_img = wait_and_stop_img(name_img='img/everything/close.png',param_confidence= 0.89)
                     # close = pyautogui.locateCenterOnScreen('img/everything/close.png', confidence=0.89)
                     # sleep(0.2)
                     # close_1 = pyautogui.locateCenterOnScreen('img/everything/close.png', confidence=0.89)

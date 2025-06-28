@@ -1,4 +1,3 @@
-import pyautogui
 import time
 
 import fun
@@ -65,7 +64,7 @@ def change_acc(*, hero_name_in_file):
     # развернуть окно
     img_button_expand = find.find_expand()
     fun.mouse_move_to_click(pos_click=img_button_expand)
-    fun.wait_and_stop_img('img/everything/event_entry/collapse.png')
+    fun.wait_and_stop_img(name_img='img/everything/event_entry/collapse.png', message='жду collapse')
     print('окно окончательно развернуто, можно открывать меню')
     # вычисление позиции меню смены аккаунта
     pos = find.find_my_games()
@@ -98,11 +97,12 @@ def change_acc(*, hero_name_in_file):
     home_page = mark_progress_load and mark_load_game_img
     interval_load_time = -1
     interval_id_time = -1
-    extra_time = 6
+    extra_time = 4
     while not home_page:
         if load_game_img:
             print('окно загрузки игры есть')
             mark_load_game_img = True
+            # print(f'{mark_load_game_img=} 1')
             pos_slider = find.find_slider()
             # fun.mouse_move(pos=pos_slider)
             # pyautogui.dragTo(pos_slider[0], pos_slider[1] + 80, duration=5)
@@ -115,6 +115,8 @@ def change_acc(*, hero_name_in_file):
                 pos_not_progress_load = find.find_progress_load()
                 present_time = time.time()
                 pause = round(present_time - start_time)
+                mark_progress_load = True
+                # print(f'{mark_progress_load=} 1')
                 if pause != interval_load_time:
                     interval_load_time = pause
                     print(f'{pause=} в ожидании загрузки игры')
@@ -124,7 +126,7 @@ def change_acc(*, hero_name_in_file):
                     mark_load_game_img = False
                     break
 
-            mark_progress_load = True
+            # mark_progress_load = True
         # если нет окна загрузки игры
         else:
             # print('нет окна загрузки игры')
@@ -145,7 +147,24 @@ def change_acc(*, hero_name_in_file):
         # pos_fountain = find.find_fountain()
         load_game_img = find.find_load_game()
         home_page = mark_progress_load and mark_load_game_img
-    fun.wait_and_stop_img('img/city/fountain_on_the_square.png')
+    # fun.wait_and_stop_img(name_img='img/city/fountain_on_the_square.png', message='жду появления фонтана')
+
+    stop_close_img = False
+    stop_fountain_img = False
+    while not stop_close_img  and not stop_fountain_img:
+        print('жду окончания загрузки')
+        close_img1 = find.find_close()
+        fountain_img1 = find.find_fountain()
+        close_img2 = find.find_close()
+        fountain_img2 = find.find_fountain()
+        if (close_img1 == close_img2) and close_img1:
+            stop_close_img = True
+        else:
+            stop_close_img = False
+        if (fountain_img1 == fountain_img2) and fountain_img1:
+            stop_fountain_img = True
+        else:
+            stop_fountain_img = False
 
     pos_progress = find.find_progress()
     if pos_progress:

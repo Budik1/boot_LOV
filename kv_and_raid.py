@@ -94,7 +94,8 @@ def read_data_kv():
             print(her.Gady.date_start_kv, date_kv_load_gady)
             # her.Gady.hour_start_kv_ver = 9
 
-            if date_kv_load_gady == her.Gady.date_start_kv and (her.Gady.hour_start_kv_ver - her.Gady.hour_start_kv) <= 3:
+            if date_kv_load_gady == her.Gady.date_start_kv and (
+                    her.Gady.hour_start_kv_ver - her.Gady.hour_start_kv) <= 3:
                 print('her.Gady.hour_start_kv_ver = ', her.Gady.hour_start_kv_ver)
                 print('her.Gady.hour_start_kv = ', her.Gady.hour_start_kv)
                 print(her.Gady.hour_start_kv_ver - her.Gady.hour_start_kv)
@@ -110,7 +111,8 @@ def read_data_kv():
                 save_data_kv()
         if hero_name == 'Gavr':
             print(f'всего боёв {her.Gavr.qty_all}, из них {her.Gavr.qty_all_victory} побед')
-            if date_kv_load_gavr == her.Gavr.date_start_kv and (her.Gavr.hour_start_kv_ver - her.Gavr.hour_start_kv) <= 3:
+            if date_kv_load_gavr == her.Gavr.date_start_kv and (
+                    her.Gavr.hour_start_kv_ver - her.Gavr.hour_start_kv) <= 3:
                 her.Gavr.qty_kv_all = data_kv_to_load['к-во_боёв-в-кв_gavr']
                 her.Gavr.qty_kv_victory = data_kv_to_load['к-во_побед-в-кв_gavr']
                 print(m_t.tc_green("Дата-время кв совпадают"),
@@ -136,12 +138,12 @@ def kv():
         print(m_t.tc_red("Герой не опознан"))
         exit_kv_img = fun.locCenterImg('img/everything/exit.png')
         fun.mouse_move_to_click(exit_kv_img, 0)
-        fun.wait_and_stop_img('img/everything/info1.png', 0.9)
+        fun.wait_and_stop_img(name_img='img/everything/info1.png', param_confidence=0.9)
         hero_name = fun.selection_hero()
     if hero_name == 'Gadya':
         in_clan = fun.pos_clan()
         fun.mouse_move_to_click(in_clan, 0)
-        btn_battles = fun.wait_and_stop_img('img/kv/battles.png', 0.9)
+        btn_battles = fun.wait_and_stop_img(name_img='img/kv/battles.png', param_confidence=0.9)
         fun.mouse_move_to_click(btn_battles, 0)
 
         read_data_kv()  # устновка значений в соответствии с файлом 'config_kv.txt'
@@ -151,7 +153,7 @@ def kv():
     if hero_name == 'Gavr':
         in_clan = fun.pos_clan()
         fun.mouse_move_to_click(in_clan, 0)
-        btn_battles = fun.wait_and_stop_img('img/kv/battles.png', 0.9)
+        btn_battles = fun.wait_and_stop_img(name_img='img/kv/battles.png', param_confidence=0.9)
         fun.mouse_move_to_click(btn_battles, 0)
         read_data_kv()  # устновка значений в соответствии с файлом 'config_kv.txt'
         her.Gavr.hour_start_kv = int(time.strftime('%H'))
@@ -165,7 +167,7 @@ def kv():
         print(m_t.tc_cyan('рейд!!!'))
         img_raids = fun.locCenterImg('img/kv/raids.png')
         fun.mouse_move_to_click(img_raids, 0)
-        fun.wait_and_stop_img('img/kv/update.png')
+        fun.wait_and_stop_img(name_img='img/kv/update.png')
     fun.click_update()
 
     q_duel_start = True  # Флаг входа в дуэль, имеет состояния True/False. Если True - вход возможен
@@ -187,7 +189,7 @@ def kv():
                 print(m_t.tc_cyan('рейд!!! из цикла КВ'))
                 img_raids = fun.locCenterImg('img/kv/raids.png')
                 fun.mouse_move_to_click(img_raids, 0)
-                fun.wait_and_stop_img('img/kv/update.png')
+                fun.wait_and_stop_img(name_img='img/kv/update.png')
                 fun.click_update()
                 print("при первом пуске ? до цикла в рейде стр 190")
         # if not check_vs: # нужен счетчик
@@ -212,7 +214,7 @@ def kv():
             fun.mouse_move_to_click(duel_start, 0)
             # задержка для выполнения действий в бою
             if hero_name == 'Gadya':
-                gady_name_hero = fun.wait_and_stop_img('img/kv/gady.png')
+                gady_name_hero = fun.wait_and_stop_img(name_img='img/kv/gady.png')
 
             if time_raid:
                 bomba_img = fun.locCenterImg('img/kv/bomba.png')
@@ -235,7 +237,7 @@ def kv():
                 her.Gady.qty_kv_all += 1
             print(m_t.tc_yellow("дуэль в кв окончена"))
             # задержка для определени победа/поражение
-            duel_over = fun.wait_and_stop_img('img/kv/duel_over.png', 0.8)
+            duel_over = fun.wait_and_stop_img(name_img='img/kv/duel_over.png', param_confidence=0.8)
             pyautogui.moveTo(duel_over, duration=0.5)
             img_duel_victory = fun.locCenterImg('img/kv/kv_duel_victory.png', 0.9)
             img_duel_defeat = fun.locCenterImg('img/kv/kv_duel_defeat.png', 0.9)
@@ -282,14 +284,14 @@ def kv():
                     print(m_t.tc_cyan(
                         f'в кв боёв {her.Gady.qty_kv_all}, побед {her.Gady.qty_kv_victory} ({percent_vik_in_kv}%)'))
             fun.push_close()
-            clan_var_img = fun.wait_and_stop_img('img/kv/clan_var.png', 0.9)
+            clan_var_img = fun.wait_and_stop_img(name_img='img/kv/clan_var.png', param_confidence=0.9)
             save_data_kv()
             #
             if time_raid:
                 # print(text_cyan('в цикле рейд!!!'))
                 img_raids = fun.locCenterImg('img/kv/raids.png')
                 fun.mouse_move_to_click(img_raids, 0)
-                fun.wait_and_stop_img('img/kv/update.png')
+                fun.wait_and_stop_img(name_img='img/kv/update.png')
 
             fun.click_update()
 
@@ -297,7 +299,7 @@ def kv():
         if duel_over and clan_raid_img:
             q_duel_start = True
             print(m_t.tc_yellow("дуэль в рейде окончена"))
-            duel_over = fun.wait_and_stop_img('img/kv/duel_over.png', 0.8)
+            duel_over = fun.wait_and_stop_img(name_img='img/kv/duel_over.png', param_confidence=0.8)
             pyautogui.moveTo(duel_over, duration=0.5)
 
             fun.push_close()
@@ -314,18 +316,18 @@ def kv():
                     in_clan = fun.pos_clan()
                     fun.mouse_move_to_click(in_clan, 0)
                     # поиск рейдов и нажать
-                    clan_raid_img = fun.wait_and_stop_img('img/kv/raids.png', 0.9)
+                    clan_raid_img = fun.wait_and_stop_img(name_img='img/kv/raids.png',param_confidence= 0.9)
                     fun.mouse_move_to_click(clan_raid_img, 0)
                 if hero_name == 'Gavr':
-                    in_clan = fun.wait_and_stop_img('img/kv/clan_gavr.png', 0.9)
+                    in_clan = fun.wait_and_stop_img(name_img='img/kv/clan_gavr.png',param_confidence= 0.9)
                     fun.mouse_move_to_click(in_clan, 0)
 
-            raids_img = fun.wait_and_stop_img('img/kv/raids.png', 0.9)
+            raids_img = fun.wait_and_stop_img(name_img='img/kv/raids.png',param_confidence= 0.9)
             fun.mouse_move_to_click(raids_img, 0)
 
             img_battle = fun.locCenterImg('img/kv/battles.png')
             fun.mouse_move_to_click(img_battle, 0)
-            fun.wait_and_stop_img('img/kv/update.png')
+            fun.wait_and_stop_img(name_img='img/kv/update.png')
 
             check_vs = fun.locCenterImg('img/kv/_VS.png')
             print("VS = ", bool(check_vs))
@@ -336,7 +338,7 @@ def kv():
             if not check_vs:
                 img_raids = fun.locCenterImg('img/kv/raids.png')
                 fun.mouse_move_to_click(img_raids, 0)
-                fun.wait_and_stop_img('img/kv/update.png')
+                fun.wait_and_stop_img(name_img='img/kv/update.png')
                 fun.click_update()
                 print('чего ждем? 335 стр')
                 # возврат в рейд и ожидание кнопки атаковать
