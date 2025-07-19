@@ -15,9 +15,9 @@ def verification_date(*, read_date):
 
 def setting_recoverable_value(*, read_date):
     verification_date(read_date=read_date)
-    print('solid_memory.setting_updatable_value()')
-    print(f'{her.Active.date_now=}')
-    print(f'{her.Active.check_date=}')
+    # print('solid_memory.setting_recoverable_value()')
+    # print(f'{her.Active.date_now=}')
+    # print(f'{her.Active.check_date=}')
     her.Active.max_time_wait_load = read_date['max_time_wait_load']
     her.Active.max_time_wait_id = read_date['max_time_wait_id']
 
@@ -122,8 +122,8 @@ def save_to_file(*, info=True):
         'Мара-дата-конца карантина': her.Mara.isolation_end_date,
     }
     if info:
-        print('solid_memory.save_to_file()')
-        print(f'{data_to_save['дата']=}')
+        # print('solid_memory.save_to_file()')
+        # print(f'{data_to_save['дата']=}')
         print('запись')
     # print(f'{her.Gady.isolation_end_date} для Гади')
     # print(f'{her.Gavr.isolation_end_date} для Гавра')
@@ -145,6 +145,6 @@ def reading_file():
     except:
         print(mct.tc_red('Config поврежден или не создан)))'))
         result = False, False
-        save_to_file(info=False)
+        save_to_file(info=True)
     # print("передача данных")
     return result

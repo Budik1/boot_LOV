@@ -71,17 +71,17 @@ class Hero:
     def get_energy_count_all(self):
         return self.energy_count_all
 
-    def set_energy_count_all(self, value):
+    def ap_energy_count_all(self, value):
         self.energy_count_all += value
 
-    def set_en_now(self, value):
+    def ap_en_now(self, value):
         self.energy_count_now += value
 
-    def set_duel_qty(self):
+    def ap_duel_qty(self):
         self.qty_all += 1
         self.qty_kv_all += 1
 
-    def set_isolation_end_date(self):
+    def ap_isolation_end_date(self):
         day_now = datetime.datetime.now()
         self.isolation_end_date = day_now + datetime.timedelta(days=10)
         print(f'установлен карантин на 10 дней для {Hero.get_name(Active.hero_activ)}')
@@ -100,5 +100,6 @@ class Active:
     date_now = ''
     max_time_wait_load = 8
     max_time_wait_id = 9
+
 
 # Hero.get_qty_all_victory(Active.hero_activ)

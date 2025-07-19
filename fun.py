@@ -1,26 +1,15 @@
-from playsound3 import playsound
 import pyautogui
 from time import sleep
 import datetime
 
+import find_img
 import find_img as find
+# import fun
 import fun_down
 import my_color_text as m_t
 import heroes as her
 
 log = 1
-
-
-def melody_vic():
-    playsound("muz/success.mp3")
-
-
-def melody_fail():
-    playsound('muz/fail.mp3')
-
-
-def melody_pet():
-    playsound('muz/yagnenok.mp3')
 
 
 def one_in_two(symbol):
@@ -37,81 +26,25 @@ def locCenterImg(name_img, confidence=0.9, region: tuple[int, int, int, int] | N
     return pos_img
 
 
-def wait_and_stop_img(*, name_img, param_confidence=0.85, message=''):
+def wait_and_stop_img(*, name_img, region: tuple[int, int, int, int] | None = None, param_confidence=0.85, message=''):
     """    Ждет появление и фиксацию картинки    """
-    # lookin_image = pyautogui.locateCenterOnScreen(path_and_name_img, confidence=param_confidence)
 
-    img_1 = locCenterImg(name_img, param_confidence)
+    img_1 = locCenterImg(name_img, region=region, confidence=param_confidence)
     sleep(0.3)
-    img_2 = locCenterImg(name_img, param_confidence)
+    img_2 = locCenterImg(name_img, region=region, confidence=param_confidence)
     while not img_1 or img_1 != img_2:
         if message != '':
             print(f'{message}')
         if img_1 or img_2:
-            img_1 = locCenterImg(name_img, param_confidence)
+            img_1 = locCenterImg(name_img, region=region, confidence=param_confidence)
             sleep(0.3)
-            img_2 = locCenterImg(name_img, param_confidence)
+            img_2 = locCenterImg(name_img, region=region, confidence=param_confidence)
         else:
-            img_1 = locCenterImg(name_img, param_confidence)
+            img_1 = locCenterImg(name_img, region=region, confidence=param_confidence)
             sleep(0.3)
-            img_2 = locCenterImg(name_img, param_confidence)
+            img_2 = locCenterImg(name_img, region=region, confidence=param_confidence)
     if img_1 == img_2 and img_1:
         return img_2
-
-
-def attack_guru():
-    name = selection_hero()
-    if name == 'Gavr' or name == 'Gadya' or name == 'Veles':
-        # переход на экран 'ученики и наставники'
-        guru = find.find_guru()
-        # print('guru', guru)
-        mouse_move_to_click(guru, 0.2)
-        # подтверждение открытия окна "наставник - ученик"
-        wait_and_stop_img(name_img='img/city/guru_and_students.png')
-        # переход на экран атаки
-        attack_guru_img1 = wait_and_stop_img(name_img="img/city/attak_guru.png")
-        mouse_move_to_click(attack_guru_img1, 0.2)
-        # нажать кнопку "атаковать"
-        in_battle_img = wait_and_stop_img(name_img='img/arena/in_battle.png')
-        mouse_move_to_click(in_battle_img, 0.2)
-        # нажать кнопку "закрыть"
-        close_img = wait_and_stop_img(name_img='img/everything/close.png', param_confidence=0.85)
-        mouse_move_to_click(close_img, 0.1)
-        return name
-    elif name == 'Mara':
-        con = 0.87
-        guru = locCenterImg('img/city/i_am_guru.png', confidence=con)
-        while not guru:
-            arr = locCenterImg('img/city/arrow_right.png')
-            mouse_move_to_click(arr, 0)
-            x, y = arr
-            y -= 30
-            pos = x, y
-            mouse_move(pos=pos)
-            guru = locCenterImg('img/city/test_guru.png', confidence=con)
-        mouse_move(pos=guru)
-        mouse_move_to_click(pos_click=guru, z_p_k=0)
-        x, y = guru
-        x -= 26
-        y -= 46
-        mouse_move(pos=(x, y), speed=0.5)
-        x_demo, y_demo = x, y
-        change_x = 20
-        change_y = 20
-        x_demo += change_x
-        y_demo += change_y
-        mouse_move(pos=(x_demo, y_demo), speed=0.5)
-        foto('img/city/button_at.png', (x, y, change_x, change_y))
-        attack = locCenterImg('img/city/button_at.png')
-        mouse_move_to_click(pos_click=attack, z_p_k=0.5)
-        in_battle_img = wait_and_stop_img(name_img='img/arena/in_battle.png')
-        mouse_move_to_click(in_battle_img, 0.2)
-        # нажать кнопку "закрыть"
-        close_img = wait_and_stop_img(name_img='img/everything/close.png', param_confidence=0.85)
-        mouse_move_to_click(close_img, 0.1)
-        return name
-    else:
-        pass
 
 
 def click_update(info=None):
@@ -126,11 +59,11 @@ def click_update(info=None):
     if info:
         return update
     else:
-        mouse_move_to_click(update, 0.1)
+        Mouse.move_to_click(update, 0.1)
         x, y = update
         x -= 25
         y += 25
-        pyautogui.moveTo(x, y)
+        Mouse.move(pos=(x, y))
 
 
 def my_print_to_file(text):
@@ -146,7 +79,7 @@ def my_print_to_file(text):
 def time_now(date_class=False):
     """Если True:
             возвращает объект datetime.datetime
-        Иначе
+        Иначе:
             возвращает объект str"""
     now = datetime.datetime.now()
     # '%Y-%m-%d_%H:%M:%S' '%Y-%m-%d %H°%M\'\'%S\''
@@ -177,6 +110,70 @@ def date_utc_now():
 
 
 date_start_prog = date_utc_now()
+
+
+class Mouse:
+
+    @staticmethod
+    def left_click(*, pos):
+        # playsound('sound/mouse-click.wav')
+        pyautogui.click(pos)
+        pyautogui.hotkey('Ctrl')
+        return
+
+    @staticmethod
+    def right_click():
+        pyautogui.click(button='RIGHT')
+        pyautogui.hotkey('Ctrl')
+        return
+
+    @staticmethod
+    def move(*, pos: tuple, speed=0.2, show=True):
+        if show:
+            pyautogui.moveTo(pos, duration=speed)
+        return
+
+    @staticmethod
+    def move_to_click(pos_click: tuple, speed=0.5, z_p_k=0.2):
+        """
+        Поместить указатель мыши по координатам и кликнуть, учитывая задержку.
+        :param pos_click: Point
+        :param speed: время перемещения указателя мыши в секундах
+        :param z_p_k: задержка перед кликом(float)
+        :return: None
+        """
+        my_print_to_file('move_to_click')
+        sleep(0.3)
+        mouse_move(pos=pos_click, speed=speed)  # , tween=pyautogui.easeInOutQuad
+        # print('должен быть клик')
+        sleep(z_p_k)
+        if pos_click:
+            mouse_left_click(pos=pos_click)
+        else:
+            print("некуда кликать")
+        sleep(0.18)
+        return
+
+    @staticmethod
+    def mouse_move_to_click(pos_click: tuple, move_time=0.5, z_p_k=0.2):
+        """
+        Поместить указатель мыши по координатам и кликнуть, учитывая задержку.
+        :param pos_click: Point
+        :param move_time: время перемещения указателя мыши в секундах
+        :param z_p_k: задержка перед кликом(float)
+        :return: None
+        """
+        my_print_to_file('move_to_click')
+        sleep(0.3)
+        mouse_move(pos=pos_click, speed=move_time)  # , tween=pyautogui.easeInOutQuad
+        # print('должен быть клик')
+        sleep(z_p_k)
+        if pos_click:
+            mouse_left_click(pos=pos_click)
+        else:
+            print("некуда кликать")
+        sleep(0.18)
+        return
 
 
 def mouse_left_click(*, pos):
@@ -245,7 +242,7 @@ def open_taverna():
     if taverna:
         sleep(1)
         taverna = locCenterImg('img/energy/link_taverna.png')
-        pyautogui.moveTo(taverna, duration=1)
+        Mouse.move(pos=taverna, speed=1)
         return taverna
     else:
         pos = find_link_i()
@@ -253,14 +250,14 @@ def open_taverna():
         x += 70
         y += 140
         pos = x, y
-        mouse_move_to_click(pos, 0.2)
+        Mouse.move_to_click(pos_click=pos, speed=0.2)
         taverna = locCenterImg('img/energy/link_taverna.png')
         while not taverna:
             sleep(0.1)
             taverna = locCenterImg('img/energy/link_taverna.png')
         sleep(1)
         taverna = locCenterImg('img/energy/link_taverna.png')
-        pyautogui.moveTo(taverna, duration=1)
+        Mouse.move(pos=taverna, speed=1)
         return taverna
 
 
@@ -276,7 +273,7 @@ def push_close():
             my_print_to_file("поиск close")
     if close:
         my_print_to_file(f'close = {close}')
-        mouse_move_to_click(close, 0.1)
+        Mouse.move_to_click(pos_click=close, speed=0.1)
 
 
 def push_close_all_():
@@ -293,29 +290,18 @@ def push_close_all_():
 
 def close_popup_window():
     print('def "fun.close_popup_window"')
-    knob = locCenterImg('img/everything/knob.png', 0.89)
-    cancel = locCenterImg('img/everything/cancel.png', 0.89)
+    knob = find_img.find_knob()
+    cancel = find_img.find_cancel()
     if knob:
         sleep(1)
-        knob = locCenterImg('img/everything/knob.png', 0.89)
+        knob = find_img.find_knob()
         print("снять галочку")
-        mouse_move_to_click(knob, 1)
+        Mouse.move_to_click(pos_click=knob, speed=1)
     if cancel:
         sleep(1)
-        cancel = locCenterImg('img/cancel.png', 0.89)
+        cancel = find_img.find_cancel()
         print('нажал отменить')
-        mouse_move_to_click(cancel, 1)
-
-
-def exit_to_fountain():
-    # print('fun.exit_to_fountain')
-    img_to_fountain = locCenterImg('img/to_fountain_from_houses.png')
-    while not img_to_fountain:
-        sleep(1)
-        print(img_to_fountain, 'to_fountain')
-        img_to_fountain = locCenterImg('img/to_fountain_from_houses.png', 0.85)
-
-    mouse_move_to_click(img_to_fountain, 0.5)
+        Mouse.move_to_click(pos_click=cancel, speed=1)
 
 
 def wait_close(txt):
@@ -337,22 +323,22 @@ def wait_close(txt):
 def cancel_or_knob():
     print('fun.cancel_or_knob')
     it = 0
-    cancel = locCenterImg('img/everything/cancel.png', 0.89)
-    knob = locCenterImg('img/everything/knob.png', 0.89)
+    cancel = find_img.find_cancel()
+    knob = find_img.find_knob()
     while not cancel and not knob and it < 2:
         it += 0.2
         # print(cancel, '= cancel', knob, '= knob')
         sleep(0.1)
-        cancel = locCenterImg('img/everything/cancel.png', 0.89)
-        knob = locCenterImg('img/everything/knob.png', 0.89)
+        cancel = find_img.find_cancel()
+        knob = find_img.find_knob()
     if cancel:
         sleep(0.1)
-        cancel = locCenterImg('img/everything/cancel.png', 0.89)
-        mouse_move_to_click(cancel, 0)
+        cancel = find_img.find_cancel()
+        Mouse.move_to_click(pos_click=cancel, speed=0)
     if knob:
         sleep(0.1)
-        knob = locCenterImg('img/everything/knob.png', 0.89)
-        mouse_move_to_click(knob, 0)
+        knob = find_img.find_knob()
+        Mouse.move_to_click(pos_click=knob, speed=0)
     close = wait_close('cancel_or_knob')
     return close
 
@@ -395,10 +381,10 @@ def to_fountain():
     fountain2 = locCenterImg('img/to_fountain_from_pier.png')
     if fountain1:
         print('от домов к фонтану')
-        mouse_move_to_click(fountain1, 0)
+        Mouse.move_to_click(pos_click=fountain1, speed=0)
     if fountain2:
         print('от пристани к фонтану')
-        mouse_move_to_click(fountain2, 0)
+        Mouse.move_to_click(pos_click=fountain2, speed=0)
     else:
         print('у фонтана')
 
@@ -422,19 +408,17 @@ def call_pet(pos_i):
         x, y = pos_i
         y += 410
         pos_pet = x, y  # позиция пета
-        pyautogui.click(pos_pet)  # нажать на пета
+        Mouse.left_click(pos=pos_pet)  # нажать на пета
         # melodi_pet()
 
 
 def scroll_down():
-    scroll_down_ = pyautogui.locateCenterOnScreen('img/arena/scroll_down.png', region=(550, 550, 750, 750),
-                                                  confidence=0.98)
-    while not scroll_down_:
+    pos = locCenterImg(name_img='img/arena/scroll_down.png', confidence=0.98, region=(550, 550, 750, 750))
+    while not pos:
         sleep(0.5)
-        scroll_down_ = pyautogui.locateCenterOnScreen('img/arena/scroll_down.png', region=(550, 550, 750, 750),
-                                                      confidence=0.98)
+        pos = locCenterImg(name_img='img/arena/scroll_down.png', confidence=0.98, region=(550, 550, 750, 750))
     sleep(0.1)
-    return scroll_down_
+    return pos
 
 
 def go_in_hall_glory():
@@ -442,7 +426,7 @@ def go_in_hall_glory():
 
     link_in_hall_glory = locCenterImg('img/arena/link_in_hall_glory.png', 0.98)
     hall_glory = locCenterImg('img/arena/hall_glory.png', 0.999)
-    close = locCenterImg('img/everything/close.png', 0.89)
+    close = find_img.find_close()
 
     my_print_to_file(f'link_in_hall_glory = {link_in_hall_glory}')
     my_print_to_file(f'hall_glory = {hall_glory}')
@@ -454,18 +438,18 @@ def go_in_hall_glory():
             sleep(3)
         elif hall_glory:
             my_print_to_file(f'hall_glory = {hall_glory}')
-            mouse_move_to_click(hall_glory, 0.2)
+            Mouse.move_to_click(pos_click=hall_glory, speed=0.2)
             link_in_hall_glory = locCenterImg('img/arena/link_in_hall_glory.png', 0.98)
             while not link_in_hall_glory:
                 link_in_hall_glory = locCenterImg('img/arena/link_in_hall_glory.png', 0.98)
         link_in_hall_glory = locCenterImg('img/arena/link_in_hall_glory.png', 0.98)
         hall_glory = locCenterImg('img/arena/hall_glory.png', 0.999)
-        close = locCenterImg('img/everything/close.png', 0.89)
+        close = find_img.find_close()
 
 
 def pos_clan():
     pos = find_link_i()
-    pyautogui.moveTo(pos, duration=1)
+    Mouse.move(pos=pos, speed=1)
     x, y = pos
     y -= 25
     x += 45
@@ -514,9 +498,9 @@ def check_work_completed():
     work_completed = locCenterImg('img/everything/work_completed.png')
     close = locCenterImg('img/everything/close.png')
     if work_completed:
-        mouse_move_to_click(pos_click=close, z_p_k=1)
+        Mouse.move_to_click(pos_click=close, z_p_k=1)
 
 
 def extraction_digit(*, item):
-    dig = int(''.join(c if c.isdigit() else ' ' for c in item))
-    return dig
+    digit = int(''.join(c if c.isdigit() else ' ' for c in item))
+    return digit

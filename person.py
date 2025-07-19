@@ -2,6 +2,7 @@ import time
 
 import fun
 import heroes
+import sounds
 import heroes as her
 import find_img as find
 import my_color_text as mct
@@ -77,7 +78,7 @@ def change_acc(*, hero_name_in_file):
     if not pos_menu_is_open:
         fun.mouse_move_to_click(pos_click=pos_menu, move_time=0.3)
     # нажать нужного героя
-    change_hero = fun.locCenterImg(f'img/hero/change_hero/change hero {hero_name_in_file}.png')
+    change_hero = fun.wait_and_stop_img(name_img=f'img/hero/change_hero/change hero {hero_name_in_file}.png', message=f'ожидаю фотомордочку {hero_name_in_file}')
     print(f'выбор {hero_name_in_file}')
     fun.mouse_move_to_click(pos_click=change_hero)
     # collapse win
@@ -186,4 +187,6 @@ def change_acc(*, hero_name_in_file):
         print(f'{interval_id_time=}, {param_change}  {heroes.Active.max_time_wait_id=}')
     else:
         print(f'{interval_id_time=}, {param_not_change}  {heroes.Active.max_time_wait_id=}')
+    sounds.melody_vic()
+    return
 

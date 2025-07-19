@@ -1,6 +1,9 @@
+from time import sleep
+
 import pyautogui
 import fun
 import find_img as find
+import sounds
 
 
 def creating_photo_tasks():
@@ -81,7 +84,7 @@ def attak_guru():
     # x_k += 40
     # y_k += 40
     # pyautogui.moveTo(x_k, y_k, duration=1)
-    fun.foto('img/city/attak_guru.png', (x, y, 40, 40))
+    fun.foto('img/city/guru/attak_guru.png', (x, y, 40, 40))
 
 
 def first_cell_foto():
@@ -419,25 +422,368 @@ def connection_problem():
         name_foto = 'img/everything/connection_problem.png'
         fun.foto(name_foto, (x, y, change_x, change_y))
         print(f'foto ok {name_foto}')
+    return
 
-# connection_problem()
-# my_games_png()
-# raid_opponent_img()
-# her_war_thg()
-# pos_work_completed()
-# img_atack_guru()
-# arrow_right()
-# i_am_guru()
-# drop_in_raid()
-# state_kv()
-# creating_result()
-# creating_photo_lvl()
-# link_backpack()
-# mask_pos_foto()
-# first_cell_foto()
-# attak_guru()
-# creating_photo_guru()
-# creating_photo_hero()
-# creating_photo_tasks()
-# creating_photo_hero_ver_in_hall_glory()
-# creating_photo_hero_in_hall_glory()
+
+def dock():
+    """
+    образец для подражания :))
+    """
+    name_create_img = 'img/city/dock.png'
+    show_move = False
+    pos_start = find.find_my_games()
+    # показать привязку
+    fun.mouse_move(pos=pos_start, speed=1)
+    # найдем верхний угол
+    x, y = pos_start
+    x += 200
+    y += 330
+    top_pos = x, y
+    fun.mouse_move(pos=top_pos, speed=1, show=show_move)
+    # найдем нижний угол
+    x_demo, y_demo = x, y
+    change_x = 40
+    change_y = 55
+    # print(f'регион ({top_pos[0] - pos_start[0]}, {top_pos[1] - pos_start[1]}, {change_x}, {change_y})')
+    x_demo += change_x
+    y_demo += change_y
+    fun.mouse_move(pos=(x_demo, y_demo), show=show_move)
+    # #
+    fun.foto(f'{name_create_img}', (x, y, change_x, change_y))
+    pos = fun.locCenterImg(f'{name_create_img}')
+    fun.mouse_move(pos=pos)
+    print(f'file {name_create_img} creating')
+    sounds.melody_vic()
+    print('ok')
+
+
+def forge():
+    name_create_img = 'img/city/forge.png'
+    show_move = False
+    pos_start = find.find_my_games()
+    # показать привязку
+    fun.mouse_move(pos=pos_start, speed=1)
+    # найдем верхний угол
+    x, y = pos_start
+    x -= 345
+    y += 190
+    top_pos = x, y
+    fun.mouse_move(pos=top_pos, speed=1, show=show_move)
+    sleep(1)
+    # найдем нижний угол
+    x_demo, y_demo = x, y
+    change_x = 40
+    change_y = 90
+    # print(f'регион ({top_pos[0] - pos_start[0]}, {top_pos[1] - pos_start[1]}, {change_x}, {change_y})')
+    x_demo += change_x
+    y_demo += change_y
+    fun.mouse_move(pos=(x_demo, y_demo), show=show_move)
+    # #
+    fun.foto(f'{name_create_img}', (x, y, change_x, change_y))
+    pos = fun.locCenterImg(f'{name_create_img}')
+    fun.mouse_move(pos=pos)
+    sounds.melody_vic()
+    print('ok')
+
+
+def boatman():
+    name_create_img = 'img/city/boatman.png'
+    show_move = False
+    pos_start = find.find_my_games()
+    # показать привязку
+    fun.mouse_move(pos=pos_start, speed=1)
+    # найдем верхний угол
+    x, y = pos_start
+    x += 85
+    y += 433
+    top_pos = x, y
+    fun.mouse_move(pos=top_pos, speed=1, show=show_move)
+    sleep(1)
+    # найдем нижний угол
+    x_demo, y_demo = x, y
+    change_x = 50
+    change_y = 90
+    # print(f'регион ({top_pos[0] - pos_start[0]}, {top_pos[1] - pos_start[1]}, {change_x}, {change_y})')
+    x_demo += change_x
+    y_demo += change_y
+    fun.mouse_move(pos=(x_demo, y_demo), show=show_move)
+    # #
+    fun.foto(f'{name_create_img}', (x, y, change_x, change_y))
+    pos = fun.locCenterImg(f'{name_create_img}')
+    fun.mouse_move(pos=pos)
+    sounds.melody_vic()
+    print('ok')
+
+
+def link_boatman():
+    name_create_img = 'img/city/link_boatman.png'
+    show_move = True
+    pos_start = find.find_my_games()
+    # показать привязку
+    fun.mouse_move(pos=pos_start, speed=1)
+    # найдем верхний угол
+    x, y = pos_start
+    x -= 130
+    y += 150
+    top_pos = x, y
+    fun.mouse_move(pos=top_pos, speed=1, show=show_move)
+    # найдем нижний угол
+    x_demo, y_demo = x, y
+    change_x = 101
+    change_y = 31
+    # # print(f'регион ({top_pos[0] - pos_start[0]}, {top_pos[1] - pos_start[1]}, {change_x}, {change_y})')
+    x_demo += change_x
+    y_demo += change_y
+    fun.mouse_move(pos=(x_demo, y_demo), show=show_move)
+    # #
+    fun.foto(f'{name_create_img}', (x, y, change_x, change_y))
+    pos = fun.locCenterImg(f'{name_create_img}')
+    fun.mouse_move(pos=pos)
+    sounds.melody_vic()
+    print('ok')
+
+
+#
+def taverna():
+    name_create_img = 'img/city/taverna.png'
+    show_move = False
+    pos_start = find.find_boatman()
+    # показать привязку
+    fun.mouse_move(pos=pos_start, speed=1)
+    # найдем верхний угол
+    x, y = pos_start
+    x -= 360
+    y += 190
+    top_pos = x, y
+    fun.mouse_move(pos=top_pos, speed=1, show=show_move)
+    sleep(1)
+    # найдем нижний угол
+    x_demo, y_demo = x, y
+    change_x = 60
+    change_y = 90
+    # print(f'регион ({top_pos[0] - pos_start[0]}, {top_pos[1] - pos_start[1]}, {change_x}, {change_y})')
+    x_demo += change_x
+    y_demo += change_y
+    fun.mouse_move(pos=(x_demo, y_demo), show=show_move)
+    # #
+    fun.foto(f'{name_create_img}', (x, y, change_x, change_y))
+    pos = fun.locCenterImg(f'{name_create_img}')
+    fun.mouse_move(pos=pos)
+    sounds.melody_vic()
+    print('ok')
+
+
+def link_game_craps():
+    name_create_img = 'img/city/link_game_craps.png'
+    show_move = False
+    pos_start = find.find_my_games()
+    # показать привязку
+    fun.mouse_move(pos=pos_start, speed=1)
+    # найдем верхний угол
+    x, y = pos_start
+    x -= 138
+    y += 71
+    top_pos = x, y
+    fun.mouse_move(pos=top_pos, speed=1, show=show_move)
+    # sleep(1)
+    # найдем нижний угол
+    x_demo, y_demo = x, y
+    change_x = 131
+    change_y = 27
+    # print(f'регион ({top_pos[0] - pos_start[0]}, {top_pos[1] - pos_start[1]}, {change_x}, {change_y})')
+    x_demo += change_x
+    y_demo += change_y
+    fun.mouse_move(pos=(x_demo, y_demo), show=show_move)
+    # # # #
+    fun.foto(f'{name_create_img}', (x, y, change_x, change_y))
+    pos = fun.locCenterImg(f'{name_create_img}')
+    fun.mouse_move(pos=pos)
+    print(f'file {name_create_img} creating')
+    sounds.melody_vic()
+
+
+def shot_craps():
+    name_create_img = 'img/city/craps/shot_craps.png'
+    show_move = True
+    pos_start = find.find_my_games()
+    # показать привязку
+    fun.mouse_move(pos=pos_start, speed=1)
+    # найдем верхний угол
+    x, y = pos_start
+    x -= 310
+    y += 541
+    top_pos = x, y
+    # покажем верхний угол
+    fun.mouse_move(pos=top_pos, speed=1, show=show_move)
+    # sleep(1)
+    # найдем нижний угол
+    x_demo, y_demo = x, y
+    change_x = 244
+    change_y = 44
+    ## print(f'регион ({top_pos[0] - pos_start[0]}, {top_pos[1] - pos_start[1]}, {change_x}, {change_y})')
+    x_demo += change_x
+    y_demo += change_y
+    fun.mouse_move(pos=(x_demo, y_demo), show=show_move)
+    # # #
+    fun.foto(f'{name_create_img}', (x, y, change_x, change_y))
+    pos = fun.locCenterImg(f'{name_create_img}')
+    fun.mouse_move(pos=pos)
+    print(f'file {name_create_img} creating')
+    sounds.melody_vic()
+    return
+
+def take_the_prize():
+
+    name_create_img = 'img/city/craps/take_the_prize.png'
+    show_move = True
+    pos_start = find.find_my_games()
+    # показать привязку
+    fun.mouse_move(pos=pos_start, speed=1)
+    # найдем верхний угол
+    x, y = pos_start
+    x -= 310
+    y += 544
+    top_pos = x, y
+    # покажем верхний угол
+    fun.mouse_move(pos=top_pos, speed=1, show=show_move)
+    # sleep(1)
+    # найдем нижний угол
+    x_demo, y_demo = x, y
+    change_x = 244
+    change_y = 41
+    ## print(f'регион ({top_pos[0] - pos_start[0]}, {top_pos[1] - pos_start[1]}, {change_x}, {change_y})')
+    x_demo += change_x
+    y_demo += change_y
+    fun.mouse_move(pos=(x_demo, y_demo), show=show_move)
+    # # #
+    fun.foto(f'{name_create_img}', (x, y, change_x, change_y))
+    pos = fun.locCenterImg(f'{name_create_img}')
+    fun.mouse_move(pos=pos)
+    print(f'file {name_create_img} creating')
+    sounds.melody_vic()
+    return
+
+
+def collect_winnings():
+    name_create_img = 'img/city/collect_prize_craps.png'
+    show_move = True
+    pos_start = find.find_link_game_craps()
+    # показать привязку
+    fun.mouse_move(pos=pos_start, speed=1)
+    # найдем верхний угол
+    x, y = pos_start
+    x -= 230
+    y += 440
+    top_pos = x, y
+    fun.mouse_move(pos=top_pos, speed=1, show=show_move)
+    # sleep(1)
+    # найдем нижний угол
+    x_demo, y_demo = x, y
+    change_x = 231
+    change_y = 37
+    ## print(f'регион ({top_pos[0] - pos_start[0]}, {top_pos[1] - pos_start[1]}, {change_x}, {change_y})')
+    x_demo += change_x
+    y_demo += change_y
+    fun.mouse_move(pos=(x_demo, y_demo), show=show_move)
+    # # #
+    fun.foto(f'{name_create_img}', (x, y, change_x, change_y))
+    pos = fun.locCenterImg(f'{name_create_img}')
+    fun.mouse_move(pos=pos)
+    print(f'file {name_create_img} creating')
+    sounds.melody_vic()
+
+def end_shots():
+    name_create_img = 'img/city/craps/finish_game_craps.png'
+    show_move = True
+    pos_start = find.find_link_game_craps()
+    # показать привязку
+    fun.mouse_move(pos=pos_start, speed=1)
+    # найдем верхний угол
+    x, y = pos_start
+    x -= 205
+    y += 214
+    top_pos = x, y
+    fun.mouse_move(pos=top_pos, speed=1, show=show_move)
+    # sleep(1)
+    # найдем нижний угол
+    x_demo, y_demo = x, y
+    change_x = 231
+    change_y = 37
+    ## print(f'регион ({top_pos[0] - pos_start[0]}, {top_pos[1] - pos_start[1]}, {change_x}, {change_y})')
+    x_demo += change_x
+    y_demo += change_y
+    fun.mouse_move(pos=(x_demo, y_demo), show=show_move)
+    # # #
+    fun.foto(f'{name_create_img}', (x, y, change_x, change_y))
+    pos = fun.locCenterImg(f'{name_create_img}')
+    fun.mouse_move(pos=pos)
+    print(f'file {name_create_img} creating')
+    sounds.melody_vic()
+    return
+
+def many_shot():
+    name_create_img = 'img/city/craps/many_shot.png'
+    show_move = True
+    pos_start = find.find_link_game_craps()
+    # показать привязку
+    fun.mouse_move(pos=pos_start, speed=1)
+    # найдем верхний угол
+    x, y = pos_start
+    x -= 230
+    y += 440
+    top_pos = x, y
+    fun.mouse_move(pos=top_pos, speed=1, show=show_move)
+    # sleep(1)
+    # найдем нижний угол
+    x_demo, y_demo = x, y
+    change_x = 231
+    change_y = 37
+    # # print(f'регион ({top_pos[0] - pos_start[0]}, {top_pos[1] - pos_start[1]}, {change_x}, {change_y})')
+    x_demo += change_x
+    y_demo += change_y
+    fun.mouse_move(pos=(x_demo, y_demo), show=show_move)
+    # #
+    fun.foto(f'{name_create_img}', (x, y, change_x, change_y))
+    pos = fun.locCenterImg(f'{name_create_img}')
+    fun.mouse_move(pos=pos)
+    print(f'file {name_create_img} creating')
+    sounds.melody_vic()
+    return
+
+
+def next_haus():
+    name_create_img = 'img/city/houses/next_haus.png'
+    show_move = False
+    pos_start = find.find_my_games()
+    # показать привязку
+    fun.mouse_move(pos=pos_start, speed=1)
+    # найдем верхний угол
+    x, y = pos_start
+    x += 183
+    y += 458
+    top_pos = x, y
+    fun.mouse_move(pos=top_pos, speed=1, show=show_move)
+    # sleep(1)
+    # найдем нижний угол
+    x_demo, y_demo = x, y
+    change_x = 40
+    change_y = 56
+    # # print(f'регион ({top_pos[0] - pos_start[0]}, {top_pos[1] - pos_start[1]}, {change_x}, {change_y})')
+    x_demo += change_x
+    y_demo += change_y
+    fun.mouse_move(pos=(x_demo, y_demo), show=show_move)
+    # #
+    fun.foto(f'{name_create_img}', (x, y, change_x, change_y))
+    pos = fun.locCenterImg(f'{name_create_img}')
+    fun.mouse_move(pos=pos)
+    print(f'file {name_create_img} creating')
+    sounds.melody_vic()
+    return
+
+# next_haus()
+# dock()
+# shot_craps()
+# collect_winnings()
+# take_the_prize()
+# end_shots()
+# many_shot()

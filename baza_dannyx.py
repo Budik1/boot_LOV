@@ -63,11 +63,11 @@ lvl_dict = {
     'lvl_30': 'img/energy/lvl/30lvl.png',
 }
 
-lvl_list = [18, 19, 20, 21, 22, 23, 24, 25, 26, 30]
+lvl_list = [18, 19, 20, 21, 22, 23, 24, 25, 26, 28, 29, 30]
 
 quantity_battles = 0
 
 gady_energy_sum = 50
-gavr_energy_sum = 43
+gavr_energy_sum = 45
 veles_energy_sum = 38
 mara_energy_sum = 34
