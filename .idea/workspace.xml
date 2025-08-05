@@ -5,82 +5,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="add9b86c-8696-440c-ad3b-390278a7b7e6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.vs/VSWorkspaceState.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.vs/boot_LOV_2/FileContentIndex/2ed898a5-c512-40c9-9078-dc75bd8b43ec.vsidx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.vs/boot_LOV_2/v17/.wsuo" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.vs/boot_LOV_2/v17/DocumentLayout.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.vs/boot_LOV_2/v17/workspaceFileList.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.vs/slnx.sqlite" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/complex_phrases.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/different_events.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/city/button_attack_friend.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/city/craps/finish_game_craps.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/city/craps/many_shot.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/city/craps/shot_craps.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/city/craps/take_the_prize.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/city/friend_line/button_attack_friend.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/city/houses/next_haus1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sounds.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arena.py" beforeDir="false" afterPath="$PROJECT_DIR$/arena.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/baza_dannyx.py" beforeDir="false" afterPath="$PROJECT_DIR$/baza_dannyx.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config.txt" beforeDir="false" afterPath="$PROJECT_DIR$/config.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config_kv.txt" beforeDir="false" afterPath="$PROJECT_DIR$/config_kv.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/creating_photo.py" beforeDir="false" afterPath="$PROJECT_DIR$/creating_photo.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/energy.py" beforeDir="false" afterPath="$PROJECT_DIR$/energy.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/find_img.py" beforeDir="false" afterPath="$PROJECT_DIR$/find_img.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fun.py" beforeDir="false" afterPath="$PROJECT_DIR$/fun.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/heroes.py" beforeDir="false" afterPath="$PROJECT_DIR$/heroes.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/city/arrow_right.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/city/friend_line/arrow_right.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/city/attak_guru.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/city/guru/attak_guru.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/city/button_at.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/city/guru.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/city/guru/guru.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/city/guru_and_students.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/city/guru/guru_and_students.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/city/i_am_guru.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/city/friend_line/i_am_guru.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/full_t/line_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/full_t/line_2.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/full_t/line_2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/full_t/line_3.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/full_t/line_3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/go_out_haus.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/city/houses/go_out_haus.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/ik_haus.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/city/friend_line/ik_haus.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/next_haus.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/city/houses/next_haus.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/path_haus.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/city/houses/path_haus.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/sunduk_1.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/city/houses/sunduk_1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/sunduk_2.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/city/houses/sunduk_2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/sunduk_3.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/city/houses/sunduk_3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/tasks_gavr/t1g.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/tasks_gavr/t1g.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/tasks_gavr/t1x.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/tasks_gavr/t1x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/tasks_gavr/t2g.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/tasks_gavr/t2g.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/tasks_gavr/t2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/tasks_gavr/t2x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/tasks_gavr/t3g.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/tasks_gavr/t3g.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/tasks_gavr/t3x.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/tasks_gavr/t3x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/tasks_gavr/t4g.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/tasks_gavr/t4g.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/tasks_gavr/t4x.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/tasks_gavr/t4x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/tasks_gavr/t5g.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/tasks_gavr/t5g.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/tasks_gavr/t5x.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/tasks_gavr/t5x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/tasks_gavr/t6g.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/tasks_gavr/t6g.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/tasks_gavr/t6x.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/tasks_gavr/t6x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/tasks_veles/t1g.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/tasks_veles/t1g.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/tasks_veles/t1x.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/tasks_veles/t1x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/tasks_veles/t2g.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/tasks_veles/t2g.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/tasks_veles/t2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/tasks_veles/t2x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/tasks_veles/t3g.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/tasks_veles/t3g.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/tasks_veles/t3x.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/tasks_veles/t3x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/tasks_veles/t4g.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/tasks_veles/t4g.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/tasks_veles/t4x.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/tasks_veles/t4x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/tasks_veles/t5g.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/tasks_veles/t5g.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/tasks_veles/t5x.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/tasks_veles/t5x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/tasks_veles/t6g.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/tasks_veles/t6g.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/tasks_veles/t6x.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/tasks_veles/t6x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/to_fountain_from_houses.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/city/houses/to_fountain_from_houses.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/2025-01-07.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/everything/event_entry/load_game.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/everything/event_entry/win_load_game.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/tasks_mara/24lvl.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/tasks_mara/t1g.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/tasks_mara/t1g.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/tasks_mara/t1x.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/tasks_mara/t1x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/tasks_mara/t2g.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/tasks_mara/t2g.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/tasks_mara/t2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/tasks_mara/t2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/tasks_mara/t3g.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/tasks_mara/t3g.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/tasks_mara/t3x.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/tasks_mara/t3x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/tasks_mara/t4g.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/tasks_mara/t4g.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/tasks_mara/t4x.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/tasks_mara/t4x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/tasks_mara/t5g.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/tasks_mara/t5g.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/tasks_mara/t5x.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/tasks_mara/t5x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/tasks_mara/t6g.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/tasks_mara/t6g.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/tasks_mara/t6x.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/tasks_mara/t6x.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/person.py" beforeDir="false" afterPath="$PROJECT_DIR$/person.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/revision_of_house.py" beforeDir="false" afterPath="$PROJECT_DIR$/revision_of_house.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/solid_memory.py" beforeDir="false" afterPath="$PROJECT_DIR$/solid_memory.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tes_item.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tes_pos.py" beforeDir="false" afterPath="$PROJECT_DIR$/servis_dir/tes_pos.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/уууу.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -129,30 +74,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
-    "Python tests.pytest in test_item.py.executor": "Run",
-    "Python.baza_dannyx.executor": "Run",
-    "Python.cpu_bar.executor": "Run",
-    "Python.creating_photo.executor": "Run",
-    "Python.main.executor": "Run",
-    "Python.tes_item (1).executor": "Run",
-    "Python.tes_item.executor": "Run",
-    "Python.tes_pos.executor": "Run",
-    "Python.test_item.executor": "Run",
-    "Python.test_time.executor": "Run",
-    "Python.уууу.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main__ref",
-    "last_opened_file_path": "C:/py_bot/boot_LOV_2/img/city/friend_line",
-    "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "editing.templates"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_MARK_IGNORED_FILES_AS_EXCLUDED&quot;: &quot;true&quot;,
+    &quot;Python tests.pytest in test_item.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python.baza_dannyx.executor&quot;: &quot;Run&quot;,
+    &quot;Python.cpu_bar.executor&quot;: &quot;Run&quot;,
+    &quot;Python.creating_photo.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.tes_item (1).executor&quot;: &quot;Run&quot;,
+    &quot;Python.tes_item.executor&quot;: &quot;Run&quot;,
+    &quot;Python.tes_pos.executor&quot;: &quot;Run&quot;,
+    &quot;Python.test_item.executor&quot;: &quot;Run&quot;,
+    &quot;Python.test_time.executor&quot;: &quot;Run&quot;,
+    &quot;Python.уууу.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main__ref&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/py_bot/boot_LOV_2/img/city/friend_line&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editing.templates&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\py_bot\boot_LOV_2\img\city\friend_line" />
@@ -338,16 +283,6 @@
           <option name="timeStamp" value="9" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/kv_and_raid.py</url>
-          <line>136</line>
-          <option name="timeStamp" value="10" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/person.py</url>
-          <line>95</line>
-          <option name="timeStamp" value="20" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/main.py</url>
           <line>136</line>
           <option name="timeStamp" value="21" />
@@ -377,9 +312,9 @@
           <option name="timeStamp" value="28" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/main.py</url>
-          <line>373</line>
-          <option name="timeStamp" value="29" />
+          <url>file://$PROJECT_DIR$/person.py</url>
+          <line>286</line>
+          <option name="timeStamp" value="31" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

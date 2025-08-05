@@ -11,8 +11,8 @@ def find_collapse():
     return pos
 
 
-def find_load_game():
-    pos = fund.locCenterImg('img/everything/event_entry/load_game.png')
+def find_win_load_game():
+    pos = fund.locCenterImg('img/everything/event_entry/win_load_game.png')
     return pos
 
 

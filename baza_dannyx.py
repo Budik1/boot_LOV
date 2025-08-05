@@ -68,6 +68,6 @@ lvl_list = [18, 19, 20, 21, 22, 23, 24, 25, 26, 28, 29, 30]
 quantity_battles = 0
 
 gady_energy_sum = 50
-gavr_energy_sum = 45
+gavr_energy_sum = 48
 veles_energy_sum = 38
 mara_energy_sum = 34

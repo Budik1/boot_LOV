@@ -402,6 +402,7 @@ ttk.Label(text='cE', width=2).place(x=column_cE, y=line3)  # количеств�
 ttk.Label(text='qE', width=2).place(x=column_qE, y=line3)  # количество энергии
 line_number = 3
 
+ttk.Button(text='Start', width=4, command=person.start_hero).place(x=column_name + 7, y=line3-7)
 " Gadya"
 name_hero = " Gadya"
 line_number += 1
