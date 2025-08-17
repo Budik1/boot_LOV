@@ -131,7 +131,7 @@ def read_data_kv():
 def kv():
     global hero_name
     global time_raid
-
+    raid_attack = False
     q_it_print = True
     hero_name = fun.selection_hero()
     if not hero_name:
@@ -208,6 +208,7 @@ def kv():
                 print("Война, можно атаковать")
             elif clan_raid_img:
                 print("Рейд, можно атаковать")
+                raid_attack = True
             q_duel_start = False
             # print(clan_var_img, 'clan_var_img v duel_start')
             # print(clan_raid_img, 'clan_raid_img v duel_start')
@@ -216,6 +217,8 @@ def kv():
             if hero_name == 'Gadya':
                 gady_name_hero = fun.wait_and_stop_img(name_img='img/kv/gady.png')
 
+            if pos and time_raid:
+                pass
             if time_raid:
                 bomba_img = fun.locCenterImg('img/kv/bomba.png')
                 print('бомба', bomba_img)
@@ -310,6 +313,7 @@ def kv():
                 print('вылет с рейда?')
                 fountain_pl_img = find.find_fountain()
                 clan_raid_img = fun.locCenterImg('img/kv/clan_raid.png', 0.9)
+
             if fountain_pl_img:
                 print('точно)) надо обратно')
                 if hero_name == 'Gadya':

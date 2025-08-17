@@ -4,7 +4,7 @@ from time import sleep
 import fun
 import find_img
 import my_color_text
-import sounds
+# import sounds
 
 
 def exit_to_fountain():
@@ -109,7 +109,7 @@ def craps():
         close = find_img.find_close()
         many_shot = find_img.find_many_shot()
 
-    sounds.melody_vic()
+    # sounds.melody_vic()
     print('ok')
     return
 
@@ -127,7 +127,7 @@ def numbers_lvl_list():
 
 def creating_photo_lvl(*, lvl_num):
     if not lvl_num:
-        sounds.melody_fail()
+        # sounds.melody_fail()
         print(my_color_text.tc_red('не введен параметр уровня'))
         return
     # Указываем путь к директории

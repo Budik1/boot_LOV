@@ -3,7 +3,7 @@ import time
 
 import fun
 import heroes
-import sounds
+# import sounds
 import heroes as her
 import find_img as find
 import my_color_text as mct
@@ -123,7 +123,7 @@ def change_acc(*, hero_name_in_file):
                 if pause != interval_load_time:
                     interval_load_time = pause
                     print(f'{pause=} в ожидании загрузки игры')
-                if pause >= (heroes.Active.max_time_wait_load + extra_time):
+                if pause >= (15 + extra_time):
                     print('Надо обновить страницу')
                     start_time = reload_page()
                     mark_load_game_img = False
@@ -189,7 +189,7 @@ def change_acc(*, hero_name_in_file):
         print(f'{interval_id_time=}, {param_change}  {heroes.Active.max_time_wait_id=}')
     else:
         print(f'{interval_id_time=}, {param_not_change}  {heroes.Active.max_time_wait_id=}')
-    sounds.melody_vic()
+    # sounds.melody_vic()
     return
 
 
@@ -257,7 +257,7 @@ def start_hero():
                 if pause != interval_load_time:
                     interval_load_time = pause
                     print(f'{pause=} в ожидании загрузки игры')
-                if pause >= (20 + extra_time):
+                if pause >= (12 + extra_time):
                     print('Надо обновить страницу')
                     start_time = reload_page()
                     mark_load_game_img = False
@@ -276,7 +276,7 @@ def start_hero():
                 interval_id_time = pause
                 print(f'{pause=} в ожидании ID')
 
-            if pause > (20 + extra_time):
+            if pause > (12 + extra_time):
                 print('Надо обновить страницу')
                 start_time = reload_page()
         # pos_fountain = find.find_fountain()
@@ -306,6 +306,7 @@ def start_hero():
         pos_slider = find.find_slider()
         fun.mouse_take_drag_drop_y(pos_take=pos_slider, dist=8, speed=0.1)
     print('смена героя окончена')
+    # sounds.melody_vic()
 
     # print()
     # param_change = mct.tc_red('параметр увеличен')

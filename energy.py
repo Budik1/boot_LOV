@@ -3,7 +3,7 @@ from time import sleep
 
 import find_img
 import fun
-import sounds
+# import sounds
 import creating_photo
 import solid_memory
 import complex_phrases
@@ -71,7 +71,7 @@ def task_selection_dict(tasks):
             creating_photo.creating_photo_tasks()
             print(m_t.tc_magenta('задание не найдено, обнови данные'))
             print(m_t.tc_magenta('заготовки тут "img/full_t/"'))
-            playsound("muz/fresh.mp3")
+            # playsound("muz/fresh.mp3")
             return click_task, None
 
 
@@ -209,11 +209,11 @@ def energy(*, target_task):
                     # print(f'Сегодня потрачено {Hero.get_en_now(Active.hero_activ)} из '
                     #       f'{Hero.get_en_sum(Active.hero_activ)} доступных')
                     if link_victory:
-                        # print("Победа")
-                        sounds.melody_vic()
+                        print("Победа")
+                        # sounds.melody_vic()
                     else:
                         print("Неудача")
-                        sounds.melody_fail()
+                        # sounds.melody_fail()
 
                 close_img = fun.wait_and_stop_img(name_img='img/everything/close.png', param_confidence=0.85)
                 # закрыть сражение

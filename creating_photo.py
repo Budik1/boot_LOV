@@ -3,7 +3,7 @@ from time import sleep
 import pyautogui
 import fun
 import find_img as find
-import sounds
+# import sounds
 
 
 def creating_photo_tasks():
@@ -453,7 +453,7 @@ def dock():
     pos = fun.locCenterImg(f'{name_create_img}')
     fun.mouse_move(pos=pos)
     print(f'file {name_create_img} creating')
-    sounds.melody_vic()
+    # sounds.melody_vic()
     print('ok')
 
 
@@ -482,7 +482,7 @@ def forge():
     fun.foto(f'{name_create_img}', (x, y, change_x, change_y))
     pos = fun.locCenterImg(f'{name_create_img}')
     fun.mouse_move(pos=pos)
-    sounds.melody_vic()
+    # sounds.melody_vic()
     print('ok')
 
 
@@ -511,7 +511,7 @@ def boatman():
     fun.foto(f'{name_create_img}', (x, y, change_x, change_y))
     pos = fun.locCenterImg(f'{name_create_img}')
     fun.mouse_move(pos=pos)
-    sounds.melody_vic()
+    # sounds.melody_vic()
     print('ok')
 
 
@@ -539,7 +539,7 @@ def link_boatman():
     fun.foto(f'{name_create_img}', (x, y, change_x, change_y))
     pos = fun.locCenterImg(f'{name_create_img}')
     fun.mouse_move(pos=pos)
-    sounds.melody_vic()
+    # sounds.melody_vic()
     print('ok')
 
 
@@ -569,7 +569,7 @@ def taverna():
     fun.foto(f'{name_create_img}', (x, y, change_x, change_y))
     pos = fun.locCenterImg(f'{name_create_img}')
     fun.mouse_move(pos=pos)
-    sounds.melody_vic()
+    # sounds.melody_vic()
     print('ok')
 
 
@@ -599,7 +599,7 @@ def link_game_craps():
     pos = fun.locCenterImg(f'{name_create_img}')
     fun.mouse_move(pos=pos)
     print(f'file {name_create_img} creating')
-    sounds.melody_vic()
+    # sounds.melody_vic()
 
 
 def shot_craps():
@@ -629,7 +629,7 @@ def shot_craps():
     pos = fun.locCenterImg(f'{name_create_img}')
     fun.mouse_move(pos=pos)
     print(f'file {name_create_img} creating')
-    sounds.melody_vic()
+    # sounds.melody_vic()
     return
 
 def take_the_prize():
@@ -660,7 +660,7 @@ def take_the_prize():
     pos = fun.locCenterImg(f'{name_create_img}')
     fun.mouse_move(pos=pos)
     print(f'file {name_create_img} creating')
-    sounds.melody_vic()
+    # sounds.melody_vic()
     return
 
 
@@ -690,7 +690,7 @@ def collect_winnings():
     pos = fun.locCenterImg(f'{name_create_img}')
     fun.mouse_move(pos=pos)
     print(f'file {name_create_img} creating')
-    sounds.melody_vic()
+    # sounds.melody_vic()
 
 def end_shots():
     name_create_img = 'img/city/craps/finish_game_craps.png'
@@ -718,7 +718,7 @@ def end_shots():
     pos = fun.locCenterImg(f'{name_create_img}')
     fun.mouse_move(pos=pos)
     print(f'file {name_create_img} creating')
-    sounds.melody_vic()
+    # sounds.melody_vic()
     return
 
 def many_shot():
@@ -747,7 +747,7 @@ def many_shot():
     pos = fun.locCenterImg(f'{name_create_img}')
     fun.mouse_move(pos=pos)
     print(f'file {name_create_img} creating')
-    sounds.melody_vic()
+    # sounds.melody_vic()
     return
 
 
@@ -777,7 +777,7 @@ def next_haus():
     pos = fun.locCenterImg(f'{name_create_img}')
     fun.mouse_move(pos=pos)
     print(f'file {name_create_img} creating')
-    sounds.melody_vic()
+    # sounds.melody_vic()
     return
 
 # next_haus()

@@ -447,9 +447,10 @@ def go_in_hall_glory():
         close = find_img.find_close()
 
 
-def pos_clan():
+def pos_clan(show_i=True):
     pos = find_link_i()
-    Mouse.move(pos=pos, speed=1)
+    if show_i:
+        Mouse.move(pos=pos, speed=1)
     x, y = pos
     y -= 25
     x += 45

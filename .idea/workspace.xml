@@ -6,25 +6,19 @@
   <component name="ChangeListManager">
     <list default="true" id="add9b86c-8696-440c-ad3b-390278a7b7e6" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/baza_dannyx.py" beforeDir="false" afterPath="$PROJECT_DIR$/baza_dannyx.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config.txt" beforeDir="false" afterPath="$PROJECT_DIR$/config.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config_kv.txt" beforeDir="false" afterPath="$PROJECT_DIR$/config_kv.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/find_img.py" beforeDir="false" afterPath="$PROJECT_DIR$/find_img.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/everything/event_entry/load_game.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/everything/event_entry/win_load_game.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/tasks_mara/24lvl.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/tasks_mara/t1g.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/tasks_mara/t1g.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/tasks_mara/t1x.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/tasks_mara/t1x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/tasks_mara/t2g.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/tasks_mara/t2g.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/tasks_mara/t2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/tasks_mara/t2x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/tasks_mara/t3g.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/tasks_mara/t3g.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/tasks_mara/t3x.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/tasks_mara/t3x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/tasks_mara/t4g.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/tasks_mara/t4g.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/tasks_mara/t4x.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/tasks_mara/t4x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/tasks_mara/t5g.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/tasks_mara/t5g.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/tasks_mara/t5x.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/tasks_mara/t5x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/tasks_mara/t6g.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/tasks_mara/t6g.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/tasks_mara/t6x.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/tasks_mara/t6x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/creating_photo.py" beforeDir="false" afterPath="$PROJECT_DIR$/creating_photo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/different_events.py" beforeDir="false" afterPath="$PROJECT_DIR$/different_events.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/energy.py" beforeDir="false" afterPath="$PROJECT_DIR$/energy.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fun.py" beforeDir="false" afterPath="$PROJECT_DIR$/fun.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/energy/lvl/11lvl.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/energy/lvl/12lvl.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/energy/lvl/31lvl.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/full_t/line_2.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/full_t/line_2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/full_t/line_3.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/full_t/line_3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/sunduk_full.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kv_and_raid.py" beforeDir="false" afterPath="$PROJECT_DIR$/kv_and_raid.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/person.py" beforeDir="false" afterPath="$PROJECT_DIR$/person.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -67,7 +61,7 @@
   &quot;associatedIndex&quot;: 5
 }</component>
   <component name="ProjectId" id="2pQG5CCn9xO7PgSPoxPNyAkSq0D" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+  <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
@@ -95,7 +89,7 @@
     &quot;git-widget-placeholder&quot;: &quot;main__ref&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/py_bot/boot_LOV_2/img/city/friend_line&quot;,
     &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editing.templates&quot;
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -112,6 +106,29 @@
     </key>
   </component>
   <component name="RunManager" selected="Python.main">
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="SDK_NAME" value="Python 3.12" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="cpu_bar" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="boot_LOV_2" />
       <option name="ENV_FILES" value="" />
@@ -187,8 +204,9 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
+      <option name="SDK_NAME" value="Python 3.12" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
@@ -222,6 +240,13 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="Python.cpu_bar" />
+      <item itemvalue="Python.craps" />
+      <item itemvalue="Python.creating_photo" />
+      <item itemvalue="Python.main" />
+      <item itemvalue="Python.tes_pos" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python.main" />
@@ -274,7 +299,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/kv_and_raid.py</url>
-          <line>332</line>
+          <line>336</line>
           <option name="timeStamp" value="8" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
